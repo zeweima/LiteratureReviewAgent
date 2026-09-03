@@ -1,0 +1,66 @@
+﻿field,doi,extracted_content,assessment,llm_evidence,human_note
+context.scientific_question,10.1016/S0016-7061(02)00178-7,What are the lateral preferred flow paths towards a tile drain in weakly structured soils?,wrong,"Therefore, it is not evident what the lateral preferred flow paths towards a tile drain are in weakly structured soils.",
+internal_evaluation.limitations,10.1002/saj2.20099,"• The authors noted that the N rate applied potentially was not adequate to meet full corn N requirements.
+• The authors suggested that relatively high soil organic matter levels at each site may have absorbed nitrapyrin as it was released from the microcapsule, rendering the inhibitor less effective or ineffective.
+• Instinct showed little to no effect on soil inorganic N in the late spring, indicating loss of effectiveness through the springtime period.",wrong,"The low concentrations also indicate the N rate applied potentially was not adequate to meet full corn N requirements.
+
+Also, relatively high soil organic matter levels at each study site (Table 1) may have absorbed nitrapyrin as it was released from the microcapsule (Goring, 1962a; Briggs, 1975; Keeney, 1980), rendering the inhibitor less effective or ineffective (Laskowski and Bidlack, 1977).
+
+However, Instinct had little to no effect on soil inorganic N in the late spring, indicating loss of effectiveness in nitrification control through the springtime.",the third item is mainly a study finding
+metadata.location.country,10.1111/j.1365-3180.1978.tb01146.x,Canada,wrong,"Macdonald College of McGill University, Ste. Anne-de-Bellevue, Quebec Canada HOA 1CO","it is note stated in the paper. The LLM might refer to the author affiliations. After checking the refered paper, we confirm it is conducted in an experimental farm in Macdonald College. Given that we are check the correctness of the extraction, I log it as ""complete_wrong""."
+metadata.location.country,10.13031/trans.12668,USA,wrong,"resulting from the 10th International Drainage Symposium held in Minneapolis, Minnesota, on 6-9 September 2016",No clear evidence show the study location.
+metadata.location.spatial_extent,10.1111/j.1365-3180.1978.tb01146.x,"Three adjacent fields under maize production at Macdonald College of McGill University, Ste. Anne-de-Bellevue, Quebec.",wrong,"Three adjacent fields (total area, $4\cdot 2$ ha) each drained by separate tile-drains $(10~\mathrm{cm}$ diameter; $1\cdot 15 - 1\cdot 63\mathrm{m}$ depth), were used in the present study (Fig. 1).","the country is correct. However, no direct evidence, other than the affiliation, can support the location."
+metadata.location.spatial_extent,10.13031/trans.12668,"10th International Drainage Symposium held in Minneapolis, Minnesota, on 6-9 September 2016",wrong,"This article introduces the ""Advances in Drainage"" collection published in Transactions of the ASABE and Applied Engineering in Agriculture and comprised of 14 peer-reviewed articles resulting from the 10th International Drainage Symposium held in Minneapolis, Minnesota, on 6-9 September 2016.",
+metadata.location.state_province,10.1111/j.1365-3180.1978.tb01146.x,Quebec,wrong,"Macdonald College of McGill University, Ste. Anne-de-Bellevue, Quebec Canada HOA 1CO","it is note stated in the paper. The LLM might refer to the author affiliations. After checking the refered paper, we confirm it is conducted in an experimental farm in Macdonald College. Given that we are check the correctness of the extraction, I log it as ""complete_wrong""."
+metadata.location.state_province,10.13031/trans.12668,Minnesota,wrong,"resulting from the 10th International Drainage Symposium held in Minneapolis, Minnesota, on 6-9 September 2016",No clear evidence show the study location. 
+metadata.location.watershed,10.1016/j.pce.2005.07.014,Orgeal catchment / Mélarchez sub-catchment,wrong,"The study was conducted in an agricultural field (Fig. 1a) at the ""Orgeval"" Cemagref experimental catchment (Mélarchez sub-catchment, $7\mathrm{km}^2$ )",
+methodology.approach_types,10.1007/s40808-024-02242-6,"• Observational
+• Physical Model Application",wrong,"Groundwater and soil samples were collected in May 2023, accompanied by field data collection on the water table across the study area (Fig. 2b).
+
+(no mention of this in source)","The observational sampling component is supported, but the paper does not apply a process-based physical model (There are some equations used for index calculation)"
+methodology.approach_types,10.1061/JPEODX.0000191,"• Physical Model Development
+• Physical Model Application
+• Experimental",wrong,"A coupled hydromechanical model with considerations of climatic effect was proposed and calibrated.
+
+The finite-element method (FEM) software Abaqus (Abaqus 2014) was used to evaluate the seasonal variations of the base course resilient behavior according to daily meteorological data, such as relative humidity (RH), air temperature, wind speed, solar radiation, and precipitation.
+
+The laboratory test performed by Leung et al. (2015) was used as a reference to calibrate the proposed numerical model.",The stated experiment is another study.
+methodology.approach_types,10.1080/07900627.2011.598132,• Conceptual Model,wrong,"The constrained optimization framework was designed to examine ways to allocate the Nile's waters throughout Egypt to maximize net discounted farm income summed over crops, seasons, time periods, and locations, subject to a number of constraints.
+
+We constructed a catchment scale integrated mathematical optimization model, accounting for hydrological, economic, agronomical, institutional, and environmental dimensions of Egypt's use of the Nile.","This paper present an econmic analysis of Improved Irrigation Water Use Efficiency, and the method/approach does not fit into any predefined approaches."
+methodology.approach_types,10.1155/2021/8827300,• Conceptual Model,wrong,"A mathematical model was formulated for the horizontal and vertical drainage optimal design. The result was a nonlinear optimization problem with nonlinear constraints, which required numerical methods for its solution.",This work present an optimization approach based on some hypothsis and some physical formula. It is hard to put into a predefined approaches.
+methodology.approach_types,10.13031/aea.15991,• Experimental,wrong,(no mention of this in source),"it is mainly an software dev work, which does not fit into a predefined appraches."
+methodology.physical_models,10.1016/j.asej.2025.103450,"• Linearized Boussinesq equation
+• Generalized Integral Transform Method (GITM)
+• Dupuit-Forchheimer assumption",wrong,"The analytical framework of this study utilizes the Boussinesq equation, modified from Childs' [20] interpretation of Darcy's Law, to simulate groundwater level fluctuations in a sloping aquifer.
+
+The Boussinesq equation for an inclined bed is employed, associated with three different initial water level scenarios, and the Generalized Integral Transform Method (GITM), which Ozisik [19] proposed, is utilized to solve the linearized Boussinesq equation for a finite domain.
+
+This research addresses the linearized Boussinesq equation based on the Dupuit-Forchheimer assumption to analytically explore groundwater level changes resulting from initial water levels under three conditions after installing subsurface drainage pipes along two boundaries.",GITM is an analytical method.
+methodology.study_duration,10.1139/cjss-2016-0036,24 h for nongypsum treatments; up to 450 h for gypsum treatments,wrong,"Subsequent saturated water flow leached brine from the soil and reduced $K_{\mathrm{s}}$ as much as $97\%$ $(0.086 - 0.003\mathrm{cm}\mathrm{h}^{-1})$ within $24\mathrm{h}$ .
+
+After approximately another $27\mathrm{h}$ , the $K_{\mathrm{s}}$ was $0.002\mathrm{cm}\mathrm{h}^{-1}$ for all soils.
+
+When leaching with water continued after gypsum application for multiple postgypsum leachate measurement stages (GYP1, GYP2, ..., GYP6) the $K_{\mathrm{s}}$ remained low, about 0.002 cm h $^{-1}$ , until the end of the experiment at 450 h.",I would say there is no clear definition of study duration
+methodology.study_duration,10.3389/feart.2020.580230,November 2019 to March 2020,wrong,ERT survey measurements were conducted in November 2019 and January 2020.,
+relevance.level,10.1046/j.1365-2389.2004.00596.x,Tile-related,wrong,"Drainage water was sampled with tensiometer-controlled suction plates $(0.9 - 3.3\mathrm{m}$ depth, five replicates per depth, Siemens",It only related to subsurface transport not subsurface drainage
+relevance.level,10.13031/trans.12668,Mentioned,wrong,"The articles in this collection include modeling studies of surface drainage and BMPs, combined mole and tile drainage systems, and controlled and shallow drainage systems.",It should be tile-related or centered
+scale.category,10.1130/0016-7606(1996)108<0794:SOTCPD>2.3.CO;2,Site,wrong,The focus of this study is a large coastal deposit on the seismically active northwest Caribbean coast of Panama near the town of Changuinola (Fig. 1),
+scale.total_area_unit,10.1007/s11069-008-9321-8,km2,wrong,According to 2006 fieldwork the lake measures $3.9\mathrm{km}^2$ and its volume is more than 60.3 million $\mathrm{m}^3$ .,
+scale.total_area_value,10.1007/s11069-008-9321-8,3.9,wrong,According to 2006 fieldwork the lake measures $3.9\mathrm{km}^2$ and its volume is more than 60.3 million $\mathrm{m}^3$ .,no clear area can be identified.
+tile_design.associated_management_practices,10.1016/S1164-5563(01)01105-0,• Crop Rotation,wrong,"The field had for long been under grass-cereal rotation. Before the study, perennial grass for silage had been grown for 2 years.",
+tile_design.associated_management_practices,10.1016/j.agwat.2004.01.001,"• Irrigation
+• Fertilizer Treatment
+• Crop Rotation",wrong,"Water requirement of the paddy crop in the command area was assessed as $1.1\mathrm{m}$ for a crop period of 120-135 days (Channabasappa et al., 1997).
+
+Salt balance of the study area was worked out by considering the amount of salts added through irrigation and fertilizer and the salts removed through the drainage system.
+
+(no mention of this in source)",Crop Rotation is not mentioned
+tile_design.associated_management_practices,10.1016/j.jhydrol.2005.08.010,• Crop Rotation,wrong,(no mention of this in source),
+tile_design.depth,10.13031/aea.16032,17.15 cm (6.75 in.; 17.0 cm in the 15.2 cm structure),wrong,"The weirs were sharp-crested $45^{\circ}$ V-notch with a V-depth of $17.15\mathrm{cm}$ (6.75 in.), except for the weir in the $15.2\mathrm{cm}$ (6 in.) structure, which had a V-depth of $17.0\mathrm{cm}$ (6.69 in.).","The extracted value is V-notch weir depth, not tile drainage depth."
+tile_design.other_practices,10.1111/1752-1688.70018,• subsurface drainage systems,wrong,Both sites were relatively flat ( $< 0.5\% -1\%$ slope) with subsurface drainage systems placed $\sim 0.9\mathrm{m}$ below the soil surface.,
+tile_design.pipe_diameter,10.1016/j.jhydrol.2005.08.010,4 cm,wrong,"An effective drain diameter of $4\mathrm{cm}$ was assumed and the standard correction factor (Fipps and Skaggs, 1986) was applied without additional reduction factor.",This is a parametrized quantity
+tile_design.pipe_diameter,10.1016/j.pce.2023.103492,32 mm,wrong,Mole Drain (instrument using a 32 mm diameter ship rope).,
+tile_design.pipe_diameter,10.13031/aea.16032,"15.2 cm (6 in.), 20.3 cm (8 in.), and 30.5 cm (12 in.)",wrong,The size of the control structure corresponds to the diameter of the incoming drainage pipe.,This is a parameter for V-notch structure.
+tile_design.pipe_material,10.1016/j.limno.2005.06.005,clay or plastic pipes,wrong,"Drainage systems mainly consist of clay or plastic pipes or channels can be pressed into the soil body without solid walls, which is referred to as pipe-less drainage or mole drainage.",not mentioned in the paper.
+tile_design.pipe_material,10.13031/aea.16032,stainless steel,wrong,"Calibration of stainless-steel $45^{\circ}\mathrm{V}$ -notch weirs was performed in a four-chambered $15.2\mathrm{cm}$ (6 in.), a three-chambered $20.3\mathrm{cm}$ (8 in.), and a three-chambered $30.5\mathrm{cm}$",The source states the V-notch weirs were stainless steel; it does not state that tile drainage pipe material was stainless steel.

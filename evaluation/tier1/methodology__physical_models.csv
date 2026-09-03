@@ -2,7 +2,7 @@
 10.1002/2015WR017637,• A simplified dynamic interaction model coupling hydrology to river ecology (model of Hansen et al. [2015]),correct,Using a simplified dynamic interaction model that couples hydrology to river ecology,
 10.1002/ird.3023,"• Hooghoudt equation
 • modified Glover-Dumm equation
-• Moody equation",wrong,"Hooghout's formula was used to derive the new equation because it is the best and most accurate steady-state equation for the design of subsurface drainage systems.
+• Moody equation",correct,"Hooghout's formula was used to derive the new equation because it is the best and most accurate steady-state equation for the design of subsurface drainage systems.
 
 The modified Glover-Dumm equation, which was developed by Youssef et al. (2016) using data from the Mashtool pilot area (DRI, 1987b), was also used.
 
