@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely to check faithfulness and citation provenance.{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

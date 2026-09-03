@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.Based on my complete review of both files, I checked every concrete claim and citation in the section against the findings.\n\nAll concrete claims (numbers, locations, study results, mechanisms) are supported by the source findings, and every `\\textcite` key correctly attributes its claim to the right paper. A handful of framing/connective sentences appear without a citation (entrance-resistance from AURA1995, long-term-configuration from AbdElaziz2025, Midwest-GCM priority from Adhikari2020, numerical-techniques from Abdurrasheed2019, climate-change-fundamental from AbdElaty2019), but these are faithful to findings and carry no misattributed key \u2014 so neither a hallucination nor a miscitation. Specific numerics (54/74 m, 12\u201315/90 m, \u226412 m/0.9 m, 6.1 m, 120/100 cm, one-per-hectare/five-per-plot, 2 m, 20\u201340 m/~100 yr, 1.5 m) all match their sources and keys.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

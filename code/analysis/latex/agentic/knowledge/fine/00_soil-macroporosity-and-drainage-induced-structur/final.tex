@@ -1,0 +1,382 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Soil Macroporosity and Drainage-Induced Structure}
+
+\subsection{Overview}
+
+Subsurface (tile) drainage is not a hydraulically passive intervention: by lowering
+and stabilising the water table it reorganises the soil pore system, its aeration
+status, and the pathways along which water and solutes move to the drain. The
+evidence assembled here establishes several well-supported propositions. First,
+rapid delivery of water and surface-applied solutes to tile drains is governed by a
+small volume of continuous macropores---principally earthworm burrows, shrinkage
+cracks, root channels, and old installation scars---rather than by uniform matrix
+flow \parencite{Shipitalo2004,Stamm2002,Villholth1998,Zehe2001,Nielsen2015,Petersen2012}.
+Second, these flow-active pathways and the broader pore network vary systematically
+both with depth and, more weakly, with lateral position relative to the drain line,
+so that the bulk soil directly above a drain is often more conductive and more
+biologically active than the inter-drain zone \parencite{Shipitalo2004,Alakukku2010,Nielsen2015,Petersen2012,Montagne2009}.
+Third, sustained drainage measurably alters static structural properties---reducing
+bulk density, increasing air-filled porosity and gas diffusivity, and improving
+saturated hydraulic conductivity---although the magnitude of these changes is modest
+and frequently smaller than that of tillage or of the passage of time since
+installation \parencite{HUNDAL1976,Nakajima2014,LAL1993,Frankl2023,Caron2025}.
+Fourth, mechanical structural interventions coupled to drainage---mole drainage and
+subsoiling---create large, effective, but time-limited pore networks that dominate
+flow in heavy clays \parencite{MULLER1988,HARRIS1993,PLAMENAC1988,JHA1995,Castanheira2010}.
+Finally, over decades drainage accelerates pedogenic processes---eluviation, clay
+translocation, and iron/manganese redistribution---leaving a spatially heterogeneous,
+partly irreversible imprint on soil morphology \parencite{Montagne2008,Montagne2010,Montagne2013,Mercier2000,YliHalla2009}.
+The lines of evidence range from field tracer and dye/smoke experiments through soil
+physical sampling and micromorphology to numerical dual-domain modelling, and they
+converge on a consistent mechanistic picture in which a structured, connectivity-limited
+macropore system is the central control on drained-soil behaviour.
+
+\subsection{Macropores and preferential-flow pathways to drains}
+
+\subsubsection{Biopores as the dominant conduits}
+
+Across contrasting soils and climates, the pathways that connect the soil surface to
+buried drains are overwhelmingly biological in origin. In a Finnish clay, dye applied
+to cracks moved down to the base of the plough layer and then travelled laterally
+until it encountered open earthworm burrows, which acted as the only conduits to tile
+depth; at 10 cm above the tile, movement to the drain occurred exclusively through
+earthworm burrows, of which 106 dyed burrows m$^{-2}$ were counted, and the base of
+the plough layer functioned as a hydraulic barrier \parencite{Shipitalo2004}. Mean
+infiltration in the bulk soil above the tile lines was about twice that between the
+lines and correlated positively with \textit{Lumbricus terrestris} numbers and
+biomass; individual burrow infiltration rates were highly variable (6--1043 mL
+min$^{-1}$, mean 358 mL min$^{-1}$ with the plough layer removed) and consistently
+higher with the plough layer intact (mean 1080 mL min$^{-1}$)
+\parencite{Shipitalo2004}. In a Swiss loam, stained structures were concentrated in
+the upper profile, earthworm burrows were the most abundant stained features, and
+worm burrows were the only structures present with sizable frequency at the depth of
+the tile drains \parencite{Stamm2002}. At a German site, roughly 50 worm burrows
+m$^{-2}$ reached continuously from the surface to 90 cm depth, where the gravel
+embedding of the drains began, and the abundance of such continuous pathways was
+identified as the most important (necessary but not sufficient) precondition for
+preferential flow of the sorptive herbicide isoproturon \parencite{Zehe2001}.
+
+\subsubsection{Direct visualisation of surface-to-drain connectivity}
+
+Smoke-injection and dye studies provide direct, quantitative confirmation that
+continuous air-filled macropores link drains to the surface, and that these openings
+are spatially clustered above the drain line. In Denmark, smoke plumes emerged from
+earthworm burrows at the surface, and all but one smoke-emitting macropore (SEM) lay
+within a 1-m band centred over the drain; strong SEMs marked entrances to more
+efficient pathways (4 of 7 strong SEMs traced to the drain versus 1 of 6 weak SEMs,
+and 5 of 13 dye applications reached the tile line), and strong SEMs also showed the
+highest water-infiltration rates \parencite{Nielsen2015}. A companion study found
+smoke fans from open macropores on all observation dates---evidence of continuous
+macroporous pathways from the drains to the surface---with the number of SEMs
+increasing markedly as the water table dropped from about drain depth to 20--50 cm
+below it; reproducible SEM distributions were obtained at air pressures of 0.38--0.93
+kPa, most SEMs occurred within a 1.0-m-wide band centred above the drains, and their
+distribution was significantly non-random along the drain sections
+\parencite{Petersen2012}.
+
+\subsubsection{Quantifying active macroporosity and its size structure}
+
+The pore volume that is hydraulically active is small. In a Danish glacial-till soil,
+field analysis of a chloride breakthrough indicated an active macroporosity of only
+about 0.17\% of total soil volume, or roughly 0.5\% of total porosity, yet this
+minute fraction produced abrupt drainage-concentration increases by factors of 20 and
+400 within hours of surface application \parencite{Villholth1998}. Image analysis of
+macropore area fraction (MAF) in a Canadian soil showed maximum depth-averaged total
+MAF of only 0.0036--0.0087, with the minimum (\textless 0.001) occurring at tile
+depth; macropores 0.5--5 mm were most abundant near the surface, 5--10 mm pores
+peaked near the top of the B horizon, and where macropores existed at tile depth they
+were mostly 0.5--5 mm \parencite{Frey2011}. Fractures contributed only a small share
+of total macroporosity (maximum roughly 15\%, 2\% and 7\% at three plots), and
+dye staining revealed that \textgreater 20-year-old tile-installation scars were
+still channelling infiltrate to the drains, while at one plot macropores appeared to
+terminate at a textural boundary above the tile \parencite{Frey2011}. Surface soil
+and B-horizon saturated conductivities correlated strongly with MAF ($r = 0.79$ and
+$r \geq 0.83$), tying the visible pore network to measured flow capacity
+\parencite{Frey2011}.
+
+\subsection{Spatial organisation of pores: depth and distance from the drain}
+
+Two organising gradients recur. Macroporosity and biopore abundance decline sharply
+with depth, whereas lateral variation relative to the drain line is real but
+generally weaker. In a Finnish clay, macroporosity decreased strongly with depth but
+did not differ substantially with distance from the drain; the number and area of
+earthworm burrows likewise fell with depth, and root-channel numbers showed a depth
+effect with little distance effect \parencite{Alakukku2010}. Nonetheless a lateral
+signature was detectable: earthworm burrows were 44\% more numerous above a drain
+than at 6--7 m away (an 89 burrows m$^{-2}$ difference, $P = 0.04$), and field
+saturated hydraulic conductivity was 31\% lower at 2 m from the drain than on or at
+6--7 m from it, while laboratory $K_{\mathrm{sat}}$ declined rapidly with depth but
+did not vary clearly with drain position \parencite{Alakukku2010}. At that site slope
+explained more variation than distance to the drain, as soil properties and earthworm
+abundance increased downslope \parencite{Alakukku2010}. A Canadian study similarly
+found no significant effect of tile position on MAF distribution, with the caveat
+that one plot may have been biased by wheel traffic \parencite{Frey2011}. Reviews of
+drained soils nonetheless report higher infiltration rates and lower bulk density
+above drain lines than at mid-drain positions, together with a runoff reduction of
+34--55\% relative to comparable undrained soils \parencite{Montagne2009}. The
+smoke-injection evidence that flow-active openings cluster within a roughly 1-m band
+above drains reinforces the view that drainage induces lateral heterogeneity in
+near-surface connectivity even when the static pore volume is laterally uniform
+\parencite{Nielsen2015,Petersen2012}.
+
+\subsection{Static structure: bulk density, porosity, aeration, and gas diffusion}
+
+Sustained artificial drainage consistently lowers bulk density and raises air-filled
+porosity and gaseous diffusivity, improving aeration. In Ohio, subsurface drainage
+produced greater hydraulic conductivity, lower unconfined compressive strength, and
+lower surface-crust resistance than undrained treatments, and it decreased bulk
+density and increased the volume of air-filled pores at 0.02--1.0 bar suction,
+although these pore-volume effects were of smaller magnitude \parencite{HUNDAL1976}.
+Drainage significantly reduced bulk density in the 0--10 and 10--20 cm layers (with
+total porosity showing the opposite pattern), raised relative gas diffusion
+($D_p/D_0$) and air content---especially at 0--10 cm and more so under no-till---and
+these gas-diffusion gains were positively correlated with corn grain and stover yield
+\parencite{Nakajima2014}. Consistent with an aeration mechanism, artificial drainage
+in Georgia increased soil oxygen concentrations and lowered soil moisture, raising net
+mineralisation and, more strongly, net nitrification, while denitrification potential
+was greater in the wetter undrained plots \parencite{GROFFMAN1984}. Across a large
+Canadian survey, low relative gas diffusivity was pervasive (over 93\% of corn fields
+below the 0.03 threshold at both 15 and 30 cm), and yield correlated positively with
+log$_{10}$ relative gas diffusivity and with saturated hydraulic conductivity at 15
+cm; boundary-line analysis suggested maximum yield at the highest measured $D_s/D_o$
+(0.16) and a major yield drop below $D_s/D_o$ of 0.0001, underscoring that dynamic
+aeration indicators outperform static bulk density in explaining productivity
+\parencite{Caron2025}.
+
+Comparisons with undrained or subirrigated soils, however, show the direction of the
+bulk-density effect is context-dependent. In one multi-site experiment undrained
+plots had lower bulk density, higher aggregate mean weight diameter (MWD), lower
+penetration resistance, and greater moisture retention than drained plots, with
+overall mean bulk density essentially identical (1.44 versus 1.43 Mg m$^{-3}$) and no
+significant drainage effect; the authors attributed lower undrained yields to
+transient anaerobiosis rather than to permanent physical damage
+\parencite{LAL1993}. In a long-term water-table-management experiment, subirrigated
+soils had \textit{lower} bulk density and \textit{greater} total porosity than
+continuously drained soils but also lower aggregate stability, smaller MWD and
+geometric mean diameter, fewer macroaggregates, and about 11\% greater available
+water capacity, while the drainage treatment showed greater penetration resistance,
+notably at 30--45 cm \parencite{Baker2004}. Drainage-induced compaction of the surface
+was also implicated in reduced organic-matter status: an undrained area retained
+higher soil organic matter than the drained area, with drainage reducing organic
+matter in the top layers and lowering soil pH overall \parencite{FAUSEY1992}, and
+non-drainage increased soil-organic-carbon stock relative to tile drainage by
+18--27\% across depths in a related Ohio study \parencite{Kumar2014}. The upper bound
+on drainage-based aeration control is set by compaction: in the most compacted soils
+all pores remain saturated up to $P = -100$ cm, so aeration control by drainage
+becomes impossible and excess-water removal depends almost entirely on evaporative
+drying, while plough layers impede downward flow, build perched water tables, and
+prevent installed systems from exercising their beneficial effect
+\parencite{SMEDEMA1993}.
+
+\subsection{Infiltration, hydraulic conductivity, and structural evolution over time}
+
+Drainage and associated loosening raise infiltration capacity and saturated hydraulic
+conductivity, and---importantly---these gains often \emph{develop over years} as
+biological and structural processes act on the drier profile. Moling in a Thai acid
+sulphate clay increased the average basic infiltration rate from 3.9 $\pm$ 0.3 to
+10.5 $\pm$ 1.4 mm h$^{-1}$, decreased bulk density and increased porosity (most
+markedly at 25 and 40 cm), and raised air permeability and saturated hydraulic
+conductivity, particularly below the plough layer \parencite{JHA1995}. A drainage-age
+comparison in Minnesota showed that fields drained more than 15 years earlier had
+saturated hydraulic conductivity 7.58 cm h$^{-1}$ faster than fields drained within 5
+years ($P < 0.05$), with no difference in bulk density or aggregate stability but
+higher biological indicators in the older fields; the authors proposed
+preferential-flow development as the likely driver of the conductivity increase and
+concluded that soil physical and biological properties evolve over time after
+installation \parencite{Frankl2023}. Long-term Iranian paddy trials likewise found
+that saturated hydraulic conductivity increased over four years in all layers (largest
+in the 0--30 cm layer), with drain discharge and water-table depth increasing over
+time, and that shallower drainage improved conductivity more than deeper drainage
+\parencite{JafariTalukolaee2016,Talukolaee2018}. Drainable porosity varied seasonally,
+being lower during rice than canola seasons \parencite{Talukolaee2018}. Tillage
+interacts strongly with these hydraulic changes: a column study showed that after
+tillage the tilled column drained earlier (by 11 h) and discharged more (55.2 versus
+38.8 mm) than an untilled column, a difference reproduced by HYDRUS only when
+tillage effects on hydraulic properties were included \parencite{Moroizumi2004}, and
+shallow-tilled sandy soil yielded about twice the transient drainage of deep-tilled
+soil, with correspondingly larger solute losses \parencite{MANSELL1980}. Amending the
+trench backfill can also govern infiltration: lime-mixed backfill gave a mean
+post-steady-flow infiltration rate of 3.2 m d$^{-1}$ versus 2.2 m d$^{-1}$ in control
+backfill and 0.83 m d$^{-1}$ between drains, stabilising clay structure and reducing
+the strong decline of the drainage coefficient with rising water content
+\parencite{Saulys2006}.
+
+\subsection{Mole drainage and subsoiling: engineered structure and its durability}
+
+Where matrix permeability is inadequate, mechanical fissuring by mole drainage and
+subsoiling creates the effective pore network. On UK heavy clays, flow through the
+system was dominated by mole drains, with up to 90\% of flow occurring through them;
+effective drainage deepened the winter water table (drained plots averaged 216 mm
+deeper than undrained over 1980--88) and reduced flood risk by 16\% for a 10-year
+event, while direct drilling improved subsoil structure enough to extend mole-drainage
+life by at least 25\% but also increased surface compaction, runoff, and peak flow
+\parencite{HARRIS1993}. On a very deep heavy clay in the former Yugoslavia, subsoiling
+and mole drainage raised the soil drainage porosity by up to 20\% in all treated
+variants, lowered the critical-period water table to 50 cm within 3 days at 20--30 m
+spacing, and---together with permeable trench backfill---eliminated waterlogging
+within 2 days; gravel-backfilled trenches retained favourable hydraulic conductivity
+and bulk density after 5 years whereas unbackfilled trenches compacted quickly
+\parencite{PLAMENAC1988}. The durability of moled structure is finite but
+substantial: German long-term trials found mole channels formed above the water table
+with an effective top depth $\geq 0.55$ m persisted as open cavities for 3--7 years
+and thereafter as zones of increased horizontal permeability, with improved
+permeability in disruption zones continuing for more than 54 months, although after 20
+years backfilled soil tended to be less permeable than adjacent undisturbed soil
+\parencite{MULLER1988}. Combined pipe-plus-mole systems modelled in Portugal drained
+1333 m$^3$ ha$^{-1}$ (133 mm) with mole drains versus 1029 m$^3$ ha$^{-1}$ without---a
+22\% loss of drainage capacity when moles were absent---and lowered the peak water
+table by about 0.1 m \parencite{Castanheira2010}. Mole drainage in Australia increased
+gas-filled porosity above the channels (though still below the optimum for roots),
+while gypsum-enriched slots further raised slot porosity and improved mole-channel
+stability under increased flow \parencite{Muirhead1996}. Deep ripping to 0.45 m with
+gypsum, with or without drainage, lowered subsoil bulk density and strength, produced
+smaller aggregates, and raised subsoil hydraulic conductivity and air-filled porosity,
+with improvements persisting through the two-year study \parencite{Greenwood2006}.
+Rice-husk drainage mole systems in Korean paddy soils similarly lowered soil moisture
+and raised permeability and aeration, the 2-m interval giving the greatest improvement
+and the most uniform moisture distribution \parencite{Jung2024}.
+
+\subsection{Aggregate stability, soil strength, crusting, and trafficability}
+
+Drainage modifies the mechanical behaviour of the surface and subsoil, generally
+reducing crusting and improving trafficability while producing mixed effects on
+aggregation. Undrained and ponded plots developed strong crusting and adverse
+structure, and the undrained treatment had the highest crust density and resistance
+and the largest, thickest crust units; crust thickness increased in the order combined
+tile-and-surface \textless\ tile \textless\ surface \textless\ undrained
+\parencite{HUNDAL1976,FAUSEY1969}. Surface-drained plots required greater penetration
+force than plots with subsurface or combined drainage, and combined drainage produced
+deeper, more uniformly distributed soybean roots and a significantly longer taproot
+\parencite{FAUSEY1969}. Soil strength is tightly coupled to matric suction: in an
+English clay, strength at 7.5--22.5 cm depth was linearly related to matric suction
+over $-3$ to $-20$ cm water, and a 10-cm rise in suction was on average as effective
+at reducing rutting as a 670-kg wheel-load reduction; in ploughed soil, subsurface
+drainage reduced tractor-traffic damage, decreasing wheel sinkage and compaction, and
+the authors recommended draining clay soils to below 50--60 cm to minimise structural
+damage \parencite{STEINHARDT1974}. Trafficability effects were quantified directly in
+sodic North Dakota soils: tile drainage lowered drawbar power relative to no drainage
+when no amendments were applied, and drainage combined with the lower gypsum rate
+produced penetration-resistance results similar to the higher gypsum rate, showing
+that drainage can substitute for part of the amendment requirement
+\parencite{Wamono2016,Wamono2016b}. Aggregation responses depend on the comparison:
+the drainage treatment showed larger MWD and more macroaggregates than subirrigation
+\parencite{Baker2004}, no-till plus drainage increased aggregate stability and MWD at
+the surface \parencite{Kumar2014}, yet drainage reduced MWD and infiltration relative
+to non-drainage in an Iranian trial \parencite{Shabanpour2022}, and drainage-water
+recycling raised penetration resistance (1292 kPa) above drainage-only (1197 kPa) and
+non-drained (1084 kPa) controls while lowering organic matter and altering texture at
+depth \parencite{Kaur2023}. Elevated soil temperature is a further structural benefit:
+subsurface drainage significantly warmed soils, with the largest May--July increases
+at 30--60 cm and larger spring warming under narrower spacing
+\parencite{Jin2008}, consistent with the reported 2--3$^{\circ}$C spring warming and
+roughly 10-day-earlier sowing achieved by subsoiling/moling with drainage
+\parencite{PLAMENAC1988}.
+
+\subsection{Drainage-induced pedogenesis and long-term structural imprint}
+
+Over years to decades, the redirected water fluxes of a drained profile accelerate
+pedological processes and leave a lasting, spatially structured imprint. In a French
+Albeluvisol studied by space-for-time substitution, subsurface drainage intensified
+eluviation in the E\&Bt and upper Bt horizons, producing lower contents of the
+\textless 2 $\mu$m fraction and Fe and higher quartz near the drain, with changes at
+60 cm from the drain of the same nature as long-term differentiation but stronger than
+those at 110 cm \parencite{Montagne2010}. Drainage removed swelling clay minerals and
+more than one-third of the Fe oxides near the drain, increased precipitation of Mn
+oxides and Mn-rich ferrihydrite with decreasing distance to the drain, and shifted the
+dominant Mn form from Mn-rich ferrihydrite to Mn oxides after 16 years, with
+eluviation most active shortly after installation \parencite{Montagne2008}. The
+spatial pattern is process-specific and asymmetric: eluviation was largely restricted
+to the first metre either side of the drain, whereas redox-driven Mn redistribution
+and black-soil-volume formation extended over several metres; total lutum losses
+ranged from about 18\% of the pre-degradation stock at 400 cm to more than 50\% at 60
+cm, and the changes were interpreted as a divergent, initial-condition-sensitive
+evolution consistent with deterministic chaos
+\parencite{Montagne2013,Montagne2009}. The exported material is dominated by fine
+colloids: the 0.45 $\mu$m--5000 Da fraction accounted for more than 80\% of the
+suspended load, 60\% of it finer than 200 nm, and consisted mainly of 2:1
+phyllosilicates with abundant small iron particles of superficial (A-horizon) origin,
+so that drainage exports fine particles definitively from the profile with little
+accumulation in the B horizon \parencite{Mercier2000}. These accelerated fluxes can
+compress pedogenic timescales: the authors argue drainage-induced evolution over 16
+years is comparable in magnitude to processes expected over much longer periods
+\parencite{Montagne2010,Montagne2008}. In boreal Finland, about 70 years of improved
+ditch and tile drainage was sufficient to form an argic/argillic horizon---with
+illuvial clay coats maxima coinciding with the effective drainage depths---yielding
+the first documented Luvisol/Cryaqualf in a boreal clay and a change judged probably
+partly irreversible \parencite{YliHalla2009}.
+
+\subsection{Macropore-controlled transport and its representation in models}
+
+The structural findings above manifest hydrologically as rapid, connectivity-limited
+preferential transport, and reproducing tile behaviour requires models that treat this
+explicitly. Conservative and weakly sorbing tracers reach drains within minutes to
+hours of surface application: chloride breakthrough increased abruptly by factors of
+20--400 within hours, with the initial peak representing only 0.1--0.3\% of applied
+mass \parencite{Villholth1998}; bromide appeared in tile effluent within 1 h and a
+rainfall intensity near 2 mm h$^{-1}$ was the threshold above which concentrations
+rose, yet cumulative capture was slow overall---8\% in 48 h, 27\% in 21 days, and
+about 95\% only after roughly seven months \parencite{Frey2012}. Similarly, bromide
+arrived at the drain as soon as drainage began even when offset from the trench, but
+the bulk of transport was slow (10\% of load in 3--5 months, 50\% in 10--18 months,
+90\% in 18--64 months), with travel time set by drain spacing and relative distance
+from the drain \parencite{Kladivko2023}. Liquid-manure constituents (dissolved
+reactive P, NH$_4^+$, Cl$^-$) reached the drain within 5 min of surface application,
+and column experiments confirmed that soluble P moves through artificial macropores
+with little sorption while matrix-flow columns strongly retain it---identifying
+macropore flow as the primary mechanism for rapid P delivery and showing that ploughing
+manure in disrupts macropores and promotes retentive matrix flow
+\parencite{Stamm2002,Geohring2001}. Controlled column and laboratory experiments with
+buried and surface-connected macropores quantified the geometry of these effects:
+surface-connected macropores produced much faster drain response than buried ones (a
+75-cm surface-connected macropore raised steady-state infiltration about fivefold),
+macropore--matrix exchange was largely restricted to the profile near the drain, and
+a linear total-flow-ratio relation implied an effective contributing distance of only
+20--25 cm for directly connected macropores \parencite{Akay2007,Akay2008}.
+
+These behaviours are captured only by models that represent two-domain flow, a
+tile-induced two-dimensional flow field, or a direct macropore--drain connection. A
+two-dimensional mobile--immobile model matched bromide breakthrough, level, and
+short-term fluctuation far better than one-dimensional or single-porosity
+formulations, with over 60\% of applied bromide initially transferred to immobile
+regions and retained through the drainage season, indicating that both the 2-D
+tile-flow field and strong mobile--immobile mass transfer control transport
+\parencite{Köhne2006}. Including the macropore flow domain was essential to match
+observed drainage chloride, and a one-domain simulation underpredicted tracer loss
+(10\% versus the observed 21\%), while a time-variable macropore-spacing parameter
+improved the chemograph fit \parencite{Villholth1998b}. In RZWQM, adding an
+``express fraction'' of about 2\% reproduced the immediate breakthrough of conservative
+tracer and pesticide that the unmodified model missed, improving early peaks at
+multiple drained sites, though recession-limb concentrations remained poorly matched,
+implying the modification only partially accounts for macropore--drain connectivity
+\parencite{Fox2004,Fox2007b}. Activating a macropore component improved hourly drainage
+peak amplitude but did not improve total event drainage, and predicted macropore flow
+was relatively insensitive to macroporosity and pore radius \parencite{Li2023d}. A
+macropore subroutine in APEX improved tile and total discharge calibration and raised
+dissolved-reactive-P load performance from unsatisfactory to very good, with simulated
+median annual macropore-flow and macropore-P-load contributions of 48\% and 43\%,
+concentrated in winter and spring \parencite{Ford2017}. At watershed scale, tile
+drainage and macropore flow were sensitive to a macropore-connectivity factor, with
+fine-textured soils generating more macropore flow than coarse-textured soils, so that
+soil texture explained spatial and connectivity-driven seasonal variation in flow
+partitioning \parencite{Poon2021}. Biopore configuration further modulates leaching:
+drain-connected biopores produced fast bromide leaching and high mass fluxes, whereas
+matrix-terminating biopores reduced maximum leaching by routing some solute into the
+soil \parencite{Holbak2021}. Field-scale modelling also confirms that layer-specific
+macropore volumes and trench-backfill conductivity must be represented to reproduce
+groundwater levels and weakly preferential tracer dynamics
+\parencite{AURA1995,Bechtold2007}. Together these transport and modelling results
+close the loop with the structural evidence: the small, depth-declining, drain-focused
+macropore network documented morphologically is the same network that governs the
+speed, magnitude, and management sensitivity of solute delivery to tile drains.
+
+\printbibliography
+\end{document}

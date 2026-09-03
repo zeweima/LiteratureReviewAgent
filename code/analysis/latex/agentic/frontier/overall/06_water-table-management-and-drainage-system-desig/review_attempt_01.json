@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Both files read in full. The generated section maps to Material 1's two subsections (\"Controlled drainage, subirrigation, and drainage water management\" at lines 426\u2013481 and \"Novel structures, design criteria, and drainage intensity\" at lines 483\u2013526), with the automation content (lines 447\u2013476) split into its own subsection. I verified every concrete claim and every citation key.\n\nAll claims trace to the source and every `\\parencite`/`\\textcite` key appears in the source attached to the same content. No hallucinations, no swapped/borrowed keys.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

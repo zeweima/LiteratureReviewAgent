@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.Based on my complete reading of both files, I verified every concrete claim and citation key against the source findings.\n\nThe section is a faithful, well-attributed synthesis. Each `\\textcite`/`\\parencite` maps to findings tagged with the matching citation_key:\n- Watershed hydrology claims (Schilling2008/2012, Sloan2016/2017, Fonley2021, BolandBrien2014) match findings 14\u201326, 40\u201342, 78\u201380.\n- Mapping/cataloguing (Amado2018, Naz2009, Schilling2019, Valayamkunnath2020, Zhou2025) match findings 33\u201339, 63\u201366, 69, 83.\n- Model routines/parameterisation (Williams2016, Guo2018b, Moriasi2012, Nelson2018, Chen2016, Boles2015, Bauwe2016, Qi2018, Mohanty1998, DeSchepper2015, Garrison1999, Muma2017, Nazari2021) all match.\n- Preferential flow, phosphorus, sediment, management, seasonality, and tracer sections all map correctly (King2015/2016/2018, Zimmer2016, Clement2017, Ruark2009, Grangeon2021, Gaillot2023b, Ahiablame2010, Kokulan2021, BACKLUND1995, Fortin2002, Trentman2020, Millar2025, Rimidis2003, Frederiksen2023).\n\nNo unsupported numbers, invented results, or swapped keys were found. Technical expansions (NSE = Nash\u2013Sutcliffe efficiency; HNABs = harmful and nuisance algal blooms; DEP_IMP; LATKSATF) are consistent with the findings.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

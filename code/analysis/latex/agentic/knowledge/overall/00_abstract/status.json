@@ -1,0 +1,23 @@
+{
+ "id": "00_abstract",
+ "theme": "Abstract",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 2,
+ "compiled": true,
+ "words": 317,
+ "cited": [
+  "Valipour2014",
+  "Valayamkunnath2020",
+  "King2014",
+  "Schilling2019",
+  "Pease2018",
+  "Sharpley1995",
+  "Malone2018",
+  "Malone2014b",
+  "Malone2023",
+  "Christianson2013",
+  "Jaynes2008"
+ ],
+ "review_passed": true
+}

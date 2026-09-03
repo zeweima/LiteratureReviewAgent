@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Both files read in full. I compared every concrete claim and citation in the generated section against the source material.\n\nAll citation keys in the generated section appear in the source under the same claims (Amado2018, Naz2009, Schilling2019, Zhou2025, Valayamkunnath2020, Wienken2024, Allred2020/2021/2022, Carlsen2024, Wan2024, Redoloza2023, Harris2018, Yimer2023, Tlap\u00e1kov\u00e12017, Meunier2001, Xu2018, Allred2005/2013/2018b, Koganti2020/2021, Jouen2018, Kratt2020, Williams2015/2017, Wang2020b, Kyllmar2023, Basu2010, Wang2021, Ross2016, Shedekar2021, Schilling2008/2012, Sloan2016/2017, Fonley2021, BolandBrien2014, Wessel2022, Thomas2016, Rahman2014, Rathore2025, Naderi2025, Clement2017, Grangeon2021, Zhou2013, Giraud1997, Williamson2025, Schilling2012b, Maalim2013, Dalzell2018, Walling2002, Moloney2020, Opoku2024, Calsamiglia2018, Martin2019, Williams2020, Feyereisen2015b). Concrete details (2.54 cm rainfall threshold, one-conductivity-per-hectare, etc.) are all present in the source. The condensation is faithful.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

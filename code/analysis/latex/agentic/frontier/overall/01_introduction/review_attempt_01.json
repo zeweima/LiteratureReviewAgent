@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files read in full. Checking the generated section's six citation instances and concrete claims against the source.\n\n**Citations:**\n- `SHALIT1995`, `Malone2014`, `Woo2023`, `GUPTA1993` \u2014 the four \"blunt appeals\" quotes match source lines 36\u201339 exactly, same keys, same quoted phrases. \u2713\n- `Rogger2017` \u2014 complex-systems thinking, processes across time scales, long-term physical\u2013chemical\u2013biological experiments, connectivity/pattern across spatial scales, multidisciplinary consortia sharing data/terminology under known boundary conditions \u2014 matches source lines 28\u201334. \u2713\n- `Ma2025,SKAGGS1994,Deng2011` \u2014 data imperative: \"better, longer, and more spatially representative datasets\u2026 foundational requirement for validating models, resolving tradeoffs, and delivering site-specific, climate-resilient guidance\" \u2014 matches source lines 1934\u20131939 exactly, same key triplet. \u2713\n\n**Faithfulness:** The remainder is framing, domain background, and structural roadmap (enabling frontiers \u2192 domain frontiers \u2192 consequences \u2192 integration), all abstracted from the source materials. No invented numbers, locations, or study results. The \"coupled deficit\" of long-term harmonised data plus better process representation is a faithful synthesis of the source's recurring message.\n\nAll concrete claims trace to the source under the same citation keys.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

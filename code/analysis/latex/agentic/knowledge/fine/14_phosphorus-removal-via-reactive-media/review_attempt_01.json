@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "Based on my systematic review of every concrete claim and citation against the findings file, all numbers, mechanisms, study results, and citation keys are correctly supported. I verified each `\\parencite` maps to the finding(s) bearing that citation_key, and each statistic (removal percentages, capacities in mg/g, pH thresholds, loads, costs, etc.) traces to a specific finding.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

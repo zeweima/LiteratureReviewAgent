@@ -1,0 +1,531 @@
+\subsection{Overview}
+
+Despite decades of field experimentation and steady advances in numerical
+simulation, the community that studies water movement in subsurface (tile)
+drainage systems consistently identifies a set of persistent, mutually
+reinforcing knowledge gaps. Across studies spanning humid temperate cropland,
+arid and semi-arid irrigated plains, saline coastal soils, and tropical
+oases, authors converge on a common message: the processes that most strongly
+govern drain hydrographs---preferential and macropore flow, spatially and
+temporally variable soil hydraulic properties, and the coupling between soil
+pore-water flow, pipe flow, and surface water---remain incompletely
+characterised and imperfectly represented in the models used to guide design.
+This section frames the research frontier around five interlocking lines of
+inquiry that recur throughout the literature: (i) the characterisation and
+mechanistic modelling of preferential and macropore flow; (ii) the need for
+coupled surface--subsurface and pipe-flow hydraulic models, including
+pressurised-flow and open-ditch processes; (iii) the quantification of
+spatial and temporal heterogeneity in soil hydraulic properties and the data
+required to constrain it; (iv) improved calibration, validation, and
+long-term monitoring protocols; and (v) the revision of design criteria and
+management strategies, including controlled drainage, novel drainage
+structures, and adaptation to climate change. A cross-cutting theme is that
+progress in each area is limited less by conceptual understanding than by the
+availability of field data at the right spatial and temporal resolution to
+test, calibrate, and generalise the models. Headline priorities include
+mechanistic characterisation of macropore--drain connectivity, coupling of
+in-pipe surface flow with soil pore-water flow, denser and depth-resolved
+hydraulic-conductivity sampling, longer continuous monitoring records, and the
+explicit incorporation of climate-change scenarios into design.
+
+\subsection{Preferential and macropore flow: characterisation and modelling}
+
+The representation of preferential flow is perhaps the most frequently cited
+frontier. \textcite{Gaillot2023} argue that the relative contribution of
+preferential flow to drains needs to be better characterised as a function of
+soil type, soil water content, and agricultural practice, and that models must
+then be tested for extrapolation to other fields while accounting for soil
+variability and drainage-network characteristics. \textcite{Fox2004}
+similarly call for the degree of direct connectivity between macropores and
+subsurface drains to be characterised using more mechanistic approaches, for
+the ``express fraction'' to be evaluated under varying saturated--unsaturated
+flow conditions above the tile drain, and for the modified model to be tested
+under different climate, soil, drain-configuration, and chemical-application
+conditions. In the U.S. Midwest, \textcite{Askar2020} recommend further
+testing of the simple empirical approaches DRAINMOD uses to represent
+macropore flow, emphasising that rigorous testing requires water-table-depth
+measurements alongside drainage and surface-runoff data, direct field
+measurement of macropore-flow inputs, and detailed data on crack geometry,
+temporal crack dynamics with soil moisture, and the area contributing to
+surface runoff.
+
+Improvements to macropore process descriptions are proposed across several
+model frameworks. \textcite{Li2023d} call for further study of preferential
+flow in macropore channels and appropriate modification of the RZWQM2
+macropore component---better partitioning of soil water between matrix and
+macropore flow, improved macropore channel flow to shorten the drainage-peak
+recession time, and calibration of macropore parameters against sub-hourly
+drainage data. At watershed scale, \textcite{Poon2021} suggest adjusting the
+percolation algorithm to account for dynamic macropore connectivity or
+effective macroporosity and to include a soil-moisture factor describing
+matrix--macropore water transfer during the growing season, noting that
+experimental measurements of soil macroporosity and site-specific measurements
+of major soil types and management practices are needed to select appropriate
+connectivity values. \textcite{Villholth1998b} propose including small-scale
+diffusion across the micropore space or adding more domains to the model
+description, while cautioning that such remedies demand more elaborate models
+and more parameters, and stress the importance of site-specific measurements
+of matrix and macropore hydraulic conductivity. \textcite{Villholth1998}
+further note that the dynamics of macropore structure at the soil surface and
+their influence on chemical transport deserve additional study, and that
+whether vertical macropore transport occurs in deeper saturated layers---
+especially in areas dominated by regional groundwater recharge---remains to be
+investigated.
+
+Several groups highlight structural and dynamic controls on macroporosity that
+models neglect. \textcite{Holbak2021} recommend including hysteresis effects,
+investigating the interrelationship between biopore-flow initiation and
+hysteresis under laboratory and field conditions, and validating biopore
+models across the soil profile against datasets combining biopore
+measurements, soil-water dynamics, and solute leaching in drained fields.
+\textcite{Zhao2001} raise the possibility that additional years of manure
+application could significantly improve soil structure and macropore
+development, and \textcite{Wang2022} identify the reestablishment of
+macropores and nutrient transfer through cracks as targets for improving EPIC
+simulation precision. \textcite{Varvaris2018} call for scrutiny of the
+calibrated saturated hydraulic conductivity of macropores---and the resulting
+indirect estimate of potential preferential-pathway flow---and propose a
+three-dimensional dual-permeability model to capture spatial geological
+layering, lateral macropore-flow velocities, and non-systematically
+tile-drained fields. Tracer- and geophysics-based identification of
+preferential pathways is repeatedly recommended: \textcite{Tähtikarhu2025}
+suggest ground-penetrating radar and tracers for flowpath identification and
+the inclusion of preferential flowpaths, more comprehensive open-ditch
+processes, and soil-frost processes to improve model representation, while
+\textcite{Salo2017} argue that direct measurements of flow routes are more
+useful than aggregated discharge for calibrating spatially variable parameters
+and that tracer-tracked pathways require solute-transport simulation.
+
+\subsection{Coupled surface--subsurface, pipe-flow, and open-ditch hydraulics}
+
+A recurrent structural gap is the absence of models that couple soil
+pore-water flow with surface flow inside drains and ditches.
+\textcite{Xin2016b} call for future model development to couple surface water
+flow in drains with pore-water flow in soils to represent the temporally
+varying hydraulic-head condition around the drain, to extend analytical
+solutions to include rainfall and evapotranspiration via source and sink terms
+for combined drainage and infiltration, and to develop a more comprehensive
+treatment of heterogeneous soils, complex pore-water flow, and uncertainty in
+spatially variable capillary-fringe thickness and capillary rise.
+\textcite{Nousiainen2015} propose enabling simulation of water flow in drain
+pipes within FLUSH to capture pressurised flow and clogging effects, adding a
+description of open-ditch networks to extend the model to larger areas, and
+assigning distinct potential-evapotranspiration series to areas under
+different crops. Pressurised-flow dynamics are a specific frontier:
+\textcite{Henine2010} argue that coupling subsurface pipes with a feedback
+linkage to the water table could introduce a validated temporary-retention
+function under conditions exceeding design capacity and broaden the scope of
+drainage-hydrology investigations, and \textcite{Henine2014} add that a
+complete study of drainage overpressure at the catchment outlet should account
+for surface runoff and its interaction with the water table during pipe
+pressurisation. \textcite{Saadat2018} similarly suggest separately analysing
+periods when pipes are pressurised using pressure-transducer data.
+
+Entrance resistance and near-drain flow representation remain unresolved for
+older and heterogeneous systems. Entrance
+resistance must be considered when modelling old drainage systems---for
+example by assigning a higher pressure head to water in gravel at the drain
+boundary---and a smaller element size is needed near the drain for
+detailed pressure-head study. \textcite{Messing2006} raise the question of
+whether heavy-rain water transport should be characterised by a rapid onset of
+flow through the permeable backfill trench followed by slower, continuous
+transport from the inter-trench zone, and how this partitioning influences
+drain-water quality. The choice of model dimensionality is itself a research
+question: \textcite{Alakukku2010} advise a two- or three-dimensional approach
+when predicting the proportional fractions of drain flow and surface runoff or
+simulating groundwater level in sloping fields, and \textcite{Carlier2007}
+call for further development before applying their method to larger domains
+such as networks of drain plots, simpler modelling of drainage collectors, a
+better representation of soils with extreme hydrodynamic parameters, and a more
+precise averaging of hydraulic conductivities for unsaturated flow.
+\textcite{FIPPS1989} note that the regions at the top and bottom of a slope,
+and the entire flow region when the water table falls below the drains, require
+additional analysis. Broader integrating frameworks are also sought:
+\textcite{Manguerra1998} argue that SWAT should be extended to include and
+directly handle the physical processes governing water movement to subsurface
+drains, expecting better performance from explicit representation, and
+\textcite{SAVABI1993} report that subsurface lateral water movement and
+rainfall interception---absent from the WEPP hydrology model---are being
+incorporated, alongside a need for better hydraulic-roughness estimation for
+runoff routing.
+
+\subsection{Spatial and temporal heterogeneity of soil hydraulic properties}
+
+Nearly every modelling study attributes residual error to unresolved
+heterogeneity in soil hydraulic properties, particularly hydraulic
+conductivity. \textcite{DeSchepper2017} suggest that a more detailed
+representation of macropores, fractures, sand lenses, and other
+heterogeneities could improve reproduction of observed hydraulic-head
+variability, and that including specific storage and residual saturation in
+calibration would improve performance. \textcite{Wesström2003} note that other
+approaches are needed to account for variation of properties such as hydraulic
+conductivity with depth, and \textcite{Karandish2018} propose increasing the
+number of soil layers or gradually varying hydraulic parameters, adopting a
+dual-porosity model for paddy soils, and accounting for temporal variation in
+hydraulic parameters during simulation. Several authors call explicitly for
+denser and depth-resolved sampling: \textcite{PalaciosVélez2004} recommend at
+least one hydraulic-conductivity measurement per hectare (five per plot for
+plots under 5~ha) and a more detailed study of the spatial distribution of
+conductivity, the location of the impermeable layer, and the appropriate
+drain-spacing approach, together with post-construction comparison of designed
+and observed conductivity and water-table height. \textcite{Messing2006} argue
+that more points along the transect between trench lines are needed to capture
+spatial variability, and \textcite{Tähtikarhu2025} call for more measurements
+of vertical hydraulic conductivity, measurement of horizontal conductivities,
+and a more sophisticated description of water-retention properties that
+accounts for hydrophobicity and hysteresis at field scale.
+
+Anisotropy and long-term change in soil properties form a related sub-frontier.
+\textcite{Akis2015} call for studies of long-term spatial variability under
+drained and undrained conditions with anisotropy, a vadose-zone hydrological
+model to understand salt-movement and water-flow relations to saturated
+conductivity, and understanding of spatial anisotropy in the drainage--
+infiltration relationship in the upper 1.5~m. \textcite{Moustafa1998} likewise
+call for study of long-term spatial variation of soil-water properties as
+affected by subsurface drainage and closer-spaced sampling to resolve true
+spatial structure. \textcite{Koivusalo1999} recommend relating soil hydraulic
+conductivity to root-zone deficit, describing time-dependent soil-structure
+changes during drying, and obtaining measured field-scale values for
+macroporous clayey soil. \textcite{DeBoer2006} stress that saturated hydraulic
+conductivity and the relationship between drainage volume and upward flux must
+be defined with reasonable accuracy, supported by a comprehensive soil survey
+as DRAINMOD input. At watershed scale, \textcite{Schilling2015} suggest
+incorporating subsoil porosity variations by linking porosity to SSURGO
+bulk-density data and spatially refining model results with greater horizontal
+and vertical resolution of soil hydraulic properties.
+
+\subsection{Calibration, validation, parameterisation, and data needs}
+
+Beyond the properties themselves, authors emphasise improved calibration
+strategy and the acquisition of complementary observations.
+\textcite{Boico2022} recommend calibration with parameter-estimation software
+to overcome poor representation of soil hydraulic properties and the
+implementation of multiple conceptual models to represent plausible
+heterogeneity structures. \textcite{Schneider2022} propose a more flexible
+parameterisation for drain-sensitive parameters such as the conductivity of
+the uppermost geologic layers, a fully distributed conductivity field with
+pilot-point calibration, additional observation types such as soil moisture to
+reduce overparameterisation, finer horizontal and vertical resolutions with a
+more complex unsaturated-zone description and explicit drain representation,
+and integration of proxy datasets such as machine-learning predictions of
+drain probability or average drain flow with physically based models.
+\textcite{DeSchepper2017} suggest combining catchment- and drainage-discharge
+calibration, and \textcite{Sedaghatdoost2019} recommend using drainage
+salinity data alongside other measured data in the objective function.
+\textcite{Brighenti2023} propose testing alternative objective functions such
+as the Kling--Gupta efficiency and establishing relationships between
+plot-scale measured tile flow and watershed-scale calculated tile flow.
+
+Complementary in-situ observations are repeatedly identified as limiting.
+\textcite{Askar2020} stress that water-table-depth measurements must accompany
+drainage and surface-runoff data. \textcite{Salo2017} argue that more output
+variables such as groundwater level should be considered when assessing
+drainage practices. \textcite{Varvaris2018} identify a need to determine the
+unknown source continuously recharging a tile network during dry periods, to
+obtain in-situ soil-water-content measurements for a more reliable calibrated
+flow model, and to run conservative-tracer tests with solute-transport
+simulation. \textcite{Hwang2024} call for extended field observations---soil
+profiling, hydraulic conductivity, water-retention curves, infiltration rates,
+water-table fluctuations, and soil-moisture change over time---and a
+complementary modelling study of how drainage design influences hydrology and
+crop yield. Several authors emphasise that model claims must be tested against
+field data before recommendations are made: \textcite{Askar2021} state that
+the potential limitations of DRAINMOD-P must be evaluated against
+field-measured data prior to recommending further modifications;
+\textcite{Salazar2008} caution that tests on different soil types are needed
+before recommending DRAINMOD runs with ROSETTA-estimated saturated
+conductivity; \textcite{Singh2020b} and \textcite{Malota2024} call for
+additional testing across regions, soils, and climates; and
+\textcite{Holbak2021} require further field and laboratory experiments to
+validate models across the soil profile. \textcite{Sinai2006} recommend
+verifying that field conditions match the assumptions underlying DRAINMOD, and
+\textcite{He2002} note that models other than DRAINMOD should be used when
+groundwater flow lines must be computed across a landscape.
+
+\subsection{Long-term monitoring and revision of design criteria}
+
+A strong current in the literature is that short-term studies mislead and that
+design guidance must rest on long records. \textcite{Wang2006b} argue that
+drainage design should not be based on year-by-year short-term DRAINMOD
+simulations, that long-term runs give better average yield predictions to
+guide spacing, and that the benefits of controlled drainage must be
+demonstrated and quantified locally. \textcite{Ale2009} call for analysing
+drainage water management under wider spacings (20--40~m) over an approximately
+100-year climatic record and for exploring uncertainty in vertical-conductivity
+calibration. \textcite{Häggblom2019} note that studying interannual
+variability in supplementary drainage requires longer simulation periods with
+hourly input data, and \textcite{Malota2015} state that long simulation
+periods are required to assess shallow-water-table control and that verifying
+design criteria is paramount before adoption. \textcite{Salo2019} recommend a
+longer monitoring period to reveal long-term effects of installation method,
+studying variation between sections of the same drainage method to separate
+machinery effects, and automatic measurements to compute drainage response time
+after rain events. Long-term monitoring and
+evaluation of drainage configurations are emphasised to validate results and
+refine design recommendations, and \textcite{Kladivko2023} caution against attributing
+drainage responses to a management practice that occurred only shortly before.
+\textcite{Chang2012} call for longer observation of water and salt movement in
+deep soil layers, and \textcite{Deelstra2015} anticipate further analysis of
+soil physical data and better description of the interaction between weather,
+soil physical conditions, groundwater behaviour, and drain discharge as
+prerequisites for correct design under climate change.
+
+Many site studies conclude that established design criteria require
+re-evaluation. \textcite{Christen2001} call for new drainage design criteria
+protecting crops while minimising drain-water salinity and volume,
+reassessment of criteria in light of land-use and irrigation change, and novel
+saline-water disposal options. \textcite{Muhammad2021} recommend updating
+criteria and decreasing drain depth to 120~cm at some sites and 100~cm at
+others while holding spacing constant, and \textcite{Malota2016} call for
+revisiting design criteria to account for land slope and for recalculating
+drain spacing (currently 54~m in clay and 74~m in clay-loam soils).
+\textcite{Bahçeci2009} argue that a lower drain-discharge rate should inform
+future design in the Harran Plain, while \textcite{Kahlown2002} conclude that
+subsurface drainage interventions must not go deeper than 2~m and that findings
+still require field and laboratory confirmation. \textcite{Mante2022} state
+that the recommended 12--15~m (up to 90~m) spacing for sandy loams must be
+reviewed and paired with controlled-traffic farming at narrower spacing
+($\le$12~m, 0.9~m depth), and \textcite{Nelson2017} call for determining the
+cost-effectiveness of tile spacings below 6.1~m in claypan soils.
+\textcite{HajAmor2019} identify a need to design new drainage systems---
+including standard guidelines for depth and spacing---and to test them in situ
+before extension, and \textcite{Skaggs2017} advocate standardising the
+definition of the drainage coefficient and the consistent use of the Kirkham
+coefficient and drainage intensity to enable comparison across studies.
+\textcite{GALLICHAND1992b} suggest implementing design procedures within
+CAD/GIS-based drainage-design software.
+
+\subsection{Controlled drainage, drainage water management, and novel structures}
+
+Controlled drainage and drainage water management (DWM) constitute a
+management frontier where hydrologic understanding is still maturing.
+\textcite{Youssef2021} call for well-coordinated experimental and modelling
+research on how seepage affects controlled-drainage performance for reducing
+flow and nitrogen losses, and for monitoring guard lines of free-drainage plots
+to evaluate lateral seepage from managed to non-managed field portions;
+\textcite{Pease2017} likewise cite field experiments as necessary to represent
+seepage in discharge reduction and propose examining slow spring
+profile-drawdown strategies. \textcite{Lahdou2019} recommend examining
+potential increases in overland flow due to controlled drainage through field
+measurement or detailed modelling, and \textcite{Ale2009} note the influence of
+vertical-conductivity uncertainty on the DWM contribution to seepage.
+\textcite{Craft2018} argue that modelling excess-moisture stress is vital to
+understanding drawbacks of DWM adoption, that drainage routines within a
+controlled-outlet system may need re-examination to simulate volume when the
+outlet opens in spring, and that spring nitrogen loading is a priority.
+A further priority is extending representative Midwest soils,
+including multiple GCMs, verifying the model's ability to simulate DWM effects
+on yield and drainage volume with field data, and evaluating climate-change
+impacts on drainage-climate outputs. \textcite{VandeCraats2021} propose
+expanding anticipatory drainage-base management to include evapotranspiration,
+subirrigation, spatially variable seepage, and heterogeneity, and to address
+which weather forecasts and forecast lengths to use and how forecast
+uncertainty affects confidence in optimal strategies. \textcite{Salla2022}
+call for investigating how collector-ditch water-level management can increase
+controlled-drainage efficiency and how control schedules affect the
+groundwater table seasonally and under future conditions, and
+\textcite{Strock2025b} identify multiple and irregularly timed inflow sources
+as a knowledge gap and advocate automation of low-grade weirs to adjust
+drainage intensity responsively. \textcite{Güngör2023} caution that
+controlled drainage should not be overlooked because a very rapid water-table
+decrease may increase irrigation demand in dry summers, and
+\textcite{Dou2023} note the need to adjust drainage depth, spacing, and period
+to local characteristics.
+
+Novel drainage structures and materials define a further set of open
+questions. \textcite{Ren2023} call for improving HYDRUS-2D boundary
+conditions, studying whether the negative pressure of siphon-type drainage
+changes during head drawdown, verifying siphon drainage in the field, and
+considering pipe perforation rate and geotextile specifications.
+\textcite{Tao2025b} recommend long-term measurement to determine the working
+time of their system relative to construction costs and to balance reduced
+waterlogging with soil-water retention and pollution reduction, and
+\textcite{Li2021} propose new structures that adjust water-holding capacity,
+permeability, and aeration while eliminating capillary barriers and hysteresis,
+inhibiting rapid vertical movement and bypass flow so that water converges
+horizontally into the pipe. Multi-level and bi-level configurations warrant
+further study: \textcite{Hornbuckle2007} call for investigating multi-level
+systems under differing conditions, actively managing shallow and deep drains,
+and increasing deep-drain spacing commensurate with shallow-drain drainage,
+and \textcite{Verma1998} suggest bi-level drainage as controlled drainage via
+the depth of the shallow drain. Envelope and perforation design remain open:
+\textcite{Alavi2021} recommend testing the Hydroluis drainpipe under different
+gradients, rates, soils, and inter-pipe distances; \textcite{Wu2022} call for
+considering envelope-material conductivity, soil textures, and perforation
+shape and pattern; \textcite{Oyarce2017} suggest installing an experimental
+prototype in an actual soil profile and evaluating different screen types; and
+\textcite{HajAmor2019} recommend replacing existing systems with geotextile
+envelopes to prevent sand clogging. Numerical techniques can characterise fluid behaviour in larger module
+arrangements and flow conditions without expensive laboratory experiments, and
+\textcite{Nelson2011b} observe that a drainage/subirrigation system should have
+remained in drainage mode longer than tested.
+
+Optimal layout and burial-depth determination in saline and problem soils
+recur in recent Chinese studies. \textcite{Tian2023} stress considering the
+appropriate ditching depth when determining optimal pipe-layout parameters and
+selecting it according to actual soil conditions, and \textcite{Tian2024}
+recommend burying the pipe as far above the restrictive/critical layer as
+possible when shallow, breaking a shallow restrictive layer by deep ploughing,
+and combining methods to enhance drainage. \textcite{Tian2023c} identify
+layout-parameter selection as the next research target and suggest amendments
+such as organic fertiliser, straw biochar, or low-permeability mulch film, and
+\textcite{Zhang2024d} call for adding factors such as buried-pipe depth and
+fertiliser ratios to improve the saline-soil improvement system.
+\textcite{Zhai2023} advocate optimising hidden-pipe layout through a
+multi-scheme decision model and distinguishing nitrous-oxide-emission sources,
+and \textcite{Han2023} plan to include construction cost when clarifying the
+appropriate range of buried depths. \textcite{Qian2025b} recommend improving
+the design drainage objective when using models to set pipe parameters,
+\textcite{Ren2021} call for studying combination forms under different rainfall
+and unsaturated initial conditions using mathematical models of economic
+factors, and \textcite{Zheng2025} propose field experiments on the interaction
+between drain spacing and outlet height to develop water- and salt-regulation
+control strategies. \textcite{SerranoCoronel2018} state that water-movement
+behaviour under different configurations must be studied, and
+\textcite{Zegeye2021} suggest modifying drain depth and spacing using better
+soil-permeability information and integrating bank dewatering with other gully
+rehabilitation measures.
+
+\subsection{Watershed-scale representation, drain mapping, and connectivity}
+
+Scaling drainage processes from plot to catchment raises its own frontier.
+\textcite{Muma2016} defer the distributed impact of subsurface drainage on
+catchment behaviour to further work, and \textcite{RevueltaAcosta2021} propose
+extending the WEPP model to quantify subsurface drainage under controlled water
+tables and at watershed scale, and to improve estimates under shallow water
+tables during winter. \textcite{Thomas2016} note that describing basin shape
+and topographic impacts on tile-drainage contribution to streamflow requires
+further research and that calibration and validation for prediction remain to
+be investigated. \textcite{Rahman2014} offer their coupling of a watershed
+model with streamflow-response analysis as a transferable approach for
+evaluating land-use and climate impacts, and \textcite{Schilling2015} identify
+the effect of regularly spaced tile drainage on groundwater travel times as an
+open question. Streamflow prediction in tile-drained landscapes remains
+difficult: \textcite{Wessel2022} state that improving predictions of
+subsurface runoff through tile drains is a pressing need, that the validity of
+the curve-number approach at different locations must be confirmed, and that
+whether a modified curve-number method or a more process-based model is
+required must be determined.
+
+Locating and inventorying drainage networks is a prerequisite for many of
+these analyses. \textcite{Yimer2023} call for a global study of inter-regional
+differences, methods other than interpolation to fill missing values,
+approaches to differentiate tile from ditch drains using soil-moisture
+attributes, and local groundwater-level measurements in preference to global
+datasets. \textcite{Kratt2020} aim to better constrain the optimal
+meteorological and soil-water conditions for successful drainage-pipe
+detection and to quantify feedbacks between albedo, soil moisture, and heat
+transfer to predict optimal data-collection timing, and
+\textcite{Allred2018b} note that textural analysis of soil cores is needed to
+confirm supposed texture differences, that mapping efficiency could improve
+with an all-terrain-vehicle-mounted sled, and that widespread adoption might
+yield insight on drainage-practice intensity at small watershed scales.
+Surface-ditch connectivity is highlighted as a management-relevant frontier:
+\textcite{Moloney2020} argue that mapping surface ditches may be more efficient
+than locating individual in-field drains, that future phosphorus-loss and
+risk-assessment models should include connectivity metrics via surface ditches,
+and that policymakers must consider lag times in nutrient release.
+\textcite{Opoku2024} propose applying a bespoke integrated connectivity risk
+ranking for phosphorus and nitrogen along open ditches and further assessing
+the temporal and spatial variability of soil, weather, drainage system, and
+hydrogeochemistry. \textcite{Calsamiglia2018} call for improving connectivity
+(IC) algorithms for Mediterranean lowland catchments, continuous monitoring to
+establish IC thresholds, and further investigation of thresholds representing
+the (dis)activation of connected areas by rainfall frequency and magnitude.
+
+\subsection{Closed depressions, potholes, and edge-of-field practices}
+
+Drained closed depressions and potholes are singled out as poorly understood.
+\textcite{Martin2019} argue that the hydrologic behaviour of drained closed
+depressions must be better understood to inform conservation practices, that
+the frequency, extent, and mechanisms of inundation matter for management, and
+that future modelling cannot assume uniformity of potholes at watershed scale.
+\textcite{Williams2020} call for research on surface and subsurface hydrologic
+processes in drained closed depressions at additional locations, quantification
+of the relationship between surface runoff, subsurface tile drainage, and
+antecedent soil moisture, and data on the longevity of blind inlets under
+no-tillage. \textcite{Feyereisen2015b} report ongoing research on nutrient and
+agrochemical fate, alternative nutrient management, the longevity of blind and
+gravel inlets, and the effect of a subsurface drainage network on nutrient
+losses in closed depressions. Edge-of-field and treatment-system design also
+present gaps: \textcite{Gordon2021} suggest raising outlet boards to hold more
+water and allow more infiltration, planning for both surface and shallow
+groundwater flow, sealing the bottom where groundwater contamination is a
+concern, and further studying combined surface/subsurface nitrogen removal with
+phosphorus-removing plant harvest; \textcite{Feyereisen2015} call for verifying
+design retention times for agricultural residues and incorporating the most
+appropriate hydraulic conductivity into bioreactor design models; and
+\textcite{Bhattarai2009} note that placement of subsurface drainage beneath
+vegetative filter strips needs careful consideration, that uniform surface flow
+without preferential paths is essential, and that a filter strip without
+subsurface drainage may be effective where rapid water-table lowering is not
+required.
+
+\subsection{Climate change, coupled processes, and integrative directions}
+
+Adapting drainage design to a changing climate is an explicit priority.
+Climate-change effects and region-specific action plans must be a fundamental
+component of drainage design and sizing, and
+\textcite{Deelstra2015} tie correct design to understanding weather--soil--
+groundwater--discharge interactions under increased precipitation.
+\textcite{Tuohy2018} recommend assessing software applicability across a wider
+range of Irish drainage systems and soils, quantifying drainage-efficiency
+implications for grassland productivity, trafficability, and return on
+investment, and using such models to assess climate-change impacts on design
+and performance. \textcite{Malota2024} likewise call for assessing model
+performance over longer periods and different climates and soils and for
+investigating climate-change and soil effects on drainage performance and crop
+yields.
+
+Coupled and integrative process representations round out the frontier.
+\textcite{Moroizumi2004} note that water-vapour movement and a coupled heat-and-
+water-flow model are required for relatively dry soils, and
+\textcite{Koivusalo1999} call for a time lag before the steady-state soil-
+moisture profile is reached during dry periods and a more consistent
+potential-evapotranspiration procedure such as Penman--Monteith.
+\textcite{Salo2015} highlight the ability to connect hydraulic functions to
+solute variables to enable simulation of density-driven flow, and
+\textcite{Varvaris2018} envisage an integrated three-dimensional
+hydrobiogeochemical model of solute transport and nitrogen dynamics.
+\textcite{Zhang2024} call for addressing intermittent ponding,
+evapotranspiration, soil heterogeneity, and three-dimensional flow effects, as
+well as uncertainty in the mass-transfer-rate coefficient, and
+\textcite{Afruzi2014} note that ponded surface drainage by trapezoidal ditches
+warrants further research, while \textcite{Chahar2010} indicate that partially
+penetrating ditches require a different analytical solution and that slope
+stability may be addressed by refilling ditches with free-draining material.
+Model improvement for specific outputs is also flagged: \textcite{Verma2014}
+anticipate future model versions enabling more detailed scientific evaluation
+of drainage projects, and \textcite{Nousiainen2015} call for further study of
+distributed soil hydraulic properties on inefficiently functioning drains.
+\textcite{Augeard2005} plan further experiments to confirm winter runoff and
+validate suspended-sediment-concentration evolution as a surface-runoff
+indicator, supported by hydrological modelling of runoff and pressure heads.
+
+Finally, several authors emphasise that technical advances must be coupled with
+socio-economic considerations, extension, and demonstration.
+\textcite{BenAissa2013} advocate a participatory approach to design, testing
+mixed traditional-ditch and modern-pipe systems and adequate envelopes in situ,
+and designing systems for easy farmer inspection and maintenance, echoed by
+\textcite{HajAmor2019} on raising farmer and stakeholder awareness of water and
+soil management. \textcite{MCFARLANE1992} call for greater extension through
+demonstrations and documented case studies and for better research on drains'
+effects on salinity, erosion, structural decline, and phosphate export, and
+\textcite{Mante2018} note that field managers must weigh the benefit of
+narrower spacing against impacts on field operations and long-term yield.
+Cost feasibility is a recurring concern---for changing drainage layout, and
+\textcite{Imran2021} stresses it specifically for redesigning main drains for
+free gravity outflow---and \textcite{Malota2015} suggest linking DRAINMOD
+outputs to a drainage-system cost-minimisation model. \textcite{Lamsodis2011}
+add operational recommendations, including annual drain-mouth cleaning and
+managed control of beaver populations, while \textcite{DarziNaftchali2017}
+argue that surface- and groundwater susceptibility to nitrogen losses should be
+a major criterion in drain depth and spacing design and that measures are
+needed at first planting after installation. \textcite{HARRIS1993} note that
+an increased drainage design standard may be necessary to avoid pipe damage and
+that direct drilling on sloping undrained land should be avoided, and
+\textcite{CAMP1982} stress ensuring adequate surface and internal drainage for
+flat-planted sugarcane. Collectively these directions point toward an
+integrated research agenda in which improved process representation, denser and
+longer-term data, and explicit economic and management context advance
+together.

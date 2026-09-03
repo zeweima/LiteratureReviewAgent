@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I've read both files completely and cross-checked every concrete claim and every citation in the generated section against the source material.\n\nThe generated `section.tex` is a faithful condensation of the two source materials. I verified:\n\n**Faithfulness:** Every concrete number, statistic, location, study result, and mechanism in the generated section traces to the source with matching values \u2014 e.g., Christianson2021's 40\u00b126%/median 46%/n=15 and 7.2\u00b19.6/median 5.1/n=27; Christianson2026's 36 site-years/49 kg N/17% efficiency; Bell2015's 63%/20%\u219298%/11.6 g; Husk2017's correlation coefficients; Sellner2019b's 4.95 and 1.68 mg/g; Penn2024's 1700 kg Al/240 g/8.8 kg/770 g; Wang2020d's 60\u201361 mg/kg; Hauda2020's 4.22 vs 15.5 m\u00b3; etc. All match. Reorganization and omission (a synthesis abstracting) only.\n\n**Citation provenance:** Every `\\parencite`/`\\textcite` key in the generated section appears in the source attached to the same content supporting the same claim. The one merged citation (Ca-based media review at line 59, `{Mendes2022,Pugliese2023}`) correctly pairs each sub-claim with the source key that carries it (furnace slag/Leca\u2192Mendes2022; Filtralite-P/limestone\u2192Pugliese2023). No keys are invented, swapped, or borrowed.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

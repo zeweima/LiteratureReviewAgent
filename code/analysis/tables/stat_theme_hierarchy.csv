@@ -1,0 +1,35 @@
+﻿track,macro_cluster,macro_theme,macro_n_papers,cluster,theme,n_papers,n_units,share_of_track
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,1,Nitrate and Nutrient Loss via Drainage,136,1180,0.0942
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,0,Soil Macroporosity and Drainage-Induced Structure,106,869,0.0735
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,3,Phosphorus Loss Pathways and Soil Controls,106,910,0.0735
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,2,Tile Drain Nitrate Loss Model Calibration,88,763,0.061
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,6,Nitrate-N Losses Under Drainage Management,88,750,0.061
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,4,Manure Application Effects on Soil and Drainage Microbiology,50,407,0.0347
+knowledge,0,Agricultural Contaminant Loss via Tile Drainage,616,17,Herbicide Loss Timing and Concentrations in Drainage,42,330,0.0291
+knowledge,4,Drainage Management Outcomes and Viability,320,12,Controlled Drainage Effects on Flow and Losses,119,983,0.0825
+knowledge,4,Drainage Management Outcomes and Viability,320,7,Subsurface Drainage for Soil Salt Leaching,94,813,0.0651
+knowledge,4,Drainage Management Outcomes and Viability,320,18,Drainage Management and Crop Yield Improvement,73,593,0.0506
+knowledge,4,Drainage Management Outcomes and Viability,320,13,Socio-Economic Benefits of Drainage Investment,34,295,0.0236
+knowledge,1,Drainage System Flow Modeling and Dynamics,290,8,Subsurface Drainage Model Performance Evaluation,141,1189,0.0977
+knowledge,1,Drainage System Flow Modeling and Dynamics,290,5,Tile Drainage Influence on Streamflow Dynamics,68,593,0.0471
+knowledge,1,Drainage System Flow Modeling and Dynamics,290,10,Model Performance Evaluation and Comparison,53,453,0.0367
+knowledge,1,Drainage System Flow Modeling and Dynamics,290,15,Numerical Modeling of Pipe Flow Dynamics,28,242,0.0194
+knowledge,3,Cover Crop Nitrate Loss Mitigation,111,9,Cover Crops and Management Reducing Nitrate Loss,90,776,0.0624
+knowledge,3,Cover Crop Nitrate Loss Mitigation,111,19,Rye Cover Crop Nitrate Drainage Reduction,21,177,0.0146
+knowledge,2,Reactive Media Nutrient Removal,83,11,Woodchip Bioreactor Nitrate Removal Performance,58,515,0.0402
+knowledge,2,Reactive Media Nutrient Removal,83,14,Phosphorus Removal via Reactive Media,25,233,0.0173
+knowledge,5,Geospatial Drainage Infrastructure Mapping,23,16,Remote Sensing Drainage System Detection,23,179,0.0159
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,4,Data and Experimental Validation Needs,134,457,0.1141
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,5,Subsurface Drainage Flow Modeling Research Gaps,130,325,0.1107
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,9,Controlled Drainage and Irrigation Water Management,83,270,0.0707
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,11,Watershed Modeling for Drainage Management,83,261,0.0707
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,10,Tile Drainage Research Gaps and Modeling Needs,43,126,0.0366
+frontier,0,Drainage Modeling Gaps and Water Management Research Needs,511,13,Subsurface Drainage for Soil Salt Leaching,38,84,0.0324
+frontier,1,Research Gaps and Nutrient Loss Management,403,0,Future Research and Management Practices Needed,123,354,0.1048
+frontier,1,Research Gaps and Nutrient Loss Management,403,1,Future Research Needs for Crop-Drainage Systems,110,285,0.0937
+frontier,1,Research Gaps and Nutrient Loss Management,403,6,Reducing Nitrate Losses via Management,96,269,0.0818
+frontier,1,Research Gaps and Nutrient Loss Management,403,8,Long-Term Organic Soil Drainage Research Gaps,74,226,0.063
+frontier,2,Woodchip Bioreactor Denitrification Research,121,3,Bioreactor Design and Research Gaps,95,272,0.0809
+frontier,2,Woodchip Bioreactor Denitrification Research,121,12,Bioaugmentation to Enhance Woodchip Bioreactor Denitrification,26,82,0.0221
+frontier,4,Drainage Model Calibration and Validation,86,2,Model Validation Across Diverse Conditions,86,193,0.0733
+frontier,3,Longitudinal Data Gaps and Monitoring Imperatives,53,7,Long-Term Monitoring and Research Needs,53,120,0.0451

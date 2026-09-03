@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely to check faithfulness and citation provenance.Both files trace cleanly. The generated section is a faithful condensation of the source, and every citation key appears in the source attached to the same claim. No unsupported claims or miscitations found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.The source is long. Let me read the rest.This second material item is the key source. Let me read the rest of it.I have now read both files in their entirety, including both source material items (\"Agricultural Contaminant Loss via Tile Drainage\" and the primary source \"Cover Crop Nitrate Loss Mitigation\").\n\nI systematically verified every concrete claim and citation in the generated section against the source material. The generated section is a faithful condensation:\n\n- All numeric claims (rate ranges, concentrations, percent reductions, kg/ha values, R\u00b2 values, cost figures) trace to the source under the same citation keys (e.g., Jaynes2001 5\u201345 mg/L; Zhao2016 ~193 kg/ha and ~23 kg/ha surplus; Kaspar2012 48%/26%; Malone2020 47.5\u219218.9 (60%) and 63.6\u219217.0 (73%); Kladivko2014 ~20%, 34\u201381%, $2.24\u20133.25; Malone2023 216 million kg, 27%, 19%/48%).\n- Citation provenance holds: keys like Ward2018 (13\u201394%) appear in the first source item, and all others in the \"Cover Crop Nitrate Loss Mitigation\" item, each attached to the same claim.\n- Grouped/bundled citations (e.g., Chatterjee2020b/Christianson2015b/Ritter2015 for the rate\u2013loss relationship; Hertzberger2019/Wang2016b for tillage; Fontes2019 in the N\u2082O grouping) are legitimate synthesis groupings where the primary key fully supports the specific number and secondary keys are thematically attached in the source \u2014 not fabricated or swapped attributions.\n\nNo hallucinated claims and no miscitations rise to flaggable level.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.After a thorough line-by-line check of every concrete claim in the section against the tagged findings, I find all numeric values, study results, locations, and mechanisms are supported by the source findings, and every citation key attributes claims to the correct paper.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

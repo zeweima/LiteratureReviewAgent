@@ -1,0 +1,458 @@
+\subsection{Overview}
+
+A recurring conclusion across the tile-drainage literature is that theory,
+models, and management hypotheses have outrun the field data available to
+validate them. The studies surveyed here converge on a shared research
+frontier defined less by a lack of ideas than by a lack of evidence: process
+representations that remain untested outside the conditions in which they were
+built, models whose parameters cannot be constrained without measurements that
+were never made, and management practices whose benefits are asserted from
+short records at single sites. This section synthesises the identified data and
+experimental-validation needs. Several broad lines of evidence emerge. First,
+process-based drainage and water-quality models (DRAINMOD and its derivatives,
+SWAT, APEX, HYDRUS, CRHM, and numerous salinity codes) are repeatedly flagged as
+requiring further testing across soils, climates, crops, and management systems,
+with particular weaknesses in phosphorus, macropore/preferential-flow, and
+seepage components \parencite{Youssef2006,Askar2021b,Askar2025,Radcliffe2015}.
+Second, there is a strong and near-universal call for long-term, year-round, and
+multi-site monitoring to close water and nutrient budgets
+\parencite{Kladivko2001,Sharpley2019,Frankenberger2024}. Third, rapidly maturing
+remote-sensing and geophysical methods for mapping drainage networks need
+systematic evaluation of the site conditions under which they succeed
+\parencite{Carlsen2024,Wienken2024}. Fourth, emerging management
+strategies -- controlled drainage, drainage water recycling, and edge-of-field
+treatment -- lack the coordinated field-scale experiments and simulations needed
+to quantify their trade-offs \parencite{Hay2021,Youssef2018,Mendes2020}. Finally,
+authors repeatedly emphasise improvements to experimental design, statistical
+methodology, uncertainty quantification, and the reporting of site
+characterisation, management, and economic data
+\parencite{Pagliari2021,Singh2022b,Gates2002}. The subsections below organise
+these needs by domain.
+
+\subsection{Validation and improvement of process-based drainage models}
+
+The most frequently cited need is more rigorous, independent testing of
+simulation models beyond the conditions in which they were calibrated.
+\textcite{Youssef2006} note that further research is needed to test the model for
+different management practices and soil and climatological conditions, and that a
+more rigorous field testing should be conducted to validate application to
+drained lands -- a need they describe as common to nearly all simulation models.
+Similar generic calls for further validation, broader-condition testing, and
+parameter sensitivity analysis recur for pesticide, salt, and flow models
+\parencite{Branger2009,Hirekhan2007,Yang2008b,Xian2017}. \textcite{Yang2008b}
+stress that soil-related coefficients -- particularly the drainage-volume/water-table-depth
+relationship -- must be adjusted for local soil and water conditions before the
+improved DRAINMOD extensions can be applied elsewhere, and propose integrating
+remote sensing and GIS for input preparation and eventual incorporation into
+decision-support tools. \textcite{Xian2017} likewise call for testing across
+different climates, soils, and agronomic practices and for alternate approaches
+to improve simulation of drainage peaks. \textcite{Mendez2004} argue that more
+experimental studies in different soils and climates are needed to verify
+modelling findings, and that long-term simulations of 50 to 100 years are
+required to assess whether a given drainage design meets chosen criteria.
+
+\subsubsection{DRAINMOD, controlled drainage, and drainage water recycling components}
+
+Extensions of DRAINMOD are singled out for continued development and testing.
+\textcite{Askar2021b} call for more testing of newly incorporated hydrological
+and biogeochemical components -- especially the macropore flow, phosphorus cycle,
+and sediment components -- with rigorous, quantitative assessment of performance
+under varying water management, farming practices, and climatic conditions.
+\textcite{Askar2025} extend this to the phosphorus component specifically, urging
+validation across a range of soils, drainage characteristics, and climates,
+recommending that key coefficients become user inputs for flexibility, and
+highlighting the soil-erosion and macropore-flow components as priorities for
+rigorous testing. For drainage water management and recycling (DWR/DWM),
+\textcite{Moursi2022} call for testing DRAINMOD-DWR against field-measured data
+and for developing routines that simulate the fate and transport of nitrogen,
+phosphorus, and sediment in the storage reservoir; \textcite{Moursi2023} add that
+the physical, chemical, and biological processes in the reservoir must be
+investigated to optimise treatment efficiency and to identify conditions under
+which reservoirs become nutrient sources, evaluated under varying site conditions
+over longer periods. Related model-development needs include a time-variable
+surface-depression-capacity input and expansion to wastewater and urban modules
+\parencite{Abduljaleel2023}, and evaluation of a DRAINMOD-ANN model against
+experimental data across different soil textures and field conditions
+\parencite{Awad2022}. \textcite{Youssef2018} outline the experimental verification
+required for controlled drainage: side-by-side comparison of controlled and free
+drainage with extensive measurement of mineral-N concentrations in the root zone,
+shallow groundwater at multiple depths, and drainage outflow, sustained long
+enough to capture responses to precipitation, cropping, and fertilisation, plus a
+separate simulation study to assess effects on vertical seepage across soils.
+\textcite{Skaggs2010} emphasise that controlled-drainage experiments on drainage
+volumes and N losses must be conducted at field or watershed scale so that
+seepage impacts are properly represented, while \textcite{Skaggs2006} note that
+additional research is needed to test relationships and develop equations for a
+wider range of drain depths and surface storages before simplified drainage-design
+methods can be accepted for general use. Complementary evaluation methods and
+alternative Ks-measurement relationships are recommended alongside DRAINMOD in
+data-scarce settings \parencite{NabiSichani2012}.
+
+\subsubsection{Phosphorus, sediment, and macropore transport in water-quality models}
+
+Phosphorus and its transport through macropores emerge as the least mature
+component across water-quality models. \textcite{Radcliffe2015} provide the most
+comprehensive agenda: field experiments using a nested, paired research design
+are needed to improve phosphorus models for artificially drained fields, and
+several codes require structural additions -- SWAT and ADAPT should route
+macropore flow directly to tile drains or lateral flow to ditches, APEX needs a
+macropore component, HSPF and P-indices in artificially drained areas should
+simulate water and phosphorus movement to ditches or drains, DRAINMOD should be
+expanded to simulate P losses to drains and P attached to sediment in runoff,
+PLEASE needs a runoff component, and HYDRUS could be used experimentally to
+understand transport to drains and parameterise simpler models -- with all model
+studies quantifying the accuracy and uncertainty of predicted P losses.
+Consistent with this, \textcite{Guo2020b} recommend modifying tile-drainage,
+macropore-flow, and P-transport processes in the APEX/NTT interface, incorporating
+physically based tile-drainage subroutines and macropore nutrient-transport
+pathways, including particulate-P losses through tiles, and accounting for soil-test-P
+effects over the full simulation period. \textcite{Ford2017} call for further
+testing under varying fertiliser management (broadcast and incorporated, organic
+and inorganic), additional field data to constrain subsurface-P parameter ranges
+for tools such as the Nutrient Tracking Tool, and a better understanding of how
+macropore flow and P loads respond to tillage, cover crops, fertiliser management,
+and drainage water management. \textcite{BinShokrana2023b} identify specific
+improvements to a DRAINMOD P component -- better partitioning of fertiliser P into
+pools (especially under ponded conditions), improved macropore-flow simulation,
+testing across climates, soils, crop varieties, and management, and refined
+P-only performance statistics. \textcite{Gowda2012} anticipate further developing
+the DRAINMOD suite to simulate phosphorus fate and transport in drained land.
+Supporting empirical work is also required: \textcite{McDowell2001b} call for
+further testing of CaCl$_2$-P as an estimator for dissolved reactive phosphorus in
+drainage water from other soils and for determining how water and CaCl$_2$
+extractions behave under different rainfall intensities and durations in the
+field; \textcite{Morrison2013} recommend additional field research on how drainage
+parameters affect runoff, subsurface drainage, and P losses, and improving
+regression models with P saturation, soil-test P, and fertilisation rates;
+\textcite{Sanford2016} require field-scale work with fluctuating flow rates and P
+concentrations and tests using actual drainage effluent; and \textcite{Jia2012}
+call for long-term monitoring of water-quality trends and investigation of the
+sources and transport of P.
+
+\subsubsection{Salinity, salt balance, and unsaturated-zone coupling}
+
+In arid and irrigated settings, needs cluster around salt-transport validation and
+coupling saturated and unsaturated processes. \textcite{Ebrahimian2015} recommend
+applying models capable of simulating salt and nitrate concentrations in drainage
+water and the soil profile to mitigate environmental impacts, while
+\textcite{Sarangi2006} note that neural-network models can predict effluent
+salinity and reclamation period from minimal input data but that SALTMOD may be
+preferred for detailed salt-balance estimation. \textcite{Hirekhan2007} caution
+that more evaluation studies are needed before firm recommendations on salt-transport
+simulation can be made. Several Chinese studies press for tighter coupling of
+water and salt dynamics: \textcite{Han2025} propose coupling future models with
+unsaturated water-salt models such as HYDRUS-1D and UBMOD-S for more accurate
+water and salt content in both zones and for developing regional subsurface-pipe
+layout parameters; \textcite{Wang2025c} plan to integrate process-based models
+(HYDRUS-2D/SWAP) with multi-objective optimisation and to consider climatic
+variability, soil texture, groundwater mineralisation, and crop water stress; and
+\textcite{Wang2024c} call for continuous model refinement, long-term simulation,
+and exploration of additional factors affecting salt flux under varying
+conditions. \textcite{Liu2022} recommend adding a detailed root-growth module,
+automatic TDR monitoring of water and salt, evaluation under different irrigation
+methods and salt levels, and validation with large field datasets, while
+\textcite{Liu2026} extend simulation horizons to include climate-change scenarios,
+long-term salt accumulation in deep soil and groundwater, and real-world
+scalability. \textcite{Guo2025} similarly seek longer observation periods, a wider
+range of environmental variables, optimal leaching quotas under diverse
+conditions, and cost-benefit analyses, and further elucidation of the links among
+surface salt accumulation, temperature, and groundwater depth. \textcite{Kelleners2000}
+warn that model assumptions must be re-verified when applied to new areas and that
+proper incorporation of regional seepage would require a fundamentally different
+modelling approach. Earlier salinity-modelling series similarly staged validation
+and salt-flow analysis across successive papers \parencite{KARAJEH1994}.
+
+\subsubsection{Hydrological structure, seepage, and preferential flow representation}
+
+A cross-cutting structural gap is the representation of seepage, groundwater
+exchange, and preferential flow. \textcite{DaneshYazdi2016} suggest that
+groundwater contributions could be incorporated through a double-storage model and
+residual storage added if hydrochemical data were available, requiring further
+data to refine interpretations. \textcite{Feng2018} argue that lateral seepage
+must be allowed to vary during simulation and be included among model inputs, and
+\textcite{Kelleners2000} echo the difficulty of representing regional seepage.
+\textcite{Kompanizare2024} recommend adapting new tile-drainage modules to
+different soil textures such as clay loam where preferential flow strongly affects
+saturated storage and tile flow, adding explicit unsaturated-flow representation
+where groundwater is disconnected from surface water, integrating with frozen-soil
+and water-quality modules, and expanding to larger areas. \textcite{Reid2012}
+stress that more work is needed to quantify the range of macropore flows to tile
+drains across soil types and management systems, that seasonal (growing versus
+non-growing) hydrologic regimes should be treated as discrete, and that a
+framework is offered to encourage others to gather suitable data for testing.
+\textcite{Allaire2011} call for testing each preferential-flow component
+individually, validating them in the field, and analysing the individual impact of
+each component on water quality, including extreme values. \textcite{Ojeda2018}
+require a more accurate, independent method for determining daily subsurface
+drainage from one layer to the next given preferential flow, plus sensitivity
+analysis to identify key parameters needing measurement. \textcite{Ulén2016} note
+that quantification of macropore flow paths is necessary for proper understanding
+of subsurface-drain leaching losses and that a dynamic model accounting for frozen
+soil and air temperature, together with measured data on soil structure and
+soil-P, is urgently needed. \textcite{Frey2012} call for characterising near-surface
+preferential flow paths across different soil, land-use, and climatic settings, and
+\textcite{LESAFFRE1988} note that a better understanding of by-pass flow through
+cracks is necessary to extend model application to full-year operation, alongside
+continued field experimentation and automatic calibration of water-table shape
+coefficients. Nitrogen-cycle and hydrological process representations attract
+parallel needs: \textcite{Malone2017} suggest developing a surface-residue
+component, a more detailed drainage approach, more thorough investigation of soil
+field capacity for denitrification and N losses, and mobile/immobile water phases
+to improve nitrate transport; \textcite{Gillette2018} call for more empirical data
+on interactions between soil-water retention and the soil-N budget, including
+mineralisation and denitrification, and for well-tested models and the use of
+soft data and complete N budgets during calibration. Analytical and theoretical
+advances -- rigorous theoretical analysis, formulas for sloped and multilayer
+soils, and field examination -- are sought for improved subsurface-drainage designs
+\parencite{Tao2016,Tao2019}, and time-step selection is flagged as a
+study-specific choice requiring pre-assessment \parencite{Awad2022b}. Other
+process needs include temporal variability in decay coefficients and deterministic
+approaches for land-use effects on tile-drained water quality \parencite{Rudra2005},
+improved transient and inversely calibrated representations \parencite{Sedaghatdoost2018},
+and machine-learning surrogate models that expand training datasets across diverse
+climatic and hydrogeological conditions, incorporate transient processes and
+robust/stochastic optimisation, and integrate with real-time control
+\parencite{Lei2026}.
+
+\subsection{Long-term, year-round, and multi-scale monitoring}
+
+Across nutrient, salt, and hydrological studies, authors emphasise that short,
+seasonally incomplete records are inadequate. \textcite{Kladivko2001} argue that
+year-round measurement of water flow and chemical concentration is necessary, for
+at least several years on new sites, to determine which parts of the year should
+receive management priority, and that tile flow versus surface runoff contributions
+must be assessed at watershed scale. \textcite{Sharpley2019} present a broad agenda
+calling for a more holistic understanding of subsurface hydrology, year-round data
+collection to close water and nutrient balances, continued research on P movement
+through drainage systems across soils in the Corn Belt, study of legacy N and P
+pools and historical fertiliser effects, quantification of snowmelt-driven losses,
+and evaluation of single, stacked, and edge-of-field practices and their
+trade-offs. \textcite{Frankenberger2024} provide detailed monitoring
+recommendations for drainage water management studies: high-frequency discharge,
+surface-runoff, and seepage monitoring to capture the complete water budget;
+process-based measurements including microbial activity, denitrification,
+metabolism, soil-P pools, organic matter, infiltration rate, and redox potential;
+consistent documentation of land management and DWM design (tile spacing, outlet
+depth, timing of water retention); and a publicly available dataset supporting
+re-analysis. \textcite{Williams2017} call for quantifying the relationship between
+field-scale processes and watershed response, detailed management and soil-carbon
+information as a priority in watershed water-quality studies, and further work on
+dissolved organic carbon dynamics and sources including groundwater seepage and
+in-stream production. \textcite{Drake2018} recommend field measurements of
+discharge to validate hydrologic models and water monitoring over the entire year
+even at reduced frequency, with continued monitoring and modelling to narrow
+uncertainty in conservation-practice performance. Long-term monitoring is likewise
+sought for edge-of-field and treatment systems -- accumulation and biofouling of
+recycled-concrete-aggregate drains \parencite{McCulloch2017}, long-term maturation
+of surface-flow constructed wetlands for P retention with attention to locally
+available filter materials and cost-efficiency \parencite{Mendes2020}, long-term
+performance of stormwater-retention devices \parencite{Xu2022}, and long-term and
+negative groundwater-level effects with accumulated multi-field discharge data
+\parencite{Okuda2020}. \textcite{Furukawa2008} call for careful evaluation of
+leaching components and total carbon dynamics in relation to drainage systems,
+including a quantification method for reduced carbon. \textcite{Frankl2023}
+recommend tracking soil-property metrics as standard practice, controlling for
+tillage, deeper sampling to resolve profile carbon changes, and pairing
+water-quality studies with monitoring of changing physical and biological
+properties over time.
+
+\subsection{Transferability across soils, climates, crops, and management}
+
+A pervasive limitation is that findings from single sites or narrow conditions
+cannot yet be generalised. \textcite{Singh2022b} recommend that controlled-drainage/subirrigation
+studies be conducted outside the U.S. Midwest and Canada across diverse climates,
+crops, and soils; that additional studies compare irrigation methods in terms of
+water supply and water-balance components; and that site characterisation --
+including field slope, soil particle-size distribution by horizon, hydraulic
+conductivity, drainage class, and soil moisture -- be reported, together with
+measures of variability. \textcite{Bilotta2008} stress that work must be repeated
+at larger scales and on different soil types as key modulating factors, and
+\textcite{Goeken2015} call for investigations across geographic regions, diverse
+perennial species and mixtures, and varied precipitation and weather.
+\textcite{Nuutinen2001} recommend repeating earthworm-drainage studies on soils of
+different texture and under less rainy conditions and including other earthworm
+species, while \textcite{Nuutinen2011} seek horizontal-transect observations to
+strengthen source-area interpretation and long-term relation of colonisation to
+soil structure and hydrology. Climate-focused transferability needs include
+high-resolution climate-change scenarios and effects on lodging, erosion, and
+agrochemical transport \parencite{Rasmussen2018}; analysis of hydrological-model
+contributions to total uncertainty using multiple models and assessment at
+additional French sites under different climates and soils \parencite{Jeantet2022};
+and validation of drainage-warming and soil-texture effects on crops via further
+study and modelling \parencite{Jin2008}. Crop- and practice-specific extensions
+are sought for paddy and trench drainage \parencite{Rahimi2024,Jia2023},
+mole-drainage durability over longer periods and rainy seasons \parencite{JHA1995},
+controlled-drainage principles suited to local crops and agronomy in new regions
+\parencite{Sojka2020}, and interactions of crop rotation and tillage on subsurface
+drainage \parencite{Ojeda2018}. \textcite{Yu2018} call for further field
+evaluation of a salt-flushing method, comparison with intermittent ponding,
+sprinkling, and drip irrigation, an analytical solution for generalisation, and
+tests in complex heterogeneous soils. Assumptions must be re-verified whenever
+models are transferred to new areas \parencite{Kelleners2000,Youssef2006}, and
+localised design methods must be developed to reflect local agro-technical
+conditions \parencite{Tlapáková2017}.
+
+\subsection{Remote sensing and geophysical mapping of drainage networks}
+
+Detecting and mapping buried drainage systems is a fast-moving frontier where
+methods work in some conditions but lack systematic guidelines. \textcite{Wienken2024}
+describe a functioning non-invasive detection method as indispensable, call for
+urgent development of holistic and efficient methodologies for aging drainage
+systems, and recommend combining UAV flights with ground-penetrating radar (GPR)
+for improved mapping and characterisation. \textcite{Allred2020} lay out an
+extensive UAV agenda: additional visible, multispectral, and thermal-infrared
+surveys at multiple farm sites visited repeatedly over two years to define the
+range of site conditions under which each imagery type maps drain lines; soil
+temperature and emissivity measurements in small test plots of variable soil,
+wetness, and cover; advanced processing (band stacking with decorrelation stretch,
+minimum-noise-fraction and principal-component transforms); supervised
+machine-learning algorithms to distinguish drain-line responses from field-operation
+features; and decision-tree guidelines for practitioners. Related UAV/thermal work
+seeks site-condition guidelines, test-plot quantification of surface thermal
+behaviour, advanced image processing, and machine learning to differentiate
+responses \parencite{Allred2021}, and extends thermal-infrared methods
+to drainage-outlet detection under Midwestern conditions while assessing the
+hydrologic impacts of outlets on ditches and streams \parencite{Allred2022}.
+\textcite{Carlsen2024} recommend reconsidering the often-cited 2.54~cm minimum
+rainfall for imagery acquisition, investigating deep learning and multitemporal
+acquisition for drained-area segmentation and tile detection, exploring synthetic
+aperture radar, determining the spatial resolution necessary for tile delineation,
+performing more large-scale deep-learning studies, bridging computer-science and
+geoscience practices through uniform evaluation standards, and expanding publicly
+available drainage-map datasets. Machine-learning mapping across regions is further
+advanced by calls for deep-learning and transformer-based encoder-decoder
+architectures, higher-resolution imagery (harmonised Landsat/Sentinel-2, Planet,
+or aerial), broader spatial and temporal application, and integration into
+hydrologic and water-quality modelling frameworks \parencite{Wan2024}, and by
+reducing tracing uncertainty through multiple interpreters, ground-truthed
+datasets, additional raster covariates (soil type, surface cover, time of year),
+wind-turbine training examples, and satellite time series \parencite{Redoloza2023}.
+Geophysical evaluations echo these needs: near-surface geophysical data from more
+sites and diverse soils \parencite{Allred2005}; systematic testing of antenna
+configuration, frequency, and antenna-to-pipe orientation across soil types for
+GPR \parencite{Allred2013}; prediction of GPR suitability via electromagnetic
+simulation (e.g., gprMax) from EMI measurements and understanding dependence on
+soil type, residue, tillage, ground wetness, and prior rainfall
+\parencite{Koganti2020,Koganti2021}; concurrent EMI/GPR and complementary
+drone-imagery and magnetic-gradiometer surveys \parencite{Koganti2020}; and
+resistivity/electromagnetic tracer approaches designed for slope and known drain
+orientation \parencite{Jouen2018}. Optical, radar, and topographic covariate
+studies also seek more frequent imaging \parencite{Tlapáková2017}, repeated SAR
+acquisitions with ground-based measurements to track crop growth across drainage
+ridges \parencite{Meunier2001}, UAV-based cover-crop biomass and N-uptake mapping
+across landscapes \parencite{Xu2018}, and richer topographic and soil covariates
+in statistical drainage models \parencite{Harris2018}.
+
+\subsection{Water balance, seepage, and groundwater interactions}
+
+Closing the water balance -- particularly seepage and groundwater exchange --
+remains a persistent data gap. \textcite{Grose2022} call for further exploration
+to identify the contribution of groundwater relative to other sources during
+stormflows, and \textcite{DaneshYazdi2016} would incorporate groundwater through
+double-storage modelling. \textcite{Sedaghatdoost2018} note that providing
+groundwater-table data in objective functions would help inverse modelling recover
+soil properties more precisely, and \textcite{Feng2018} advocate incorporating
+variable lateral seepage. Regional groundwater assessments call for further
+radiocarbon sampling and continued rigorous evaluation of changing resource origins
+\parencite{Tweed2018}, monitoring of groundwater chemistry at recharge zones of
+well-fields for both shallow and deep flow systems \parencite{Dragon2016}, and
+additional geologic and hydrologic data plus analysis of deep percolation through
+silts and clays \parencite{BOOKMAN1959}. Aquifer characterisation needs include
+accurate descriptions of the hydraulic properties of different aquifer layers
+\parencite{KAMRA1991} and intensive investigation of the impervious-layer depth to
+assess effluent-salinity variation under alternative drainage designs
+\parencite{KAMRA1994}. \textcite{Stuetz2004} recommend greater use of test wells to
+establish hydrochemical conditions and greater attention to water quality and well
+design to minimise biofouling. \textcite{Schilling2022} suggest transient
+simulations to test steady-state assumptions and further research on the capacity
+of waterways to process excess water, and \textcite{Xu2022} note that updated local
+groundwater-dynamics information is necessary for siting retention devices.
+Watershed-scale salt and water studies plan continued data collection with
+unsteady flow and mass-transport models, sensitivity and stochastic analysis, and
+consideration of canal lining, horizontal subsurface drainage, and river-level
+management \parencite{Gates2002,Burkhalter2006}. Groundwater as an alternative
+water source and the effects of drainage from saline-alkali lands on groundwater
+are flagged for investigation \parencite{Zheng2025b}, as are the interrelation of
+irrigation practice and drainage design \parencite{Sinai2005} and long-term
+groundwater-level effects of new drainage \parencite{Okuda2020}. \textcite{Keller2008}
+suggest that long-term amelioration of nitrogen contamination may require perennial
+deep-rooted crops and are investigating applicability at larger watershed scales.
+
+\subsection{Experimental design, statistics, and uncertainty quantification}
+
+Several authors identify methodological rather than substantive gaps.
+\textcite{Pagliari2021} call for confirming whether beta distributions or time
+series are the best approaches for analysing field-scale, unreplicated paired
+drainage experiments, or whether new statistical methodologies are needed for
+controlled-drainage studies. \textcite{Andrus2014} argue that directed
+investigations of specific hypotheses are more productive than replicate spatial
+analyses of additional biofilters and recommend more frequent shallow sampling at
+specified spacings. \textcite{Okuda2020} note that field experiments with
+replication are needed to enable statistical analysis, and \textcite{Wamono2016b}
+recommend matching tractor power to implement size, comparing on a percentage
+basis, and adding measurements of draft, slip, and trafficability. Uncertainty
+quantification recurs strongly: stochastic and sensitivity analyses to address
+parametric uncertainty \parencite{Gates2002,Burkhalter2006}, robust/stochastic
+optimisation for parameter and input uncertainty \parencite{Lei2026}, explicit
+estimation of prediction accuracy and uncertainty in phosphorus models
+\parencite{Radcliffe2015}, reduction of interpreter-based mapping uncertainty
+\parencite{Redoloza2023}, and analysis of the hydrological model's contribution to
+total uncertainty using multiple models \parencite{Jeantet2022}. Improved sampling
+and measurement designs are recommended for buffer and riparian studies, including
+more sampling wells to capture spatial variability, tracer studies to attribute
+flow proportions, and both surface and dissolved N$_2$O measurements
+\parencite{Davis2019}, and dye tracing, control wells, and paired free-flowing
+watershed comparisons at saturated-buffer sites \parencite{Jacquemin2020}. Improved
+model performance is also sought through better evapotranspiration estimation and
+additional predictor variables \parencite{Morrison2013}, additional SWAT performance
+metrics, parameter refinement, longer observation periods, and larger datasets
+\parencite{Zheng2025b}, and independent evaluation of calibrated models against
+withheld data \parencite{Schoups2005}. \textcite{Schoups2005} further suggest
+spatially distributing parameters to remove trade-offs between shallow and deep
+water tables and multi-objective optimisation with additional criteria.
+
+\subsection{Economic feasibility, management data, and databases}
+
+A final cluster of needs concerns the socio-economic and data-infrastructure
+context of drainage research. Economic feasibility analyses are repeatedly
+requested: cost-benefit analysis of surface amendments and energy savings
+\parencite{Wamono2016b}, regional economic benefits of drainage water recycling
+under future climate and droughts with optimised reservoir dimensions
+\parencite{Kosari2024}, overall economic benefit and inter-BMP interactions of
+integrated systems \parencite{Li2021b}, comprehensive cost-benefit analysis of
+subsurface drainage accounting for short- and long-term effects
+\parencite{Guo2025}, economic feasibility of drainage as a preventive measure
+against salinisation \parencite{Datta2000,HalbacCotoaraZamfir2022}, cost and
+consumption in paddy fields \parencite{Jia2023}, cost-efficiency of edge-of-field
+technologies \parencite{Mendes2020}, and cost reduction and technology
+sophistication \parencite{Okuda2020}. Detailed management and soil data are
+emphasised as prerequisites for reliable inference: verification of soil
+information by field sampling and farmer records with accurate management data
+\parencite{JORJANI1991}, detailed agricultural-management information and soil-carbon
+change as watershed-study priorities \parencite{Williams2017}, sound pedological
+and geological knowledge for interpreting drainage concentrations
+\parencite{Jacobsen2007}, and richer site characterisation and variability
+reporting \parencite{Singh2022b}. Data-infrastructure and regionalisation needs are
+prominent in the German mapping work of \textcite{Hirt2005,Hirt2005b,Hirt2011},
+which calls for comprehensive databases of tile-drained land proportions by soil
+type, validation of existing databases, extrapolation from eastern to western
+Germany and to European soil maps at the mesoscale, and inclusion of drained areas
+in water- and nutrient-flux models so that mitigation measures can be designed; the
+approach is transferable where representative drainage data and medium-scale soil
+maps exist. Coordinated, coupled field-and-simulation research programmes are
+called for to advance drainage water recycling across hydrology, crop-yield,
+water-quality, complementary, and implementation categories, with monitoring across
+sites and climates to document downstream load reductions and reservoir behaviour
+\parencite{Hay2021}, alongside soil-moisture-sensor and remote monitoring of
+control structures, validation under increasing climate variability, and
+additional well-characterised sites \parencite{Willison2021}. Continued monitoring
+of salinity and multi-scale water quality is essential to refine drainage-reuse
+strategy \parencite{ElAgha2020}, and forestry, land-use, and topographic effects on
+runoff generation and nitrogen retention require further analysis in Nordic and
+Baltic settings \parencite{Deelstra2014,Deelstra2014b}. Site-specific reservoir and
+constructed-wetland sizing \parencite{Haverstock2017}, coupling of soil-water
+simulation with management-scenario testing \parencite{Bulot2017}, verification of
+sulphur-loss and other process models under a range of climatic, management, and
+soil conditions \parencite{SMITH1983}, and evaluation of forest water-management
+systems and best management practices \parencite{MCCARTHY1992} round out the
+distributed set of data and validation needs that define this research frontier.

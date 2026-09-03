@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I have the section and first page of findings. Let me read the rest of the findings file.I have now read the entire section and all 603 lines of findings. I have cross-checked every concrete claim (numbers, statistics, locations, study results, mechanisms) against the tagged source findings, and verified each citation key matches the paper the claim derives from.\n\nAll concrete claims trace to supported findings with correct attribution. Spot verifications:\n- King2014 (21%/206mm, 41% annual, 47% monthly, 498mm, seasonal medians) \u2713 findings 189\u2013193\n- Thomas2016 (97mm/13%/39%, event 30%/non-event 61%, slopes/R\u00b2, 164\u2192530 m/d) \u2713 findings 202\u2013208\n- Schilling2019 (46\u201354%, 53.7%/65.8%, EMMA 31\u201353%/19\u201337%, >16,000 km\u00b2) \u2713 findings 226\u2013230, 519\n- Sloan2017 peak reductions (26%\u219211%, 18%\u219210%, 100\u20131000 km\u00b2) \u2713 findings 33\u201338\n- King2009 zero-flow days (8 vs 87.5) \u2713 finding 327\n- Apsite2017 (+132\u2013186%, +53\u2013286%, +46/158/26%) \u2713 findings 271\u2013273\n- Adelsperger2024 (0.03 d, 12%, 0.10 events/yr, \u00b125%) \u2713 findings 276\u2013280\n- Kokulan2019 (r\u00b2=0.68/0.57/0.78, 14 of 18) \u2713 findings 49\u201350\n- Nazari2021 (0.9/0.25 d\u207b\u00b9, 54%, 9/39/42/10%) \u2713 findings 93\u201398\n- Chang2012 (0.19\u20131.55% vs 1.82%) \u2713 finding 403\n- Kronholm2015 (5%\u201355%) \u2713 finding 26\n\nGrouped/framing citations (Overview, ~2000 km\u00b2, Deelstra2014/2014b range) are correctly attributed to contributing papers.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

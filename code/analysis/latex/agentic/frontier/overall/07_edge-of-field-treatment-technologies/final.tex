@@ -1,0 +1,305 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Edge-of-Field Treatment Technologies}
+
+\subsection{Overview}
+
+Edge-of-field treatment structures---denitrifying woodchip bioreactors and
+their companions (constructed wetlands, saturated riparian buffers, and
+phosphorus-removal structures)---have accumulated abundant performance
+demonstrations yet remain defined more by open design questions than by settled
+rules. Bioreactors remove nitrate by microbially mediated denitrification, but
+their performance is bounded by low water temperature, variable hydraulic
+retention time (HRT), and the biogeochemical evolution of the woodchip medium as
+it ages. The frontier clusters into interlocking lines: how to size, scale, and
+standardise design; how to resolve the internal hydraulics and tracer methods on
+which design rests; whether the microbial engine can be deliberately enhanced;
+how to select, amend, and manage reactive and phosphorus-sorbing media; how to
+characterise multi-decadal aging, clogging, and construction effects; how
+pumped and coupled configurations extend the design space; and how companion
+practices complement or substitute for bioreactors. A recurring meta-message is
+the need for standardised design procedures, broader performance-metric
+reporting, and long-term data across climates, landscapes, and maturation stages
+so that watershed-scale nutrient-reduction goals can be met
+\parencite{Christianson2021,Maxwell2022,Bell2015}. The evidence is drawn
+overwhelmingly from site-scale field and laboratory studies concentrated in the
+U.S.\ Midwest; the by-products of reductive treatment (greenhouse gases,
+dissolved organic carbon export, methylmercury) are treated here only as design
+constraints, their downstream accounting deferred to the consequences synthesis.
+
+\subsection{Sizing, scaling, and standardised design}
+
+A central frontier is reconciling site-level effectiveness with watershed-scale
+load removal. \textcite{Christianson2026} argue for better balancing bioreactors
+that are as effective as practical at the site while still removing as much load
+as possible; they flag the untested performance of \emph{undersized} bioreactors
+serving larger drainage areas, propose greater design flexibility to scale the
+practice, and caution that additional empirical data are needed to strengthen the
+loading-density relationship and that performance data from full-size bioreactors
+beyond Illinois are required before prediction models are used for design. For
+hydrologically flashy sites, \textcite{Dougherty2020b} propose sizing designs
+upward and repeatedly call for simpler, standardised ``plug-and-play'' design
+procedures; standardisation is echoed at the policy level by
+\textcite{Christianson2021}, who recommend refining the Conservation Practice
+Standard and streamlining the design process. The adequacy of residence-time
+($T$)-centric design is itself questioned: \textcite{deOliveira2023} advocate
+field-scale assessment of baffles in wide bioreactors to raise hydraulic loading
+while preserving efficiency, and more tracer testing of non-standard media
+coupled to nitrate monitoring and modelling. Foundational validation remains
+incomplete---further field-scale validation of the design procedure against beds
+of differing design \parencite{Christianson2013}, validation of hydraulic models
+at additional denitrification-bed sites with conservative isotopic tracers
+\parencite{Ghane2015}, region-specific parameterisation of flow, seasonality, and
+microbial limits for new settings such as Lithuania \parencite{Povilaitis2020},
+and sorption experiments underpinning tracer-based design \parencite{Ghane2019}.
+
+\subsection{Hydraulics, retention time, and tracer methods}
+
+HRT is repeatedly identified as the master variable linking hydraulics to
+removal, yet its treatment in design guidance is imperfect. \textcite{Moorman2015}
+note that research on the HRT--nitrate-removal relationship would sharpen sizing
+criteria, and \textcite{Povilaitis2018} call for proper optimisation of HRT
+effects through both laboratory- and field-scale study across flow conditions. In
+a global synthesis, \textcite{Christianson2025c} recommend methodological
+advances: assessing varying HRT by changing flow rate versus sampling along the
+reactor length; greater transparency in estimating woodchip porosity; more
+consistent reporting of dissolved oxygen, pH, and dissolved organic carbon; and
+machine-learning refinement of HRT--removal-efficiency estimates as data
+accumulate. The internal hydraulics of woodchip media are poorly resolved:
+\textcite{Ghane2016} argue that the non-Darcy flow characteristics of woodchips
+should be exploited to revise NRCS design guidelines. Tracer methodology is a
+specific bottleneck. \textcite{Ghane2019b} report anomalously low bromide
+recovery and recommend testing for organobromine in woodchips, microscopic and
+excavation-based examination of physical bromide entrapment, and either
+accounting for retardation or adopting non-sorbing conservative tracers such as
+isotopes; \textcite{Ghane2018} likewise recommend tracer tests to compare the
+hydraulic performance of retrofitted beds. Reliable tracer methods are thus a
+prerequisite to benchmarking hydraulic performance at all.
+
+\subsection{Enhancing the microbial engine}
+
+The defining enhancement frontier is whether denitrifiers can be inoculated into
+woodchip bioreactors to raise removal where cold temperatures limit biological
+activity. \textcite{Jang2019} propose that bioaugmentation might increase
+low-temperature removal but note that genome completion is needed to identify the
+nitric-oxide reductase of a candidate \emph{Cellulomonas} inoculant.
+\textcite{Anderson2020} frame the first-order uncertainties: whether inoculated
+strains enhance field removal, how long they survive in bioreactors, and whether
+carbon addition boosts both inoculated and indigenous denitrifiers. Survival and
+persistence recur globally, with \textcite{Wang2025b} calling for field-scale
+methods that minimise inoculum loss and for exploration of emerging targets and
+consortia---nitrate-dependent anaerobic methane oxidation (n-DAMO), biostimulation
+to favour inoculated bacteria, and algal--bacterial granular sludge. Terminal
+denitrification steps in fungal strains, including confirmation of nitrous-oxide
+reductase and reduction of nitrate to dinitrogen under bioreactor conditions,
+remain to be verified \parencite{Aldossari2021}, and microbial amendments require
+replicated pilot-scale testing before upscaling
+\parencite{Jeglot2022,Ma2021}. Against this enthusiasm,
+\textcite{Hathaway2015} offer a testable counter-hypothesis---that optimisation is
+more likely from refinements to design and management parameters that shape
+environmental conditions than from direct microbial manipulation---a useful null
+hypothesis for field trials.
+
+Rational manipulation presupposes mechanistic understanding of the resident
+community, which is incomplete. \textcite{Hartfiel2022} argue that bioreactor
+microbiome study should draw on soil and wetland ecology; that controls on
+cellulose- and lignin-metabolism genes warrant attention; that dissimilatory
+nitrate reduction to ammonium and anammox have been observed but understudied;
+and that varying substrates to select for differing communities is a promising
+route to more consistent performance and reduced by-product formation---the
+mechanism by which HRT shapes the community, and thereby by-product production,
+being a specific gap. Complementary needs include managing bed pH for acidic
+drainage and conceptualising regional controls on in-bed nitrogen removal
+\parencite{Bock2018}, routine monitoring of nitrite to avoid its accumulation in
+effluent \parencite{Kouanda2021}, and characterising the selective pressure of
+oxygen versus nitrate load on community assembly \parencite{Schaefer2021}. The
+emissions accounting of these by-products is treated in the consequences
+synthesis; here they define a design and monitoring constraint.
+
+\subsection{Reactive media, carbon sources, and structural materials}
+
+Beyond conventional woodchips, alternative fill and carbon-management strategies
+are incompletely characterised. \textcite{Law2023} encourage field studies of
+corncobs capturing spatial and temporal variability, the nitrogen-removal-rate
+range, and whether a lower maximum HRT is needed, while
+\textcite{Porter2015} call for study of organic-carbon availability at different
+depths and moisture contents, so that substrate choice or internal water levels
+could be tuned. Because woodchip carbon fuels denitrification, its release
+kinetics and pre-treatment are active frontiers: the longevity of
+composting effects and the biodegradability and release rates of woodchip DOC
+remain to be quantified \parencite{Kouanda2021}, and startup carbon losses raise
+questions about recycling the initial flush or pre-washing chips before
+installation \parencite{Abusallout2017}. Synthetic-carbon dosing is unresolved---
+the source, frequency, and amount needed to optimise performance under dynamic
+inflow while avoiding excess DOC and biofilm clogging \parencite{Rivas2020}, and
+the hybrid application of synthetic carbon in low-temperature-tolerant reactors
+\parencite{Zhang2021b}.
+
+A distinct materials frontier concerns drain envelopes and structural fill.
+Rice-husk envelopes require field testing of combination ratios and long-term
+assessment given husk degradation and acidification
+\parencite{Kaboosi2012,Navabian2017}; aggregate sizing needs in-situ testing in
+clay soils \parencite{Byrne2023}; and synthetic geotextile envelopes must be
+evaluated individually because of varying physical properties, with
+filter-sock-plus-aggregate combinations not yet recommendable
+\parencite{Byrne2023b}. Structural concrete alternatives---fly-ash- and
+coal-gangue-based concrete---remain untested for durability under high
+groundwater \parencite{Wang2016c}.
+
+\subsection{Phosphorus-removal media and filter design}
+
+Phosphorus-sorption materials (PSMs) constitute one of the most heavily populated
+gap areas, spanning selection, longevity, regeneration, and hydraulic
+integration. \textcite{Li2020} argue that adsorbent choice must weigh phosphorus
+concentration, interfering ions, temperature, flow rate, and sediment load;
+prioritise selectivity at neutral pH; be testable for reuse and recovery; and be
+economical at field scale. \textcite{Mendes2022} add that the apparently
+synergistic retention mechanism of filter media at high flow rates is unknown and
+that regeneration of spent media should be pursued. Iron- and steel-based media
+dominate specific proposals: optimising an iron-oxyhydroxide regeneration process
+and evaluating low-cost goethite such as bog iron ore \parencite{Allred2017};
+determining minimum contact time for zero-valent iron via higher-flow column and
+isotherm tests \parencite{Allred2014}; regenerating steel by-products by alkaline
+washing \parencite{Hua2016}; connecting a steel-slag filter to a bioreactor only
+after the initial DOC flush and mixing fine steel to preserve conductivity
+\parencite{Sellner2019b}; optimising removal, retention time, slag mass, and cost
+\parencite{Wang2020d}; controlling sediment influx and improving flow
+distribution \parencite{Shedekar2020}; and recognising that ligand-exchange PSMs
+suit tile drainage only where structures allow high-frequency media replacement
+(every 4--6 months) \parencite{Penn2020}. Fly-ash and pellet media raise
+saturation-timing questions---saturation time must be quantified before field use
+so pellets are replaced before shifting from phosphorus sink to source
+\parencite{Li2017,Li2018b}---and filter blends remain unoptimised with respect to
+media configuration, contact time, and high-flow contact
+\parencite{Agrawal2011,Agrawal2011b,Kumari2025,Kankarej2023}. Integrated
+woodchip-plus-PSM designs need multi-scale, multiyear evaluation of removal
+effectiveness, media placement, lifespan, and regeneration \parencite{Husk2018}.
+
+Novel phosphorus dynamics are emerging. \textcite{Zhang2024b} call for
+experiments on enhanced orthophosphate uptake by woodchips undergoing
+anoxic--oxic cycling and identification of polyphosphate-accumulating organisms,
+while redox-driven phosphorus release remains a monitoring gap requiring start-up
+flush and aging assessment with high-frequency dissolved-reactive-phosphorus
+(DRP) monitoring and drawdown plates \parencite{Bailon2025}, multi-season
+confirmation of DRP removal \parencite{Rivas2020}, more reactive passive-sampling
+resins \parencite{Li2020b}, and characterisation of dissolved organic phosphorus
+lability and bioavailability \parencite{Liu2024b}.
+
+\subsection{Aging, longevity, clogging, subsidence, and construction}
+
+The multi-decadal service life and physical stability of treatment structures are
+among the least-studied dimensions. \textcite{Ghane2018} recommend longer study
+of woodchip particle-size reduction, investigation of whether woodchip carbon
+becomes recalcitrant to the point of inefficiency before particle-size reduction
+throttles flow, and studies beyond ten years. \textcite{Christianson2020}
+similarly call for long-term documentation of biofilm formation, siltation, wood
+decay, and the effects of a decreasing carbon-to-nitrogen ratio and increasing
+lignocellulose index, to inform woodchip-recharge thresholds; long-term
+($>$8~yr) field programmes were underway to establish efficacy
+\parencite{Greenan2009}, and spatiotemporal removal should be evaluated across
+normal, wet, and drought years alongside woodchip C:N measurements
+\parencite{Hartfiel2023b}. Estimating replacement interval and cost depends on
+performance, lifespan, and residue cost, with pre-measured feedstock volumes
+proposed to control construction-method effects \parencite{Kohn2023}. Chemical
+clogging is mechanistically unresolved and needs simulation models for prevention
+\parencite{Guo2020,Guo2021}. Subsidence monitoring is a new methodological
+frontier: \textcite{Christianson2025b} propose applying a LiDAR method at
+additional sites---especially immediately after construction---to build
+subsidence time series and assess targeted inlet recharge. Sediment management at
+construction is itself a design frontier: \textcite{Feyereisen2023} plan to weigh
+the opposing effects of bypass flow and nitrate removal in a sediment-exclusion
+system and advise pre-construction investigation of sedimentation sources.
+Network-scale diagnostics also need extension---higher-pressure air injection and
+time-domain electromagnetic resistivity monitoring for large drainage networks
+\parencite{Henine2021}.
+
+\subsection{Pumped, energy-assisted, and coupled configurations}
+
+Pumping to raise hydraulic loading is an emerging but incompletely validated
+avenue. \textcite{DíazGarcía2025} call for assessing different pumping
+configurations, note that continuous 24-h operation or a longer pumping window
+could increase treated flow, and caution that pumping may suit only the most
+appropriate applications. \textcite{Hartfiel2024} advocate solar-powered pumped
+bioreactors to reduce operating and unit cost, and \textcite{Hartfiel2023}
+recommend sizing pumping to a bioreactor's actual rather than design capacity,
+timing pumping to source-water nitrate concentration, temperature, and carbon
+content, and extending applications to nitrate-laden surface waters, irrigation
+waters, ditches, cisterns, and groundwater. Management experiments---partial
+inlet-recharge strategies and dual-chamber operation engaging a second chamber
+only under high flow---are proposed \parencite{Hartfiel2023b}, and pumped
+constructed-wetland-plus-woodchip-bioreactor systems require analysis of
+particulate versus dissolved nutrient fractions during intense discharges and
+longer monitoring of the pumping effect on phosphorus retention
+\parencite{Pugliese2020}. Novel source waters and enhanced configurations broaden
+the space: denitrification responses to spring flow and concentration, with
+payment-based incentives for spring bioreactors \parencite{Easton2019};
+low-temperature bioelectrochemical reactors with horizontal flow, baffled
+oxidising/reducing zones, and plate cathodes \parencite{Law2018}; and coupled
+phosphorus-removal structures sited at critical source areas, including a proposed
+redox-coupled Fe(II)--nitrate reaction for nitrate removal by activated aluminium
+\parencite{Penn2024}.
+
+\subsection{Wetlands, saturated buffers, and companion structures}
+
+Frontier questions extend to practices deployed alongside or instead of
+bioreactors. For saturated riparian buffers (SRBs), a key challenge is predicting
+nitrate removal well enough to design more effective buffers, motivating
+unsteady-flow and numerical-transport methods and optimal-width approximations
+\parencite{McEachran2020}; replicating SRB results across landscapes, with
+biomass harvesting to sustain viability \parencite{Jaynes2014}; more
+sophisticated removal and hydrology components coupled to economic objective
+functions, and determination of maximum allowable buffer length before optimising
+width \parencite{Abdalaal2023}; confirmation that removal increases as vegetation
+matures, with multipipe configurations and additional monitored sites
+\parencite{Jaynes2019,Jaynes2019b,Singh2024b}; and paired-field determination of
+actual performance and the cost-effectiveness of the buffer-flow and
+controlled-drainage components \parencite{Ghane2025}.
+
+Constructed and treatment wetlands present persistent performance-limit
+questions. Hourly-time-step dynamic modelling is needed to approximate nitrate
+removal in tile-fed wetlands with means to buffer and gradually release flows
+\parencite{Tanner2011}, and long-term study is required of sustainable
+nitrogen-retention efficiency across climates, whether organic-carbon
+availability limits denitrification, the value of biomass cutting or slow-release
+carbon supplements, and flow-regime effects analysed through residence-time
+distributions \parencite{Tanner2005,Tanner2003,Tanner2005b}. A broad agenda for
+constructed treatment systems spans driving factors, flow--treatment
+relationships, design-parameter effects, long-term field tests, and
+winter-efficiency enhancement \parencite{Mendes2021}, alongside maturation of
+constructed wetlands for phosphorus retention \parencite{Mendes2020}, siting and
+sizing by wetland-to-catchment ratio and seasonal discharge
+\parencite{Steidl2019,Tournebize2017}, and subtropical adaptation of
+land-treatment (FILTER) systems \parencite{Gardner2001}.
+
+Denitrification-bioreactor and combined-installation refinement remains open:
+reactor size, packing materials, elimination of preferential flow, and pH
+maintenance \parencite{Aide2016}; separating the contributions of controlled
+drainage with and without a bioreactor and evaluating clogging potential
+\parencite{Husk2017}; and verification of design retention times and hydraulic
+conductivity \parencite{Feyereisen2015}. Controlled and flow-regulating
+structures raise further questions---improving the connection of regulator
+elements to limit effective flow sizes \parencite{Popek2021}, pipe-riser and
+event-scale trapping effects in water-and-sediment control basins
+\parencite{Gupta2019}, and soil-surface clogging, storage geometry, and
+discharge-capacity effects in drainage-inlet flow control \parencite{Nédélec2010}.
+Finally, subsurface attenuation adjacent to drainage needs broader
+characterisation: hyporheic-zone processes and buffer widths sufficient to
+guarantee adequate residence times across hydrogeologic settings
+\parencite{Puckett2005}, low-rate effluent irrigation to reduce direct transfers
+through mole-pipe drainage \parencite{Monaghan2007}, and long-term monitoring of
+tillage and earthworm effects on phosphorus leaching \parencite{Ulén2018}.
+Collectively, these companion-practice frontiers reinforce the section's central
+message: moving edge-of-field treatment from site-scale demonstration toward
+validated, transferable design guidance capable of meeting watershed-scale goals
+across diverse climates, soils, and hydrologic regimes.
+
+\printbibliography
+\end{document}

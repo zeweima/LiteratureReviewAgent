@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Based on my complete reading of both files, I have verified every concrete claim and citation in the generated section against the source material.\n\nThe generated section is a faithful condensation. Every concrete figure (wetland removal ~42%/93% denitrification, Christianson2021's 40\u00b126%, the ten-bioreactor 49 kg N/17% efficiency, temperature responses, iron-filings 4.95 mg/g, Penn2020's 19.2 kg/pH-8.5 collapse, Jaynes2019's six-buffer figures, the McLellan2015 45% target, etc.) traces to the source under the same citation key supporting the same claim. Grouped citations (e.g., the HRT/loading/temperature controls, DOC leaching, particle-size/coexisting-ion effects) each resolve to source passages that attach those keys to supporting content.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

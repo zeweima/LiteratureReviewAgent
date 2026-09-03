@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.After thoroughly reading both the section and the complete 823-line findings file, I verified every concrete claim (numbers, statistics, locations, study results, mechanisms) against the tagged source findings and checked each citation key.\n\nAll concrete claims trace to supporting findings under the correct citation keys. Spot examples confirmed: Sharma2006 (7.18\u21924.62 dS/m, 35.7%, 16.0\u201366.3%, yields 18.75\u201327.62%), Sharma2000 (ECe 1.4/2.1/3.4 at 25/50/75 m; infiltration 5.3\u219213.6\u201316.0), Chen2025 (55.5%/5.9%, <30 m, ~20 m/1.2 m), Yang2025 (891 experiments, layout recs, <20 cm/nonsignificant below 80 cm), Akram2013 (ECdw/ECiw 11\u201317, 29.4 t/ha), KARAJEH1994c (8,000\u219214,000 mg/L, ratio ~0.4), Youngs2000 (0.819/0.134/0.035/0.012; 1.7%/8.3%; 16.4%/25.0%), Qian2025 (ion leaching ratios), Addab2022 (6\u2192359 kg/ha, 1619\u21921651, 12%), Liu2025c (3.12\u20134.29 t/ha, ~34\u201346%), Steppuhn (72.8 vs 25.5 mm, 20-fold), etc. Grouped multi-key citations (e.g., Qian2021b/Tian2023c/Tian2024; KAMRA1991/KAMRA1994; Narjary2024/Tian2024) each match their respective findings.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

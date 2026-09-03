@@ -1,0 +1,20 @@
+{
+ "id": "01_introduction",
+ "theme": "Introduction",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 1,
+ "compiled": true,
+ "words": 765,
+ "cited": [
+  "SHALIT1995",
+  "Malone2014",
+  "Woo2023",
+  "GUPTA1993",
+  "Rogger2017",
+  "Ma2025",
+  "SKAGGS1994",
+  "Deng2011"
+ ],
+ "review_passed": true
+}

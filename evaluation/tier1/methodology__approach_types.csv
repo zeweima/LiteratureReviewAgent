@@ -1,0 +1,223 @@
+﻿doi,extracted_content,assessment,llm_evidence,human_note
+10.1002/2015WR017637,"• Observational
+• Physical Model Application",correct,"we nonparametrically quantify the nature of hydrologic change in the Minnesota River Basin
+
+Using a simplified dynamic interaction model that couples hydrology to river ecology",
+10.1002/hyp.11152,• Observational,correct,"Discharge from the artificial drain was measured with a bucket and stopwatch at weekly to biweekly intervals from 2001-2013, and every $15\mathrm{min}$ during the 2012 and 2013 WY with a flume and pressure transducer.",
+10.1002/hyp.7164,• Conceptual Model,correct,"To this end, we propose that the topographically based contributing area described by the partial and variable source area concepts be combined with, and where appropriate be superseded by, an energy-based contributing area.",
+10.1002/ird.3023,"• Physical Model Development
+• Physical Model Application",correct,"The main goal of this research is to obtain a new unsteady-state equation for the design of subsurface drainage systems
+
+Some ideal drawdown values of some laterals that discharge into collector no. 16 were used for validating the Safaa equation.",
+10.1002/ird.373,• Observational,correct,The assessment was made to determine whether the design objectives were achieved and to check the design criteria in order to use the reviewed design criteria later in new projects.,
+10.1002/lno.10742,• Observational,correct,"we used data from individual sampling events, rather than summarizing data by lake-year or by lake, despite potential concerns about sample independence.",
+10.1002/saj2.20099,• Experimental,correct,"Treatments consisted of a no-N control, two application times (early fall and late fall), and repeated at each application time two N sources (AA and LSM) and three Instinct rates applied with the LSM",
+10.1007/978-3-319-09054-2_115,• Observational,correct,"Field surveys and photo-interpretation indicate that karst processes take place at small and large scale, producing shallow and deep landforms.",
+10.1007/s10980-013-9872-2,• Observational,correct,Four different approaches were used to investigate the factors affecting nitrate concentrations in the watershed.,
+10.1007/s11069-008-9321-8,• Observational,correct,Geomorphological and hydrological observations deal with the moraine dam and with the Petrov lake area.,
+10.1007/s13157-024-01783-x,• Observational,correct,"We then quantified relationships between presence/absence of tile drainage inflow, physical variables, and biological variables (Table 1) to identify potential influences of tile drainage on organism abundance and taxonomic diversity.",
+10.1007/s13201-019-1023-8,• Physical Model Application,correct,"As mentioned earlier, the FE method is used to complete the numerical solution. The software program used for this analysis is SEEP/W.",
+10.1007/s40808-024-02242-6,"• Observational
+• Physical Model Application",wrong,"Groundwater and soil samples were collected in May 2023, accompanied by field data collection on the water table across the study area (Fig. 2b).
+
+(no mention of this in source)","The observational sampling component is supported, but the paper does not apply a process-based physical model;"
+10.1016/0378-3774(95)01137-8,• Experimental,correct,Tests on the River Run and the Crushed Rock were also carried out in three replications.,
+10.1016/S0016-7061(02)00178-7,"• Observational
+• Experimental",correct,"We carried out a sprinkling experiment on a drained grassland plot.
+
+From January to March 1996, we monitored the temporal and spatial variability of the groundwater table within the entire 1 ha field.",
+10.1016/S1164-5563(01)01105-0,• Observational,correct,We compared the population density of the deep burrowing earthworm Lumbricus terrestris L. above and between tile subdrains in 41 sample pairs on an eight hectare grass field.,
+10.1016/j.agee.2018.07.004,• Observational,correct,All fields in the watershed are operated by agricultural producers such that SDW is a real-world representation of working lands in the Midwestern US.,
+10.1016/j.agrformet.2010.05.003,• Observational,correct,"In this study, the use of LAS was evaluated by comparing with the EC measurements over a corn field with subsurface drainage installed in southeast North Dakota, USA.",
+10.1016/j.agrformet.2025.110602,"• Physical Model Application
+• Machine Learning Model
+• Observational",correct,"RZ-SHAw modelling scenario was created for each of the five croplands.
+
+The study used four machine learning models that have been previously reported to be effective in agricultural or hydrological simulations
+
+drawing upon field-collected winter subsurface drainage data from five research subsurface-drained croplands located in Eastern Canada",
+10.1016/j.agsy.2021.103110,"• Physical Model Application
+• Observational",correct,"To study impacts of climate change at this site, a calibrated and tested version of the EPIC model served to simulate the water cycle, DRP loss and crop growth over two different 8-year periods
+
+observed historical (2008-2015) weather data were used",
+10.1016/j.agwat.2004.01.001,• Observational,correct,The monitoring and evaluation of the system revealed that the water table was lowered; electrical conductivity (EC) of the soil decreased and crop yield and cropping intensity increased in the drained area.,
+10.1016/j.agwat.2011.05.015,• Physical Model Application,correct,The calibrated and tested RZWQ model was used to study long-term effects,
+10.1016/j.agwat.2011.11.006,"• Experimental
+• Physical Model Application
+• Observational",correct,"Interactions between these factors can be understood better via combinations of field experiments and modeling.
+
+The calibrated and tested RZWQM2 was then used to study the long-term effects of weather, subsurface drainage management (FD and CD), and N application rate on nitrate loss to tile flow in a corn and soybean rotation.
+
+Other measurements included crop yield, crop N uptake, monthly tile drainage, and nitrogen loss and flow weighted nitrate concentration (FWNC) in tile flow.",
+10.1016/j.agwat.2019.03.039,"• Observational
+• Physical Model Application",correct,"This study aimed to quantify the hydrological impacts of a supplementary drainage installation on the water balance of a clayey field section. The approach was based on combining a 2D model application with 10 years of intensive hydrological measurements (Aijö et al., 2014, 2017).",
+10.1016/j.agwat.2020.106674,"• Observational
+• Remote Sensing",correct,"The footprint of these fishing efforts was compared to visual AUV surveys done over a subset of the total seamount area on three of the features (Koko, Kammu, and Yuryaku).
+
+Making use of modelled activity by remote sensing data can provide transparency in regards to fishing efforts to all stakeholders because it can provide a means of determining the locations and approximate levels of fishing effort in remote areas.",
+10.1016/j.agwat.2020.106698,"• Physical Model Application
+• Experimental",correct,"Numerical experiments were performed to investigate the nitrogen loss of an improved subsurface drainage for a one-time drainage based on calibration and validation by field data, considering external and self-factors.
+
+In 2017, field experiments were performed twice, i.e., one on September 6 and another on September 12.",
+10.1016/j.agwat.2023.108164,• Experimental,correct,"Nine aggregates (three replicates of each) were examined in laboratory units containing clay-textured soil, with a perforated drainpipe surrounded by an aggregate envelope ranging in size from 0.7 to $62\mathrm{mm}$ and a constant $0.4\mathrm{m}$ head of water above the soil surface.",
+10.1016/j.agwat.2023.108362,"• Experimental
+• Observational",correct,"Simple low-cost, low disturbance, commercially available filters containing wood chips and phosphorus sorbing materials (PSM) were installed on two fields already using conservation practices in midwestern Ontario (ILD and LON) to quantify their ability to remove soluble reactive P (SRP), particulate P (PP), total P (TP) and total suspended sediments (TSS) from surface runoff.
+
+At both study sites, water samples were collected for a majority of surface runoff events (before and after the filter) as well as tile drainage (i.e., $88\%$ of surface events, $95\%$ of total surface flow; $86\%$ of tile events, $95\%$ of tile flow).",
+10.1016/j.agwat.2025.109641,"• Physical Model Application
+• Observational",correct,"The calibrated and validated DRAINMOD predicted the hydrology and yield for continuous corn under historical (1994-2023) and future (2030-2059) climatic conditions.
+
+DRAINMOD was calibrated and validated using a six-year dataset (October 2018 to October 2024) from a privately owned, subsurface-drained research field in Lenawee County, southeast Michigan, USA (Fig. 1).",
+10.1016/j.asej.2025.103450,• Physical Model Development,correct,The present analytical model employs the time-stepping technique to linearize the nonlinear term in the Boussinesq equation.,
+10.1016/j.biosystemseng.2021.05.002,"• Physical Model Development
+• Physical Model Application",correct,"The main objective is to develop a 3-D finite-element-based numerical model of a representative $100\mathrm{mm}$ diameter corrugated pipe using COMSOL Multiphysics version 5.3 (COMSOL Multiphysics, 2017a) in order to simulate the wall stress and vertical deflection under applied loads.
+
+The numerical model of a non-perforated pipe was used in a series of parametric studies to investigate the structural response of corrugated HDPE pipes due to loading conditions described in section 3.1.",
+10.1016/j.ecoleng.2016.02.014,• Observational,correct,"For all three scales, water quality monitoring strategies were similar based on weekly flow weight sampling.",
+10.1016/j.ecoleng.2017.10.002,• Experimental,correct,An experimental phase examining the performance of electrically-stimulated BERs compared to their non-electrically stimulated controls,
+10.1016/j.epsl.2017.12.025,"• Observational
+• Physical Model Application",correct,"Cave air was sampled using in-situ and discrete methods.
+
+Rayleigh distillation models were used as the theoretical basis to examine changes in the stable isotopic composition of $\mathrm{CH}_4$ in cave air caused by methanotrophy or $-\mathrm{OH}$ oxidation.",
+10.1016/j.geoderma.2007.04.009,• Physical Model Application,correct,"We used the Root Zone Water Quality Model (RZWQM) with 26 years of data from a study near Nashua, IA to evaluate year to year crop yield, water, and N balances.",
+10.1016/j.geoderma.2007.04.014,"• Physical Model Development
+• Physical Model Application
+• Observational",correct,"Therefore, to use APSIM to quantify the effects of conservation practices in the U.S. corn and soybean belt the model had to be modified to simulate tile drainage.
+
+After testing, APSIM was run using actual climate records from 1951 through 2003 to estimate the long-term corn yield and nitrate leaching for split and single preplant N applications of $150\mathrm{kgN / ha}$ (Table 1).
+
+Predicted crop yield, drainage flux, and nitrate flux in drainage from 1990 through 2001 were compared to observed data to evaluate the response of the modified model to year-to-year climate differences and plot-to-plot treatment differences.",
+10.1016/j.jhydrol.2005.08.010,"• Experimental
+• Observational
+• Physical Model Application",correct,"A bromide tracer experiment was carried out in the winter of 1999/2000 on the plots N2, N4 and N8 of the Infeld experimental station.
+
+Drainage outflow $(\mathrm{cm / d})$ was measured daily for plot A and every $6\mathrm{h}$ for plots B and C.
+
+Four different numerical model approaches were compared to describe and interpret the experimental observations: (i) one-dimensional single-porosity model (1D-SPM), (ii) one-dimensional dual-porosity mobile-immobile model (1D-MIM), (iii) two-dimensional single-porosity model (2D-SPM), and (iv) two-dimensional dual-porosity mobile-immobile model (2D-MIM).",
+10.1016/j.jhydrol.2008.12.026,"• Observational
+• Physical Model Application",correct,"We report $^{87}\mathrm{Sr}/^{86}\mathrm{Sr}$ and ion concentrations of sulfate, chloride, and strontium in the groundwater of the northern and central Yucatan Peninsula, Mexico.
+
+Using the program PHREEQC (Parkhurst, 1995), Perry et al. (2002) confirmed that mixtures of seawater with water from Cenote Azul, located near the Caribbean coast in southeastern Quintana Roo (Fig. 1), would not dissolve limestone.",
+10.1016/j.jhydrol.2014.07.035,• Observational,correct,Stream discharge from subwatershed $B$ of the Upper Big Walnut Creek and all tile drain discharge within the subwatershed were monitored continuously over a 6-year period.,
+10.1016/j.jhydrol.2016.09.021,"• Experimental
+• Observational",correct,"we conducted constant-head column experiments using old woodchips that were excavated from a four-year old denitrification bed near Willmar, Minnesota, USA
+
+To evaluate non-linearity of water flow in a bed, we used the V-notch weir calibration data from Ghane et al. (2014) that was performed in a trapezoidal bed under field conditions in Ohio, USA.",
+10.1016/j.jhydrol.2021.126218,• Observational,correct,two artificially drained sites within the Piako River catchment on the North Island of New Zealand were monitored over the 2016 and 2017 drainage seasons,
+10.1016/j.jhydrol.2022.128146,• Observational,correct,"water, nutrient, and tracer $(\delta^{18}\mathrm{O},$ electrical conductivity) fluxes were measured over two years from a tile-drained field in Indiana, USA",
+10.1016/j.limno.2005.06.005,"• Observational
+• Physical Model Application",correct,"Following a data research operation data were collected from various institutions and offices on the position of drainage areas for the main portion of the Middle Mulde catchment area.
+
+To determine the seepage water rate, the 'ABIMO' model of Glugla and Tiemer (1971) was applied.",
+10.1016/j.pce.2005.07.014,"• Experimental
+• Observational",correct,"A field experiment was conducted during one drainage season (November 2003-March 2004) in the Brie region (80 km east of Paris, France) on a subsurface drained silty soil. Water table elevation and surface runoff were monitored above the drain and at midpoint between drains.",
+10.1016/j.pce.2015.10.004,• Observational,correct,The piezometers were augured to a depth of $1.8 \mathrm{~m}$ and water table depths were monitored using a dip meter with a beeper.,
+10.1016/j.scitotenv.2019.03.483,• Physical Model Application,correct,"The latest version of SEAWAT (Langevin et al., 2008), a coupled version of MODFLOW and MT3DMS to integrate the density-dependent flow and the solute transport equation, was used to simulate seawater intrusion in the Nile delta aquifer at a regional scale.",
+10.1016/j.scitotenv.2020.138004,• Physical Model Application,correct,"We used variations of the Soil and Water Assessment Tool (SWAT) to represent different hydrologic models. SWAT is a physically based watershed-scale model developed by the U.S. Department of Agriculture Research Service to evaluate the effects of land management on water quantity and quality (Arnold et al., 2012).",
+10.1016/j.scitotenv.2023.166769,• Observational,correct,"Concentrations and loading of N, P, and total organic carbon (TOC) were monitored, along with other water quality parameters for the field discharge, in 2018-2021.",
+10.1016/j.still.2017.12.012,"• Experimental
+• Observational",correct,"A field experiment was conducted at the SANRU paddy fields from 2011 to 2015 to evaluate long-term effects of subsurface drainage on soil hydraulic conductivity and drainable porosity based on drain discharge and water table drawdown.
+
+daily measurements of the water table and drainage discharge were made manually during drainage periods until drain discharges disappeared",
+10.1023/A:1014807901461,• Observational,correct,"To quantify the subsidence and its spatial distribution, building damage in 35 hectares of the city was systematically assessed.",
+10.1038/s41598-018-34327-5,• Observational,correct,Data collection - boreholes. Thirteen boreholes were drilled into Khumbu Glacier in May 2017 at three sites in the ablation area (Fig. 1) using a pressurised hot-water drilling system adapted for operation at high elevations.,
+10.1046/j.1365-2389.2004.00596.x,"• Observational
+• Experimental",correct,"Concentrations of soluble reactive P in drainage water and groundwater were monitored from 0.9 to $35\mathrm{m}$ depth.
+
+Sorption isotherms were established by shaking $10\mathrm{g}$ of soil with $20\mathrm{ml}0.01\mathrm{M}$ KCl solution that contained 0, 0.07, 0.33, 1.63, 6.53, 16.32, 32.63, 48.95 and $65.26\mathrm{mgl^{-1}}$ $\mathrm{PO_4^{3 - }}$ P supplied as $\mathrm{KH}_2\mathrm{PO}_4$ for 24 hours.",
+10.1061/(ASCE)0733-9437(1995)121:4(292),• Experimental,correct,"The experimental site was a 4.4-ha area near Baton Rouge, Louisiana, on an alluvial soil that had been precision-graded to approximately $0.1\%$ slope.",
+10.1061/(ASCE)0733-9437(2000)126:6(375),"• Physical Model Development
+• Physical Model Application",correct,"Mapping techniques using conformal transformations can be employed to solve Laplace's equation to obtain the complex seepage potential $\omega = \varphi + i\psi$ as a function of the complex position $z = x + iy$ , which gives the potential and streamline patterns to this ground-water problem.",
+10.1061/(ASCE)HE.1943-5584.0000592,"• Physical Model Development
+• Physical Model Application",correct,"In the present study, an SCS-CN-based LTHS model is formulated by suitably modifying and amalgamating the previously noted three concepts of Durbude et al. (2011), Yuan et al. (2001), and Putty and Prasad (2000) to simulate the daily stream flow.
+
+This model is tested for its applicability on hydrological data of 17 watersheds falling in different agro-climatic zones of India and its results are compared with the existing model.",
+10.1061/(ASCE)IR.1943-4774.0000622,"• Observational
+• Physical Model Application",correct,"Drainage flow data were collected at two sites in Iowa with drainage areas consistent with bioreactor design methodology (Table 1).
+
+To more fully evaluate the Christianson et al. (2011a) Manning's based design approach, the flow data were further used to model nitrate-N removal in bioreactors designed using either increasing design flow rates or design retention times (Table 2, volume optimization modeling).",
+10.1061/JPEODX.0000191,"• Physical Model Development
+• Physical Model Application
+• Experimental",wrong,"A coupled hydromechanical model with considerations of climatic effect was proposed and calibrated.
+
+The finite-element method (FEM) software Abaqus (Abaqus 2014) was used to evaluate the seasonal variations of the base course resilient behavior according to daily meteorological data, such as relative humidity (RH), air temperature, wind speed, solar radiation, and precipitation.
+
+The laboratory test performed by Leung et al. (2015) was used as a reference to calibrate the proposed numerical model.",The stated experiment is another study.
+10.1080/00103624.2014.967863,• Observational,correct,Grid sampling with a spacing of $20\mathrm{m}$ and depth of $0 - 25\mathrm{cm}$ was done before and after the rainy season in 2012; a total 167 soil samples (Figure 1b) were obtained.,
+10.1080/00103628409367542,• Experimental,correct,There were 3 replicate $20.0~\mathrm{m}^2$ plots per treatment.,
+10.1080/00380768.2013.878643,• Experimental,correct,"The study design was a factorial experiment which consisted of two tillage (no-till, NT and chisel-till, CT) factors and two drainage (tile-drainage, TD and non",
+10.1080/07900627.2011.598132,• Conceptual Model,wrong,"The constrained optimization framework was designed to examine ways to allocate the Nile's waters throughout Egypt to maximize net discounted farm income summed over crops, seasons, time periods, and locations, subject to a number of constraints.
+
+We constructed a catchment scale integrated mathematical optimization model, accounting for hydrological, economic, agronomical, institutional, and environmental dimensions of Egypt's use of the Nile.","This paper present an econmic analysis of Improved Irrigation Water Use Efficiency, and the method/approach does not fit into any predefined approaches."
+10.1097/00010694-200108000-00004,• Experimental,correct,"Six N management treatments were replicated three times in a randomized complete block design at Iowa State University's northeastern research center in Nashua, Iowa.",
+10.1111/1752-1688.70018,"• Experimental
+• Observational",correct,"To ensure robust comparisons between the two fields, a before-after-control-impact (BACI) design (Smith 2002) was employed.
+
+This study examines the effect of alfalfa (Medicago sativa L.) on nitrogen (N) and phosphorus (P) loads in subsurface (tile) drainage across storm events using edge-of-field monitoring data from two paired-field sites (A and B) with a before-after-control-impact (BACI) experimental design, located in the northwest region of Ohio, United States.",
+10.1111/j.1365-3180.1978.tb01146.x,• Observational,correct,Design of field experiments,
+10.1111/j.1752-1688.2010.00467.x,"• Observational
+• Physical Model Application",correct,"Data used in this design were collected at the river intake (pumping rates at meters near the river), at the outlets of the experimental wetlands (water level behind control structures to estimate flow and daily turbidity measurements in the laboratory), and at the north end of the swale (water stage for flow calculations and daily turbidity in the laboratory).
+
+To evaluate the effective discharge of the swale, the Wolman-Miller model was applied, which requires sediment transport rate and hydrological data.",
+10.1117/1.1403450,"• Physical Model Development
+• Physical Model Application
+• Observational",correct,"The experiments were performed in two distinct steps. First, the SAR image formation model described in Sec. 2 was used to simulate SAR images of corn crop canopies grown in fields with periodic surface drainage reliefs.
+
+Each simulation was validated with the actual SAR image corresponding to the same crop canopy with similar growing and undulation conditions.
+
+Second, the actual SAR images were also used to retrieve statistical and spatial measurements.","We only check the correctness, not the completeness. Missing Remote Sensing approach."
+10.1117/12.2197912,• Experimental,correct,Perfusion experiment was done before and after the laser ablation to investigate the effect of drainage channels on the outflow rate of aqueous humor.,
+10.1130/0016-7606(1996)108<0794:SOTCPD>2.3.CO;2,"• Observational
+• Remote Sensing",correct,"Water-table fluctuations are
+
+estimated from field observations, but no quantitative data on hydroperiod are available.
+
+Vegetation distribution was determined by using multispectral SPOT satellite imagery (Fig. 5), high- and low-level air photographs, and ground surveys.",
+10.1139/T09-021,• Physical Model Application,correct,A numerical model for saturated-unsaturated flow was used to solve the problem while focusing on the effect of subbase material characteristics.,
+10.1139/as-2018-0028,• Observational,correct,"Here, we compare 3056 in situ frost table depth measurements split between mineral earth hummocks and organic inter-hummock zones across four dominant shrub-tundra vegetation types.",
+10.1139/cjss-2016-0036,• Experimental,correct,"A laboratory study determined the effects of brine on saturated hydraulic conductivity $(K_{\mathrm{s}})$ of four nonimpacted surface soils from western North Dakota, USA.",
+10.1139/cjss-2018-0115,• Experimental,correct,"This field study quantified N losses from three reps of shallow (SD), deep/conventional (DD), and controlled drainage (CD) on farmland in Nova Scotia.",
+10.1155/2021/8827300,• Conceptual Model,wrong,"A mathematical model was formulated for the horizontal and vertical drainage optimal design. The result was a nonlinear optimization problem with nonlinear constraints, which required numerical methods for its solution.",This work present an optimization approach based on some hypothsis and some physical formula. It is hard to put into a predefined approaches.
+10.13031/aea.15991,• Experimental,wrong,(no mention of this in source),"it is mainly an software dev work, which does not fit into a predefined appraches."
+10.13031/aea.16032,"• Experimental
+• Observational",correct,"The performance of the compound weir equations $(\mathrm{Q}_{\mathrm{V} + \mathrm{R}}$ eq. 3 and $\mathrm{Q_{CW}}$ ,eq.6) during overflow was evaluated by comparing measured discharge with estimated discharge using root mean square error (RMSE), percentage bias (PBIAS), and mean absolute percentage error (MAPE) as follows:",
+10.13031/trans.11922,• Observational,correct,This objective was addressed using water table recession rates from two pairs of controlled and free-draining fields located at the Davis Purdue Agricultural Center in Indiana over a period of nine years (2006-2014).,
+10.13080/z-a.2016.103.017,• Experimental,correct,"Experimental design. The four rates of mineral fertilizers: F0 - without fertilizers, F1 - $\mathrm{N}_{45}\mathrm{P}_{30}\mathrm{K}_{45}$ , F2 - $\mathrm{N}_{90}\mathrm{P}_{60}\mathrm{K}_{90}$ and F3 - $\mathrm{N}_{135}\mathrm{P}_{90}\mathrm{K}_{135}$ calculated in form of $\mathrm{P}_2\mathrm{O}_5$ and $\mathrm{K}_2\mathrm{O}$ were used together with four rates of liming: L0 - without liming, L1 - 2.58 t ha $^{-1}$ CaCO $_3$ , L2 - 5.70 and L3 - 11.40 t ha $^{-1}$ CaCO $_3$ (slate ash with 80% neutralizing value) (Fig. 1).",
+10.1680/jgein.15.00028,"• Experimental
+• Physical Model Application",correct,"In order to investigate the impact on slope stability of an internal drainage system within the embankment-type configuration a small-scale (1:20) laboratory physical model set-up similar to those of Akay et al. (2012, 2013, 2014a, 2014b), Özer and Akay (2014) and Özer et al. (2014) was used.
+
+The calibrated values of $K_{\mathrm{sat}}$ along with the laboratory-measured retention parameters of sand were used by SEEP/W, a finite-element model for solving Richards equation for two-dimensional variably saturated flow (Geo-Slope International Ltd 2012a).",
+10.2134/agronj2004.0259,• Experimental,correct,"This design enabled us to compare three N rates $(\approx 56\mathrm{kg~ha^{-1}}$ , each field's LSNT rate, and $>220\mathrm{kg~ha^{-1}}$ ) across all soil map units within each field.",
+10.2134/agronj2008.0087,• Experimental,correct,"The experiment, conducted twice, was arranged as a randomized complete block design with three replications in 2005-2006, and four replications in 2006-2007.",
+10.2134/agronj2015.0606,"• Experimental
+• Physical Model Application",correct,"The Adapt-N tool was validated using 113 paired field strip trials conducted in New York and Iowa during the 2011 to 2014 growing seasons (Fig. 1).
+
+Both leaching and gaseous losses are simulated deterministically in the PNM model in a process-based manner based on soil water dynamics and first-order reaction rate equations of N transformations that are modified by temperature and water conditions (Sogbedji et al., 2006).",
+10.2134/jeq1982.00472425001100030040x,"• Experimental
+• Observational",correct,"In greenhouse experiments with saltgrass, the following organic amendments were added to red mud at a rate of one volume of ameliorant to two volumes of moist red mud, unless otherwise noted:
+
+In March 1981, mud samples $(0 - 10\mathrm{cm})$ were collected from the field site in sealed polyethylene tubs at six distances from the lake edge (dike) corresponding to a texture gradient.",
+10.2134/jeq2004.1803,• Observational,correct,"The field experimental site has drains (10-cm diameter) installed at spacings of 5, 10, and $20\mathrm{m}$ at an average depth of",
+10.2134/jeq2010.0489,"• Experimental
+• Observational",correct,"The research site consisted of three types of subsurface drainage systems: (i) shallow $(50 \mathrm{~mm}$ drainage tile at $0.50 \mathrm{~m}$ depth), (ii) conventional $(100 \mathrm{~mm}$ drainage tile at $0.80 \mathrm{~m}$ depth), and (iii) controlled drainage $(50 \mathrm{~mm}$ drainage tile at $0.80 \mathrm{~m}$ depth) (Fig. 1).
+
+Monitoring consisted of drainage outflow and water quality.",
+10.2136/sssaj2014.01.0008,• Observational,correct,"Detailed documentation of soil pipe diameter, direction, gradient, and connectivity from these excavated soil profiles were used to derive morphologic attributes and distribution of soil pipes.",
+10.2166/wqrj.2007.025,• Physical Model Application,correct,The RZWQM was used to evaluate the effect of delaying N application until side-dress time on the silt loam and sandy loam soils.,
+10.2489/jSWC.2023.00147,• Observational,correct,"To achieve this, we sampled six fields in northwest Minnesota representing two timescales",
+10.2489/jswc.67.6.485,"• Experimental
+• Observational",correct,"Three of nine plots in an existing tile drainage research site were retrofitted with control structures so that the drainage level could be controlled.
+
+Water flow from the tile in each plot, $\mathrm{NO}_3$ concentration in the drainage, and crop yield were measured over a four year period from 2006 to 2009.",
+10.3390/agriculture14111954,• Experimental,correct,"This experiment was conducted in an upland field converted from a paddy in Orye-ri, Bubuk-myeon, Miryang-si, Gyeongsangnam-do $(35^{\circ}29' 32.3''\mathrm{N}, 128^{\circ}44' 31.0''\mathrm{E})$ , for two cropping seasons from 2021 to 2022.",
+10.3390/agronomy10050625,"• Physical Model Application
+• Observational",correct,"In this study, the DRAINMOD (Wayne Skaggs, North Carolina State University, Raleigh, USA) computer simulation model was used to predict the effects of CD on the time horizons of 2021-2050 (near future) and 2071-2100 (far future) assuming the Representative Concentration Pathway (RCP) 4.5 emission scenario.
+
+Each subsection has one outlet with a control well. Periodic measurements of outflows from each subsection were carried out in the years 1988-2003. In 2019, the research restarted and included measurements of subsurface outflow.",
+10.3390/agronomy15051222,• Experimental,correct,This study conducted field experiments from 2023 to 2024,
+10.3390/w10010031,• Experimental,correct,"Through an experimental study in large lysimeters that were filled with saline coastal soil and planted with maize, we examined the drainage performance of the two organic materials by comparing with the conventional plastic drainage pipes",
+10.3390/w17091388,• Experimental,correct,Through field experiments,
+10.4067/S0718-95162011000200004,"• Observational
+• Physical Model Application",correct,"The relationship between total phosphorus (TP) and molybdate-reactive phosphorus (MRP) concentrations in subsurface drainage waters in the hydrological conditions prevailing during autumn and spring flow events was statistically analysed using multiple linear regression analysis.
+
+Hydrological outputs from the model include infiltration, evapotranspiration, depth to the groundwater from the soil surface, soil volumetric water content, depth of the dry zone, snow cover and average soil temperature.",The field hydrology model DRAINMOD is a water balance model that uses functional algorithms to approximate the hydrological components of shallow groundwater soils

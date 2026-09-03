@@ -1,0 +1,25 @@
+{
+ "id": "11_conclusions",
+ "theme": "Conclusions",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 1,
+ "compiled": true,
+ "words": 1029,
+ "cited": [
+  "Rogger2017",
+  "Kladivko2001",
+  "Youssef2006",
+  "Radcliffe2015",
+  "Amado2018",
+  "Naz2009",
+  "Randall2001",
+  "Strock2011",
+  "Christianson2021",
+  "Mitchell2023",
+  "Kadlec2012",
+  "McLellan2015",
+  "Christianson2014"
+ ],
+ "review_passed": true
+}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.After a careful line-by-line comparison of the generated section against the source material, I checked every concrete claim (numbers, mechanisms, study findings) and every citation key for provenance.\n\n**Faithfulness:** All concrete claims trace to the source \u2014 e.g., Byrne2023's \"0.7 to 19 mm\", Penn2020's \"every 4\u20136 months\", Singh2002's \"60 kg N ha\u207b\u00b9 ... three 20 kg N ha\u207b\u00b9 ... 10-day intervals\", BENSON1993's \"0.8 ha test plot\" and \"10\u201320 year\", Gardner2001's \"25\u201330 mg L\u207b\u00b9\", Pampolino2000's \"10 capsules per 135 m\u00b2\", Monaghan2007's \"up to 95%\", Greenan2009's \">8 yr\", Sellner2019b's \"1\u20132 weeks\", Kumari2025's \"30 min\", D\u00edazGarc\u00eda2025's \"24 h\"/\"six months\". The reorganisation (splitting bioaugmentation/microbiome/hydraulics into separate subsections) is legitimate synthesis, not invention.\n\n**Citation provenance:** Every \\parencite/\\textcite key in the generated section appears in the source attached to the same content \u2014 including the multi-key meta-message \\parencite{Christianson2021,Maxwell2022,Bell2015}, the Hartfiel2022 by-product/HRT attribution, the Bock2018 regional-differences claim, the Kouanda2021 nitrite vs. composting/DOC split (both uses present in source), and the Wang2025b controlled-drainage claim. No swapped, borrowed, or absent keys found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

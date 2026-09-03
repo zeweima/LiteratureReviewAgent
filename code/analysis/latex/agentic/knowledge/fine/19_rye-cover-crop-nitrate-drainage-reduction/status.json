@@ -1,0 +1,33 @@
+{
+ "id": "19_rye-cover-crop-nitrate-drainage-reduction",
+ "theme": "Rye Cover Crop Nitrate Drainage Reduction",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 1,
+ "compiled": true,
+ "words": 3491,
+ "cited": [
+  "Kaspar2012",
+  "Malone2018",
+  "Feyereisen2006b",
+  "Malone2014b",
+  "MartinezFeria2016",
+  "Waring2020",
+  "Qi2011b",
+  "Bawa2023",
+  "Strock2004",
+  "Birru2023",
+  "Malone2020",
+  "Krueger2013",
+  "Kladivko2014",
+  "Malone2023",
+  "Qi2010b",
+  "Daigh2014b",
+  "Lacey2015",
+  "Yang2021",
+  "Chatterjee2025",
+  "Gupta2022",
+  "Gupta2023b"
+ ],
+ "review_passed": true
+}

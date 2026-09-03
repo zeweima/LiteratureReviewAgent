@@ -1,0 +1,5 @@
+{"label": "gen[a1]", "model": "opus", "in": 2498, "out": 14771, "cache_read": 327614, "cache_creation": 64464, "cost_usd": 1.1911370000000001}
+{"label": "gen-fix[a1.1]", "model": "opus", "in": 2639, "out": 5391, "cache_read": 437053, "cache_creation": 21990, "cost_usd": 0.5872615}
+{"label": "review", "model": "opus", "in": 2492, "out": 14713, "cache_read": 102141, "cache_creation": 61321, "cost_usd": 1.0453225}
+{"label": "gen[a2]", "model": "opus", "in": 2492, "out": 1348, "cache_read": 103380, "cache_creation": 40335, "cost_usd": 0.5021909999999999}
+{"label": "review", "model": "opus", "in": 2492, "out": 11748, "cache_read": 102666, "cache_creation": 60933, "cost_usd": 0.9675799999999999}

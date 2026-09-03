@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Based on my careful review of both files, every concrete claim in the section is supported by the findings, and each citation key correctly attributes its claim to the source paper. I traced each `\\textcite`/`\\parencite` to the corresponding `[citation_key ...]` findings \u2014 including specific quantitative claims (Bandura2025's 10 kg N/ha, N:corn ratio 5.6, 30 kg N/ha thresholds; Jarvie2017's 40% target; Makhtoumi2025's ~10 cm harrow), named tools (WHCNS, APLE, MANAGE, INVEST, Miscanthus \u00d7 giganteus), and region-specific programs \u2014 all match. All citation keys are within the allowed anchor list and correctly assigned.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

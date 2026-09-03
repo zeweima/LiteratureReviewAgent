@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely to check faithfulness and citation provenance.Let me continue reading the source material.I have now read the entire generated section and the complete source material. Let me verify my assessment of the borderline citation groupings before finalizing.\n\nBased on my thorough comparison:\n\n**Faithfulness:** Every concrete claim in the generated section \u2014 numbers, percentages, locations, study results, mechanisms \u2014 traces to the source material. I checked magnitudes (e.g., Norwegian 76\u201391% runoff / 87\u201395% TN, Iowa 17.1 mg/L flow-weighted with 74.2% MCL exceedance, active macroporosity ~0.17%, chloride factors 20\u2013400, CD outflow 17\u2013>80%, atrazine losses 0.11\u20130.22%, selenium 0.122 mg/L ~230\u00d7 reference), and all match the source with correct attribution.\n\n**Citation provenance:** Every `\\parencite`/`\\textcite` key in the generated section appears in the source attached to content that supports the corresponding generated claim. Multi-key groupings (e.g., Bechmann2014/Raymond2012/Williams2015/Grose2022; Kr\u00f6ger2013/Wilson2019/Sharpley2019; Tournebize2017/Drake2018/Gordon2021/Kovacic2006) all resolve correctly to the same keys in the source. A few end-of-sentence co-citations (e.g., Harris2018 with Leberg2024/Winikoff2020 under \"restored habitats\"; YliHalla2022 with Tiemeyer2009 under peat P) draw from the same source subsections and the load-bearing claims are supported by co-cited keys, consistent with faithful condensation.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

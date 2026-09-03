@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files read completely. I cross-checked every concrete claim and citation in the generated section against the two source materials.\n\nThe generated section faithfully condenses the source. Spot-checking representative claims:\n- Overview figures (>70% site-years, 14.0/13.5/12.1 mg L\u207b\u00b9) \u2192 Liu2021, Hertzberger2019 \u2713\n- Rate/RSN (Jaynes2001 5\u201345 mg, Bandura2025 42 vs 62, Randall2001 225 kg, Zhao2016 9.3 Mg at 193 kg) \u2713\n- Cover crops (Kaspar2012 48%/58%/26%, Ruffatti2019 39/38/40/47/66%, Gentry2024 115\u219265, Malone2020 47.5\u219218.9/63.6\u219217.0) \u2713\n- Mechanisms (Lacey2015 188.1\u2013249.9, 40/31/27%, Yang2021 15%/9%/21.1/17%) \u2713\n- Regional (Kladivko2014 2.534/7.662 Mha, 153 = 19% of 813 Mkg; Malone2023 216 Mkg, 27%) \u2713\n- Harvested rye (Malone2018 $276\u2192$468, 145.2 vs 64.7 GJ, net energy ratios 12/14) \u2713\n\nCitation keys all trace to the source under the same claim, including the Gupta2023 vs Gupta2023b distinction (used correctly), and the split of the \"25\u201350%/40\u201345%\" headline to Kaspar2012/Malone2018/Feyereisen2006b/Malone2014b.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

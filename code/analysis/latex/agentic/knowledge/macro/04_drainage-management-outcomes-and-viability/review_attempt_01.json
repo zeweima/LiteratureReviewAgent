@@ -1,0 +1,10 @@
+{
+ "parsed": {
+  "passed": false,
+  "unfaithful": [],
+  "miscited": [
+   "\"close to 90\\% of Finnish farmers rated subsurface drainage important, ahead of irrigation \\parencite{PeltonenSainio2021,Ogino2007}\" -- the Finnish ~90%-importance statistic is supported in the source only under PeltonenSainio2021; the source attaches Ogino2007 to a different claim (Japan's evolving rice-field drainage standards and new uses of subsurface facilities for irrigation and ecosystem restoration), so Ogino2007 is a borrowed key that does not support the generated Finnish-farmer claim."
+  ]
+ },
+ "raw": "I'll read both files completely.I need to read the rest of the source file.Let me read the remaining lines.I've read both files completely. Let me verify the citation-provenance concern I noticed around the adoption sentence.\n\nThe generated section is a dense but overwhelmingly faithful condensation of the source. Nearly every numeric claim, location, and study result traces back to the source under the same citation key. I found one citation-provenance issue: the concrete \"90% of Finnish farmers\" adoption statistic is attributed partly to `Ogino2007`, but in the source `Ogino2007` covers Japan's rice-field drainage standards (a different topic/country), while only `PeltonenSainio2021` supports the Finnish figure.\n\n{\"passed\": false, \"unfaithful\": [], \"miscited\": [\"\\\"close to 90\\\\% of Finnish farmers rated subsurface drainage important, ahead of irrigation \\\\parencite{PeltonenSainio2021,Ogino2007}\\\" -- the Finnish ~90%-importance statistic is supported in the source only under PeltonenSainio2021; the source attaches Ogino2007 to a different claim (Japan's evolving rice-field drainage standards and new uses of subsurface facilities for irrigation and ecosystem restoration), so Ogino2007 is a borrowed key that does not support the generated Finnish-farmer claim.\"]}"
+}

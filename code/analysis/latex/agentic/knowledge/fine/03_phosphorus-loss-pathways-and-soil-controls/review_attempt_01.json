@@ -1,0 +1,10 @@
+{
+ "parsed": {
+  "passed": false,
+  "unfaithful": [
+   "Simulations indicated moldboard tillage could reduce drainage DRP and PP (by up to 48\\% and 30\\%) but at the cost of higher runoff losses \\parencite{Pan2023}\" -- the Pan2023 findings state the opposite for runoff P loss: \"Under CMP75, conventional tillage caused a 50.04% decrease in overall P loss through runoff and an 18.58% decrease in overall P loss through tile drainage compared with no-till,\" so tillage reduced runoff losses rather than increasing them; \"at the cost of higher runoff losses\" is unsupported/contradicted."
+  ],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.I need to read the rest of the findings file (lines 283-920).Based on my complete review of both files, I checked every concrete claim and citation. The section is very faithful overall\u2014the vast majority of numbers, locations, and findings map correctly to the cited papers. I found one claim that contradicts its source.\n\nThe Pan2023 claim states moldboard tillage reduces drainage DRP/PP \"but at the cost of higher runoff losses.\" However, the Pan2023 findings show the opposite for runoff P: \"Under CMP75, conventional tillage caused a 50.04% decrease in overall P loss through runoff and an 18.58% decrease in overall P loss through tile drainage compared with no-till\" (i.e., tillage reduced BOTH runoff and drainage P losses, not increased runoff losses).\n\n{\"passed\": false, \"unfaithful\": [\"Simulations indicated moldboard tillage could reduce drainage DRP and PP (by up to 48\\\\% and 30\\\\%) but at the cost of higher runoff losses \\\\parencite{Pan2023}\\\" -- the Pan2023 findings state the opposite for runoff P loss: \\\"Under CMP75, conventional tillage caused a 50.04% decrease in overall P loss through runoff and an 18.58% decrease in overall P loss through tile drainage compared with no-till,\\\" so tillage reduced runoff losses rather than increasing them; \\\"at the cost of higher runoff losses\\\" is unsupported/contradicted.\"], \"miscited\": []}"
+}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.I need to read the rest of the findings file. Let me continue reading in pages.Continuing to read the rest of the findings file.Continuing to read the remainder of the findings file.I've now read the entire section and the complete findings file (all 1190 lines). Let me verify my analysis is complete by having systematically cross-checked every concrete claim against the tagged findings.\n\nHaving traced each numeric value, statistic, location, study result, and mechanism in the section back to its supporting finding(s), and checked each citation key against the paper that the claim actually comes from:\n\n- All quantitative claims (Norway 76\u201391% runoff / 87\u201395% TN loss; Illinois tile loads 22.7 and 59.9 kg/ha; Iowa 29-watershed ranges; Czech 9.6\u201317.8 mg/L; German 33\u219210 kg N/ha; CD/CDSI meta-analysis 84 pubs/52 sites/1788 site-years; Quebec 24%/25%/43%; NC nine-year 33%/30%; wetland removals; bioreactor/wall 55%/58\u201359%; salinity 4\u2013390 g/L; Monaghan effluent bypass 81%/72%/55%; McLellan 30.2%/45%/2.5%; Mitchell 87%; etc.) are supported by the findings.\n- Citation keys match the source of each claim (e.g., R\u00b2=0.84\u20130.86 \u2192 Dattamudi2020; SRP driver in Indiana \u2192 Trentman2020; 58% unfertilized/fertilized \u2192 Ghane2016b; k20=25 & 1.106 \u2192 Kadlec2012; 340%/118% \u2192 SHIRMOHAMMADI1995).\n\nThe section is a faithful, correctly-attributed synthesis. No hallucinated or misattributed concrete claims were found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

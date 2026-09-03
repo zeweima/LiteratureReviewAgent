@@ -1,0 +1,376 @@
+{
+ "title": "Tile Drainage: Research Frontier",
+ "budget": 20000,
+ "sections": [
+  {
+   "kind": "abstract",
+   "title": "Abstract",
+   "summary": "One-paragraph statement of the review's scope: the open questions and research priorities that define the tile-drainage frontier.",
+   "guidance": "Frame the whole paper around what remains uncertain, untested, or unstudied rather than settled results. Signal the recurring meta-finding that ideas have outrun the data able to test them, and preview the frontier's main strands (observation, modeling, nutrient and water management, edge-of-field treatment, salinity, unintended consequences, and integration). Do not cite specifics or duplicate section detail.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 250,
+   "word_hi": 350,
+   "id": "00_abstract",
+   "deps": [
+    "intro",
+    "conclusions"
+   ]
+  },
+  {
+   "kind": "intro",
+   "title": "Introduction",
+   "summary": "Motivates a frontier-focused synthesis and lays out how the paper organizes open questions into interlocking strands.",
+   "guidance": "Establish that the field's most confident statements are about what remains unknown, and that the binding constraint is coordinated, long-term, multi-scale data plus better process representation advancing together. State the paper's logic: enabling frontiers (data, models, mapping/scaling) first, then domain frontiers (nutrients, water-table management and design, edge-of-field treatment, salinity), then unintended consequences and finally integration. Make explicit that this is the research-frontier component of a larger review, so open questions belong here while settled knowledge lives in the companion component. Avoid resolving any gap; set them up.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 1000,
+   "word_hi": 1400,
+   "id": "01_introduction",
+   "deps": [
+    "theme"
+   ]
+  },
+  {
+   "kind": "theme",
+   "title": "The Observational Foundation: Longer, Denser, and Harmonised Monitoring",
+   "summary": "The recurring call for records long enough, broad enough, and consistent enough to separate management signal from environmental noise.",
+   "guidance": "Own the general argument that short, single-site, seasonally incomplete records mislead, and that longer, spatially replicated, harmonised, well-instrumented observation is the precondition for every other advance. Treat monitoring as its own frontier here so that later domain sections can state their data needs briefly and defer the general case to this section. Leave model-calibration data needs to the modeling section, drain-network detection to the field-to-watershed section, and constituent-specific management data to the nutrient, salinity, and consequences sections.",
+   "subsections": [
+    {
+     "title": "Extending the temporal record",
+     "guidance": "Draw on macro 3 'extending the temporal record', macro 0 'long-term, year-round, and multi-scale monitoring', and macro 1 'long-term, multi-scale monitoring and experimental design': the case for multi-year records, lag before effects appear, and disentangling management from climate and slow soil evolution."
+    },
+    {
+     "title": "Broadening spatial and geographic scope",
+     "guidance": "Draw on macro 3 'broadening spatial and geographic scope' and macro 0 'transferability across soils, climates, crops, and management': testing whether single-site findings hold across soils, climates, crops, and management, and the reporting of site characterisation needed to generalise."
+    },
+    {
+     "title": "Monitoring infrastructure, instrumentation, and data tools",
+     "guidance": "Draw on macro 3 'monitoring infrastructure, instrumentation, and data tools': samplers, loggers, diagnostic methods, high-frequency records, non-growing-season coverage, and open data products and software still under development."
+    },
+    {
+     "title": "Tracers, isotopes, and source apportionment",
+     "guidance": "Draw on macro 1 'monitoring, tracers, isotopes, and source apportionment' and the tracer/water-age material in macro 0's long-term monitoring: high-frequency tracers, water and nitrate isotopes, end-member mixing, and pathway partitioning as measurement frontiers, distinct from the mechanistic modeling in the models section."
+    },
+    {
+     "title": "Standardisation, harmonisation, and comparability",
+     "guidance": "Draw on macro 3 'standardisation, harmonisation, and comparability' and the standardisation strands of macro 1's experimental design: harmonised methods, common indicators and reporting, and shared terminology so accumulating data can be synthesised in meta-analyses."
+    },
+    {
+     "title": "Experimental design for detectable effects",
+     "guidance": "Draw on macro 1's experimental-design refinements (paired basins, before-after designs, minimum detectable change, multi-scale simultaneous assessment) and the experimental-design portion of macro 0's uncertainty theme, keeping formal uncertainty quantification for the modeling section."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    3
+   ],
+   "word_lo": 1800,
+   "word_hi": 2200,
+   "id": "02_the-observational-foundation-longer-denser-and-h",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Advancing Process-Based Drainage and Water-Quality Models",
+   "summary": "Where models must be validated, re-parameterised, restructured, and better constrained by field process data to become transferable and trustworthy.",
+   "guidance": "Own the entire modeling frontier: validation and transferability, the process measurements needed to constrain routines, physical-process representation (preferential flow, hydraulics, seepage, heterogeneity), weak algorithmic components (nutrient and P routines, cold-season, groundwater coupling), calibration and uncertainty methods, model coupling and machine learning, and the measurement instruments that supply calibration data. Concentrate all model-algorithm and model-structure gaps here so domain sections can stay on management science. Leave field-scale management mechanisms (P desorption, N crediting) to the nutrient section and drain-network mapping to the field-to-watershed section.",
+   "subsections": [
+    {
+     "title": "Broadening the empirical basis for validation",
+     "guidance": "Draw on macro 4 'broadening the empirical basis' and 'verification at independent sites' plus macro 0 'validating and extending process-based drainage models': testing across sites, soils, scales, and time, and reformulating empirical coefficients as functions of measurable site attributes."
+    },
+    {
+     "title": "Field and process data still needed to constrain models",
+     "guidance": "Draw on macro 4 'field data and process measurements still needed' (denitrification-centred nitrogen campaigns; phosphorus, sediment, preferential-flow measurement; sampling design and analytical methods) as the empirical fuel for model refinement."
+    },
+    {
+     "title": "Preferential and macropore flow representation",
+     "guidance": "Draw on macro 0 'preferential and macropore flow' and macro 1's 'macropores, preferential flow, and drain configuration': characterising macropore-drain connectivity as a function of soil, water content, and practice, and improving dual-permeability and matrix-macropore partitioning."
+    },
+    {
+     "title": "Coupled hydraulics, seepage, and soil heterogeneity",
+     "guidance": "Draw on macro 0 'coupled hydraulics, seepage, and soil heterogeneity': coupling pore-water with in-pipe and open-ditch flow, pressurised-flow dynamics, seepage and groundwater exchange, and depth-resolved hydraulic-property heterogeneity and inverse calibration."
+    },
+    {
+     "title": "Nutrient routines, cold-season, and groundwater coupling",
+     "guidance": "Draw on macro 0 'phosphorus, sediment, and nutrient routines in water-quality models' and macro 1's process-based-modelling subsections on soil carbon-nitrogen cycling, winter and frozen-soil processes, and groundwater interactions: the weakest algorithmic links across DRAINMOD, SWAT, APEX, and RZWQM-type codes."
+    },
+    {
+     "title": "Calibration, sensitivity analysis, and uncertainty",
+     "guidance": "Draw on macro 4 'calibration, sensitivity analysis, and uncertainty' and the uncertainty-quantification strand of macro 0's methodological theme: identifiability, automated and global sensitivity methods, and propagated uncertainty instead of point predictions."
+    },
+    {
+     "title": "Model structure, coupling, and machine learning",
+     "guidance": "Draw on macro 4 'model structure, coupling, and learning approaches' and macro 0's machine-learning-surrogate and integrative-framework model calls: coupling and data assimilation, learning methods with their own validation obligations, and analytical and physical refinements."
+    },
+    {
+     "title": "Instrumentation and measurement-method validation",
+     "guidance": "Draw on macro 4 'instrumentation and measurement-method validation': flow-structure and sensor calibration, emerging measurement technologies, and hydraulic-loss characterisation, since model validity is bounded by data quality."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    4
+   ],
+   "word_lo": 2200,
+   "word_hi": 2600,
+   "id": "03_advancing-process-based-drainage-and-water-quali",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "From Field to Watershed: Mapping Networks and Scaling Response",
+   "summary": "The unresolved problems of locating unknown drainage networks and of scaling field-scale process knowledge to watershed response.",
+   "guidance": "Own the spatial-inference frontier: detecting and cataloguing physical drainage networks, and upscaling field processes to the watersheds where water-quality goals are set, including channel-network and connectivity processes. Keep the general watershed-model algorithm gaps in the modeling section and the general spatial-transferability-of-findings argument in the observational section; here the focus is specifically on network location and on field-to-watershed linkage.",
+   "subsections": [
+    {
+     "title": "Locating, mapping, and cataloguing drainage networks",
+     "guidance": "Draw on macro 0 'locating, mapping, and cataloguing drainage networks': remote sensing, geophysics (GPR, EMI), machine learning and deep learning for drain detection, and calls for shared drainage databases and reporting of design specifications."
+    },
+    {
+     "title": "Scaling from field to watershed",
+     "guidance": "Draw on macro 0 'from field to watershed: scaling, routing, and connectivity': quantifying field-to-watershed relationships, small intensively monitored catchments as upscaling bridges, and scaling effectiveness estimates for drainage water management and phosphorus mitigation."
+    },
+    {
+     "title": "Channel-network, connectivity, and drain-to-stream processes",
+     "guidance": "Draw on the channel-network, in-stream, sediment, connectivity-metric, and drained-depression material within macro 0's scaling subsection: interactions between tile effluent and receiving channels, ditch connectivity and lag times, and poorly understood potholes and closed depressions."
+    }
+   ],
+   "source_ids": [
+    0
+   ],
+   "word_lo": 1200,
+   "word_hi": 1600,
+   "id": "04_from-field-to-watershed-mapping-networks-and-sca",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Managing Nutrient Losses: Nitrogen, Phosphorus, and Cropping Systems",
+   "summary": "In-field management levers whose optimisation, metrics, and mechanistic understanding remain incomplete for nitrate and phosphorus.",
+   "guidance": "Own the management-science and field-mechanism frontier for nutrients: nitrogen rate/timing/form/crediting and the temporal window of loss; phosphorus environmental metrics, desorption and colloidal transport, and legacy P; and cropping-system change. Keep model-algorithm gaps (P routines, soil carbon-nitrogen cycling) in the modeling section, greenhouse-gas and emerging-contaminant tradeoffs in the consequences section, edge-of-field treatment in the treatment section, and bundling/targeting in the integration section. Refer to those only in passing.",
+   "subsections": [
+    {
+     "title": "Refining nitrogen management and the timing of loss",
+     "guidance": "Draw on macro 1 'nitrogen management: rates, timing, form, crediting, and loss timing' including next-generation rate tools, crediting of residual/mineralisable/legacy N, and the early-spring temporal window of loss; note precision-N decision tools here rather than in the integration section."
+    },
+    {
+     "title": "Phosphorus metrics, mechanisms, and transport",
+     "guidance": "Draw on macro 1 'phosphorus: metrics, mechanisms, transport, and prediction' (saturation and sorption metrics beyond agronomic soil-test P, desorption, colloidal and particulate pathways, legacy P, organic soils) and the field-understanding parts of macro 0's 'nutrient, carbon, and greenhouse-gas coupling' on P partitioning and source differentiation."
+    },
+    {
+     "title": "Cover crops, perennials, and rotational diversification",
+     "guidance": "Draw on macro 1 'cropping systems: cover crops, perennials, rotations, and diversification', covering agronomic and environmental open questions and, briefly, cover-crop modelling frontiers while deferring detailed algorithm gaps to the modeling section."
+    }
+   ],
+   "source_ids": [
+    0,
+    1
+   ],
+   "word_lo": 2000,
+   "word_hi": 2400,
+   "id": "05_managing-nutrient-losses-nitrogen-phosphorus-and",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Water-Table Management and Drainage-System Design",
+   "summary": "Controlled drainage, subirrigation, drainage water recycling, and design criteria reframed as active, still-unvalidated management frontiers.",
+   "guidance": "Own the water-quantity management and physical-design frontier: moving from passive drainage to active water-table control, automation and forecast-based control, and re-evaluating design criteria, structures, and intensity. Keep DRAINMOD-DWR and other model-development needs in the modeling section, salinity-driven design and reuse in the salinity section, and edge-of-field treatment structures in the treatment section. Focus on yield-and-water-quality trade-offs and unresolved design questions.",
+   "subsections": [
+    {
+     "title": "Controlled drainage, subirrigation, and drainage water management",
+     "guidance": "Draw on macro 0 'controlled drainage, subirrigation, and drainage water management' and macro 1 'drainage water management, water-table control, and system design': moving toward active water-table control, seasonal control hypotheses, seepage effects, drainage water recycling, and cross-boundary water and nutrient budgets."
+    },
+    {
+     "title": "Automation, forecast-based, and data-driven control",
+     "guidance": "Draw on the automation and adaptive-control material within macro 0's controlled-drainage subsection: next-generation control structures, sensor-based systems, data assimilation of the field water balance, and coordinating irrigation with drainage control."
+    },
+    {
+     "title": "Novel structures, design criteria, and drainage intensity",
+     "guidance": "Draw on macro 0 'novel structures, design criteria, and drainage intensity' and the design-and-materials material in macro 1's system-design subsection: re-evaluating depths and spacings, drainage intensity as a systems question, envelopes and materials, and the need for long simulation records to support design."
+    }
+   ],
+   "source_ids": [
+    0,
+    1
+   ],
+   "word_lo": 1500,
+   "word_hi": 1900,
+   "id": "06_water-table-management-and-drainage-system-desig",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Edge-of-Field Treatment Technologies",
+   "summary": "Design, media, longevity, and companion-practice frontiers for bioreactors, wetlands, buffers, and phosphorus-removal structures.",
+   "guidance": "Own the treatment-technology design frontier, drawing chiefly on the woodchip-bioreactor material but integrating wetlands, saturated buffers, and phosphorus-removal structures. Focus on removal performance, hydraulics, media, longevity, and companion-practice design. Route all pollution-swapping, greenhouse-gas, by-product, contaminant-transport, pathogen, and trace-element material from macro 2 to the consequences section to avoid duplication; here treat by-products only as a design constraint by cross-reference. Keep bundling and cost-effectiveness of practice portfolios in the integration section.",
+   "subsections": [
+    {
+     "title": "Sizing, scaling, and standardised design",
+     "guidance": "Draw on macro 2 'sizing, scaling, and standardised design procedures': balancing site-level effectiveness against watershed load removal, undersized and flashy-site designs, plug-and-play standardisation, and validation of design procedures."
+    },
+    {
+     "title": "Hydraulics, retention time, and tracer methods",
+     "guidance": "Draw on macro 2 'hydraulics, hydraulic retention time, and tracer methods': HRT as master variable, non-Darcy internal hydraulics, and the unresolved tracer-recovery and methodology problems underpinning design."
+    },
+    {
+     "title": "Enhancing the microbial engine",
+     "guidance": "Draw on macro 2 'bioaugmentation and direct microbial manipulation' and 'the resident microbiome and by-product formation': inoculation of cold-adapted denitrifiers, survival and persistence, engineered consortia, and the counter-hypothesis that environmental engineering may outperform inoculation; treat by-product formation mechanistically here but defer emissions accounting to the consequences section."
+    },
+    {
+     "title": "Reactive media, carbon sources, and structural materials",
+     "guidance": "Draw on macro 2 'reactive media, carbon sources, and substrate innovation' and 'envelopes, filter aggregates, and structural materials': alternative fill, carbon release kinetics and dosing, envelopes, and structural alternatives."
+    },
+    {
+     "title": "Phosphorus-removal media and filter design",
+     "guidance": "Draw on macro 2 'phosphorus-removal media, filter design, and novel P dynamics': sorption-material selection, longevity and regeneration, iron- and steel-based media, saturation timing, integrated woodchip-plus-filter designs, and novel redox-driven P dynamics."
+    },
+    {
+     "title": "Aging, longevity, clogging, subsidence, and construction",
+     "guidance": "Draw on macro 2 'aging, longevity, clogging, subsidence, and construction': multi-decadal service life, woodchip decay and carbon recalcitrance, chemical clogging mechanisms, subsidence monitoring, and sediment management at construction."
+    },
+    {
+     "title": "Pumped, energy-assisted, and coupled configurations",
+     "guidance": "Draw on macro 2 'pumped, energy-assisted, and coupled treatment configurations': pumping to raise hydraulic loading, solar-powered systems, novel source waters, and bioelectrochemical and coupled treatment designs."
+    },
+    {
+     "title": "Wetlands, saturated buffers, and companion structures",
+     "guidance": "Draw on macro 2 'companion practices' and 'riparian, hyporheic, and effluent-management processes', plus macro 0 'practice-scale treatment: wetlands, buffers, bioreactors, and recycling' and macro 1 'edge-of-field and in-field treatment technologies': saturated buffers, constructed wetlands, controlled structures, and riparian and hyporheic attenuation as complementary or alternative practices."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    2
+   ],
+   "word_lo": 2200,
+   "word_hi": 2600,
+   "id": "07_edge-of-field-treatment-technologies",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Salinity, Reclamation, and Drainage-Water Reuse in Arid and Irrigated Systems",
+   "summary": "Slow, only-partly-observable salt-leaching outcomes and the persistent challenge of managing the salt-laden water that drainage produces.",
+   "guidance": "Own the arid, saline, and irrigated-systems frontier: long-term salt-leaching and reclamation trajectories, drainage-water reuse and disposal, acid sulfate soils and irrigation-return management, and salinity-specific sensing, modelling, and design. Keep general model-structure gaps in the modeling section and general economics in the integration section, surfacing salinity-specific economics and design only where they are inseparable from the salt problem.",
+   "subsections": [
+    {
+     "title": "Salt-leaching dynamics and long-term reclamation trajectories",
+     "guidance": "Draw on macro 0 'salt leaching, drainage-water reuse, and disposal' (leaching/desalination process understanding and temporal trade-offs) and macro 1 'salinity, acid sulfate, reclamation, and irrigation-return management': the slow accrual of benefit, controlled-drainage salt trade-offs, and process controls on salt mobilisation."
+    },
+    {
+     "title": "Drainage-water reuse, disposal, and treatment",
+     "guidance": "Draw on the reuse, disposal, trace-element, and emerging-treatment material within macro 0's salt-leaching subsection: environmentally acceptable disposal, evaporation ponds, blending and sequential reuse, and demonstration-stage treatment routes."
+    },
+    {
+     "title": "Acid sulfate soils and irrigation-return management",
+     "guidance": "Draw on the acid sulfate, reclaimed-Vertisol, and irrigation-return strands of macro 1's salinity subsection: sulfide oxidation and ripening, peat-cover requirements, amendments, and return-flow and leaching management."
+    },
+    {
+     "title": "Sensing, modelling, and design under salinity",
+     "guidance": "Draw on the salinity sensing, modelling, and design-under-heterogeneity material in macro 0's salt-leaching subsection: EMI and remote-sensing salinity mapping, coupled water-salt transport models, and zonal design algorithms with real-time early warning."
+    }
+   ],
+   "source_ids": [
+    0,
+    1
+   ],
+   "word_lo": 1300,
+   "word_hi": 1700,
+   "id": "08_salinity-reclamation-and-drainage-water-reuse-in",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Unintended Consequences and Multi-Objective Tradeoffs",
+   "summary": "Greenhouse gases, pollution swapping, emerging contaminants, trace-element legacies, and drainage-induced soil evolution as under-quantified costs of drainage and its treatment.",
+   "guidance": "Own the cross-constituent consequences frontier so that nutrient, treatment, and water-management sections need not each re-open it. Consolidate all greenhouse-gas coupling and treatment by-product accounting, emerging contaminants and pesticides, pathogens and antibiotic-resistance genes, trace-element legacies, and long-term soil evolution. Reference the treatment section for where these by-products arise, but keep their quantification and tradeoff framing here.",
+   "subsections": [
+    {
+     "title": "Greenhouse-gas coupling and carbon export",
+     "guidance": "Draw on macro 0 'nutrient, carbon, and greenhouse-gas coupling', macro 1 'greenhouse gases, emerging contaminants, and multi-objective tradeoffs', and the greenhouse-gas and carbon-export strands of macro 2 'pollution swapping, greenhouse gases, and carbon export': nitrous oxide and methane fluxes, dissolved-organic-carbon dynamics, and net-emission accounting including bioreactor by-products."
+    },
+    {
+     "title": "Pollution swapping and by-product formation in treatment systems",
+     "guidance": "Draw on the by-product material in macro 2's pollution-swapping and resident-microbiome subsections: nitrite, methylmercury, phosphorus release, and dissolved-organic-carbon export as reductive-treatment tradeoffs to be monitored and minimised."
+    },
+    {
+     "title": "Emerging contaminants, pesticides, pathogens, and antibiotic resistance",
+     "guidance": "Draw on the emerging-contaminant strand of macro 1's greenhouse-gas subsection and macro 2 'contaminant transport through drainage inlets and macropores' and 'pathogens, microbial ecology, and antibiotic resistance': pesticide transport and modelling, pathogen removal and ecology, and antibiotic-resistance genes."
+    },
+    {
+     "title": "Trace-element legacies and ecotoxicology",
+     "guidance": "Draw on macro 2 'trace-element legacies and ecotoxicology': selenium and other trace-element monitoring commitments and ecotoxicological effects on non-target organisms."
+    },
+    {
+     "title": "Drainage-induced soil evolution, health, and biology",
+     "guidance": "Draw on macro 1 'soil health, biology, and drainage-induced soil evolution': slow-acting soil-biological responses, soil-quality indicators, and the treatment of drainage as a driver of long-term, potentially chaotic soil evolution."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    2
+   ],
+   "word_lo": 1500,
+   "word_hi": 1900,
+   "id": "09_unintended-consequences-and-multi-objective-trad",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Toward Integrated, Targeted, and Adoptable Solutions",
+   "summary": "Bundling and spatial targeting, climate resilience, economics, policy, and the human dimension that determine whether frontier science translates into practice.",
+   "guidance": "Own the integration frontier: no single practice suffices, so bundle, sequence, and target practices to critical source areas; adapt to climate extremes; and couple biophysical understanding with economics, incentives, policy, adoption, and landscape-scale decision support. Draw the socio-economic and integrative material together here rather than scattering it. Keep precision-nitrogen tools in the nutrient section and drain-detection remote sensing in the field-to-watershed section, routing only integrative decision-support and data-infrastructure material to this section.",
+   "subsections": [
+    {
+     "title": "Bundling, sequencing, and spatial targeting of practices",
+     "guidance": "Draw on macro 1 'bundling, sequencing, spatial targeting, and critical source areas': combining and sequencing practices, targeting hydrologically active critical source areas, and prioritisation to improve return on conservation investment."
+    },
+    {
+     "title": "Climate change, extremes, and system resilience",
+     "guidance": "Draw on macro 1 'climate change, extremes, and system resilience' and the climate-adaptation strand of macro 0's integrative-frameworks subsection: designing systems that function under both drought and flood, and testing practice combinations across additional climates and longer periods."
+    },
+    {
+     "title": "Economics, incentives, and cost-effectiveness",
+     "guidance": "Draw on macro 0 'economics, institutions, and adoption' and the economics strand of macro 1's human-dimension subsection: cost-benefit and cost-effectiveness analysis, incentive and cost-share design, and identifying long-term savings that offset installation costs."
+    },
+    {
+     "title": "Policy, institutions, adoption, and the human dimension",
+     "guidance": "Draw on the institutional and participatory material in macro 0's economics subsection and macro 1 'economics, incentives, policy, adoption, and the human dimension': flexible location-specific solutions, governance and capacity building, and joint farmer-researcher engagement."
+    },
+    {
+     "title": "Integrative landscape-scale frameworks and decision support",
+     "guidance": "Draw on macro 0 'uncertainty, experimental design, and integrative frameworks' (landscape-scale integration) and the integrative decision-support and data-infrastructure material in macro 1 'remote sensing, precision tools, decision support, and data infrastructure': coupled field-watershed models, spatial optimisation of practice placement, and shared data infrastructure."
+    }
+   ],
+   "source_ids": [
+    0,
+    1
+   ],
+   "word_lo": 1600,
+   "word_hi": 2000,
+   "id": "10_toward-integrated-targeted-and-adoptable-solutio",
+   "deps": []
+  },
+  {
+   "kind": "conclusions",
+   "title": "Conclusions",
+   "summary": "Synthesises the frontier into a coherent forward agenda in which data, models, management, and human-dimension advances must progress together.",
+   "guidance": "Distil the recurring cross-cutting message: the field's advance is bound less by new ideas than by coordinated, long-term, multi-scale data; strengthened and validated model components; bundled, targeted, and climate-resilient management; and interdisciplinary work linking mechanism, tools, and economically and socially viable adoption. Draw the strands from the body sections into converging priorities without re-arguing detail or introducing new material; end on what the next decade of progress requires.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 1000,
+   "word_hi": 1400,
+   "id": "11_conclusions",
+   "deps": [
+    "theme"
+   ]
+  }
+ ]
+}

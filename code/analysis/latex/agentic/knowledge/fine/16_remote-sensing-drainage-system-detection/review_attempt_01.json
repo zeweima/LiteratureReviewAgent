@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.All claims check out against the findings, and citation keys match. The JSON verdict:\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

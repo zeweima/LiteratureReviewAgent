@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Based on my careful review of both files, every concrete claim in the section is supported by the findings, and every citation key correctly attributes its claim to the corresponding paper. I cross-checked each `\\textcite`/`\\parencite` against the tagged findings and found consistent matches throughout (e.g., Gramlich2018\u2192findings 70/72, Grenon2021\u2192167\u2013171, Skaggs2012\u2192177\u2013180, Singh2020c\u2192216\u2013229, KARAJEH1994c\u2192161\u2013163, etc.).\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

@@ -1,0 +1,318 @@
+Process-based drainage and water-quality models---DRAINMOD and its
+derivatives, SWAT, APEX, RZWQM2, HYDRUS, MIKE~SHE, and numerous salinity
+codes---are expected to carry much of the predictive burden as field trials
+cannot span every combination of practice, soil, and climate. Yet across the
+literature their credibility is constrained less by their formulation than by
+the narrowness of the conditions under which they have been tested: models are
+typically calibrated at a single site, over a handful of seasons, for one
+soil--climate--management combination, and their authors are nearly unanimous
+in flagging broader empirical validation, missing process data, and weak
+algorithmic components as the outstanding priorities
+\parencite{Li2006,Qi2015,Youssef2006,Radcliffe2015,SKAGGS1994}. This section
+gathers the model-algorithm and model-structure gaps that recur throughout the
+field.
+
+\subsection{Broadening the empirical basis for validation}
+
+The most frequently articulated need is validation data spanning a wider range
+of conditions than any single study can supply. \textcite{Youssef2006} describe
+rigorous field testing across differing management, soils, and climates as a
+need common to nearly all simulation models, and warn that assumptions must be
+re-verified whenever a code is transferred to a new area
+\parencite{Kelleners2000}; similar calls for broader-condition testing,
+sensitivity analysis, and parameter refinement recur for pesticide, salt, and
+flow models \parencite{Branger2009,Hirekhan2007,Yang2008b,Xian2017}. Models are
+repeatedly reported as requiring testing over longer periods and additional soil
+types \parencite{Salazar2009,Li2026}, and their effectiveness under new
+controlled-drainage or erosion conditions is judged critically needed before
+higher credibility can be claimed \parencite{Negm2017,Turunen2020}.
+
+A recurring, more ambitious hypothesis is that empirical coefficients could be
+replaced with functions of measurable site attributes. \textcite{Li2006} commit
+to testing across climate zones, soils, and management while anticipating that
+coefficient constants might become functions of soil texture, converting
+site-specific tuning into transferable structure; \textcite{Chelil2022} cast the
+same concern as spatial robustness, arguing that additional fields are needed to
+confirm that parameters such as nitrate-transfer velocities are transferable
+rather than calibration artefacts. Verification at independent sites is treated
+as a precondition, not optional confirmation
+\parencite{Azevedo1997,Qi2015,Kalita1998,Sadhukhan2019b}, with inconsistencies
+producing conflicting parameter values resolved first \parencite{Dar2022} and
+empirical codes transferred only through re-parameterisation with local soil,
+geology, crop, and climate data, or region-specific coefficients where reference
+values exist \parencite{Azevedo1997,FathAllah2025,Rijal2013}. The open question
+is how much local data such transfer requires. Extending validation across the
+climatic and design envelope is closely related: humid-region models need
+testing under semi-arid regimes and after prolonged dry spells
+\parencite{Prasher1996}, longer monitoring records give firmer conclusions
+\parencite{Ebrahimian2011,Grazhdani1996}, and design geometry demands
+experiments at spacings wider than 30~m and regional answers on
+drainage-efficiency loss and design storms
+\parencite{Mathew2001,Wiskow2003,MULLER1988}. Long simulations of 50--100 years
+are argued necessary to judge whether a design meets its criteria
+\parencite{Mendez2004,Wang2006b,Ale2009,Häggblom2019}. Portability, in short, is
+a hypothesis to be tested, not a property to be presumed
+\parencite{Hornbuckle2012,Shipitalo2016,Yousfi2014}.
+
+\subsection{Field and process data still needed to constrain models}
+
+Beneath the demand for broader validation lies a scarcity of process-level
+measurements. Nitrogen dynamics emerge as the least well-constrained component:
+\textcite{David2009} argue that systematic denitrification measurements are
+required to test and refine models, their ideal being a multi-year,
+tile-drained corn--soybean study measuring every major N flux, with a pragmatic
+fallback of a few key fluxes plus denitrification. Field- and
+laboratory-grounded parameterisation, denitrification foremost, is likewise
+judged necessary \parencite{Salazar2009}, together with routine evaluation and
+reporting of soil-N fluxes in SWAT \parencite{Ikenberry2017}, long-term
+carbon--nitrogen estimates to reconcile plot- and subbasin-scale discrepancies
+\parencite{Singer2011}, and resolution of the lag between practice
+implementation and measurable reduction \parencite{Law2022,Tao2021}.
+High-frequency process measurements of microbial activity, denitrification,
+soil-P pools, and redox are urged for drainage water management, alongside
+closure of water and nutrient balances \parencite{Frankenberger2024,Sharpley2019}.
+
+Phosphorus is similarly data-limited, and its dominant pathway---preferential
+flow---is the hardest to observe. Many phosphorus-index factors need
+investigation of their effect on field-to-stream transfer, and index rankings
+must be shown to reflect actual transfer risk
+\parencite{Bechmann2007,Beauchemin2003}. Confirming P-movement trends requires
+quantitative tracer measurement of preferential flow
+\parencite{Salazar2011,Tiemeyer2009}, structural deficiencies around surface
+runoff and tile P transport need repair \parencite{Apostel2021}, and accurate
+capture of flashy export demands automated samplers, real-time sensors, and
+high-resolution topographic survey of ditch sediment before and after storms
+\parencite{Dialameh2022,Warsta2014}. Supporting empirical work includes further
+testing of CaCl$_2$-P as a dissolved-reactive-P estimator \parencite{McDowell2001b},
+regression models linking drainage parameters to P losses \parencite{Morrison2013},
+tests using actual effluent under fluctuating flow \parencite{Sanford2016}, and
+long-term monitoring of P sources \parencite{Jia2012}. Sampling design is itself
+a constraint: weekly sampling may be needed to capture nitrate spikes before
+they pass below suction-cup samplers \parencite{Zotarelli2007}, more frequent
+early-season and summer-event sampling is advised
+\parencite{Kalita1998,Tiemeyer2009}, and denser sampling geometry sharpens
+semi-variograms and optimal sampling density \parencite{GALLICHAND1992,Upadhyay2019}.
+
+\subsection{Preferential and macropore flow representation}
+
+The representation of preferential flow is perhaps the most frequently cited
+frontier, the recurring theme being that its contribution to drains must be
+characterised as a function of soil type, water content, and practice before
+models extrapolate. \textcite{Gaillot2023} and \textcite{Fox2004} call for
+mechanistic characterisation of macropore--drain connectivity and of the
+``express fraction'' under varying saturation above the drain, and
+\textcite{Askar2020} stress that rigorous testing of DRAINMOD's empirical
+macropore approach requires water-table-depth measurements alongside drainage
+and runoff, direct macropore-flow inputs, and crack geometry and dynamics.
+Process improvements span better matrix--macropore partitioning calibrated
+against sub-hourly drainage in RZWQM2 \parencite{Li2023d}, dynamic connectivity
+or effective macroporosity at watershed scale \parencite{Poon2021}, micropore
+diffusion and site-specific conductivities in dual-permeability descriptions
+\parencite{Villholth1998,Villholth1998b}, hysteresis and biopore-flow initiation
+\parencite{Holbak2021}, manure-driven macropore development \parencite{Zhao2001},
+crack re-establishment in EPIC \parencite{Wang2022}, and calibrated macropore
+conductivity in three-dimensional dual-permeability models \parencite{Varvaris2018}.
+Direct pathway identification is repeatedly urged---ground-penetrating radar and
+tracers with explicit flowpath representation \parencite{Tähtikarhu2025,Salo2017},
+dye-staining of routes reaching tile lines \parencite{Nielsen2015}, and
+near-surface pathway characterisation \parencite{Frey2012,Allaire2011}. Central
+quantitative questions remain the fraction of phosphorus and solutes delivered
+via preferential versus matrix flow \parencite{King2015,Williams2016}, the range
+of macropore flows across soils and management \parencite{Reid2012}, and by-pass
+flow through cracks for full-year application
+\parencite{LESAFFRE1988,BACKLUND1995,Ruark2009}. Runoff simulation under
+crusting, cracking, and preferential flow \parencite{Smith2020}, explicit
+representation of actual drain configuration \parencite{Stamm2002}, temporal
+variability in hydrological-pathway activation for cracking clays
+\parencite{Kokulan2019}, and seasonal, time-dependent shrink--swell and
+hydraulic-conductivity measurement \parencite{Boivin2006,Chelil2022b,Jeantet2021}
+complete this agenda.
+
+\subsection{Coupled hydraulics, seepage, and soil heterogeneity}
+
+A recurrent structural gap is the absence of models coupling soil pore-water
+flow with surface flow inside drains and ditches. \textcite{Xin2016b} call for
+coupling drain surface water with pore-water flow to represent the time-varying
+head around the drain, and \textcite{Nousiainen2015} propose simulating in-pipe
+flow to capture pressurisation and clogging, adding open-ditch networks.
+Pressurised-flow dynamics are a specific frontier: coupling pipes to the water
+table could introduce a validated temporary-retention function beyond design
+capacity \parencite{Henine2010,Henine2014}, with pressurised periods analysed
+separately from pressure-transducer data \parencite{Saadat2018}. Entrance
+resistance, near-drain pressure heads, and rapid trench-backfill versus slower
+inter-trench transport remain unresolved for heterogeneous systems
+\parencite{Messing2006,Rimidis2003}, and model dimensionality is itself a
+question---two- or three-dimensional treatment of sloping fields, collectors,
+and regional management \parencite{Alakukku2010,FIPPS1989,Carlier2007,Mohanty1998}---within
+broader integrating frameworks \parencite{Manguerra1998,SAVABI1993,RevueltaAcosta2021}.
+
+Nearly every modelling study attributes residual error to unresolved
+heterogeneity in hydraulic properties, especially conductivity. Authors seek
+detailed representation of macropores, fractures, and sand lenses with specific
+storage and residual saturation \parencite{DeSchepper2017}, depth-varying and
+dual-porosity parameterisations in layered and paddy soils
+\parencite{Wesström2003,Karandish2018}, and denser, depth-resolved
+sampling---at least one conductivity measurement per hectare with
+post-construction verification \parencite{PalaciosVélez2004}, more transect
+points \parencite{Messing2006}, and horizontal as well as vertical
+conductivities with hydrophobicity and hysteresis \parencite{Tähtikarhu2025}.
+Anisotropy and long-term property change form a related sub-frontier
+\parencite{Akis2015,Moustafa1998,Koivusalo1999}, and accurate saturated
+conductivity and drainage-volume/upward-flux relationships, supported by
+SSURGO-linked subsoil porosity, are emphasised as model inputs
+\parencite{DeBoer2006,Schilling2015,DeSchepper2015}. Closing the water
+balance---particularly seepage and groundwater exchange---remains persistent:
+lateral seepage should vary during simulation \parencite{Feng2018}, groundwater
+contributions could enter through double- or residual-storage models
+\parencite{DaneshYazdi2016}, and groundwater-table data in objective functions
+would sharpen inverse recovery of soil properties
+\parencite{Sedaghatdoost2018,Sedaghatdoost2019}. Improved calibration strategy is
+widely urged---parameter-estimation software and multiple conceptual models
+\parencite{Boico2022}, pilot-point conductivity fields with proxy
+machine-learning predictions \parencite{Schneider2022}, Kling--Gupta objective
+functions \parencite{Brighenti2023}, and transient tests of steady-state
+assumptions \parencite{Schilling2022,Gates2002,Burkhalter2006}. Contemporary
+needs also span unsaturated modules for disconnected groundwater
+\parencite{Kompanizare2024}, independent layer-to-layer drainage methods under
+preferential flow \parencite{Ojeda2018}, and dynamic frozen-soil models with
+measured structure \parencite{Ulén2016}.
+
+\subsection{Nutrient routines, cold-season, and groundwater coupling}
+
+Phosphorus and its transport through macropores emerge as the least mature
+component across water-quality models. \textcite{Radcliffe2015} provide the most
+comprehensive agenda: nested paired field experiments and structural additions
+across codes---SWAT and ADAPT routing macropore flow directly to drains, a
+macropore component for APEX, DRAINMOD simulating P losses and sediment-attached
+P, and HYDRUS parameterising simpler models---with every study quantifying
+predicted-P accuracy and uncertainty. Consistent with this,
+\textcite{Guo2020b} recommend physically based tile subroutines, macropore
+nutrient pathways, and particulate-P losses, \textcite{Ford2017} seek
+understanding of how macropore flow and P respond to tillage, cover crops, and
+drainage water management, and \textcite{BinShokrana2023b} identify improved
+fertiliser-P partitioning and P-only performance statistics, with
+\textcite{Gowda2012} anticipating a DRAINMOD phosphorus module. Within SWAT,
+APEX, and RZWQM2, \textcite{Williams2016} argue that incorporating identified
+flow pathways is critical, \textcite{Qi2018} recommend a soil-matrix-potential
+Richards equation and revised particulate-P algorithm, and
+\textcite{Moriasi2012} call for comparing dynamic and constant surface-depression
+storage. Nitrogen-cycle needs include surface-residue and mobile/immobile-water
+phases for nitrate transport \parencite{Malone2017}, complete N budgets in
+calibration \parencite{Gillette2018}, and temporal decay coefficients
+\parencite{Rudra2005}.
+
+Soil N-process representation is repeatedly the weakest link. Priorities include
+improving nitrification, denitrification, and mineralisation within a better
+hydrology framework \parencite{Smith2020,Fang2012,Hu2007}, and recurring RZWQM
+agendas---subsurface lateral flow below tiles, simulated soybean N fixation,
+improved plant N uptake, and reduced winter nitrification
+\parencite{Ma2007,Ma2008,Ma2001,Bakhsh2004}---together with revised winter
+processes in the PNM model \parencite{Marjerison2016} and a more physically based
+tile-nitrate model using ``soft data'' and a passive humus pool
+\parencite{Qi2025}. Cold-season representation is singled out as inadequate:
+better freeze/thaw and spring-thaw algorithms \parencite{Feyereisen2006b},
+DRAINMOD-N improvement for freezing seasons \parencite{Yang2007,Saadat2020,Jiang2020},
+a frozen-soil impedance factor and calibratable snow--rain threshold for RZ-SHAW
+\parencite{Li2024b}, and continued RZWQM winter development
+\parencite{Ahmed2007b,Motarjemi2021}. Coupling drainage models to groundwater is
+a distinct need: SWAT-MODFLOW-RT3D for reactive transport once salinity is
+incorporated \parencite{Addab2022}, water-table-fluctuation and
+groundwater--surface-water exchange in SWAT to represent riparian nitrate
+retention \parencite{Hoang2017}, joint spatial variation in leaching and
+reduction across systems \parencite{Hojberg2017}, and defensible water balances
+splitting artificial drainage from groundwater flow
+\parencite{Barkle2021,Elsayed2023,Yang2008}. In arid settings, coupling of water
+and salt dynamics with unsaturated models, root-growth modules, and
+large-dataset validation is pressed
+\parencite{Ebrahimian2015,Sarangi2006,Han2025,Liu2022,Guo2025}.
+
+\subsection{Calibration, sensitivity analysis, and uncertainty}
+
+How models are calibrated and their parameters interrogated is inseparable from
+validity. Multiobjective frameworks integrating statistical and graphical
+diagnostics tailored to the hydrological system are advocated
+\parencite{Bruhn2025}, reliable soil-hydraulic data for the drain layer is
+emphasised with interacting parameters calibrated and negligible ones fixed
+\parencite{Wang2006}, and independent calibration against observed discharge is
+recommended so interception and storage are not conflated with conductivity and
+drainable porosity \parencite{Henine2022}. Pedotransfer estimates such as
+Rosetta conductivity should be used cautiously, with further calibration so both
+water-table depth and discharge are simulated \parencite{Malota2022,Timalsina2023}.
+A common thread is identifiability---separating parameters that genuinely act
+from those merely correlated. Automated and global approaches are widely urged:
+automatic calibration with ensemble Kalman filtering for parameter identification
+\parencite{Warsta2014,Sadhukhan2019b,Singh2019b}, global sensitivity analysis to
+capture interactions that local one-at-a-time methods miss
+\parencite{Timalsina2023,Chelil2022,Kacimov2000}, established bounds for the
+SWAT sensitivity adjustment factor \parencite{Moriasi2013b}, and spatially
+distributed streambed conductance with exchange fluxes as calibration targets and
+drainage proxies \parencite{Karan2021}. Explicit uncertainty treatment is a
+distinct, underdeveloped frontier: propagation of parameter and measurement error
+\parencite{Alzraiee2013b}, the role of input-data and weather-data quality
+\parencite{Upadhyay2019,Tao2021}, explicit estimation of P-model prediction
+accuracy \parencite{Radcliffe2015,Beauchemin2003}, structural uncertainty via
+multiple water-quality models \parencite{Kujawa2020}, probabilistic
+drainage-water-management effectiveness \parencite{Shedekar2021}, independent
+evaluation against withheld data \parencite{Schoups2005}, and better statistical
+treatment of unreplicated paired experiments \parencite{Pagliari2021,Andrus2014}.
+The recurring message is that models are too often reported as point predictions
+when their inputs warrant propagated bounds.
+
+\subsection{Model structure, coupling, and machine learning}
+
+Beyond recalibration, structural refinements and integrative strategies are
+judged necessary. Coupling complementary models is a common, largely untested
+proposal: linking biogeochemical to spatial hydrological models such as SWAT or
+MIKE~SHE for regional prediction \parencite{Li2006}, coupling nitrate-transport
+and drainage models with variational assimilation of spring-fertilisation
+information \parencite{Chelil2022}, and integrated use of more than one model as
+more practical than a single code \parencite{Singh2019b,Apostel2021}.
+Machine-learning models raise their own validation requirements the literature
+is only beginning to confront: hyperparameter tuning and diverse training data
+for drain detection \parencite{Song2021}, neural networks needing training that
+includes extreme situations and periodic retraining \parencite{Yang2000}, and
+machine-learning surrogates trained across diverse climatic and hydrogeological
+conditions with transient processes and real-time control
+\parencite{Lei2026,Schneider2022}. Process-model deficiencies are named
+directly---detailed site characterisation, added non-linear regression
+dependences, and improved submodels for mineralisation, crop N uptake, and
+growth under N limitation \parencite{Ahuja2007,Ikenberry2017}, with added
+complexity the price of predicting snowmelt-thaw drainage timing
+\parencite{Feyereisen2007}. Physical and analytical refinements form a rich set
+of concrete proposals: numerical models incorporating anisotropy and varying
+bottom slopes verified against analytical solutions \parencite{Lin2025,Kacimov2000},
+reanalysis with the Laplace rather than Boussinesq equation \parencite{Bouarfa2000},
+recession equations extended to spatially varying properties \parencite{Cooke2001},
+three-dimensional treatment at heterogeneous sites \parencite{Mohanty1997},
+distinct mixing-layer depths and partition coefficients for solute transport
+\parencite{Shalit1996}, reconsidered deep-percolation and shallow-water-table
+assumptions \parencite{Kolars2019}, and strengthened index-system construction
+with additional soil indicators \parencite{Hou2018}.
+
+\subsection{Instrumentation and measurement-method validation}
+
+Because model validation is only as sound as the data feeding it, uncalibrated
+flow structures and drifting sensors can masquerade as model inadequacy.
+In-house calibration of flow-measurement structures is recommended repeatedly:
+weir calibration for individual applications \parencite{Christianson2019,Napierala2023},
+in-house calibrations representing field flow conditions for control structures
+\parencite{Katuwal2024}, stage--discharge equations developed before monitoring
+for cylindrical structures \parencite{BinShokrana2021}, and post-hoc sensor
+calibration against grab samples during tracer tests \parencite{deOliveira2023b}.
+Emerging technologies carry explicit validation requirements: a computer-vision
+flow method needs testing under variable real-world conditions with the
+Manning--Strickler equation to compensate for uneven velocities
+\parencite{Young2023}, hybrid RTK--rotating-laser systems address
+less-than-ideal survey conditions \parencite{Freeland2014}, and sensor design
+and scintillometer humidity-stability effects require refinement
+\parencite{Enamorado2007,Zhang2010}. Hydraulic-loss characterisation in drainage
+conduits remains conspicuously incomplete, limiting design-equation realism:
+head loss in corrugated-pipe junctions and manholes under free-surface flow
+\parencite{Bayat2011}, friction loss and transitional cavity-flow conditions
+\parencite{Nédélec2008}, declining-bend slope effects on air discharge
+\parencite{Gurklys2008}, appropriate Manning coefficients for design
+\parencite{Kouchakzadeh2011}, and strain-gauge characterisation of non-linear
+HDPE-pipe behaviour \parencite{Gaj2021}. The consistent message across the
+modelling frontier is that the next decade of progress depends less on new
+equations than on sustained, well-instrumented, and openly reported field
+campaigns needed to test the equations already in hand.

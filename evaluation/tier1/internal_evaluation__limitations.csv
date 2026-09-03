@@ -1,0 +1,491 @@
+﻿doi,extracted_content,assessment,llm_evidence,human_note
+10.1002/2015WR017637,"• It remains to be understood further how this effect depends on the scale of the basin and whether it reflects more the overall basin heterogeneity or its hierarchical drainage structure.
+• Identifying which portions of the daily streamflow record contributed most to reduction of inherent nonlinearity is not straightforward using the methods described here.
+• Precipitation and streamflow transportation distances were not directly comparable; each has units of its input data and d_T scales with discretization schemes.",correct,"It remains to be understood further how this effect depends on the scale of the basin and whether it reflects more the overall basin heterogeneity or its hierarchical drainage structure
+
+Identifying which portions of the daily streamflow record contributed most to reduction of inherent
+
+nonlinearity is not straightforward using the methods described here
+
+Unfortunately however, precipitation and streamflow transportation distances were not directly comparable; each has units of its input data and $d_{T}$ scales with discretization schemes.",
+10.1002/ird.3023,• C_s and C_sh are suitable only for the Delta region because they were deduced using ideal drawdown values of h_t for this region.,correct,$C_{\mathrm{s}}$ and $C_{\mathrm{sh}}$ are suitable only for the Delta region because they were deduced using ideal drawdown values of $h_t$ concerning this region.,
+10.1002/ird.373,"• Some hydraulic characteristic values were obtained during short periods of almost steady flow to the drains, while the actual flow is really unsteady.",correct,In fact these values were obtained during short periods of almost steady flow to the drains while the actual flow is really unsteady.,
+10.1002/lno.10742,"• Although we originally intended to predict regional threshold model parameters as a function of landscape characteristics, the low number of stress regions did not provide the statistical power needed to do so.
+• For the remaining six stress regions, we either have not captured high TN events and could not obtain precise parameter estimates, or high TN events did not occur in these regions and neither the change point model nor the linear model was an appropriate approximation.
+• We lacked comprehensive data on phytoplankton composition and therefore could not directly evaluate phytoplankton seasonal succession.
+• The authors note that if data were aggregated, they would have incorrectly concluded that stress regions were common throughout the study extent, indicating aggregation can obscure the regional-scale pattern.",correct,"Although we originally intended to predict regional threshold model parameters (i.e., threshold and post-threshold slope) as a function of landscape characteristics, the low number of stress regions did not provide the statistical power needed to do so.
+
+These findings suggest that although eight regions were preliminarily identified as potential stress regions, for the remaining six, we either have not captured high TN events and could not obtain precise parameter estimates, or high TN events did not occur in these regions and neither the change point model nor the linear model was an appropriate approximation of Chl $a$ -TN relationships.
+
+Because we lacked comprehensive data on phytoplankton composition and therefore could not directly evaluate phytoplankton seasonal succession, we compared cumulative frequency distributions of sampling events among regions.
+
+Had we examined Chl $a$ -nutrient relationships by aggregating all data, we would have incorrectly concluded that stress regions were common throughout our study extent, when in fact they were largely driven by relationships within two regions (c.f., Fig. 2 vs. Fig. 5).",
+10.1002/saj2.20099,"• The authors noted that the N rate applied potentially was not adequate to meet full corn N requirements.
+• The authors suggested that relatively high soil organic matter levels at each site may have absorbed nitrapyrin as it was released from the microcapsule, rendering the inhibitor less effective or ineffective.
+• Instinct showed little to no effect on soil inorganic N in the late spring, indicating loss of effectiveness through the springtime period.",wrong,"The low concentrations also indicate the N rate applied potentially was not adequate to meet full corn N requirements.
+
+Also, relatively high soil organic matter levels at each study site (Table 1) may have absorbed nitrapyrin as it was released from the microcapsule (Goring, 1962a; Briggs, 1975; Keeney, 1980), rendering the inhibitor less effective or ineffective (Laskowski and Bidlack, 1977).
+
+However, Instinct had little to no effect on soil inorganic N in the late spring, indicating loss of effectiveness in nitrification control through the springtime.",the third item is mainly a study finding
+10.1007/s10980-013-9872-2,"• The authors state that isotopic measurements indicate summer denitrification but do not conclude on denitrification processes during the winter period.
+• The authors state, ""We cannot affirm that there is a nitrogen retention process during the drainage season.""",correct,"Isotopic measurements indicate that denitrification processes occur during the summer period but do not conclude on the denitrification processes during the winter period.
+
+We cannot affirm that there is a nitrogen retention process during the drainage season, but they have a lesser influence on water quality than hydrological processes.",
+10.1007/s13157-024-01783-x,"• Our study was limited to 12 oxbows of similar size and restoration date.
+• This study primarily examined differences in richness and abundance of invertebrates and fishes.
+• This study did not assess impacts on morphology or behavior and was not designed to measure the sustained effects of individual contaminants associated with tile water over time.
+• While residence times were not measured for all multipurpose oxbows in this study, an assessment of two of the study oxbows found residence times of 5.48 and 22.98 days in 2020-2021.",correct,"Our study was limited to 12 oxbows of similar size and restoration date.
+
+this study primarily examined differences in richness and abundance of invertebrates and fishes.
+
+This study did not assess impacts on morphology or behavior and was not designed to measure the sustained effects of individual contaminants associated
+
+While residence times were not measured for all multipurpose oxbows in this study, an assessment of two of the study oxbows found residence times of 5.48 and 22.98 days in 2020-2021 (Pierce and Schilling 2023).",
+10.1016/0378-3774(95)01137-8,• The original intent to test whether three circular perforations and three rectangular perforations would have different results could not be achieved because the perforation area was not kept the same.,correct,"The original intent was to test whether three circular perforations and three rectangular perforations would have different results, but because the area of the perforation was not kept the same, this objective could not be achieved.",
+10.1016/S1164-5563(01)01105-0,• Estimates based on mustard extraction alone may have notably underestimated the population density.,correct,"Above the drain, one adult and six juveniles were obtained with mustard and an additional adult individual and four juveniles with hand sorting.",
+10.1016/j.agee.2018.07.004,"• ""We were unable to determine drainage areas for individual tiles and this remains a limitation for estimating the effects of conservation practices on nutrient losses from tile drained watersheds.""
+• ""high tile flows, when significant nutrient losses can occur, are limited in this dataset.""
+• ""the scale of annual, seasonal, and monthly comparisons may be too coarse to accurately characterize the effects of conservation practices.""
+• ""Because this study focused on the watershed-scale effects of cover crops, we did not measure cover crop biomass in individual fields.""",correct,"We were unable to determine drainage areas for individual tiles and this remains a limitation for estimating the effects of conservation practices on nutrient losses from tile drained watersheds.
+
+Nevertheless, we acknowledge that high tile flows, when significant nutrient losses can occur, are limited in this dataset.
+
+In summary, these findings underscore the importance of hydrologic processes that dictate patterns in watershed export and demonstrate that the scale of annual, seasonal, and monthly comparisons may be too coarse to accurately characterize the effects of conservation practices.
+
+Because this study focused on the watershed-scale effects of cover crops, we did not measure cover crop biomass in individual fields.",
+10.1016/j.agrformet.2010.05.003,"• We caution against the extended use of Eq. (11).
+• Evaluating how roughness length varies with crop height was never planned for the experiment and is outside the scope of the study.",correct,"We caution against the extended use of Eq. (11).
+
+evaluating how roughness length varies with crop height was never planned for the experiment and is outside the scope of the study.",
+10.1016/j.agrformet.2025.110602,"• The machine-learning models produced spurious winter subsurface drainage volume and frequency predictions during long-term climate change simulation.
+• The limited temporal and unbalanced observed winter subsurface drainage data may be the primary reason the machine-learning models could not capture the full physical relationships for winter hydrology in croplands.
+• Winter subsurface drainage was rarely monitored across North America and was prone to data loss during spring due to flooding.
+• The observed winter subsurface drainage data ranged from 3 to 7 years.
+• RZ-SHAW calibration required extensive expertise, many parameters, numerous iterations, and substantial computation time; the calibration alone took approximately 25 days.",correct,"However, the machine learning models produced spurious winter subsurface drainage volume and frequency prediction during the long-term climate change simulation.
+
+The limited temporal and unbalanced observed winter subsurface drainage data may be the primary reason the machine-learning models could not capture the full physical relationships for the winter hydrology in croplands under the limited data.
+
+Winter subsurface drainage in the current research provides a good example. It
+
+has been rarely monitored across North America, even on research farms, and was prone to data loss during spring due to flooding (across the five sites, the observed winter subsurface drainage data ranged from 3 to 7 years).
+
+across the five sites, the observed winter subsurface drainage data ranged from 3 to 7 years
+
+As a result, the calibration for the RZ-SHAw model alone took approximately 25 days.",
+10.1016/j.agsy.2021.103110,• The delta method was used despite its drawbacks of unchanged temporal sequencing of precipitation and variances of temperatures.,correct,"The projections were then downscaled to the Whelan Experimental Farm at Woodslee, Ontario (experimental location) using the delta method that was commonly used for assessment of climate change impacts (Chen et al., 2011; Elsner et al., 2010; Haasnoot et al., 2015; Islam et al., 2012; Mearns et al., 2014) regardless of its drawbacks of unchanged temporal sequencing of precipitation and variances of temperatures.",
+10.1016/j.agwat.2011.05.015,"• The model was less accurate simulating flow-weighted nitrate concentration.
+• Lack of agreement between observed and simulated values may be attributed to differences between actual management and what was assumed for the simulations, specifically the timing and amount of fertilizer N added to the system.
+• Better model parameters for C and N cycling could likely improve net mineralization estimates, but these are difficult to measure.",correct,"but was less accurate simulating FWNC for subbasin CN1 in the Walnut Creek, Iowa (Story county) watershed.
+
+Lack of agreement between observed and simulated values may also be attributed to differences between actual management and what was assumed
+
+Better model parameters for C and N cycling could likely improve net mineralization estimates, but these are difficult to measure",
+10.1016/j.agwat.2011.11.006,"• One possible reason for the over-prediction is associated with the land-surface and tile drain slope (0.8%), which the model does not simulate.
+• The low NSME for monthly tile flow under controlled drainage is partially due to the model not simulating tile flow during gate depth adjustments.
+• The low or negative NSME values for predicting monthly FWNC were partly due to the relatively stable nitrate-N concentration across time (low observed variance).",correct,"One possible reason for the over-prediction is associated with the land-surface and tile drain slope $(0.8\%)$ , which the model does not simulate.
+
+The monthly tile flow was under-predicted by $2.72\%$ under CD with an NSME of 0.29 (Fig. 1 and Table 5; 2006-2008). The low NSME is partially due to the model not simulating the tile flow during the gate depth adjustments.
+
+The low or negative NSME values for predicting monthly FWNC for both calibration and evaluation were partly due to the relatively stable nitrate-N concentration across time (low observed variance).",
+10.1016/j.agwat.2019.03.039,"• The available hourly input data restricted the simulation period to nine years.
+• The submodel describing the wintertime processes was not calibrated.
+• Detailed soil data on the deeper soil layers was not available.",correct,"However, the available hourly input data from the Nummela field and the Jokioinen observatory restricted the simulation period to nine years.
+
+A likely reason for this is that the submodel describing the wintertime processes was not calibrated.
+
+Detailed soil data on the deeper soil layers was not available, and therefore the number of
+
+calibrated parameters was kept to the minimum $(\omega$ and $\theta_{sat})$ and the simplified description of the conductivity of the deep soil layers was used.",
+10.1016/j.agwat.2020.106674,"• The CNN analysis of the AIS dataset had low-confidence modeling and incomplete AIS coverage, so the presented data most likely underestimate true fishing effort.
+• Mid-water trawl vessels included in the trawling category could cause some overestimation of effort.
+• Fishing effort and footprint for fixed gear could not be assessed through the GFW dataset because the GFW data showed no fishing effort for fixed gear.
+• The AUV surveys covered a smaller spatial area and depth range than the satellite data.
+• AIS data may contain signal gaps and can be limited if transponders are turned off or signals are falsified.",correct,"While it has been documented that the CNN analysis of the AIS dataset had a high accuracy for general trends in vessel type and activity, a small amount of data is lost to low confidence modeling, due to outlier ship behavior for a modeled gear type or to incomplete AIS coverage (Kroodsma et al., 2018). Percent data loss for 2012 trawling activity was $37\%$ , $14\%$ for 2014 data, and $8\%$ for 2016 data; thus, the presented data most likely underestimate true fishing effort.
+
+While some effort would be lost due to low certainty from the CNN, leading to an underestimation of footprint coverage and effort, the inclusion of Mid-water trawl vessels in the trawling category could instead cause some overestimation of effort.
+
+Fishing effort and footprint for fixed gear (set-longlines, set-gillnets, pots, and traps) could not be assessed through the GFW dataset for this area because the GFW data shows no fishing effort for fixed gear.
+
+These cover a smaller spatial area and depth range than the satellite data, but indicate the full footprint is not encompassed by the satellite data, suggesting either the fishing footprint is not fully captured by the AIS approach or that the footprint has shifted through time.
+
+AIS information may also be of limited use for detecting illegal fishing, as the transponders can be turned off at will, or signals may be falsified by ""identify theft"" of another ship (Shekar Jha, 2020).",
+10.1016/j.agwat.2020.106698,"• Considering the small amount of observed data, we only used R2 and RE as the statistical parameters for a preliminary assessment.
+• The water sample conditions in the field did not completely match the conditions in the simulation.
+• The discharge in the test differed from that in the simulation condition because of the time required for the water in the pipe to flow to the outlet.
+• The heterogeneity of the soil nitrogen contents might cause errors.
+• The nitrogen for one-time drainage varied within a smaller range, which might result in larger errors.",correct,"Considering the small amount of observed data, we only used $R^2$ and $RE$ as the statistical parameters for a preliminary assessment.
+
+the water sample conditions in the field did not completely match the conditions in the simulation
+
+the discharge in the test differed from that in the simulation condition because of the time required for the water in the pipe to flow to the outlet
+
+the heterogeneity of the soil nitrogen contents might cause errors
+
+the nitrogen for one-time drainage varied within a smaller range, which might result in larger errors",
+10.1016/j.agwat.2023.108362,"• The filters were only used for surface runoff in the current study.
+• TSS was not measured in tile drainage, so the total reduction in edge-of-field TSS losses by the filter cannot be quantified.
+• Their efficacy may vary across landscape types and flow regimes, and for different P species, so they should be used with caution.",correct,"Filters were only used for surface runoff in the current
+
+Unfortunately, TSS was not measured in tile drainage, so the total reduction in edge-of-field TSS losses by the filter cannot be quantified.
+
+This suggests that while there is potential for the use of filters at the edge-of-field, their efficacy may vary across landscape types and flow regimes, and for different P species, and they should therefore be used with caution.",
+10.1016/j.agwat.2025.109641,"• Several external factors were not included in the analysis, including fluctuations in crop prices, changes in precipitation distribution during planting, and unforeseen agronomic advancements or shifts in management practices.
+• The projections should be interpreted within the context of the model's assumptions and evolving agricultural conditions.",correct,"However, several external factors that were not included in our analysis could influence future drainage design decisions. For instance, fluctuations in crop prices may alter the economic feasibility of different drainage strategies, and changes in precipitation distribution, particularly increased rainfall during planting, could drive a preference for narrower spacing to facilitate timely field operations. Additionally, unforeseen agronomic advancements or shifts in management practices may further impact the suitability of wider spacing.
+
+Therefore, while our findings suggest that a wider spacing could help mitigate future drought stress, these projections should be interpreted within the context of the model's assumptions and evolving agricultural conditions.",
+10.1016/j.asej.2025.103450,"• The aquifer configuration is assumed homogeneous and isotropic.
+• The model is limited to sloping angles less than 10 deg. (17.6%) to satisfy Dupuit-Forchheimer assumptions.",correct,"However, the study is under the limitations that the aquifer configuration is homogeneous and isotropic, and the sloping angle is less than 10 deg., i.e. $17.6\%$ to satisfy Dupuit-Forchheimer assumptions when referring to Chapman [24].
+
+However, the study is under the limitations that the aquifer configuration is homogeneous and isotropic, and the sloping angle is less than 10 deg., i.e. $17.6\%$ to satisfy Dupuit-Forchheimer assumptions when referring to Chapman [24].",
+10.1016/j.biosystemseng.2021.05.002,"• Non-linear pipe models require additional input parameters that are not currently available for small diameter, single-wall corrugated HDPE pipes subjected to the agricultural loading conditions used in this study.",correct,"However, non-linear pipe models require additional input parameters that are not currently available for small diameter, single-wall corrugated HDPE pipes subjected to the agricultural loading conditions used in this study.",
+10.1016/j.ecoleng.2016.02.014,"• The objective of 100% abatement is hard to achieve.
+• The paper notes limited knowledge of the fluxes of N2O from free water surface constructed wetlands.",correct,"However, the efficiency results show that the objective of $100\%$ abatement is hard to achieve.
+
+Due to the high environmental hazard of $\mathrm{N}_2\mathrm{O}$ emissions and the limited knowledge of its fluxes from FWS CWs, more detailed study is needed.",
+10.1016/j.ecoleng.2017.10.002,"• The simple technoeconomic analysis did not account for cost differences caused by actual reactor dimensions, local availability of woodchips, distance of power line to bioreactors, wiring installation, engineering design fee, and other detailed factors.
+• No nitrate removal was observed in all reactors during the 10°C experimental period, so those data were excluded from performance evaluation.
+• The electron transfer pathway (direct vs indirect) could not be determined from the experiments.
+• It was difficult to optimize pH, ORP, and DO simultaneously in the up-flow reactor without the use of a pH buffer.",correct,"It is important to note that this simple TEA did not account for the cost differences that can be caused by actual dimension (width: length: depth ratios) of the reactor, local availability of woodchips, distance of power line to bioreactors, wiring installation, engineering design fee and other detailed factors.
+
+Since there was no nitrate removal observed in all reactors during the $10^{\circ}\mathrm{C}$ experimental period, the data was excluded and performance of each reactor was only evaluated under room temperature conditions.
+
+although, the electron transfer pathway (direct vs indirect) cannot be determined from our experiments.
+
+This is because it was difficult to optimize the three denitrification parameters (pH, ORP, DO) simultaneously in an up-flow reactor without the use of a pH buffer.",
+10.1016/j.epsl.2017.12.025,"• Understanding if there is a systematic change in karst landscapes from lower order to higher order drainages awaits future work.
+• Our present isotope data cannot confirm this source for cave 24.",correct,"Caves with $\mathrm{CH_4}$ concentrations above the atmospheric background appear to be uncommon, and understanding if there is a systematic change in karst landscapes from lower order to higher order drainages awaits future work.
+
+It cannot be excluded that small fluxes of $\mathrm{CH_4}$ from shales or hydrocarbon deposits underlying the limestone are entering caves through natural fractures, but our present isotope data cannot confirm this source for cave 24.",
+10.1016/j.geoderma.2007.04.009,"• The model calibration was done by trial and error without using a mathematically sound optimization scheme.
+• There was difficulty selecting criteria for goodness-of-calibration and deciding which variables or parameters to calibrate.
+• Simulated N uptake was generally unacceptable, and errors in biomass and yield were much higher than experimentally observed in some cases.
+• A 1999 equipment failure led to missing drainage samples and affected evaluation of tile flow and N loading.
+• Uncertainty in soil condition from plot to plot, lack of consideration for pest, hail, and flood damage, missing weather data, and changes in corn and soybean varieties during the 26 years of experiments limited performance.
+• The model did not account for subsurface lateral flow between adjacent plots.",correct,"We calibrated RZWQM for one plot by trial and error without using a mathematically sound optimization scheme.
+
+During the calibration process, we also had difficulty to select criteria for goodness-of-calibration, and variables or parameters to calibrate.
+
+we found that N uptake simulation was generally unacceptable and simulations of biomass and yield had much higher RMSE than experimentally observed.
+
+We tried to match total tile flow and total N loading in tile flow for the calibrated plot, but there was an equipment failure in 1999.
+
+Less than satisfactory results for plant growth were partially due to uncertainty in soil condition from plot to plot; lack of consideration for pest, hail, and flood damage in the model; missing weather data on the experimental site, and changes in corn and soybean varieties during 26 years of experiments.
+
+To improve plant simulations in this study, RZWQM needs to: (1) account for subsurface lateral flow below the tile between adjacent plots so that lateral flow out of one plot can be routed to other plots",
+10.1016/j.geoderma.2007.04.014,"• Several of the poor yield and nitrate-N loss predictions appear related to poor N-uptake simulations.
+• Tillage effects on infiltration were not simulated.
+• The rotation effect was only partially simulated, and increased infiltration due to additional surface residue was not simulated.
+• Soil parameter calibration for each plot would improve drainage predictions.",correct,"Several of the poor yield and nitrate-N loss predictions appear related to poor N-uptake simulations.
+
+Some predictions were inaccurate because tillage effects on infiltration were not simulated.
+
+The slope of the best fit line in Fig. 5 is 0.56, suggesting the rotation effect was only partially simulated and some effects such as increased infiltration due to additional surface residue (Weed and Kanwar, 1996) were not simulated.
+
+Soil parameter calibration for each plot would improve drainage predictions, but daily and yearly drainage simulations are generally reasonable (Figs. 3 and 4).",
+10.1016/j.jhydrol.2008.12.026,"• The eastern boundary of the region is not well defined.
+• The northern and western extent of the Albion Formation remains to be verified.
+• The ejecta blanket material is poorly consolidated and can be distinguished conclusively from alluvium only by microscopic examination and/or precise mineral age determination.",correct,"The eastern boundary of this region is not well defined, but it appears not to extend to the northern Caribbean coast and may be bounded by the Holbox Fracture Zone.
+
+Whereas the Albion Formation crops out in southern Quintana Roo and in Belize its northern and western extent remains to be verified.
+
+This discrepancy comes about because the ejecta blanket material is poorly consolidated and can be distinguished conclusively from alluvium only by microscopic examination of the clasts and/or precise mineral age determination.",
+10.1016/j.jhydrol.2016.09.021,• Graphical confirmation of non-Darcian flow under field conditions is challenging because water temperature during the experiment must stay relatively constant to avoid becoming a confounding variable.,correct,"Graphical confirmation of non-Darcian flow under field conditions is challenging, since water temperature during the experiment needs to stay relatively constant to avoid being a confounding variable.",
+10.1016/j.jhydrol.2021.126218,"• The experimental setup was not designed to specifically investigate hysteresis effects.
+• Reducing uncertainty in the contributing drainage area by hydrologically isolating the investigated blocks was not achievable within the project constraints.
+• It was prohibitively expensive to analyse all 1028 samples collected for the full suite of laboratory analytes.",correct,"While our experimental setup was not designed to specifically investigate hysteresis effects
+
+Reducing the inherent uncertainty of the size of the contributing drainage area by hydrologically isolating the investigated blocks was not achievable within the project constraints.
+
+It was prohibitively expensive to analyse all 1028 samples collected for the full suite of laboratory analytes.",
+10.1016/j.jhydrol.2022.128146,"• Sampling intervals were 8 ± 3 d, and the authors note that this resolution could underrepresent important short-term processes.
+• The study-specific partitioning of cumulative dissolved nutrient load was specific to the site and management practices employed.
+• The study terminated before 30 d had elapsed after the fifth N application, so that application was not included in the incidental-loss analysis.",correct,"sampling resolution used in the current study $(8\pm 3\mathrm{d})$ could underrepresent important short-term processes
+
+The partitioning of cumulative dissolved nutrient load into different sources was specific to the study site and field management practices employed
+
+The fifth N application on July 12, 2019 was not considered for this analysis since the study terminated prior to 30 d after application.",
+10.1016/j.limno.2005.06.005,"• The available databases are incomplete.
+• The localisation and digitalisation of large subsurface drainage areas is a very time-consuming process.
+• Many documents were lost in the course of restructuring after reunification.
+• The database is not sufficient to justify transfer of measured values onto the total catchment areas.
+• The effectiveness of drainage systems built before 1950 has not yet been studied.
+• Reduced maintenance of drainage systems in the 1990s was not considered because of insufficient data sources and low relevance for the results.",correct,"Determining the total drainage area involves certain difficulties for larger areas, as on the one hand, the available databases are incomplete, and on the other hand the localisation and digitalisation of large subsurface drainage areas is a very time-consuming process.
+
+Determining the total drainage area involves certain difficulties for larger areas, as on the one hand, the available databases are incomplete, and on the other hand the localisation and digitalisation of large subsurface drainage areas is a very time-consuming process.
+
+The information about the drained areas are not complete, however, since many documents were lost in the course of restructuring after the reunification.
+
+However, the database is not sufficient to justify the transfer of the measured values onto the total catchment areas.
+
+Although their effectiveness has not yet been studied, it seems reasonable to assume that the proportions of drainage area are in fact somewhat greater than those calculated.
+
+On the other hand, a reduction in maintenance suggest a lower level of efficiency in the 1990s. According to information provided by farms, the effectiveness of the subsurface drainage systems in the study area is only slightly reduced. Both factors were neglected in the study because of the insufficient data sources and their low relevance for the results.",
+10.1016/j.pce.2005.07.014,"• After event 6, cracks in front of the surface runoff measurement device prevented water from flowing through the gauge, so the last rainfall events at the end of March were not retained in the analysis.
+• Water pressure head measurements were missing during event 2 because of desaturation of the tensiometer device.
+• The authors note that water table elevation never reached the soil surface at the midpoint during surface runoff events, which could suggest that the measurement was not exactly at midpoint between the drains and that the water table benefited from lateral drainage.",correct,"Unfortunately, after event 6, some cracks in the soil appeared in front of the surface runoff measurement device preventing water from flowing through the gauge. Consequently, the last rainfall events occurring at the end of March were not retained in the analysis.
+
+pressure head measurements were missing during that period because of desaturation of the tensiometer device.
+
+It is first noticeable that even during surface runoff events, water table elevation never reached the soil surface (Fig. 4e), which could suggest that the measurement was not performed exactly at midpoint between the drains and that the water table benefits from lateral drainage (Bouwer, 1959).",
+10.1016/j.pce.2023.103492,"• Findings of studies involving chemical treatment research in more detail are yet to be produced and are limited.
+• The cited chemical-treatment study focused on soil strength in the field only, not other soil engineering properties.",correct,"Findings of studies involving chemical treatment research in more detail are yet to be produced and limited.
+
+The study results also focused on the value of soil strength in the field only, not covering other soil engineering properties.",
+10.1016/j.scitotenv.2020.138004,"• A primary limitation of this work is generalizability to dissimilar watersheds.
+• The study considers six GCMs under one emissions scenario, one downscaling approach, and one baseline land management.
+• Temperature changes were in a narrower range than the CMIP5 ensemble.
+• Including plausible land-management and land-use changes was outside the scope of this study.
+• The work is limited in its ability to encompass all facets of uncertainty in climate and land use change.",correct,"A primary limitation of this work is generalizability to dissimilar watersheds.
+
+The study considers six GCMs under one emissions scenario, one downscaling approach, and one baseline land management.
+
+However, temperature changes were in a narrower range (approximately $0.5^{\circ}\mathrm{C}$ ) than the CMIP5 ensemble $(2.6^{\circ}\mathrm{C},$ Table 3, Fig. S1).
+
+Including plausible land-management and land-use changes would be complex and dependent upon a variety of factors such as economics, technology, and social aspects; incorporating these scenarios accurately was outside the scope of this study.
+
+This work is also limited in its ability to encompass all facets of uncertainty in climate and land use change.",
+10.1016/j.scitotenv.2023.166769,"• Because the number of surface runoff samples was small, the surface runoff results were considered indicative only.
+• Surface runoff loading estimates were described as rough and very tentative.
+• The surface runoff results represent only plot 6.",correct,"Because the number of samples was small, the average concentrations of all five samples and the annual amount of surface runoff water were used to estimate the loads of substances leaving the field in surface runoff (Table 2).
+
+Since the loading estimates for the surface runoff are rough and very tentative, they are included only in the average loads of each element at the bottom of the table.
+
+Surface runoff results only represent plot 6 and are based on few water samples.",
+10.1023/A:1014807901461,"• The methodology has limitations, since there is not always a direct relationship between the subsidence and the building damage.
+• The effect on the buildings depends on numerous factors.
+• Indirect studies of the subsidence, such as geophysical investigation, are difficult, expensive and time consuming.",correct,"The application of this methodology to determine the relative activity of the subsidence has clear limitations, since there is not always a direct relationship between the subsidence and the building damage.
+
+The effect on the buildings depends on numerous factors.
+
+Indirect studies of the subsidence, such as geophysical investigation are difficult, expensive and time consuming, and most are best used on undeveloped sites.",
+10.1038/s41598-018-34327-5,"• Theoretical melting-point temperatures still differed from the true freezing temperature of the thermistors by 0.04 to 1.1°C, suggesting that a further factor depressed the freezing-point.
+• It is not known whether the Site 1 borehole reached the bed.
+• The measurements in the shallow ice layer are influenced by seasonal temperature variations, so they do not reflect longer-term and deeper ice temperatures.",correct,"However, the theoretical $T_{m}$ values still differed from the true freezing temperature of the thermistors by 0.04 to $1.1^{\circ}\mathrm{C}$ , suggesting that a further factor depressed the freezing-point.
+
+It is not known whether the Site 1 borehole reached the bed.
+
+Therefore, despite the debris layer, at least the uppermost $10\mathrm{m}$ of the ablation area is notably influenced by seasonal surface temperatures[17], similar to clean-ice glaciers[23,30].",
+10.1061/(ASCE)0733-9437(1995)121:4(292),• No experimental replication was provided.,correct,No experimental replication was provided.,
+10.1061/(ASCE)0733-9437(2000)126:6(375),"• These theoretical findings now require experimental validation.
+• The analysis has made assumptions appropriate to coarse-textured soils.",correct,"These theoretical findings now require experimental validation.
+
+While the analysis has made assumptions appropriate to coarse-textured soils, the methodology of progressive leaching should also be able to be applied to finer-textured soils.",
+10.1061/(ASCE)IR.1943-4774.0000622,"• Only two sites were compared in this paper.
+• This approach precluded modeling of bypass-flow-associated increased hydraulic gradient, leading to potential overestimation of nitrate removal when bypass flow was occurring.
+• The N removal regression was thought to be conservative, so actual bioreactor performance may be better than indicated.",correct,"although there was notable year-to-year variability in observed peak flow rates and only two sites were analyzed in this paper.
+
+Although this approach precluded modeling of this bypass-flow-associated increased hydraulic gradient, leading to potential overestimation of nitrate removal when bypass flow was occurring, these methods were consistently applied across all the hypothetical bioreactors, allowing relative comparisons between designs.
+
+The N removal regression [Eq. (7)] was thought to be conservative, thus actual bioreactor performance may be better than indicated.",
+10.1080/00103624.2014.967863,• It was nearly impossible to remove all the salts in the plow layer.,correct,"However, it was nearly impossible to remove all the salts by leaching with rainwater and subsurface drainage due to the high groundwater table.",
+10.1080/00103628409367542,"• It is possible that available carbon limited denitrification activity in these soils, but this was not measured.
+• It is also possible that the unaltered core technique underestimated denitrification rates in that acetylene may restrict nitrate supply to denitrifiers by inhibiting nitrification.
+• Diffusion of acetylene and nitrous oxide into and out of the cores may not have been in equilibrium during the short incubation time.
+• It is possible that the incubation conditions obscured differences in mineralization rates between drained and undrained treatments.",correct,"It is possible that available carbon limited denitrification activity in these soils, but this was not measured.
+
+It is also possible that the unaltered core technique
+
+Most Probable Numbers (MPN) of Denitrifying Bacteria in Drained and Undrained Soils, Apr 1982
+
+TABLE 5   
+
+<table><tr><td>Depth (cm)</td><td colspan=""2"">MPNa</td></tr><tr><td></td><td>Drained</td><td>Undrained</td></tr><tr><td>0-8</td><td>2.2 x 104(0.67-7.25)</td><td>1.4 x 105(0.42-4.62)</td></tr><tr><td>8-16</td><td>2.3 x 103(0.70-7.59)</td><td>3.5 x 105(1.06-11.55)</td></tr><tr><td>16-24</td><td>1.7 x 103(0.52-5.61)</td><td>1.3 x 104(0.39-4.29)</td></tr></table>
+
+${}^{a}$ Values are numbers of denitrifying bacteria per g field moist soil. Parentheses contain the 95% confidence interval.
+
+underestimated denitrification rates in that acetylene may restrict nitrate supply to denitrifiers by inhibiting nitrification (Hynes and Knowles, 1982) $^{17}$ .
+
+In addition, diffusion of acetylene and nitrous oxide into and out of the cores may not have been in equilibrium during the short incubation time (Jury et al., 1982) $^{18}$ .
+
+It is possible that the incubation conditions obscured differences in mineralization rates between drained and undrained treatments in that the disturbed",
+10.1080/07900627.2011.598132,"• Economic benefits from water uses outside agriculture are not directly measured.
+• The study performed no analysis of the technical, financial, or institutional requirements needed to establish or sustain water trading.
+• It did not directly address methods to communicate to stakeholders the gains from water trading.",correct,"Economic benefits from water uses outside agriculture are not directly measured.
+
+This study also performed no analysis of the technical, financial, or institutional requirements needed to establish or sustain water trading.
+
+It also did not directly address the methods to communicate to stakeholders the gains from water trading.",
+10.1111/1752-1688.70018,• The sample size used in the study may not be large enough to detect a statistically significant effect of alfalfa on subsurface discharge during large events at Site A.,correct,"In addition, the sample size used in the study may not be large enough to detect a statistically significant effect of alfalfa on subsurface discharge during large events.",
+10.1111/j.1365-3180.1978.tb01146.x,"• Rigorous comparisons of rates of formation and disappearance could not be made because of climatic variation, slight differences in the rate and time of herbicide treatments each year, and variable recovery efficiencies.
+• Because of variation in soil concentrations, it was not possible to describe a reliable mathematical relationship between the rate of disappearance of the residues and soil moisture and temperature.
+• The determination of hydroxy-triazines was considered only semi-quantitative because of inefficiencies of extraction and derivatization.
+• Hydroxy-triazine residues were not included in the calculations of percentage loss to tile-drain water because preliminary investigations suggested that these compounds were not present in the water samples.",correct,"made because of climatic variation, slight differences in rate and time of herbicide treatments each year as well as variable recovery efficiencies.
+
+Due to the variation in the soil concentrations of the degradation products it was not possible to describe a reliable mathematical relationship between the rate of disappearance of the residues and soil moisture and temperature as has been described for simazine by Walker (1976).
+
+The determination of the hydroxy-triazines was considered to be only semi-quantitative because of the inefficiencies of extraction and derivatization.
+
+Hydroxy-triazine residues were not included in the calculations of percentage loss to tile-drain water since preliminary investigations suggested that these compounds were not present in the water samples.",
+10.1111/j.1752-1688.2010.00467.x,"• The last two approaches did not show consistent results and may not be suitable for a relatively young (<20 years) constructed swale setting or because of lack of bed-load considerations in addition to water column turbidity.
+• It has been only 2.5 years since the swale was modified and it may not be stable enough to be judged by the change in vegetation or scour line.
+• The data applied to develop the Wolman-Miller model may not be enough due to the stratification of sediment or the lack of bed-load data.",correct,"The last two approaches did not show consistent results and may not be suitable for a relatively young (<20 years) constructed swale setting or because of lack of bed-load considerations in addition to water column turbidity.
+
+it has been only 2.5 years since the swale was modified and it may not be stable enough to be judged by the change in vegetation or scour line.
+
+the data applied to develop the Wolman-Miller model may not be enough due to the stratification of",
+10.1117/1.1403450,"• The implemented model is useful and simple, but to acquire radar images of the region studied with the illumination angle of β = 90 deg, the authors state that they must rely on airborne data.
+• The authors note that since the RADARSAT satellite launching, there has been a sharp decrease in airborne missions, and with its 98.5 deg inclination the satellite observes most fields in the experimental region with an illumination angle of about 0 deg.",correct,"However, to acquire radar images of the region studied with this illumination angle, we must rely on airborne data.
+
+Unfortunately since the RADARSAT satellite launching, we notice a sharp decrease in airborne missions and with its 98.5 deg inclination of the polar orbit, RADARSAT is consequently observing most of the fields in the experimental region with and illumination angle of about 0 deg.",
+10.1117/12.2197912,"• There is still a little tissue remaining inside the channel, which illustrates the difficulty of subsurface laser ablation.
+• It is difficult to acquire distinct imaging at the depth of the sclera with SHG imaging.
+• Two-photon microscopy penetrated less deeply into the sclera than the cornea.
+• The sclera scatters visible light because Bragg scattering.",correct,"There is still a little tissue remaining inside the channel, which illustrates the difficulty of subsurface laser
+
+It is difficult to acquire distinct imaging at the depth of the sclera with SHG imaging.
+
+Two-photon microscopy penetrated less deeply into the sclera than the cornea, which is consistent with previous studies[32].
+
+The sclera scatters visible light because Bragg scattering.",
+10.1130/0016-7606(1996)108<0794:SOTCPD>2.3.CO;2,"• Water-table fluctuations are estimated from field observations, but no quantitative data on hydroperiod are available.
+• Discharge rates are difficult to measure confidently because of the tidal nature of drainage in the eastern section and the dispersed western drainage pattern.
+• Autocompaction of the peat was not factored into the subsidence estimates because there were no apparent density increases with depth in the extremely compact fine hemic woody peats.
+• No topographic survey data are available for the flood-plain margin.
+• The authors note that spacing of coring sites is inadequate to make a final judgement about whether the eastern domes are incipient bog plains or remnants of a more widespread bog plain.",correct,"Water-table fluctuations are
+
+estimated from field observations, but no quantitative data on hydroperiod are available.
+
+Discharge rates are difficult to measure confidently, however, due to the tidal nature of the drainage in the eastern section and the dispersed western drainage pattern.
+
+Autocompaction of the peat has not been factored into these esti
+
+mates, because of the absence of any apparent density increases with depth in the extremely compact fine hemic woody peats.
+
+No topographic survey data are available for the flood plain margin
+
+Spacing of coring sites is inadequate to make a final judgement.",
+10.1139/T09-021,"• Considering the pavement surface and subgrade as impervious is described as 'somewhat restrictive.'
+• The analysis assumes the structural section is initially saturated and that water does not enter the pavement section after it is saturated.
+• Only the initial drying segment of the water retention function is considered because the pavement materials are solely subjected to a desorption process.",correct,"Although somewhat restrictive, considering the pavement surface and subgrade as impervious allows for an unbiased evaluation of the impact of the subbase material on subsurface drainage.
+
+As in the traditional time-to-drain method, it is assumed that (i) water enters the structural section until it is saturated; (ii) water does not enter the pavement section after it is saturated; (iii) water is drained to the side ditches through edge drains once the structural section is saturated.
+
+Only the initial drying segment of the water retention function is considered given that the pavement materials are solely subjected to a desorption process.",
+10.1139/as-2018-0028,"• The authors did not measure soil properties such as organic layer thickness, soil moisture, and moss cover, which can potentially influence frost table depth and correlate with vegetation cover class.
+• The spatial distribution of hummocks across the watershed is not known and cannot be estimated using other variables, and defining hummock development relies on visual inspection.",correct,"In this analysis, we did not measure soil properties (e.g., organic layer thickness, soil moisture, and moss cover), which can potentially influence frost table depth and correlate with measured variables, namely vegetation cover class.
+
+The spatial distribution of hummocks across the watershed is not known and cannot be estimated using other variables and defining their state of development relies just on visual inspection.",
+10.1139/cjss-2016-0036,"• The project was not continued until Ks started to recover, so it is unknown how long, if ever, it would take to remediate the dispersed soil.
+• It is unknown if a higher rate of gypsum would have been successful in replacing sodium and restoring soil permeability.
+• Many variables present under actual field conditions were not addressed in this study.",correct,"Since the project was not continued until $K_{s}$ started to recover, it is unknown how long, if ever, it would take to remediate the dispersed soil.
+
+However, it is unknown if a higher rate of gypsum would have been successful in replacing sodium and restoring the permeability of the soil but this is not likely mainly due to the low EC that results from a saturated solution of gypsum $(2.2\mathrm{dSm}^{-1})$ .
+
+While this project demonstrated degradation of soil structure when water was applied directly after brine, many variables may be present under actual field conditions that were not addressed with this particular study.",
+10.1139/cjss-2018-0115,"• Total NO3-N losses in this study were measured only during the growing season (1 Apr. to 31 Oct.) and the magnitude of the losses and treatment effects may vary if monitored year-round.
+• Dissolved N2O and ammonia were not measured in this study.",correct,"Total $\mathrm{NO}_3^-$ -N losses in this study were measured only during the growing season (1 Apr. to 31 Oct.) and the magnitude of the losses and treatment effects may vary if monitored year-round.
+
+Dissolved $\mathrm{N}_2\mathrm{O}$ and ammonia were not measured in this study",
+10.13031/aea.16032,"• These equations have not been tested for submerged conditions and may result in unreliable estimates when used under submerged conditions.
+• The equations have not been tested for bioreactor control structures with drawdown plates.
+• Discharge estimates are affected by the accuracy of the head measurements; the authors note that verification of sensor-based head measurements, monitoring for sedimentation, and checking for backwater flow should be performed through regular field visits.",correct,"These equations have not been tested for submerged conditions and may result in
+
+Finally, these equations have not been tested for bioreactor control structures with drawdown plates;
+
+Additionally, since the discharge estimates are affected by the accuracy of the head measurements, verification of the sensor-based head measurements with manual measurements, monitoring for possible sedimentation in the control structures, and backwater flow should be performed through regular field visits (Johnson et al., 2023).",
+10.13031/trans.11922,"• Normal probability plots indicated that the model residuals did not follow a normal distribution, which weakened the power of the statistical analysis.",correct,"However, normal probability plots indicated that the model residuals did not follow a normal distribution, which weakens the power of the statistical analysis.",
+10.13031/trans.12668,"• The models are not perfect, nor easy to use.
+• Many challenges remain.",correct,"The models are not perfect, nor easy to use
+
+many challenges remain",
+10.1680/jgein.15.00028,"• The variably saturated flow modelling could not predict the alleviated piezometric conditions within the back-slope because the drainage channels were not incorporated in the computation domain.
+• This study used 1:20 scale physical laboratory models.",correct,"This was due to the fact that the variably-saturated flow modelling could not predict the alleviated piezometric conditions within the back-slope as the drainage channels were not incorporated in the computation domain.
+
+Although small-scale laboratory tests do not represent field prototype stress levels, they provide insights into the adverse effects of positive piezometric pressures developed above the base of geofoam block assembly in the form of deep-seated global stability failures at the laboratory scale.",
+10.2134/agronj2004.0259,"• This study was not designed to optimize LSNT recommendations or for direct comparisons with the cooperators' normal practices.
+• The time of N application was not evaluated.
+• The specific soil series associated with each N strip measurement was not determined because the scale of the soil maps for the watershed was too coarse.
+• Because all tillage and crop management decisions other than LSNT were made by cooperators, it was not possible to determine any specific reason for the differences among fields.",correct,"This study was not designed to optimize LSNT recommendations or for direct comparisons with the cooperator's normal practices.
+
+However, time of N application was not evaluated, and perhaps this accounted for the slightly lower grain yields.
+
+The specific soil series associated with each N strip measurement was not determined because the scale of the soil maps for the watershed (USDA-SCS, 1981, 1984) was too coarse.
+
+Since all tillage and crop management decisions other than the use of the LSNT fertilizer management program were made by our cooperators, it is not possible to determine any specific reason for the differences.",
+10.2134/agronj2008.0087,"• Although our results provide no direct evidence that NO3-N leaching would necessarily have been reduced in double-cropping systems in the spring and fall.
+• It appears that opportunities for NO3-N loss during the early summer months (e.g., June-July) were increased in triticale/corn and triticale/sorghum-sudangrass systems as a result of relatively high fertilizer inputs, coupled with very low rates of N assimilation.
+• It is unclear whether estimates of biomass retention requirements for soil C maintenance under sole-cropping apply to the double-cropping systems evaluated in our study.",correct,"Although our results provide no direct evidence that $\mathrm{NO}_3$ -N leaching would necessarily have been reduced in double-cropping systems in the spring and fall
+
+it appears that opportunities for $\mathrm{NO}_3 - \mathrm{N}$ loss during the early summer moths (e.g., June-July) were increased in triticale/corn and triticale/sorghum-sudangrass systems as a result of relatively high fertilizer inputs, coupled with very low rates of N assimilation
+
+It is unclear whether estimates of biomass retention requirements for soil C maintenance under sole-cropping apply to the double-cropping systems evaluated in our study.",
+10.2134/agronj2015.0606,"• The potential benefits of Adapt-N were likely underestimated because the participants represented a progressive group who already optimize N timing and placement decisions with sidedress applications.
+• The current version of the model does not partition the different gaseous losses into their products (i.e., N2O, N2) and reports bulk gaseous losses.",correct,"The potential benefits of the use of a dynamic simulation tool like Adapt-N were likely underestimated in this study because the participants represented a progressive group who already optimize N timing and placement decisions with sidedress applications.
+
+The current version of the model does not partition the different gaseous losses into their products (i.e., $\mathrm{N}_2\mathrm{O},\mathrm{N}_2$ ) and reports bulk gaseous losses.",
+10.2134/jeq2004.1803,"• The original design of the drainage experiment did not allow for testing these different factors individually.
+• We have no ""control"" plots that remained unchanged throughout the 15 yr.
+• Due to the lack of on-site rainfall data during the 1991-1995 and 1998-1999 time periods, the calculated drainage efficiency values for those years are not as certain as the other time periods.",correct,"the original design of the drainage experiment did not allow for testing these different factors individually.
+
+we have no ""control"" plots that remained unchanged throughout the 15 yr
+
+Due to the lack of on-site rainfall data during the 1991-1995 and 1998-1999 time periods, however, the calculated drainage efficiency values for those years are not as certain as the other time periods.",
+10.2136/sssaj2014.01.0008,"• Some directional bias may have been imparted by the perpendicular orientation of the soil profiles to the slope gradient.
+• Soil pipe openings longer than 100 cm could not be measured outside the field plots before excavation.
+• The tubing method used to trace connectivity could only document mostly empty soil pipes and may miss pipes blocked by soil, undecayed roots, or other obstructions.",correct,"Some directional bias may be imparted into the measurements from the perpendicular orientation of the soil profiles to the slope gradient.
+
+lengths beyond $100\mathrm{cm}$ could not be measured outside of the field plots before excavation
+
+We acknowledge that soil pipes with obstructions may still provide preferential flow pathways; however, this method provided a rapid means of documenting the connectivity of mostly empty soil pipes.",
+10.2166/wqrj.2007.025,"• The RZWQM tended to underestimate tile NO3-N loads.
+• The observed weather data used in ClimGen were recorded at the London, Ontario weather station about 80 km from the site, so some precipitation events may not have occurred at the experimental site and could have affected the simulated results.
+• The RZWQM does not handle frozen soil conditions, a common condition in Ontario.
+• The evapotranspiration and plant water uptake components of the RZWQM need further testing and evaluation.
+• More field work is needed to assist with identifying suitable values for a number of coefficients used in the RZWQM's nutrient component/OMNI model for Ontario conditions.",correct,"It is also important to note that the RZWQM tended to underestimate tile $\mathrm{NO}_3$ -N loads, meaning the average concentration values in Table 4 are likely low.
+
+It is also important to mention that the observed weather data used in ClimGen for this simulation were recorded at the London, Ontario weather station about $80~\mathrm{km}$ from the site. Therefore, there is a possibility that some precipitation events (at least during the summer season) at the London weather station may not have occurred at the experimental site, and this might have affected the simulated results.
+
+For example, the RZWQM does not handle frozen soil conditions, a common condition in Ontario; therefore, continued development and testing of the RZWQM for winter conditions is required.
+
+- The evapotranspiration and plant water uptake components of the RZWQM need further testing and evaluation to understand the reasons for the high variability of the model's prediction of actual evapotranspiration.
+
+- Also, more field work is needed to assist with identifying suitable values for a number of coefficients used in the RZWQM's OMNI model (Organic Matter/Nitrogen, nutrient process sub-model) for southern Ontario conditions.",
+10.2489/jSWC.2022.00127,"• Great uncertainty is associated with the catchment-scale analysis because it combines several studies carried out under different circumstances and in different locations.
+• There are no studies in the region that have measured or modeled the effects of improving the drainage system drainage coefficient.
+• There is limited research on tile-drained agricultural systems with low drainage intensities or drainage coefficients, and widespread failure to report these values consistently.
+• There is limited research on the habitat and associated recreational, educational, and cultural services provided by water quality wetlands.
+• The analysis leans heavily on one modeling study based on field-scale results for the baseline condition.",correct,"combined several studies carried out under different circumstances and in different locations.
+
+There are also no studies in the region that have measured or modeled the effects of improving the drainage system drainage coefficient
+
+there is limited research on tile-drained agricultural systems with low drainage intensities or drainage coefficients, and there is widespread failure to report these values or to do so consistently (Skaggs 2017).
+
+Further, there is limited research on the habitat and associated recreational, educational, and cultural services provided by water quality wetlands.
+
+However, as mentioned previously, these results lean heavily on one modeling study based on field-scale results for the baseline condition (Castellano et al. 2019), and therefore require additional catchment-scale study.",
+10.2489/jSWC.2023.00147,"• The unusual drought conditions during this study resulted in no drainage and homogeneous moisture conditions at all sites.
+• The results from this study should be viewed with understanding of these exceptional climatic patterns and unique soil conditions during the period of study.
+• Hydrology varies spatially based on subsurface drainage line locations, but the authors were not able to fully account for this in the sampling design.
+• Complete records of past management were not known on all fields.",correct,"The unusual drought conditions during this study resulted in no drainage and homogeneous moisture conditions at all sites.
+
+the results from this study should be viewed with understanding of these exceptional climatic patterns and unique soil conditions during the period of study.
+
+Hydrology is known to vary spatially based on subsurface drainage line locations, but we were not able to fully account for this in our sampling design.
+
+complete records of past management is not known on all fields.",
+10.2489/jswc.67.6.485,"• From the limited four year dataset of this study, it is unclear if the yield increase for soybean versus no increase for corn was due to weather patterns during 2006 to 2009 or because corn and soybean responded differently to the raised water table.
+• The operation of the DWM systems in this study was based on the scenario described in Skaggs and Gilliam (1981).
+• Modifications of the outlet heights within the control structures and the timing of the raising and lowering of the set heights may have affected the performance for DWM at this site.",correct,"From the limited four year dataset of this study, it is unclear if the yield increase for soybean versus no increase for corn was due
+
+The operation of the DWM systems in this study was based on the scenario described in Skaggs and Gilliam (1981).
+
+Modifications of the outlet heights within the control structures and the timing of the raising and lowering of the set heights may have affected the performance for DWM at this site (Ale et al. 2009).",
+10.3389/feart.2020.580230,"• During ERT measurements in November 2019, five electrodes were excluded due to equipment malfunctioning.
+• The survey site is highly vegetated and steep slope, which adversely affected the landscape and consequently the electrode position.
+• The ERT data acquired in November 2019 were noisy with high apparent resistivity values close to the surface due to the faulty equipment, and the disparity between apparent resistivity RMS errors and structures was explained by electrode position and smoothing.",correct,"During ERT measurements in November 2019, five electrodes were excluded due to equipment's malfunctioning which reduces the number of data points collected.
+
+First, the survey site is highly vegetated and steep slope which is rapidly undergoing both surface and internal erosion that has adversely affected the landscape and, consequently, the electrode position.
+
+Secondly, the ERT data acquired in November 2019 were noisy with high apparent resistivity values close to the surface due to the faulty equipment which also caused reduction of data points.",
+10.3390/agriculture14111954,• RHDM faces limitations in construction depth due to the towing capacity of construction machinery.,correct,"Especially, RHDM faces limitations in construction depth due to the towing capacity of construction machinery, necessitating standards for construction interval $(Sc)$ and depth $(dc)$ that satisfy the minimum drainage volume under conditions of shallow construction depth (Figures 11 and 12).",
+10.3390/agronomy10050625,"• The results of the paper should be treated with caution because they concern specific conditions, i.e. the drainage object, which is characterized by specific geological conditions, soil conditions, topography, drainage network parameters, as well as hydrological and meteorological conditions.",correct,"The results presented in the paper should be treated with caution because they concern specific conditions, i.e. the drainage object, which is characterized by specific geological conditions, soil conditions, topography, drainage network parameters, as well as hydrological and meteorological conditions.",
+10.3390/agronomy15051222,"• The relatively short experimental period may not fully reflect the long-term dynamic behavior of subsurface drainage systems.
+• The study was conducted under specific soil and climatic conditions, which may limit the applicability of the findings to regions with different environmental settings.
+• Certain complex processes, such as lateral seepage from drainage ditches, were simplified in the water balance calculations, potentially introducing uncertainty.
+• The study did not include an economic assessment of the design alternatives, so the economic feasibility of the technically optimal configuration remains uncertain.",correct,"the relatively short experimental period may not fully reflect the long-term dynamic behavior of subsurface drainage systems.
+
+the study was conducted under specific soil and climatic conditions, which may limit the applicability of the findings to regions with different environmental settings.
+
+certain complex processes—such as lateral seepage from drainage ditches—were simplified in the water balance calculations, potentially introducing a degree of uncertainty.
+
+This study focused on evaluating the technical efficiency of various subsurface drainage configurations in saline-alkali soils but did not include an economic assessment of the design alternatives.",

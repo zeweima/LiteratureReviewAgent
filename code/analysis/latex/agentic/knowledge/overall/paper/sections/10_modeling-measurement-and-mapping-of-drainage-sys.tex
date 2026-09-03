@@ -1,0 +1,292 @@
+\section{Modeling, Measurement, and Mapping of Drainage Systems}
+
+The physical findings summarised in the preceding sections rest on a mature
+toolkit for simulating, measuring, and locating drainage systems. Across
+site-scale validations, benchmark comparisons of analytical solutions,
+pipe-scale experiments, watershed representations, formal calibration and
+uncertainty analyses, and geospatial detection, a robust set of consolidated
+findings has emerged: process models reproduce drainage flow and nitrate
+reliably after calibration but with skill that improves strongly with temporal
+aggregation; treating drainage as purely saturated flow over-predicts
+discharge; saturated conductivity and evapotranspiration dominate model
+sensitivity; data-driven and remote-sensing methods now complement process
+models; and no single geophysical or imaging technique is universally best for
+mapping buried networks. This section consolidates that methodological
+evidence so the physical and management conclusions can stand without model
+mechanics.
+
+\subsection{Field-scale drainage and water-quality models}
+
+\textsc{DRAINMOD} is by far the most extensively tested field-scale
+water-management model and is repeatedly judged a reliable design and
+evaluation tool for poorly and artificially drained lands, its process-based
+structure with independently measurable inputs describing drainage hydrology
+across many climates when soil hydraulic properties are adequately
+characterised \parencite{Singh2019b,Gowda2012}. A defining, cross-cutting
+result is that skill is scale-dependent in time: water-table depth and
+drainage are reproduced with accuracy improving markedly from daily to monthly
+to annual scale. In North Carolina, water-table and daily-drainage
+Nash--Sutcliffe efficiencies were 0.49--0.73, monthly drainage 0.77--0.87, and
+annual volumes within 5\% of observations \parencite{Gowda2012}; Iowa and
+eastern-Canada cumulative drainage fell within 2--10\% and about 30~mm of
+measurements \parencite{Singh2006b,Dayyani2009}. The persistent weak point is
+daily peak flow, which is systematically underestimated
+\parencite{Morrison2014,Singh1996}, and uncertainty widths grow from daily to
+yearly scale while annual predictions remain within bounds \parencite{Wang2006}.
+The model has been validated well beyond its humid origin---cold Canadian
+snowmelt ($R^2$ up to 0.93), semi-arid India, and Illinois claypan soils
+\parencite{Dayyani2009,GUPTA1993,MOSTAGHIMI1989,Abduljaleel2023,Awad2022b}---but
+delineated failure modes include unaccounted deep and lateral seepage
+\parencite{Sinai2006}, absent time-variable depression storage
+\parencite{Abduljaleel2023}, and its parallel-drain geometry requiring
+plot-by-plot calibration in irregular landscapes \parencite{He2002}. Where
+site data are scarce, pedotransfer estimation (ROSETTA, van Genuchten fits)
+with automated calibration (PEST) drives it reliably
+\parencite{Singh2006b,Qi2015,Malota2024,Malota2015}, and enhancements target
+the daily-peak weakness through macropore flow (capturing $\sim$75\% of peak
+events) and neural-network surrogates \parencite{Askar2020,Awad2022,Awad2022b};
+the evapotranspiration algorithm is a pronounced sensitivity, the best ET
+method not necessarily best for water-table prediction
+\parencite{Malakshahi2020}.
+
+Richards-equation and comparative codes generally perform comparably.
+HYDRUS~(2D/3D) predicts fluxes and water tables closely (EF 0.91--1) and
+clarifies mechanisms such as conductivity control of drawdown in compacted
+soils \parencite{Karandish2018,DarziNaftchali2018,Mante2018,Guedessou2021,Ebrahimian2015};
+CSUID, WAVE, SWAP, \textsc{WaSim}, CATHY, RZWQM, WEPP, ADAPT, and the
+few-parameter \textsc{SIDRA} family have all calibrated satisfactorily, with
+\textsc{DRAINMOD} often giving the most accurate discharge among them
+\parencite{Alzraiee2013b,Alzraiee2013,ElSadek2001,Prasher1996,Verma2014,Malota2022,Muma2017,Malone2014,Xian2017,RevueltaAcosta2021,Mendez2004,Zimmer2023,Henine2022,LESAFFRE1988}.
+
+For water quality the same pattern recurs across the model families
+(\textsc{DRAINMOD} suite, RZWQM/RZWQM2, SWAT/APEX, APSIM, DNDC, HYDRUS): after
+calibration they reproduce annual and cumulative drainage and nitrate loss
+well---frequently within $\pm5$--$20\%$---and capture the direction of
+management effects, but predictive skill falls with temporal disaggregation,
+nitrate is predicted less accurately than flow, and daily nitrate
+concentrations, crop N uptake, and residual soil N are recurrent weak points
+\parencite{Youssef2018,Negm2014,Singh2020b,Dayyani2010,Ma2001,Liang2018,Ikenberry2017,Marjerison2016,Ojeda2018,Qi2025,Ma2007,Ahuja2007}.
+\textsc{DRAINMOD-N~II} and RZWQM2 both satisfactorily predict tile nitrate,
+and \textsc{DRAINMOD-DSSAT} predicts drainage, nitrate, and yield very well
+\parencite{Du2017,Qi2012,Negm2017,Singh2022c}; cropping-system models
+(DSSAT, RZWQM, DNDC, APSIM, SWAT) likewise reproduce cover-crop and
+rotation effects on nitrate loss \parencite{Jeong2018,Ahmed2007b,Ale2012b,Pasley2021,Motarjemi2021}.
+Phosphorus extensions are advancing but remain limited: RZWQM2-P first
+simulated daily dissolved reactive P and its pathway partitioning, while
+\textsc{DRAINMOD-P} predicted discharge and total P but poorly predicted DRP,
+and few standard models yet represent tile P
+\parencite{Sadhukhan2019,Grewal2025,BinShokrana2023b,Askar2021,Askar2025,Radcliffe2015,Wang2020b}.
+Cold-season snowmelt and freeze--thaw errors motivated dedicated developments
+(\textsc{DRAINMOD}~5.1, DRAIN-WARMF, RZ-SHAW), and calibration studies
+repeatedly identify lateral saturated conductivity in the tile layer and field
+capacity as controlling predictions
+\parencite{Wang2006c,Dayyani2010b,Li2024b,Ma2007c,Malone2017}.
+
+\subsection{Flow physics: saturated and unsaturated flow and preferential-flow representation}
+
+A central mechanistic result is that treating drainage as purely saturated
+flow overstates discharge. A saturated-flow model over-predicted seepage and
+drainage time by roughly an order of magnitude relative to experiment, an
+analytical solution, and the SUTRA Richards-equation model, because a vadose
+zone retaining substantial water persists even at steady state
+\parencite{Xin2016b}. Saturated--unsaturated drainage is governed by
+gravitational, pressure, capillary, and air-pressure potentials, so saturated
+conductivity alone is an inadequate design basis \parencite{Li2021}. Field
+diagnosis in Japanese paddies showed that vertical, not horizontal, resistance
+limits the maximum drainage rate \parencite{Nishida2020}, accounting for
+vertical head loss improved water-table prediction \parencite{Talukolaee2022},
+and retaining unsaturated-zone buffering matched numerical models closely
+whereas ignoring it distorted transients \parencite{VandeCraats2021};
+equivalent-medium representations reproduce integrated outflow well but can
+misrepresent internal dynamics where fast vertical flow occurs
+\parencite{Carlier2007}. At field-to-hillslope scale the representation of
+macropores is decisive for reproducing rapid drainage. Dual-permeability and
+dual-porosity models reproduce hydrographs well ($R^2=0.84$; groundwater
+$r=0.98$) while single-porosity models reach acceptable accuracy with far
+fewer parameters, though all fail to match low dry-season discharge
+\parencite{Varvaris2018}; dual-permeability formulations enable low matrix
+conductivity while still reproducing fast events
+\parencite{Warsta2014,Salo2017,Koivusalo1999}, adding macropore flow improves
+peak simulation without changing total drainage \parencite{Zhou2013}, and
+bimodal retention functions predict preferential flow far better than unimodal
+ones \parencite{Mohanty1997}. Fully coupled surface--subsurface--tile models
+are recommended for detailed dynamics, with equivalent-porous-medium or
+seepage-node simplifications reproducing outflow almost exactly for watershed
+integration \parencite{DeSchepper2015,Boico2022,Xian2017}.
+
+\subsection{Analytical drain-spacing solutions and pipe-scale hydraulics}
+
+Unsteady-state (transient) spacing equations yield markedly narrower spacings
+than steady-state equations and are preferred under variable rainfall---about
+30~m versus 55~m in Iranian paddies---with the appropriate transient model
+depending on rainfall duration and design criterion
+\parencite{OOSTERBAAN1988,DarziNaftchally2014,Moshayedi2020,Pali2014,Nédélec2010}.
+Incorporating evapotranspiration and unsaturated-zone flow generally permits
+wider, more economical spacing: ET-aware solutions allow 9--18\% increases,
+bare-soil evaporation 23--74\%, and unsaturated horizontal flow up to 30\% for
+coarse soils near a shallow impervious layer
+\parencite{NIKAM1992,Singh2010,Upadhyaya2000,AbdelFattah2005,Yousfi2014}.
+Bi-level and sloping-aquifer solutions show asymmetric water tables and
+slightly to moderately larger spacings, and dual-depth systems always remove
+water more effectively than single-depth ones
+\parencite{Verma1998,Kankarej2023,Upadhyaya2013,Hartani2001,Kirkham1997}.
+Analytical solutions for multi-layered and ponded systems have been verified
+against experiments and MODFLOW, establishing strong three-dimensionality and
+sensitivity to anisotropy near drains, while flat-land theory remains
+applicable on slopes up to about $0.15$~m~m$^{-1}$
+\parencite{Chakrabarti2020,Sarmah2015,SHARMA1991,Afruzi2014,Lin2025,CHU1977,FIPPS1989,LORRE1994};
+no single linear-diffusion model, however, can describe all stages of drawdown
+\parencite{Kacimov2000}. The most complete descriptions solve the Richards
+equation, but corrected Boussinesq approximations remain useful for design when
+a variable drainable porosity or effective specific yield is used
+\parencite{TANG1977,Xin2016c,VANDELEUR1959,SINGH1980,Bouarfa2000}. Single-tile
+solutions using a variable region of influence eliminate the spacing parameter
+for irregular systems \parencite{Cooke2001}, and space-fractional and inverse
+formulations improve fits in heterogeneous soils and circumvent the awkward
+drainable-porosity parameter
+\parencite{FathAllah2025,Mehdinejadiani2013,Mehdinejadiani2020,Mehdinejadiani2022,Samani2007,Chahar2010,SINGH1992,KUMAR1994,Onyejekwe1999,Bahceci2008}.
+
+At the pipe scale, entrance resistance and effective radius are now quantified
+across perforation and envelope geometries: 3--4-row pipes averaged 0.6~cm
+effective radius and 8-row reached 1.9~cm, while a knitted sock raised it to
+5.7--6.0~cm and nearly eliminated entrance head loss, increasing perforation
+rows being the most efficient improvement
+\parencite{Ghane2022b,Ghane2022}. Numerical and experimental work shows
+rectangular slots are more hydraulically advantageous and structurally safer
+than circular holes, and screen envelopes reduce resistance and prevent rapid
+clogging
+\parencite{Gaj2020,Oyarce2017,Gaj2021,Stuyt2006}. Within-conduit flow is a
+spatially varied flow problem in which Manning's equation alone is inadequate,
+local head loss is non-negligible, and resistance rises 40--50\% over
+gradually varied flow
+\parencite{Bayat2011,Graber2004,Kouchakzadeh2011,Nédélec2008,Wu2022,Gupta2019}.
+
+\subsection{Watershed representation, sensitivity, calibration, uncertainty, and evaluation}
+
+How drains and subsurface heterogeneity are conceptualised strongly controls
+simulated catchment behaviour: two grid conceptualisations of a Danish
+catchment produced drain contributions of 13\% versus 31\% despite both
+matching total streamflow within 0.1\% \parencite{Karan2021}. Seepage-node
+representations are faster and better suited to unknown drain locations
+\parencite{Boico2022}, distributed HydroGeoSphere reproduced flashy heads
+better than MIKE SHE \parencite{DeSchepper2017}, machine learning links
+streamflow signatures to simulated drain fraction \parencite{Schneider2022},
+embedding drainage in integrated models reproduced streamflow without
+site-specific calibration \parencite{Rathore2024,Muma2016}, and equivalent-medium
+representations match explicit tile simulations within 2\%
+\parencite{Thomas2016}; standard SWAT under-represents subsurface drainage
+without explicit adaptation \parencite{Manguerra1998,Golmohammadi2016,Rahman2014}.
+For regional assessment, MODFLOW matched observed heads closely, and new
+Hooghoudt-based subsurface-drainage packages markedly outperform the
+conventional DRN package (RRMSE $<5\%$) by calibrating only conductivity
+\parencite{Mirlas2012,Ghorbani2016,Yang2022b,Han2025,Qian2025b}.
+
+Formal analyses converge on saturated hydraulic conductivity and
+evapotranspiration estimation as the dominant sources of sensitivity and
+uncertainty, with van Genuchten shape parameters, drain spacing, and depth
+also prominent, and parameter uncertainty propagating into predicted salinity
+and yield
+\parencite{NabiSichani2012,Malakshahi2020,Wang2006,Sedaghatdoost2018,Timalsina2023,Alzraiee2013}.
+Objective-function design strongly affects identifiability: genetic algorithms
+generally outperform PEST, combining discharge with water-table depth already
+gives excellent results, and variational data assimilation cut a five-year
+cumulative-volume discrepancy below 1\%
+\parencite{Sedaghatdoost2019,Chelil2022b,Schoups2005}. The review literature
+concludes no universal model exists and that automatic calibration is
+preferable because it supports uncertainty estimation \parencite{Singh2019b}.
+Crucially, evaluation choices are themselves substantive: the Kling--Gupta
+efficiency consistently outperformed and could reverse rankings relative to
+Nash--Sutcliffe, and regression-based tests exposed gross over-prediction
+invisible to $R^2$
+\parencite{Bruhn2025,STONE1995,SAVABI1995,Wessel2022}. Measurement protocols
+matter equally: calibrated V-notch and compound weirs, flow meters, and
+flow-proportional sampling minimise bias in discharge and load estimates that
+otherwise propagates into nutrient budgets
+\parencite{Christianson2019,BinShokrana2021,Napierala2023,Katuwal2024,Enamorado2007,Dialameh2022,Young2023}.
+
+\subsection{Data-driven, remote-sensing, and geostatistical methods}
+
+Data-driven methods frequently match or outperform process models for the
+specific outputs on which they are trained while requiring less data and
+computation. Neural networks predicted real-time water-table control and
+saturated conductivity more accurately than pedotransfer functions
+(the ANN prediction of saturated conductivity reaching $R^2$ up to 0.96),
+random forests outperformed linear regression
+for agronomic prediction, and an Attention~U-Net surrogate reached test $R^2$
+of 0.997--1 for head, drainage volume, and salt discharge while drastically
+reducing computation
+\parencite{Yang2000,Ellafi2021,Djiemon2019,Lei2026,Sarangi2006,Bakhsh2005b,Bakhsh2007b}.
+Parsimonious surrogates (Cubist, SVM, NIT-DRAIN) can match process models for
+flow while training far faster, though process models remain preferable for
+climate extrapolation
+\parencite{Sharma2003,Negm2016,Frederiksen2023,Chelil2022,Li2025}. Remote
+sensing combined with deep learning now maps drained extent at regional to
+national scales with accuracies commonly exceeding 85--96\% and totals within a
+few percent of census estimates: AgTile-US reported 22.34~Mha ($-0.35\%$ versus
+USDA) and SEETileDrain achieved 0.96 testing accuracy
+\parencite{Valayamkunnath2020,Wan2024,Moller2018}, while convolutional
+segmentation networks reliably delineate visible drain lines and outperform
+classical edge detectors \parencite{Redoloza2023,Song2021,Woo2023,Naz2009}.
+Ancillary sensing infers drainage-relevant surface conditions through SAR,
+Landsat SWIR, and vegetation indices
+\parencite{Meunier2001,Rijal2013,Xu2018,Khanal2020}. Finally, kriging-family
+methods are consistently the most reliable interpolators for the spatially
+variable soil properties governing drain spacing: in the Nile Delta,
+conductivity was isotropic with a 5.6~km range and kriged values were
+recommended as design inputs, while accounting for variability widened spacing
+about 5\% and saved substantial pipe, and neglecting $K_{sat}$ variability
+could bias design spacing by $-27\%$ to $+3\%$
+\parencite{GALLICHAND1991,GALLICHAND1992,GALLICHAND1993,Moustafa1998b,Moustafa2000,Moustafa1998,Akis2015,Sepaskhah2004}.
+
+\subsection{Mapping drainage infrastructure and quantifying extent}
+
+Because buried networks are frequently undocumented, a substantial body of work
+establishes that non-invasive remote sensing and near-surface geophysics can
+detect and map subsurface drainage, with a consistent conclusion that no single
+method or spectral band is universally superior and that detection depends
+strongly on soil moisture, soil composition, drain depth and diameter, and
+survey timing relative to rainfall and field operations
+\parencite{Carlsen2024,Wienken2024,Koganti2021}. In the largest multi-site
+assessment (29 sites), UAV visible-color imagery detected drain lines at 48\%
+of sites, multispectral at 59\%, and thermal infrared (TIR) at 69\%, so
+acquiring all three bands is best practice \parencite{Allred2020}. TIR is the
+most consistently effective single band, detecting roughly 60\% of
+infrastructure even under dry conditions when visible imagery failed, though it
+exploits apparent temperature differences below 1.0\,\textdegree C, requires
+careful timing (optimally within 12~h of $\sim$2.5~mm rain and late morning to
+early afternoon), and can fail under low contrast, where RGB imagery guides
+interpretation
+\parencite{Allred2018,Woo2019,Allred2021,Allred2022,Kratt2020}. Aerial visible
+and multispectral photography likewise reveals functional drains through soil
+and vegetation contrasts and has repeatedly exposed systems absent from
+official registries \parencite{Tlapáková2017}. Ground-penetrating radar senses
+pipes directly, with 250--1000~MHz antennas effective, antenna orientation
+interacting strongly with soil moisture, and RTK/GNSS-positioned surveys
+resolving system type in only four to six hours without dense grids; 3D-GPR
+succeeds where soil electrical conductivity is low enough to limit attenuation
+\parencite{Allred2005,Allred2013,Allred2018b,Koganti2020}. Geoelectrical
+methods coupling time-lapse ERT with injected water or pressurised air locate
+networks by induced resistivity change
+\parencite{Jouen2018,Henine2021}. The best-supported strategy is combining
+methods with complementary sensitivities---particularly UAV RGB/TIR imagery
+with GPR, which adds pipe depth and orientation---since each has distinct
+favourable conditions and linear farm features are otherwise easily confused
+with drain lines \parencite{Koganti2021,Carlsen2024,Wienken2024,Allred2020}.
+
+Beyond field scale, machine learning and hydrologic filtering extend mapping to
+watersheds and regions: satellite big data with random forests map potential
+drainage, and combining remote sensing, decision-tree classification, and
+groundwater-table information improves watershed delineation
+\parencite{Cho2019,Yimer2023}. Once layouts are known, GIS/GPS and
+DEM-based tools support design and management; a suite of QGIS plugins tested in
+Illinois streamlined identifying landscape features, producing topologically
+sound flow networks, and optimising pipe depth and size in under ten minutes
+versus over two hours for proprietary software
+\parencite{Shedekar2018,Falasy2025,Falasy2024,Falasy2025b}. Quantifying extent
+frames the significance of drainage effects: regional mapping estimated about
+25\% of Germany drained (30--40\% on hydromorphic soils), U.S. datasets diverge
+at watershed scale so best estimates remain locally conditioned, and this
+extent rests on validated salt- and water-balance models, empirical
+effluent-quality relationships, and geophysical (EMI/apparent-EC) monitoring
+that together allow design principles to transfer with confidence to new sites
+\parencite{Hirt2005,Hirt2011,Jame2022,Chen2025,Tian2023,Bahçeci2006,Skaggs2006,Narjary2024,Qin2025}.

@@ -1,0 +1,31 @@
+{
+ "id": "01_introduction",
+ "theme": "Introduction",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 2,
+ "compiled": true,
+ "words": 627,
+ "cited": [
+  "Valipour2014",
+  "Morton2015",
+  "PeltonenSainio2021",
+  "Valayamkunnath2020",
+  "King2014",
+  "Williams2018",
+  "Schilling2019",
+  "FAUSEY1995",
+  "SKAGGS1994",
+  "THOMAS1995",
+  "Gramlich2018",
+  "Raymond2012",
+  "Pease2018",
+  "Singh2022b",
+  "Yang2025",
+  "Smith2011",
+  "Singh2019b",
+  "Gowda2012",
+  "Allred2020"
+ ],
+ "review_passed": true
+}

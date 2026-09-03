@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files to check faithfulness and citation provenance.Both files are fully read. The generated section is a close condensation of the source's \"Subsurface Drainage as the Dominant Nitrogen Pathway,\" \"Hydrologic Control of Nitrate Export,\" and \"Sources/denitrification\" material (source lines 67\u2013201). I verified every concrete claim and every citation key against the source.\n\nAll numeric claims (Bechmann2014 76\u201391%/87\u201395%; Monaghan2016 62%/80%; Williams2015 56%/44\u201382%; Coupe2020 70\u201387%; Dattamudi2020 13\u201330 kg/16\u201326%; Schilling2012b ~13 mg/L; Ikenberry2014 17.1 mg/L/74.2%; Tanner2011 14\u2013109 kg; ROSSI1991 94\u2013216 mg/L and r=0.93/0.45; Dragon2016 >70 mg/L; Danalatos2022 0.6\u201315.5 mg/L; Hirt2005b 33\u219210 kg; Raymond2012 34%; Ghane2016b 58%; Gentry2014 96%; Speir2021 79\u201395%/77%; King2016 81%; Hayashi1999 21 kg/11 days; Williams2022 \u221217\u00b13 mm/0.84\u00b10.03 m and 65%/29%/>99%; Hu2024 >90%/72h; Billy2011/2013 34\u201382%) match the source under the same keys. Management-specific figures (e.g. the \"spring 17\u201320%\" from Gentry2014) were correctly dropped, consistent with condensation.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

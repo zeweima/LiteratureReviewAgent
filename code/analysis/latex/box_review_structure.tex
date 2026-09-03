@@ -1,0 +1,62 @@
+% Box 1 -- structure of the two agent-generated reviews.
+% Requires \usepackage{tabularx} and \usepackage{booktabs}.
+% Drop \input{box_review_structure} where the box should appear.
+
+\begin{figure*}[t]
+\centering
+\fbox{%
+\begin{minipage}{0.95\textwidth}
+\vspace{2pt}
+
+{\bfseries Box 1.\ Structure of the two generated reviews.}
+\smallskip
+
+{\small
+The pipeline produced one review per content track from the same corpus. Each
+comprises 12 top-level sections --- an abstract, an introduction, nine
+evidence-bearing sections, and conclusions --- subdivided into 45 (knowledge)
+and 47 (frontier) subsections not listed here. The knowledge review runs to
+17,975 words with 682 in-text citations; the frontier review to 16,391 words
+with 612. Section titles and ordering were planned by the architect agent rather
+than inherited from the theme hierarchy: six knowledge and five frontier macro
+themes were regrouped into nine evidence-bearing sections each.
+}
+\smallskip
+
+\begin{tabularx}{\textwidth}{@{}c>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+ & {\bfseries Track 1 --- State of Knowledge} & {\bfseries Track 2 --- Research Frontier} \\
+\midrule
+1  & Abstract & Abstract \\
+2  & Introduction & Introduction \\
+3  & Drainage Hydrology: Flow Pathways, Regime, and Scaling
+   & The Observational Foundation: Longer, Denser, and Harmonised Monitoring \\
+4  & Nitrate Export: Magnitudes and Biophysical Controls
+   & Advancing Process-Based Drainage and Water-Quality Models \\
+5  & Phosphorus and Sediment Loss and Preferential Transport
+   & From Field to Watershed: Mapping Networks and Scaling Response \\
+6  & In-Field Nutrient and Cropping Management
+   & Managing Nutrient Losses: Nitrogen, Phosphorus, and Cropping Systems \\
+7  & Drainage Design and Water-Table Management
+   & Water-Table Management and Drainage-System Design \\
+8  & Edge-of-Field Treatment, Reactive Media, and Watershed-Scale Integration
+   & Edge-of-Field Treatment Technologies \\
+9  & Other Water-Quality Dimensions: Pesticides, Microbes, Trace Elements, and Greenhouse Gases
+   & Salinity, Reclamation, and Drainage-Water Reuse in Arid and Irrigated Systems \\
+10 & Agronomic Benefits: Yield, Salinity Reclamation, and Socio-Economics
+   & Unintended Consequences and Multi-Objective Tradeoffs \\
+11 & Modeling, Measurement, and Mapping of Drainage Systems
+   & Toward Integrated, Targeted, and Adoptable Solutions \\
+12 & Conclusions & Conclusions \\
+\bottomrule
+\end{tabularx}
+
+\smallskip
+{\footnotesize Rows pair the $n$th section of each review and are aligned by
+position, not by content; no correspondence between the paired titles is implied.
+The complete table of contents, including all 92 subsections, is given in the
+Supplementary Information.}
+\vspace{2pt}
+
+\end{minipage}}
+\end{figure*}

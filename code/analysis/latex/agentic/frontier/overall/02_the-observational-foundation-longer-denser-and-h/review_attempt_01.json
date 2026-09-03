@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.I have read both files in full. Let me verify the key claims and citations against the source.\n\nBased on my complete review of both the generated section and the source material (all three constituent materials), I checked every concrete claim and every citation key.\n\n**Faithfulness:** Every concrete claim in the generated section \u2014 the \"five years\" minimum (Ali2013), denitrification-wall cost per unit nitrate (Jaynes2008), March\u2013July high-flow window (Schilling2013), \u03b4\u00b9\u2078O of nitrification-derived nitrate (Hu2024), boron isotopes around feedlots (Komor1997), Kanwar1999's sampler/logger details, the four \"more research\" quotations, etc. \u2014 traces to supporting content in the source.\n\n**Citation provenance:** Every `\\parencite`/`\\textcite` key in the generated section appears in the source attached to the same content that supports the generated claim. Spot-checked all keys across all six subsections (Rogger2017, SHALIT1995/Malone2014/Woo2023/GUPTA1993, Clifford2023, BUHLER1993, Kladivko2001, Sharpley2019, Singh2022b, Frankenberger2024, Williams2022/Hu2024/Briand2017, Zhang2018, Ghirardini2019, Schilling2013, Pagliari2021, Andrus2014, etc.) \u2014 all match. The only borderline case, Frankl2023 grouped with Frison2009 for long-term soil evolution, is supported: Frankl2023 is cited in the source for \"tracking soil physical, biological, and carbon properties over time,\" consistent with the generated framing.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "11_conclusions",
+ "theme": "Conclusions",
+ "state": "done",
+ "status": "pass",
+ "accepted_attempt": 3,
+ "compiled": true,
+ "words": 787,
+ "cited": [
+  "Schilling2019",
+  "Kladivko2021",
+  "Speir2021",
+  "Pease2018",
+  "Sharpley1995",
+  "Malone2018",
+  "Malone2014b",
+  "Malone2023",
+  "Christianson2013",
+  "Jaynes2008"
+ ],
+ "review_passed": true
+}

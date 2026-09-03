@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I have read both files in full. After systematically checking every concrete claim and every citation key in the generated section against the source material, I find that the generated section is a faithful condensation of the source (primarily the \"Research Gaps and Nutrient Loss Management\" material, plus the P-partitioning claims \u2014 King2015, Williams2016, Qi2018 \u2014 from the macro 0 \"Nutrient, carbon, and greenhouse-gas coupling\" material). Every citation traces to the same key supporting the same claim in the source, and all quantitative targets (10/30 kg N ha\u207b\u00b9, N:corn ratio 5.6, 100\u2013400 mg kg\u207b\u00b9 STP, 40% reduction target) match.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

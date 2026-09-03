@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files read completely. I verified every concrete claim and citation in the generated abstract against the source material.\n\nClaims checked: 12\u201317% cultivated land / >22 Mha US (Valipour2014, Valayamkunnath2020 \u2713); 40\u201365% streamflow, dominate export, elevated low flows/baseflow, travel times, homogenised response (King2014, Schilling2019 \u2713); 10 mg/L limit (uncited, matches source); macropores/cracks deliver particulate P and sediment within hours (Pease2018 \u2713); tiles dominate edge-of-field P loads (Pease2018, Sharpley1995 \u2713); cover crops 40\u201360% nitrate reduction (Malone2018, Malone2014b, Malone2023 \u2713); edge-of-field practices governed by residence time/temperature/loading (Christianson2013, Jaynes2008 \u2713). All citation keys appear in the source attached to the same supporting content. No hallucinated or overstated claims.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

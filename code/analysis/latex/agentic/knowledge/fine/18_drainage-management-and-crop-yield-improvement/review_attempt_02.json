@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.I'll read the rest of the findings file.Based on my complete review of both files, I checked every concrete claim in the section against the findings and verified each citation key.\n\nThe section is highly faithful. Every numeric value, statistic, location, and study result I checked traces correctly to the tagged findings, and the citation keys match the papers those findings come from. Examples verified: the 8.0% meta-analysis figure (Singh2022b), soybean 275/157 kg ha\u207b\u00b9 gains (Mourtzinis2021), Kladivko2005's 9.8/9.7/9.5/9.2 Mg ha\u207b\u00b9, ELMOWELHI1988's salinity 5.3\u21922.2 dS m\u207b\u00b9, Gunn2018/2019's Ohio site-specific relative yields, Watkins2024's corn/soybean gains, Mahmoud2021's 1.33 BCM, HOOGHOUDT1952's water-table trade-off, and the boundary-condition claims (Wiersma2010, Bigelow2001, Malota2016). The only borderline item (co-citing Yang2022 alongside Yang2017 for the regional ET/LAI claim) is a lenient supplementary co-citation where the concrete content is correctly attributed to Yang2017; not a swap or fabrication.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

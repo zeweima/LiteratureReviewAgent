@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I need to read the rest of the source file.After a thorough line-by-line comparison of every concrete claim and citation in the generated section against the source material, I traced each number, statistic, location, and finding to the source and confirmed each `\\parencite` key appears in the source attached to supporting content. The generated section is a faithful condensation; all headline meta-analysis figures (Strock2011 40%/40\u201350%/25\u201335%; Wang2020c 61 studies/19.2%/0.11%; Yang2025 891 experiments; Singh2022b 154 comparisons/8.0%; Frankenberger2024 290 plot-years/13.3 kg/46%/126 mm/34%/36%), field results (Lalonde1996, Karegoudar2019, Ghane2025, KONYHA1992, Sharma2006, Chen2025, Bah\u00e7eci2009, etc.), and socio-economic figures (Wichelns2002, Gopalakrishnan2007 RAJAD, ROBINSON1992, AbdelDayem2007, Mukhopadhyay2023b) match the source under the same keys. Grouped/summary citations abstract correctly from source content.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

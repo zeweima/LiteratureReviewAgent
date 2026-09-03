@@ -1,0 +1,503 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Controlled Drainage Effects on Flow and Losses}
+
+\subsection{Overview}
+
+A large and internally consistent body of evidence establishes that the way a
+subsurface drainage system is designed and operated governs both the volume of
+water it discharges and the partitioning of that water among competing
+pathways---drain flow, surface runoff, evapotranspiration, and deep
+seepage---and that these hydrologic shifts in turn control the losses of
+nitrogen, phosphorus, sediment, and salts to receiving waters. Three design
+levers recur throughout the literature: drain spacing, drain depth, and outlet
+(water-table) control. Controlled drainage (CD), also termed drainage water
+management (DWM), raises the outlet elevation to hold a higher water table
+during non-cropping or low-demand periods, thereby storing additional water in
+the field and reducing cumulative drain outflow \parencite{Singh2020,Strock2011,Blann2009}.
+The dominant, well-supported mechanism is a coupling between flow and load:
+because most nitrate leaves drained fields dissolved in drain water, reductions
+in nitrate-N loss under controlled or shallower drainage are of roughly the same
+magnitude as the reductions in outflow, with concentration changes secondary
+\parencite{Wesström2007,Frankenberger2024,Lalonde1996,Tolomio2018}.
+
+The headline magnitudes are quantitatively convergent across meta-analyses and
+syntheses. Across 15 peer-reviewed studies, conventional drainage volumes
+exceeded controlled drainage volumes by an average of 40\%, and controlled
+drainage reduced nitrogen loss by 40--50\% and phosphorus loss to surface water
+by 25--35\% \parencite{Strock2011}. A meta-analysis of 61 studies (1050 data
+pairs) found that controlled drainage decreased drainage volume by 19.2\%,
+reduced NO$_3$-N concentration and load, and produced a slight overall crop
+yield increase of 0.11\%, framing it as a ``win--win'' practice
+\parencite{Wang2020c}. A synthesis of drainage water management drawing on 290
+plot-years and 31 sites reported a mean NO$_3$-N load reduction of
+13.3~kg~ha$^{-1}$~yr$^{-1}$ (46\% removal efficiency) and a mean flow reduction
+of 126~mm~yr$^{-1}$, with dissolved reactive and total phosphorus loads reduced
+by 34\% and 36\%, respectively, and with the paired concentration reduction not
+significant---confirming that load reduction arises mainly from reduced flow
+\parencite{Frankenberger2024}. The MANAGE Drain Load database, compiling 91
+publications and 1279 site-years spanning 1961--2012, further anchors the
+baseline: the mean and median fractions of precipitation appearing as drainage
+were 25\% and 20\%, and wet years produced significantly greater discharge and
+nutrient loads than dry years \parencite{Christianson2015}. The evidence base
+spans multi-year paired-field experiments, controlled tank and lysimeter
+studies, and simulation with DRAINMOD, HYDRUS, SWAP, FLUSH, and SWAT-family
+models, giving both process understanding and quantified outcomes across humid,
+arid, and irrigated settings.
+
+\subsection{Controlled Drainage and the Reduction of Drain Outflow}
+
+The most robust and frequently replicated finding is that controlled drainage
+reduces cumulative and annual subsurface drain discharge relative to free
+(conventional) drainage. Field experiments report reductions that, while
+site-specific, are consistently large. In Sweden, controlled drainage produced
+much lower total drain outflow in both measured years, with the largest
+reduction in the second year, and lowered nitrate and phosphorus losses in
+proportion to the reduced outflow \parencite{Wesström2001,Wesström2007}. In
+Quebec, controlled water-table treatments at 0.25 and 0.50~m above the drain
+reduced total drain flow by 58.7\% and 65.3\% in 1992 and by 40.9\% and 95\% in
+1993, with nitrate-loss reductions of comparable magnitude (up to 95.7\%), the
+net benefit attributed primarily to decreased drain flow
+\parencite{Lalonde1996}. Iowa comparisons found controlled and shallow drainage
+reduced subsurface drainage volume by 37\% and 46\% (four-year averages of 23
+and 20~cm versus 37~cm for conventional), and over a five-year study controlled
+and shallow drainage cut annual subsurface flow by 60\% and 58\%
+\parencite{Helmers2012,Schott2017}. Ohio field data showed 16--24\% reductions
+in annual discharge and a statistically significant drop in mean monthly
+discharge from 4.3 to 3.1~cm \parencite{Pease2017}, and across six northwest
+Ohio sites the mean reduction in daily managed-zone drainage volume ranged from
+40\% to 100\% (with no discharge at one site), the linear mixed models
+explaining 57--92\% of the variance \parencite{Gunn2015}. Indiana paired-field
+work found the strongest reductions in the dormant season (up to 100\%), with
+annual nitrate-load reductions of 15--31\% \parencite{Adeuya2012}, and event
+analysis showed controlled drainage reduced event drainage volume and peak flow
+and increased time to peak, with antecedent conditions rather than precipitation
+characteristics controlling controlled-quadrant response \parencite{Lahdou2019}.
+
+Similar reductions recur worldwide. Italian water-table management reduced total
+water discharge by 81\% \parencite{Tolomio2018}; Egyptian and Iranian studies
+reported significantly reduced outflow under controlled drainage in semiarid
+conditions \parencite{Wahba2001,Jouni2018}; and Indian saline Vertisols showed
+controlled drainage cutting drainage water outflow by about 64\% (11.0 versus
+30.2~cm) and average drain discharge from 3.10 to 1.12~mm~day$^{-1}$
+\parencite{Karegoudar2019}. Michigan simulations projected controlled drainage
+reducing annual discharge by 59--72\% depending on management aggressiveness and
+period \parencite{BinShokrana2023}, and a Michigan paired-field saturated-buffer
+study attributed most performance to the controlled-drainage component, which
+reduced annual discharge by 47.1\% and nitrate-N load by 48.0\%
+\parencite{Ghane2025}. In cultivated peat soils in Finland, controlled drainage
+reduced drain discharge by 862~mm (thin peat) and 457~mm (thick peat), a strong
+discharge response accompanied by only a modest groundwater-level rise
+\parencite{Tähtikarhu2025}; other Finnish work reported 11--23\% reductions in
+mean annual drain discharge and 17--36~cm higher water tables under controlled
+drainage \parencite{Salla2022}. Dutch reviews reported reductions of 14\% in a
+lysimeter and 16--85\% across clay, silty clay, and sandy loam soils, together
+with increased water retention \parencite{deWit2022}. Tank experiments confirmed
+the mechanism under strictly controlled boundaries: controlled drainage at 10
+and 20~cm reduced cumulative drainage volume by 8\% and 6\% and extended
+drainage duration by 17~h \parencite{Zheng2025}. Collectively, these results
+establish outflow reduction, extended drainage duration, lower and later peak
+flows, and increased in-field storage as consolidated, transferable effects of
+outlet control.
+
+\subsection{Nitrate and Phosphorus Loss Reductions and the Flow--Load Coupling}
+
+Because nitrate is highly mobile and travels dissolved in drain water, the
+reduction in nitrate-N load under controlled drainage tracks the reduction in
+outflow closely. Swedish studies made this explicit: the relative decrease in N
+and P loading in drain outflow was of the same magnitude as the reduction in
+outflow rate, with high-risk N-loss periods coinciding with high outflow rates
+and high soil mineral N \parencite{Wesström2007}. Global syntheses reinforce
+that nutrient reduction is due mainly to reduced flow rather than consistent
+concentration reductions \parencite{Frankenberger2024,Wang2020c}. Reported
+load reductions are large and consistent: 61\% (controlled) and 49\% (shallow)
+in Iowa \parencite{Schott2017}; 36\% (controlled) and 29\% (shallow) in Iowa
+\parencite{Helmers2012}; about 47\% at the watershed scale in Indiana, where
+drain flow fell from 11.0 to 5.9~cm and nitrate load from 236.3 to 126.4~ton,
+with most reduction occurring in the November--March winter control period
+\parencite{Ale2012}; and 54\% for the saturated-buffer system, dominated by the
+controlled-drainage component \parencite{Ghane2025}. In India, controlled
+drainage roughly halved seasonal NO$_3$-N loss (from 11.2 to
+5.54~kg~ha$^{-1}$ per season) \parencite{Karegoudar2019}, and Italian water-table
+management lowered annual N loss by 92\% (from 29 to 2~kg NO$_3$-N~ha$^{-1}$) and
+P loss by 65\%, with cumulative nitrate loss strongly correlated with cumulative
+outflow volume \parencite{Tolomio2018}. Chinese field and modeling studies found
+controlled drainage increased soil and crop NO$_3$-N while reducing leaching and
+drain nitrate loss by roughly 15--29\% \parencite{Dou2021,Dou2023}, and Iranian
+work found lower flow-weighted nitrate concentrations and nitrate losses under
+controlled drainage \parencite{Jouni2018}. A broad review of edge-of-field and
+in-field practices placed controlled drainage among effective mitigation
+options, with reported NO$_3$ loss reductions of 18--75\% for controlled
+drainage, alongside 12--100\% for bioreactors and 25--78\% for wetlands
+\parencite{Castellano2019}.
+
+Denitrification provides a secondary but well-documented loss-reduction
+mechanism where the water table is held high. Canadian farm-scale work found a
+greater relative abundance of nitrate-reducing/facultative bacteria under
+controlled drainage, supporting denitrification as a nitrate-loss pathway, while
+also reducing total suspended solids and particulate phosphorus by damping
+macropore flow \parencite{Tanga2025}. However, several syntheses caution that in
+poorly drained soils the nitrate reduction is attributable mainly to reduced
+tile effluent rather than to increased denitrification \parencite{THOMAS1995},
+and Albanian field data found nutrient concentrations were not strongly affected
+by drainage-system type, with outflow volume the dominant control on total
+nutrient transport \parencite{Grazhdani1996}. Modeling in Belgium reproduced an
+adverse relationship between denitrification and leaching---wider spacings and
+higher water tables increase denitrification and reduce leaching but also reduce
+plant uptake---so that total winter NO$_3$-N losses could be substantially
+reduced under controlled drainage \parencite{ElSadek2002,ElSadek2002b}.
+
+Phosphorus responses are generally favorable but smaller and occasionally
+reversed. Controlled drainage lowered P loads in Sweden and Iran
+\parencite{Wesström2007,Wesström2001,Jouni2018}, and the DWM synthesis reported
+DRP and TP load reductions of about 34\% and 36\%
+\parencite{Frankenberger2024}. In contrast, North Carolina simulations found
+controlled drainage produced a small increase in phosphorus efflux even as it
+cut nitrate efflux by as much as 34\% \parencite{DEAL1986}, and Iranian data
+showed slightly higher P concentrations under controlled drainage though lower P
+losses overall \parencite{Jouni2018}. Broader syntheses note that timing matters:
+the most hazardous periods for surface-water pollution are autumn--winter, when
+rainfall coincides with fertilizer on bare soil \parencite{Tolomio2018}, and P
+peaks can shift from late winter under conventional drainage to periods of
+highest outflow under controlled drainage \parencite{Wesström2007}. A recurring
+caveat is that controlled drainage may increase nutrient loss through seepage
+and surface runoff, a trade-off that partially offsets drain-flow reductions
+\parencite{Frankenberger2024}.
+
+\subsection{Repartitioning of Water Among Pathways}
+
+A consolidated finding is that controlled and shallow drainage do not eliminate
+the stored water but redirect it, most consistently into increased surface
+runoff, and secondarily into evapotranspiration and seepage. DRAINMOD
+simulations for Iowa showed that at a drainage intensity of 4.0~mm~day$^{-1}$,
+shallow and controlled drainage each reduced average annual subsurface drainage
+by about 25--27~mm (roughly 15\%), with most of that reduction reappearing as
+increased surface runoff and little change in evapotranspiration
+\parencite{Singh2007b}. Belgian, North Carolina, and Canadian studies
+consistently report that controlled drainage decreases subsurface drainage and
+increases surface runoff \parencite{ElSadek2002,ElSadek2002b,DEAL1986,Skaggs1995,Golmohammadi2016,Ndulue2024}.
+At the watershed scale in Ontario, controlled drainage decreased subsurface
+outflow and increased surface runoff, most often during the March--April
+snowmelt period, while producing a shallower water table and only a slight
+increase in evapotranspiration \parencite{Golmohammadi2016}. Polish simulations
+projected controlled drainage and reduced subsurface outflow accompanied by an
+approximately fivefold increase in surface runoff from drained arable land
+\parencite{Sojka2020}. Finnish modeling similarly found controlled subsurface
+drainage alone reduced drain discharge the most, whereas open-ditch damming
+alone increased drain discharge and reduced groundwater outflow, and all
+controlled-drainage methods increased topsoil-layer runoff while raising
+evapotranspiration and reducing total runoff overall
+\parencite{Isomäki2024}. Drainage-design choices are most clearly expressed in
+the runoff outflow pathways \parencite{Isomäki2024}. Increased evapotranspiration
+under controlled drainage---up to a 10\% ETact increase for corn---is a
+recognized secondary sink that reduces total water lost to drainage
+\parencite{deWit2022,DEAL1986,Ndulue2024}.
+
+At the field-water-balance scale, tile drainage dominates the outflow partition
+in humid Corn Belt settings. In Indiana, surface runoff represented only 1--10\%
+of annual precipitation while subsurface drainage represented 26--45\%, with a
+simulated balance of 7\% runoff, 34\% drain flow, and 51\% evapotranspiration,
+and all ponding events generated by saturation excess rather than infiltration
+excess \parencite{Saadat2020}. Iowa pothole modeling similarly found tile
+discharge and evapotranspiration accounting for 52.4\% and 47.5\% of
+precipitation, with drainage reducing but not eliminating ponding
+\parencite{Amado2018,Martin2019}. In UK field-drained catchments, subsurface
+field drains were the dominant pathway transferring runoff, sediment, and---the
+authors emphasize---most sediment to the stream, with drainage responding in
+every monitored event whereas surface runoff occurred in only some
+\parencite{Deasy2009}. These partitions underscore that in artificially drained
+landscapes the drain, not the soil surface, is usually the principal conduit.
+
+Relative to undrained or predominantly surface-drained conditions, however,
+improved subsurface drainage generally reduces surface runoff, peak outflow
+rates, sediment, and phosphorus even as it increases nitrate delivery
+\parencite{FAUSEY1995,SKAGGS1994,THOMAS1995,Gramlich2018}. In Oregon, tile
+drainage lowered perched water tables and reduced watershed runoff and sediment
+yield by about 65\% and 55\%, eliminated baseflow, increased lag time, and
+lowered peak and average flow \parencite{ISTOK1983}. Albanian sites recorded
+annual surface-runoff reductions of 30--56\% and reduced soil loss under
+subsurface drainage, though total nitrogen losses rose 22--25\%
+\parencite{Grazhdani1996}. Minnesota watershed modeling found tile drainage
+reduced surface runoff, soil loss, and sediment yield, especially under no-till
+\parencite{Maalim2013}. In North Carolina, improved subsurface drainage reduced
+surface runoff by 192~mm~yr$^{-1}$ (66\%) on a Wasda soil while raising total
+outflow by 10\%, and attenuated peak runoff strongly at the field scale (from
+101 to 28~mm~day$^{-1}$ for a three-year storm) with differences persisting to
+the 6216~ha watershed outlet \parencite{KONYHA1992}. Sandy loam soils in Canada
+showed subsurface drainage minimizing surface runoff and total phosphorus loss,
+whereas the reverse held on clay loam, and phosphorus speciation was mainly a
+function of soil texture rather than transport pathway
+\parencite{Eastman2010}. Mechanistically, good subsurface drainage increases
+infiltration and drainage rates during rainfall and lowers solute concentrations
+in surface runoff \parencite{Tong2016,Tao2017}, and by lowering the water table
+it limits saturation-excess runoff and surface sealing \parencite{Augeard2005}.
+
+\subsection{Drain Depth and Spacing as Design Levers}
+
+Beyond outlet control, spacing and depth systematically shift the flow--loss
+balance, and the evidence is coherent across field and simulation studies.
+Increasing drain spacing reduces subsurface drainage and nitrate leaching to
+drains but increases surface runoff, denitrification, and nitrate losses in
+runoff, while decreasing plant uptake---defining an optimum-spacing trade-off
+between crop production and environmental impact \parencite{ElSadek2002,ElSadek2002b}.
+DRAINMOD-N simulations in North Carolina found that increasing spacing from 20
+to 40~m decreased predicted NO$_3$-N losses by 47\% while still meeting
+production goals \parencite{Skaggs1995}, and the MANAGE database confirmed that
+wider spacing and shallower placement tend to reduce dissolved N loss, with
+deeper drains showing disproportionately higher N loads at a given discharge
+\parencite{Christianson2015}. Shallower drains, correspondingly, move less water
+and nutrient offsite: reducing drain depth from 120 to 90~cm produced roughly
+20\% reductions in annual drainage volume and nitrate-N over six years in
+Minnesota (and in a 90-year simulation), and a 76~versus~120~cm comparison
+yielded about 40\% reductions \parencite{Strock2011}. Regional syntheses agree
+that shallow drains contain less sediment and nutrients than deeper drains and
+that narrow spacing moves more water, nutrients, and pesticides offsite than
+wide spacing \parencite{FAUSEY1995}. Chinese salinity studies identified
+site-specific optima---8~m spacing at 0.7~m depth for a greenhouse soil
+\parencite{Shao2012} and 0.9~m depth with 10~m spacing for chloride removal
+\parencite{Yan2013b}.
+
+Because different spacing--depth combinations can achieve similar drainage
+intensity, design can be tuned to jointly meet productivity and water-quality
+goals. Latvian field experience over 16--17 years on about 200 fields showed
+that similar drainage intensity can be provided by different combinations of
+spacing and depth, favoring the most economical choice, and that deep systematic
+drainage (1.3--1.5~m) gave the best draining and economic indices in sandy and
+loamy soils \parencite{SHKINKIS1979}. Belgian economic optimization identified a
+conventional 50~m spacing at 1.25~m depth as the profit optimum, but showed that
+widening spacing from 50 to 100~m reduced total nitrate-N loss by 20\% (from 37
+to 29~kg~ha$^{-1}$) at only a small profit cost, and that different
+depth--spacing scenarios can yield similar nitrate-loss reductions
+\parencite{ElSadek2002b}. North Carolina simulations found deeper drains
+increased profit but substantially increased NO$_3$-N losses, while improved
+surface drainage allowed wider spacings and lower nitrate losses; the general
+prescription is to use the minimum subsurface intensity required for production,
+fit systems to soil properties, and apply controlled drainage when maximum
+drainage is unnecessary \parencite{Breve1998}. Irrigated-system reviews likewise
+conclude that deep drains are often unnecessary for salinity control and that
+shallower drains with better operational management can reduce design discharges
+without sacrificing yield \parencite{Ritzema2011}.
+
+\subsection{Shallow, Multi-level, and Enhanced Drainage Configurations}
+
+Shallow drainage emerges as a design that reproduces much of the flow-- and
+load-reduction benefit of controlled drainage. Iowa studies found shallow
+drainage reduced subsurface volume by 46--58\% and nitrate loads by 29--49\%,
+generally without reducing crop yield (unlike controlled drainage, which
+sometimes did) \parencite{Helmers2012,Schott2017}. A multi-state eastern-USA
+analysis showed shallow drains produced quicker water-table drawdown, reduced
+year-to-year corn-yield variability, and cut total flow by 3.4~cm versus deep
+drains (with discharge reduction intensifying with annual precipitation), though
+they increased surface runoff and had a lower benefit--cost ratio and longer
+payback than deep drains \parencite{Ghane2021b}.
+
+In saline irrigated settings, drain depth strongly controls the salinity of
+exported water. Australian experiments found deep drains flowed continuously and
+exported the largest salt loads (5867~kg~ha$^{-1}$), whereas shallow drains
+flowed only after irrigation or rainfall, had low salinity, and produced the
+greatest salt-load reduction while still providing adequate waterlogging control
+\parencite{Christen2001b}. Multi-level (bilevel) systems combining deep and
+shallow drains improved on single-level systems: they cut the time the water
+table exceeded 0.5, 0.75, and 1.0~m by 84\%, 67\%, and 41\%, leached the root
+zone faster, and produced much lower shallow-drain salinity (4.7 versus
+31.7~dS~m$^{-1}$) while removing similar total salt
+\parencite{Hornbuckle2007}. Analytical theory shows that adding shallow drains
+between deep drains raises system drainage rate, produces shallower and more
+evenly distributed flow paths, and allows wider deep-drain spacing for equivalent
+total drainage \parencite{Hornbuckle2012}. Managed deep drains occupy an
+intermediate position, reducing volume and salinity relative to unmanaged deep
+drains \parencite{Ayars2006b,Christen2001b}.
+
+Engineered enhancements to the drain itself further alter flow. ``Improved''
+subsurface drainage that adds a permeable filter increased discharge---about 1.9
+times conventional discharge at equal ponding depth---accelerated water-table
+drawdown (over 15\% faster to reach 40~cm), and reduced surface runoff more
+effectively, especially under high-intensity rainfall
+\parencite{Tao2016,Tao2017}. Combined open-ditch plus subsurface designs and
+improved filters increased flow rates and flooding/waterlogging removal
+efficiency, with medium--medium and shallow--deep combinations offering good
+performance at lower construction difficulty \parencite{Ren2021,Tao2025}.
+Siphon-type subsurface drainage raised flow rates by roughly 27--90\% over
+conventional and improved variants and shortened flooding and waterlogging
+removal times substantially, verified against HYDRUS-2D
+\parencite{Ren2023}. Artificial macropore flow tubes generated drain flow where
+none occurred in a base treatment, increased drainage volume with tube density,
+and promoted a more uniform, desalinated soil profile \parencite{Chen2021}.
+Supplementary drainage of a clay field increased mean annual drain discharge by
+a factor of 2.6, decreased topsoil-layer runoff by 75\% and groundwater outflow
+by 18\%, and improved spring drainage efficiency without affecting
+evapotranspiration \parencite{Häggblom2019}. Controlled drainage combined with
+subirrigation raised groundwater levels, supplied 170--410~mm of infiltration,
+and increased yields by up to 64\% in Dutch pilots, though supplies were
+insufficient in extreme dry seasons \parencite{deWit2022,deWit2024}, and
+subirrigation reduced nitrate-N loading and concentration in earlier North
+American work \parencite{FAUSEY1995,Almen2021,Madramootoo2007}. Land retirement
+with drains closed can eliminate drainage entirely, with downgradient retirement
+generating larger reductions than upgradient \parencite{Purkey2001}.
+
+\subsection{Salinity, Salt Load, and Trade-offs in Irrigated Systems}
+
+In arid and irrigated regions the flow--loss coupling extends to salts, and
+controlled drainage again reduces exported volumes and loads but introduces an
+in-field salinity trade-off. Controlled drainage reduced total drainage outflow
+and salt load in the United States and Australia \parencite{Ayars2006b}, cut
+cumulative salt discharge by 5--7\% in tank experiments (while raising drainage
+water salinity, especially late) \parencite{Zheng2025}, and reduced salt loads
+in Iranian managed paddy systems, where free drainage produced salt loads 4--6
+times higher than managed treatments \parencite{DarziNaftchali2018b}. Indian
+saline-Vertisol trials found controlled drainage saved about 17\% of irrigation
+water and roughly halved nitrogen loss, but reclaimed soil salinity more slowly
+than conventional drainage \parencite{Karegoudar2019}, and Iranian work reported
+soil salinity decreasing under free drainage but increasing slightly under
+controlled drainage---an explicit productivity--salinity trade-off
+\parencite{Jouni2018}. Reviews of Australian systems highlighted that many
+subsurface systems removed more water than needed, mobilizing stored subsoil
+salt, and that managing horizontal drains to avoid full drawdown could reduce
+salt loads significantly \parencite{Christen2001}. Egyptian controlled drainage
+reduced outflow, nitrate, and phosphorus losses in semiarid conditions, with
+potential to lower the cost of pumping drainage water to the sea
+\parencite{Wahba2001}.
+
+The counterpart consolidated finding is that subsurface drainage is a proven,
+economically favorable technology for reclaiming waterlogged and saline
+irrigated land. Indian pilot areas recorded rice-yield increases of 30--120\%
+and average increases of 54--136\% across crops, with cost--benefit ratios of
+2.5--4.6 and payback periods of 2--3 years \parencite{Satyanarayana2007}, and
+long-term monitoring found water tables 25\% deeper and soil salinity 50\% lower
+in drained fields, with root-zone salinity falling from 11.5 to 6.0~dS~m$^{-1}$
+and favorable cost--benefit ratios of 1.2--3.2 \parencite{Ritzema2008b}. Deep
+drains proved unnecessary for salinity control, with shallow drains (0.8--1.0~m)
+sufficiently effective \parencite{Ritzema2011,Satyanarayana2007}. Egyptian
+drainage lowered water tables to 0.8--1.0~m within days of irrigation and
+reduced saline soils from 40\% to 5--8\% (new non-saline areas) within four
+years, proving highly profitable \parencite{Ali2001}. Comparable reclamation
+successes and adequate water-table and salinity control were documented in
+Mexico, Turkey, and China \parencite{MartínezBeltrán2007,Güngör2023,Shao2012,Yan2013b}.
+Italian analysis showed drainage altered redox conditions above the drains,
+favoring nitrification and confining active water circulation to the zone above
+the drains \parencite{Mastrocicco2013}. At the basin scale, however, persistent
+waterlogging and salinity in Central and South Asia reflect deteriorated
+infrastructure and inadequate saline-effluent disposal, underscoring that
+drainage must be managed within an integrated salt balance
+\parencite{Dukhovny2007,Qureshi2008,Ritzema2016,SKAGGS1994}.
+
+\subsection{Crop Yield, Water Use, and Agronomic Outcomes}
+
+The agronomic evidence supports the conclusion that controlled and shallow
+drainage can reduce losses while maintaining---or modestly improving---yield and
+water productivity. The 61-study meta-analysis found an overall yield increase of
+0.11\%, with dryland crops increasing slightly and paddy rice decreasing
+\parencite{Wang2020c}, and North Carolina studies indicated an average yield
+increase of about 5\% when controlled drainage is well managed
+\parencite{Strock2011}. Dutch reviews reported yield gains of 2--5\% for corn,
+with one instance of a 3\% decrease when the water table was too shallow early
+in the season \parencite{deWit2022}. Controlled drainage improved nitrogen
+efficiency in Sweden through lower drain N loads and higher crop uptake
+\parencite{Wesström2007}, increased yield and water-use efficiency in Iranian
+and Chinese systems \parencite{Jouni2018,Dou2021,Dou2023}, and increased water
+productivity and yield in Iranian managed paddy fields with quick payback
+\parencite{DarziNaftchali2018b}. Not all yield effects are positive: an Iowa
+comparison found controlled drainage produced a significant yield reduction
+relative to conventional drainage even as shallow drainage did not
+\parencite{Helmers2012}, whereas a five-year Iowa study found yields similar
+among conventional, controlled, and shallow drainage, with only the undrained
+treatment reducing corn and soybean yields by 6\% \parencite{Schott2017}.
+
+Drainage per se---versus no drainage---consistently stabilizes and improves
+agronomic performance. Iowa nitrogen-response work found controlled drainage had
+the highest agronomic efficiency at the agronomic optimum N rate and the least
+interannual variability, while no drainage had the highest optimum N rate, the
+greatest N surplus, and the most variability \parencite{Maas2022}. A conceptual
+analysis showed drainage in continuous maize lowered the optimum N rate from 214
+to 189~kg~N~ha$^{-1}$, raised zero-N yield by 10\% and agronomic efficiency by
+14\%, and reduced global warming potential by 56\% through lower fertilizer and
+N$_2$O emissions, positioning controlled and shallow drainage as designs that
+reduce leaching while maintaining yield and conserving soil water and carbon
+\parencite{Castellano2019}. Drainage also advances field trafficability: Canadian
+work found subsurface drainage advanced spring trafficability by 2--5 weeks and
+recommended a 30.5~m spacing, with intensity mattering most at wide spacing
+\parencite{PAUL1983}, and Iowa analysis showed drained treatments enabled earlier
+target planting dates than undrained soils in wet years, with controlled and
+shallow drainage reducing nitrate loss without delaying planting or reducing
+yield \parencite{Schott2017b}. Managed subsurface drainage accelerated ponded-
+and groundwater removal and enabled timely second-crop establishment in
+Bangladesh, India, and Iran \parencite{Okwany2016,Prathapar2018,Rahimi2024}.
+
+\subsection{Persistence of Benefits and Behavior under Climate Change}
+
+Climate-projection studies consistently conclude that the hydrologic and
+water-quality benefits of controlled drainage persist, and in some seasons
+strengthen, under future conditions. In Ohio, conventional discharge was
+projected to decline in all seasons (most in autumn), while controlled-drainage
+annual discharge reduction remained near 4--6\% and summer growing-season
+reductions increased, indicating greater warm-season value
+\parencite{Pease2017}. Michigan simulations projected free-drainage discharge
+rising 20\% by mid-century while controlled drainage continued to reduce
+discharge by 63--72\%, with future and historical performance statistically
+indistinguishable \parencite{BinShokrana2023}. Finnish future scenarios projected
+controlled drainage effects on groundwater and discharge remaining similar to the
+historical interval, with annual drain-discharge reductions of roughly
+21--46~mm depending on management \parencite{Salla2022}. Canadian projections of
+warmer, wetter conditions found controlled drainage reducing subsurface drainage
+more strongly than free drainage and raising evapotranspiration, though rising
+temperature drove dry-stress yield reductions, motivating capture, storage, and
+reuse of drainage water as an adaptation \parencite{Ndulue2024}. Chinese and
+Polish studies found that appropriate surface-depression and outlet-blocking
+strategies (e.g., starting regulation on 1~March) could reduce future runoff and
+maintain groundwater at present-day levels \parencite{Awad2021,Sojka2020}.
+Field monitoring in Norway demonstrated that subsurface systems react rapidly to
+precipitation-induced groundwater rise and can handle high precipitation amounts
+similar to climate-change projections, with two-exponential recession behavior
+capturing fast and slow flow \parencite{Deelstra2015}, and Polish work quantified
+seasonal retention and outflow factors, showing the greatest flood risk under
+rapid snowmelt on near-saturated soil \parencite{Szejba2020}.
+
+\subsection{Landscape Extent, Monitoring, and the Evidence Base}
+
+Quantifying where and how much land is drained frames the significance of these
+flow and loss effects. Regional mapping in Germany estimated drained proportions
+of about 25\% overall, highest on hydromorphic groundwater- and
+stagnant-water-influenced soils (up to 30--40\%) and lowest on leachate soils,
+with the method transferable to river-basin and national scales
+\parencite{Hirt2005,Hirt2011}. Multiple United States drainage-extent datasets
+diverge substantially at the watershed scale, indicating that the best estimate
+depends on local drainage conditions and dominant practice
+\parencite{Jame2022}. Regional drainage-requirement and monitoring studies in
+India, Turkey, Egypt, and elsewhere documented drainable-surplus estimates,
+recommended design rates (e.g., 2~mm~day$^{-1}$), and generally good system
+performance, with water tables dropping below the root zone within days of
+irrigation \parencite{Kumar2006,Güngör2023,Ali2001,MartínezBeltrán2007,Rimidis2003}.
+Setback analyses show drain depth is the key determinant of lateral setback
+distance for protecting wetlands \parencite{Tangen2018}, and vulnerability
+indices require distinguishing surface from subsurface artificial drainage to
+avoid mis-classifying runoff and leaching risk \parencite{Baffaut2020}. Runoff
+from small catchments and drainage fields agreed well, supporting regional
+prediction \parencite{Veinbergs2022}, while watershed models such as SWAT were
+found to under-represent artificial subsurface drainage processes without
+explicit adaptation \parencite{Manguerra1998,Golmohammadi2016}. Broadly,
+subsurface drainage relative to surface drainage lowers sediment, phosphorus, and
+pesticide concentrations but carries much greater nitrate loads, and its
+hydrologic and water-quality effects vary widely with soil, topography, land use,
+and system design---so conservation designs such as controlled drainage offer
+substantial potential to reduce nitrate losses and improve water quality where
+appropriately sited \parencite{Blann2009,Gramlich2018,FAUSEY1995,SKAGGS1994}.
+Socio-economic and landscape considerations temper further expansion in some
+contexts: Finnish analyses found replacing remaining open ditches with subsurface
+drainage could reduce social welfare through biodiversity and landscape losses,
+so surface drainage remained socially optimal for lower land qualities
+\parencite{HietalaKoivu2004,Saikkonen2014}. The overarching, well-supported
+conclusion across this literature is that drainage systems can be deliberately
+designed and managed---through spacing, depth, and outlet control---to satisfy
+agricultural production and environmental objectives simultaneously
+\parencite{Skaggs1995,Breve1998,ElSadek2002b,Strock2011,Ritzema2016}.
+
+\printbibliography
+\end{document}

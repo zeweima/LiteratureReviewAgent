@@ -1,0 +1,10 @@
+{
+ "parsed": {
+  "passed": false,
+  "unfaithful": [
+   "\"combined subsoil-plus-surface drainage increased yield by \\(91\\%\\) and \\(81\\%\\) in a third experiment\" -- per the finding (Islam2025), in Experiment III the individual SD and SSD treatments increased yield by 91% and 81%; the COMBINED treatment (SSD+SD) gave only a further 24% and 31% increase relative to SD and SSD. The 91%/81% figures are misattributed to combined subsoil-plus-surface drainage."
+  ],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.I need to read the rest of the findings file (lines 289-603).I've read both files completely. Let me verify the one claim that stands out against its finding.\n\nThe section (para 11) states: *\"combined subsoil-plus-surface drainage increased yield by 91% and 81% in a third experiment\"* citing Islam2025.\n\nFinding (line 201): *\"In Experiment III, SD and SSD increased yield by 91% and 81%, respectively, and SSD+SD further increased yield by 24% and 31% relative to SD and SSD.\"*\n\nThe 91% and 81% belong to the two **individual** treatments (SD and SSD), not the **combined** treatment (SSD+SD), which gave a further 24%/31% increase. The section misattributes the individual-treatment figures to the combined treatment. Everything else in the section checks out faithfully and is correctly cited.\n\n{\"passed\": false, \"unfaithful\": [\"\\\"combined subsoil-plus-surface drainage increased yield by \\\\(91\\\\%\\\\) and \\\\(81\\\\%\\\\) in a third experiment\\\" -- per the finding (Islam2025), in Experiment III the individual SD and SSD treatments increased yield by 91% and 81%; the COMBINED treatment (SSD+SD) gave only a further 24% and 31% increase relative to SD and SSD. The 91%/81% figures are misattributed to combined subsoil-plus-surface drainage.\"], \"miscited\": []}"
+}

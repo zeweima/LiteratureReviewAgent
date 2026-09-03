@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files read completely. The generated abstract is a high-level condensation with a single citation, `\\parencite{Randall2001}`.\n\n**Faithfulness check:** The abstract contains only framing/meta-level content (short records, single sites, narrow windows, enabling\u2192domain\u2192consequences\u2192integration structure, greenhouse-gas coupling, pollution swapping, emerging contaminants, trace-element legacies, soil evolution, the \"no silver bullet\"/data-imperative message). Every one of these traces directly to the source Introduction and Conclusions. No concrete numbers, locations, or specific study results are introduced.\n\n**Citation check:** `Randall2001` is the only cited key. It appears in the source Conclusions (`\\parencite{Randall2001,Strock2011,Christianson2021}`) attached to management-practice content, and the generated text uses it for a framing sentence about practices reconciling productivity with water quality \u2014 consistent use, same key.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

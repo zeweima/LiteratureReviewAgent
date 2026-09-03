@@ -1,0 +1,371 @@
+{
+ "title": "Tile Drainage: State of Knowledge",
+ "budget": 20000,
+ "sections": [
+  {
+   "kind": "abstract",
+   "title": "Abstract",
+   "summary": "A concise statement of what the evidence has established about tile drainage hydrology, water quality, agronomy, and management.",
+   "guidance": "Written last from the theme sections. State the consolidated, well-supported findings: subsurface drainage dominates the field-to-stream pathway and nitrogen export; loads are hydrologically controlled; phosphorus moves through drains largely as preferential-flow particulate P; a suite of design, in-field, and edge-of-field practices produce quantified but scale-attenuated reductions; drainage reliably raises yields and reclaims saline land; and validated models and mapping tools underpin design. Emphasize magnitudes and strength of evidence, not open questions. No new material beyond the theme sections.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 200,
+   "word_hi": 300,
+   "id": "00_abstract",
+   "deps": [
+    "intro",
+    "conclusions"
+   ]
+  },
+  {
+   "kind": "intro",
+   "title": "Introduction",
+   "summary": "Motivates the review: the extent of artificial drainage, its role as a master variable of drained-land hydrology and water quality, and the scope of consolidated knowledge.",
+   "guidance": "Frame tile drainage as one of the most consequential anthropogenic modifiers of the field-to-stream pathway, note the global extent of drained cropland, and lay out the converging lines of evidence (monitored plots and watersheds, tracer and isotope studies, controlled columns and tanks, long-term records, process and data-driven models). Preview the paper's logic: hydrology first, then contaminant loss and its mechanisms, then management (in-field, design, edge-of-field), then agronomic benefits, then the modeling/measurement/mapping toolkit. State that this is the state-of-knowledge synthesis and that open questions are treated in the companion frontier component. Do not pre-empt quantified results that belong to the theme sections.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 1000,
+   "word_hi": 1300,
+   "id": "01_introduction",
+   "deps": [
+    "theme"
+   ]
+  },
+  {
+   "kind": "theme",
+   "title": "Drainage Hydrology: Flow Pathways, Regime, and Scaling",
+   "summary": "How tile drainage reshapes the water balance, the flow regime, and the scaling of catchment hydrologic response.",
+   "guidance": "Establish the physical hydrology that underpins all downstream water-quality and management findings, so later sections can invoke flow behaviour without re-deriving it. Cover only installing-drainage and natural flow behaviour here; leave outlet-control (controlled drainage) outflow reduction to the design and water-management section, and leave the numerical representation of these behaviours to the modeling section. Establish the flow-load coupling concept only as hydrology; its use for nitrate and for controlled drainage belongs to later sections.",
+   "subsections": [
+    {
+     "title": "Tile drainage as a dominant flow pathway",
+     "guidance": "From the tile drainage contributions to streamflow material and the field-water-balance material on repartitioning: the large, measurable share of precipitation and streamflow routed through drains (often 40 to 65 percent), tile versus surface-runoff partitioning in humid settings, and seasonal peaks when soils are wet and evapotranspiration is low."
+    },
+    {
+     "title": "Modification of the flow regime",
+     "guidance": "From the modification of the flow regime material: elevation of low flows and baseflow, damping of intermediate flows, modest effects on the largest floods, and soil- and slope-dependent flashiness, drought, and long-term trend behaviour."
+    },
+    {
+     "title": "Scale dependence, homogenization, and travel times",
+     "guidance": "From the scale dependence, homogenization, travel times and pathways material: scale-invariant behaviour of tiled basins, shortened and homogenised travel times, runoff-generation thresholds, and fast preferential versus slow matrix partitioning of tile flow."
+    },
+    {
+     "title": "Repartitioning of water relative to undrained land",
+     "guidance": "From the repartitioning-of-water-among-pathways material in the drainage-outcomes theme: how improved subsurface drainage shifts water among drain flow, surface runoff, evapotranspiration, and seepage relative to undrained or surface-drained conditions, generally reducing surface runoff, peak flow, and sediment. Keep controlled-drainage-specific outflow reduction out of this subsection."
+    }
+   ],
+   "source_ids": [
+    1,
+    4
+   ],
+   "word_lo": 1700,
+   "word_hi": 2100,
+   "id": "02_drainage-hydrology-flow-pathways-regime-and-scal",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Nitrate Export: Magnitudes and Biophysical Controls",
+   "summary": "What governs how much nitrate leaves drained fields: pathway dominance, hydrologic control, concentration-discharge behaviour, sources, and denitrification.",
+   "guidance": "Establish the magnitudes and biophysical drivers of nitrate export; treat this as the 'what and why', and leave all management levers (rate reduction, timing, cover crops, rotation, tillage, drainage management) to the in-field management and design sections. Establish flow-load coupling here specifically for nitrate. Reference the general hydrology section rather than repeating flow-regime detail.",
+   "subsections": [
+    {
+     "title": "Subsurface drainage as the dominant nitrogen pathway",
+     "guidance": "From the subsurface-drainage-as-dominant-nitrogen-pathway material: pathway dominance across settings, the range of loads and concentrations and their exceedance of the drinking-water limit, and fertilizer input plus watershed hydrology as joint regional drivers, including soil-N legacy effects."
+    },
+    {
+     "title": "Hydrologic control of nitrate export and seasonality",
+     "guidance": "From the flow-load coupling and seasonality material plus the hydrologic and climatic controls material in the cover-crop theme: loads scale with drainage flow, high flows and the non-growing season dominate export, and interannual variability is driven by precipitation and drainage volume."
+    },
+    {
+     "title": "Concentration-discharge behaviour, sources, and denitrification",
+     "guidance": "From the concentration-discharge and rapid-response material and the sources, transformation and denitrification material: chemostasis, counterclockwise hysteresis, rapid tile response and threshold behaviour, isotopic evidence on organic versus fertilizer sources, and in-profile and in-network denitrification as a natural attenuation process."
+    }
+   ],
+   "source_ids": [
+    0,
+    3
+   ],
+   "word_lo": 1900,
+   "word_hi": 2300,
+   "id": "03_nitrate-export-magnitudes-and-biophysical-contro",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Phosphorus and Sediment Loss and Preferential Transport",
+   "summary": "Phosphorus and sediment export through drains, the soil controls on release, and the preferential-flow mechanism that delivers particulate P.",
+   "guidance": "Own all phosphorus and sediment loss knowledge and the preferential-flow/macroporosity mechanism, since particulate-P delivery is inseparable from preferential flow. Keep phosphorus removal technologies out (they belong to the edge-of-field and reactive-media section) and keep phosphorus in controlled-drainage responses in the design section, cross-referencing only. Use the preferential-flow subsection as the single home for macroporosity and drainage-induced soil structure, which later sections may cite for pesticides and microbes.",
+   "subsections": [
+    {
+     "title": "Phosphorus loss pathways and water partitioning",
+     "guidance": "From the phosphorus loss pathways and fractions material: tile drainage capturing the largest share of field water, the concentration-versus-load contrast between surface runoff and drainage, and the settings where tiles do not dominate (snowmelt clay landscapes, some tillage and paddy systems)."
+    },
+    {
+     "title": "Particulate versus dissolved phosphorus and bioavailability",
+     "guidance": "From the particulate-versus-dissolved-phosphorus and bioavailability material: particulate P frequently dominant contrary to the clean-subsurface presumption, exceptions where dissolved forms dominate, and the importance of measuring all P forms and bioavailable P."
+    },
+    {
+     "title": "Soil controls on phosphorus release and legacy phosphorus",
+     "guidance": "From the soil controls on phosphorus release material: coupling of dissolved P loss to soil-test P and degree of P saturation, threshold behaviour, the role of low-sorption subsoils, watershed-scale legacy P, and high-risk organic and drained peat soils."
+    },
+    {
+     "title": "Preferential flow, macroporosity, and drainage-induced soil structure",
+     "guidance": "From the preferential flow, macroporosity, and drainage-induced structure material: biopores as dominant conduits, the tiny hydraulically active pore volume producing rapid concentration surges, spatial organisation and static structure, hydraulic evolution, mole drainage and pedogenesis, and rapid macropore transport of solutes and manure constituents. This is the single home for the preferential-flow mechanism."
+    },
+    {
+     "title": "Temporal dynamics of phosphorus and sediment loss",
+     "guidance": "From the temporal dynamics of phosphorus and sediment loss material: concentration of loss in the non-growing season and in a few large events, chemodynamic tile behaviour, cold-region snowmelt dominance, and sediment source-fingerprinting attributing loads to field drains."
+    },
+    {
+     "title": "In-field controls on phosphorus loss",
+     "guidance": "From the phosphorus portions of the in-field management material: long-term P input effects, manure and incidental fall-application losses, and the tillage tradeoff between dissolved and particulate P. Keep nitrogen and cover-crop management in the dedicated in-field section."
+    }
+   ],
+   "source_ids": [
+    0
+   ],
+   "word_lo": 1700,
+   "word_hi": 2100,
+   "id": "04_phosphorus-and-sediment-loss-and-preferential-tr",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "In-Field Nutrient and Cropping Management",
+   "summary": "How agronomic levers other than the drainage system itself reduce nitrate loss: rate, source, timing, cover crops, rotation, tillage, and their tradeoffs.",
+   "guidance": "Own all in-field nitrogen and cropping-system management, with cover crops as the centrepiece. Draw quantified reductions from field and modeling evidence but leave model mechanics to the modeling section. Leave drainage-system management (controlled drainage, subirrigation, drainage water recycling) to the design and water-management section even though the cover-crop theme mentions it. Cross-reference the nitrate-export section for the underlying rate-loss and hydrologic mechanisms rather than repeating them.",
+   "subsections": [
+    {
+     "title": "Nitrogen rate, source, and residual soil nitrate",
+     "guidance": "From the nitrogen application rate and residual soil nitrate material and the fertilizer-versus-manure material: the rate-loss relationship and yield plateau, residual soil nitrate and legacy effects, N surplus targets, and manure generally increasing loss relative to inorganic fertilizer."
+    },
+    {
+     "title": "Timing, placement, and enhanced-efficiency products",
+     "guidance": "From the nitrogen timing, placement and enhanced-efficiency products material: fall-to-spring and split or side-dress shifts, placement effects, nitrification inhibitors and polymer-coated products, and the generally smaller, less consistent effect than rate or cropping system."
+    },
+    {
+     "title": "Cover crops: reductions, mechanisms, and yield",
+     "guidance": "From the cover-crop drainage nitrate reductions, cover-crop mechanisms, cover-crop effects on drainage volume, cover-crop management and yield, and quantified reductions material, plus the cover-crop portion of the in-field management material: concentration-driven reductions, assimilation mechanism and biomass/weather dependence, modest drainage-volume effects, general yield neutrality, and the clustering of well-established reductions."
+    },
+    {
+     "title": "Crop rotation, diversification, and perennial systems",
+     "guidance": "From the crop rotation, diversification and perennial systems material and the rotation portion of the in-field management material: continuous corn losing more than rotations, diverse rotations delivering large reductions, and perennial and prairie systems as the most effective in-field option."
+    },
+    {
+     "title": "Tillage and residue management",
+     "guidance": "From the tillage and residue management material: the weak and inconsistent control of tillage over nitrate relative to precipitation, cropping system, and rate, and limited residue-removal effects."
+    },
+    {
+     "title": "Soil testing, use efficiency, regional aggregation, and loss-pathway tradeoffs",
+     "guidance": "From the watershed programs, soil testing and nitrogen-use-efficiency material, the regional aggregation and Gulf of Mexico loading material, and the loss-pathway tradeoff material in the process-understanding section: soil-test-based programs at watershed scale, use-efficiency framing, regional adoption estimates, and redistribution of nitrogen among leaching, nitrous oxide, and ammonia pathways."
+    }
+   ],
+   "source_ids": [
+    0,
+    3
+   ],
+   "word_lo": 2000,
+   "word_hi": 2400,
+   "id": "05_in-field-nutrient-and-cropping-management",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Drainage Design and Water-Table Management",
+   "summary": "How spacing, depth, and outlet control govern outflow, load, and their tradeoffs, including controlled drainage, subirrigation, and drainage water recycling.",
+   "guidance": "Own the design levers and water-table management as controls on flow and load, and be the single home for controlled drainage, subirrigation, and drainage water recycling drawn from all four contributing themes. Emphasize the flow-load coupling for solutes under management. Leave the underlying uncontrolled hydrology to the hydrology section, the yield and salinity-reclamation outcomes of design to the agronomic-benefits section, and the analytical spacing equations and pipe hydraulics to the modeling section.",
+   "subsections": [
+    {
+     "title": "Drain spacing and depth as controls on flow and loss",
+     "guidance": "From the drain spacing and depth material and the spacing, depth and outlet-control design-levers material: closer and deeper drains increasing flow and nitrate loss, shallower and wider spacing reducing subsurface loss while shifting water to surface runoff, and the optimum-intensity tradeoff. Keep salinity-specific spacing-depth optima in the agronomic-benefits section."
+    },
+    {
+     "title": "Controlled drainage and drainage water management",
+     "guidance": "From the controlled drainage and subirrigation material, the controlled and managed drainage material, the drainage-water-management portion of the cover-crop theme, and the outflow-reduction and flow-load-coupling material in the drainage-outcomes theme: outflow reductions and their range, nutrient-load reductions tracking flow, timing windows, phosphorus and surface-runoff tradeoffs, and the secondary role of denitrification."
+    },
+    {
+     "title": "Drainage water recycling and subirrigation",
+     "guidance": "From the drainage water recycling material and the subirrigation and recycling material in the drainage-outcomes theme: capture-and-reuse yield and water-quality benefits, retention-time controls, resilience under drought and excess precipitation, and site-dependence on lateral conductivity."
+    },
+    {
+     "title": "Enhanced configurations and persistence under climate change",
+     "guidance": "From the enhanced-configuration material in the design-levers section and the persistence-of-benefits-under-climate-change material: multi-level, permeable-filter, siphon and combined systems, and the finding that controlled-drainage benefits persist or strengthen under projected climates."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    4
+   ],
+   "word_lo": 1900,
+   "word_hi": 2300,
+   "id": "06_drainage-design-and-water-table-management",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Edge-of-Field Treatment, Reactive Media, and Watershed-Scale Integration",
+   "summary": "Beyond-the-field practices that intercept nutrients, their quantified performance and controls, and how they combine to meet watershed targets.",
+   "guidance": "Own all edge-of-field and reactive-media treatment technologies and the watershed-scale integration of reduction strategies. This is where reactive media, bioreactors, wetlands, and buffers live in full detail. Cross-reference the design section for controlled drainage rather than re-treating it. Consolidate scale-attenuation, required-reduction, practice-stacking, and monitoring-design findings here so no other section repeats them.",
+   "subsections": [
+    {
+     "title": "Constructed wetlands",
+     "guidance": "From the constructed wetlands material and the wetland comparisons in the reactive-media theme: reliable nitrate removal by denitrification, dependence on residence time, loading and temperature, and variable, sometimes negative phosphorus performance."
+    },
+    {
+     "title": "Woodchip bioreactors: performance, controls, and mechanisms",
+     "guidance": "From the woodchip-bioreactor field performance, the controls (hydraulics, temperature, loading), the mechanisms, carbon substrates and microbial ecology, and the design, sizing and enhancement material, plus the bioreactor and denitrification-wall material in the edge-of-field theme: load and rate reductions, the residence-time-temperature-loading controls, denitrification as dominant pathway, and sizing and enhancement strategies."
+    },
+    {
+     "title": "Pollution swapping and greenhouse-gas by-products of bioreactors",
+     "guidance": "From the pollution-swapping and greenhouse-gas by-products material: generally small nitrous-oxide, methane, sulfate-reduction, and dissolved-organic-carbon risks and their conditions."
+    },
+    {
+     "title": "Reactive media for phosphorus removal",
+     "guidance": "From the reactive-media phosphorus classes and sorption-capacity material, the retention mechanisms and governing conditions material, the kinetics, longevity and field-scale phosphorus removal material, and the coupled-treatment portion of the reactive-media theme: iron-based versus calcium-rich media, sorption versus precipitation, kinetics and longevity, and coupling with woodchips."
+    },
+    {
+     "title": "Saturated buffers, denitrification walls, ditches, and in-channel practices",
+     "guidance": "From the bioreactors, walls, buffers and ditches material in the edge-of-field theme: saturated buffers, denitrification walls, two-stage ditches, low-grade weirs, and riparian interception, including where tiles bypass the riparian zone."
+    },
+    {
+     "title": "Comparative effectiveness, cost, and watershed-scale integration",
+     "guidance": "From the comparative effectiveness and cost material, the cost-effectiveness material in the reactive-media theme, and the watershed-scale integration and reduction strategies material: load-reduction benchmarks and costs across practices, scale attenuation of in-field effects, required reductions at the tile outlet, the need to combine in-field and edge-of-field practices, why surface-water practices fail over tile drainage, and monitoring-design effects on inferred loads."
+    }
+   ],
+   "source_ids": [
+    0,
+    2
+   ],
+   "word_lo": 2100,
+   "word_hi": 2500,
+   "id": "07_edge-of-field-treatment-reactive-media-and-water",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Other Water-Quality Dimensions: Pesticides, Microbes, Trace Elements, and Greenhouse Gases",
+   "summary": "Drainage water-quality dimensions beyond nitrogen and phosphorus, plus ecological responses.",
+   "guidance": "Own the non-nutrient contaminant dimensions and the ecological responses, so the nutrient sections stay focused. Take the trace-element and hazard framing of the salinity material here (selenium, trace elements, acid sulphate), and leave salt leaching and land reclamation as an agronomic benefit to the agronomic-benefits section. Draw on the preferential-flow mechanism established in the phosphorus section by reference rather than re-deriving it.",
+   "subsections": [
+    {
+     "title": "Herbicides, pesticides, and emerging contaminants",
+     "guidance": "From the herbicides and pesticides in drainage material: application-timing control on peaks, small overall mass losses, the reconciling role of preferential flow, transient threshold exceedances, degradates, management levers, and emerging contaminants."
+    },
+    {
+     "title": "Manure-borne microbial contaminants and resistance genes",
+     "guidance": "From the manure-borne microbial contaminants and resistance genes material: application method and soil moisture as first-order controls, antibiotic-resistance-gene transport, and attenuation by engineered features."
+    },
+    {
+     "title": "Trace elements, selenium, and acid sulphate hazards",
+     "guidance": "From the trace-element and hazard portions of the salinity, trace elements and reclamation material: the Kesterson selenium case and its regulatory legacy, evaporation-pond trace-element chemistry, micronutrient depletion, and acid sulphate soil drainage hazards. Exclude salt leaching and reclamation, which belong to the agronomic-benefits section."
+    },
+    {
+     "title": "Greenhouse-gas dimensions",
+     "guidance": "From the greenhouse-gas dimensions material: drainage water supersaturation with nitrous oxide, methane and carbon dioxide, indirect emission factors, methane suppression in drained paddies, and inorganic-carbon export through tiles."
+    },
+    {
+     "title": "Ecological responses to subsurface drainage",
+     "guidance": "From the ecological responses to subsurface drainage material: soil fauna, farmland birds, amphibians and snails, restored aquatic habitats, and the frequently larger role of management than drainage per se."
+    }
+   ],
+   "source_ids": [
+    0
+   ],
+   "word_lo": 1300,
+   "word_hi": 1700,
+   "id": "08_other-water-quality-dimensions-pesticides-microb",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Agronomic Benefits: Yield, Salinity Reclamation, and Socio-Economics",
+   "summary": "The production and economic case for drainage: yield gains, salt leaching and reclamation, saline-water reuse, and investment returns.",
+   "guidance": "Own the agronomic and economic outcomes of drainage as a production technology, including salt leaching and land reclamation framed as a benefit. Cross-reference the design section for spacing, depth, and controlled-drainage mechanisms rather than repeating them, but do own the salinity-specific spacing and depth optima and salt-balance dynamics. Keep trace-element and selenium hazards in the other-water-quality section.",
+   "subsections": [
+    {
+     "title": "Crop yield and agronomic outcomes",
+     "guidance": "From the crop yield and agronomic outcomes material: magnitude of yield gains from relieving waterlogging, added benefits of controlled drainage, subirrigation and recycling, mechanisms and water-use efficiency, weather and design dependence, and the limits where drainage does not help."
+    },
+    {
+     "title": "Salt leaching and reclamation of saline and waterlogged soils",
+     "guidance": "From the salt leaching and reclamation material and the reclamation portion of the salinity, trace elements and reclamation material: reclamation efficacy and topsoil salinity reductions, design parameters governing salt removal, drainage-water salinity and salt-balance dynamics, vertical and ionic leaching structure, and leaching-efficiency mechanisms."
+    },
+    {
+     "title": "Saline and brackish water reuse",
+     "guidance": "From the saline and brackish water reuse material: safe reuse where salt balance is maintained, yield responses across salinity levels, sodicity and accumulation risks, and integration with complementary practices."
+    },
+    {
+     "title": "Socio-economic returns and investment viability",
+     "guidance": "From the socio-economic returns and investment viability material: yield, income and productivity gains, benefit-cost and internal-rate-of-return appraisals, program scale, cost-reducing design and materials, and the policy and externality context."
+    }
+   ],
+   "source_ids": [
+    0,
+    4
+   ],
+   "word_lo": 1500,
+   "word_hi": 1900,
+   "id": "09_agronomic-benefits-yield-salinity-reclamation-an",
+   "deps": []
+  },
+  {
+   "kind": "theme",
+   "title": "Modeling, Measurement, and Mapping of Drainage Systems",
+   "summary": "The validated modeling, measurement, and mapping toolkit that quantifies drainage behaviour and locates drainage infrastructure.",
+   "guidance": "Consolidate all modeling, measurement-protocol, and mapping methodology so the preceding sections can state management conclusions without model mechanics. Report cross-cutting model skill (better at annual than daily scales, nitrate harder than flow, phosphorus extensions still limited), the analytical and pipe-scale design theory, calibration and uncertainty findings, data-driven and remote-sensing methods, and infrastructure mapping and extent. Refer back to earlier sections for the physical findings the models reproduce rather than restating them.",
+   "subsections": [
+    {
+     "title": "Field-scale drainage and water-quality models",
+     "guidance": "From the field-scale water-management models material, the modelling drainage flow, nitrate and phosphorus material, the process-models material in the cover-crop theme, and the modeling-toolkit material in the drainage-outcomes theme: DRAINMOD and comparable models as benchmarks, the scale dependence of skill, nitrate and phosphorus extensions, and cold-season developments."
+    },
+    {
+     "title": "Flow physics: saturated and unsaturated flow and preferential-flow representation",
+     "guidance": "From the saturated-versus-unsaturated-flow and vertical-resistance material and the preferential-flow and model-structure material: why purely saturated models over-predict discharge, vertical-resistance control, and the necessity of dual-domain or macropore representations to reproduce rapid drainage and transport."
+    },
+    {
+     "title": "Analytical drain-spacing solutions and pipe-scale hydraulics",
+     "guidance": "From the analytical solutions for drain spacing and water-table dynamics material, the pipe-scale hydraulics and structural design material, the drain hydraulics, sediment and solute material, and the near-drain flow-physics and drain-envelope material: steady versus unsteady spacing theory, evapotranspiration-aware and layered-soil solutions, entrance resistance and effective radius, spatially varied conduit flow, and envelope physics."
+    },
+    {
+     "title": "Watershed representation, sensitivity, calibration, uncertainty, and evaluation",
+     "guidance": "From the watershed- and regional-scale representation material, the sensitivity, calibration and uncertainty material, and the evaluation metrics and measurement protocols material: how drain conceptualisation shifts simulated contributions, saturated conductivity and evapotranspiration as dominant sensitivities, calibration and uncertainty practice, and how metric and discharge-measurement choices change apparent performance."
+    },
+    {
+     "title": "Data-driven, remote-sensing, and geostatistical methods",
+     "guidance": "From the data-driven, remote-sensing and geostatistical methods material: machine-learning surrogates matching process models for trained outputs, deep-learning mapping of drained extent, and kriging-family interpolation of soil properties for design."
+    },
+    {
+     "title": "Mapping drainage infrastructure and quantifying extent",
+     "guidance": "From the geospatial mapping theme (aerial and UAV imagery and spectral bands, ground-penetrating radar and antenna configuration, geoelectrical and injection methods, complementary multi-method strategies, large-scale delineation, and GIS-based design tools) and the landscape-extent material in the drainage-outcomes theme: detection performance and controlling conditions, the value of combined methods, watershed and regional delineation, GIS design tools, and estimates of drained extent."
+    }
+   ],
+   "source_ids": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "word_lo": 2000,
+   "word_hi": 2400,
+   "id": "10_modeling-measurement-and-mapping-of-drainage-sys",
+   "deps": []
+  },
+  {
+   "kind": "conclusions",
+   "title": "Conclusions",
+   "summary": "A synthesis of what is firmly established about tile drainage and how strongly the evidence supports it.",
+   "guidance": "Written from the theme sections. Draw together the consolidated picture: subsurface drainage as the master control on drained-land hydrology and nitrogen export; hydrologically governed, seasonally concentrated loads; preferential-flow-delivered particulate phosphorus; a coherent hierarchy of mitigation from in-field to design to edge-of-field with quantified but scale-attenuated effects and N-P tradeoffs; reliable yield and reclamation benefits with favourable economics; and a mature, validated modeling and mapping toolkit. Emphasize convergence across independent methods and the strength of evidence. Do not introduce new results or a research-gaps agenda, which belongs to the frontier component.",
+   "subsections": [],
+   "source_ids": [],
+   "word_lo": 800,
+   "word_hi": 1000,
+   "id": "11_conclusions",
+   "deps": [
+    "theme"
+   ]
+  }
+ ]
+}

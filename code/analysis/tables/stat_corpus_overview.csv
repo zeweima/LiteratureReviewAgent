@@ -1,0 +1,7 @@
+﻿stage,n,share_of_records
+Bibliographic records retrieved (Web of Science),2547,1.0
+Records carrying a DOI,2044,0.8025
+Records with a full-text PDF obtained,1947,0.7644
+Unique DOIs with a full-text PDF,1946,0.764
+Papers converted and extracted,1946,0.764
+Papers retained after relevance filtering,1444,0.5669

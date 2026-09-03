@@ -1,0 +1,574 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Nitrate and Nutrient Loss via Drainage}
+
+\subsection{Overview}
+
+Agricultural subsurface (tile) drainage is one of the most important
+anthropogenic modifiers of the field-to-stream nitrogen and phosphorus
+pathway, and a large, geographically diverse body of field, watershed,
+and modelling evidence now supports a fairly consolidated picture of how
+it controls nutrient export. The central, repeatedly confirmed finding
+is that subsurface drainage is the dominant hydrologic and nitrogen loss
+pathway in artificially drained cropland: in intensively monitored
+Norwegian catchments, subsurface drainage carried $76$--$91\%$ of runoff
+and $87$--$95\%$ of total-nitrogen loss, with drainage total-N
+concentrations $2$--$4$ times higher than in surface runoff and over
+$90\%$ of TN losses occurring through subsurface drainage
+\parencite{Bechmann2014}. Nitrate-N is the predominant exported species,
+and its transport is tightly coupled to discharge, so that hydrology and
+fertilizer intensity jointly govern loads \parencite{Raymond2012}. Across
+the literature the headline quantities recur: field- and watershed-scale
+nitrate-N yields commonly reach or exceed $20$--$60$~kg~ha$^{-1}$~yr$^{-1}$
+in maize--soybean systems \parencite{Gentry2009,Gentry2014,Dattamudi2020,Tomer2008},
+concentrations frequently approach or exceed the $10$~mg~L$^{-1}$
+drinking-water limit \parencite{Dattamudi2020,Gordon2021}, and phosphorus,
+though smaller in mass, moves through both tile and surface pathways at
+concentrations well above eutrophication thresholds \parencite{Smith2008,Tomer2008}.
+
+The evidence also converges on a suite of mitigation strategies with
+quantified, mechanistically coherent effects. Drainage water management
+(controlled drainage, subirrigation, and drainage water recycling)
+reliably reduces drainage volume and nitrate load, typically in
+proportion to the flow reduction, while often maintaining or increasing
+yield \parencite{Skaggs2010,Youssef2018,Wu2025,Madramootoo2024}.
+Edge-of-field and beyond-the-field practices, constructed wetlands,
+denitrification bioreactors and walls, saturated buffers, two-stage
+ditches, ditch weirs, riparian zones, and filter strips, remove nitrate
+mainly by denitrification and reduce phosphorus and sediment with more
+variable efficiency \parencite{Tanner2005,Jaynes2008,Hodaj2017,Strock2025b,JACOBS1985}.
+In-field practices, principally cover crops and nutrient management, cut
+tile nitrate loss substantially at the tile scale but show attenuated,
+scale-dependent signals at the watershed outlet
+\parencite{Hanrahan2018,Speir2022,Gentry2014}. This section synthesizes
+these consolidated findings, organized around the magnitude and pathways
+of loss, the hydrologic and land-management controls that drive them, and
+the drainage-management, edge-of-field, and watershed-scale strategies
+shown to abate them, together with the salinity, trace-element, and
+pesticide dimensions of drainage water quality.
+
+\subsection{Magnitude and Pathways of Nitrogen Loss}
+
+\subsubsection{Subsurface drainage as the dominant nitrogen pathway}
+
+Multiple independent studies establish that in tile-drained landscapes
+the subsurface pathway carries the overwhelming majority of nitrogen.
+In Norway, over $90\%$ of TN losses occurred through subsurface drainage,
+concentrations in drainage were $2$--$4$ times those in surface runoff,
+average agricultural-area TN concentrations ranged $3$--$19$~mg~L$^{-1}$,
+and nitrate-N constituted $71$--$85\%$ of TN except at one site
+\parencite{Bechmann2014}. New Zealand mole-pipe systems captured about
+$62\%$ of surplus rainfall as drainage and routed roughly $80\%$ of
+soluble N discharged in combined flows, while surface runoff dominated
+P, sediment, and \emph{E. coli} transfer \parencite{Monaghan2016}. In
+east-central Illinois, tile drainage losses were a major N source to
+surface waters, with tile N loads of $22.7$ and $59.9$~kg~ha$^{-1}$ in
+successive years and flow-weighted mean NO$_3$-N rising to $19.2$~mg~L$^{-1}$
+in the wetter year \parencite{Gentry2009}. Watershed nitrate export in
+Iowa exceeded $20$~kg~ha$^{-1}$~yr$^{-1}$ and tracked baseflow used as a
+surrogate for tile flow \parencite{Tomer2008}, and long-term Illinois
+budgets showed subsurface stations losing $13$--$30$~kg~ha$^{-1}$~yr$^{-1}$
+of nitrate-N (equal to $16$--$26\%$ of applied N) with more than $70\%$ of
+subsurface samples exceeding the $10$~mg~L$^{-1}$ MCL, while surface runoff
+was negligible in the flat terrain \parencite{Dattamudi2020}.
+
+\subsubsection{Loads, concentrations, and their variability}
+
+Reported magnitudes span a wide but coherent range. New Zealand tile
+drains exported $14$--$109$~kg~ha$^{-1}$~yr$^{-1}$ of TN, of which
+$58$--$90\%$ was nitrate-N, with annual drainage yields of $193$--$853$~mm
+\parencite{Tanner2011}. Riverine and tile nitrate yields in Illinois
+averaged around $30$--$32$~kg~N~ha$^{-1}$~yr$^{-1}$ and ranged up to
+$57$--$59$~kg~ha$^{-1}$~yr$^{-1}$ \parencite{Gentry2014}, and Indiana ditch
+networks showed NO$_3$-N loads of $0.05$--$19$~kg~ha$^{-1}$ with
+concentrations peaking above $16$--$20$~mg~L$^{-1}$ in wet springs
+\parencite{Smith2008}. Across 29 Iowa watersheds, five-year moving-average
+flow-weighted nitrate concentrations ranged $0.6$--$15.5$~mg~L$^{-1}$,
+loads spanned $0.07$--$58\times10^{6}$~kg~yr$^{-1}$, and yields ranged
+$3.6$--$78.7$~kg~ha$^{-1}$; crucially, interannual variability in load
+greatly exceeded that of concentration, so flow-weighted concentration
+served as a more robust early indicator of management change than load or
+yield \parencite{Danalatos2022}. In a Czech watershed, flow-weighted
+drainage nitrate rose with risk class from $9.6$ to $17.8$~mg~L$^{-1}$,
+corresponding to drainage nitrate contributions of $796$--$2290$~kg~N~km$^{-2}$~yr$^{-1}$
+\parencite{Kvítek2023}. German catchment analysis documented a decline in
+drainage N discharge from $33$ to $10$~kg~N~ha$^{-1}$~yr$^{-1}$ (1480 to
+454~t~yr$^{-1}$) between the 1980s and 1990s, driven mainly by reduced N
+surplus, with the largest area-specific losses on sandy and loess
+substrates \parencite{Hirt2005b}.
+
+\subsubsection{Fertilizer input and hydrology as joint drivers}
+
+At regional scale, fertilizer input and watershed hydrology together
+regulate export: about $34\%$ of applied fertilizer N was exported to
+streams in the Mississippi basin, wetter watersheds exported a larger
+fraction, and tile drainage was identified as a hydrologic modifier that
+increases throughput and reduces residence time, thereby raising nitrate
+loss to the Gulf of Mexico \parencite{Raymond2012}. Direct comparison of
+fertilized and unfertilized Minnesota fields confirmed the causal link:
+nitrate load from the unfertilized field was $58\%$ of that from the
+fertilized field \parencite{Ghane2016b}. Watershed N budgets showed
+fertilizer as the largest input and grain as the largest output, with
+mass balances swinging from positive to strongly negative in wet years
+that depleted soil N \parencite{Gentry2009}, and plant uptake dominating
+outputs ($89$--$96\%$) while roughly $80\%$ of residual soil-profile N was
+lost to runoff and leaching \parencite{Dattamudi2020}. Multivariate models
+that combined current and prior-year water yield, prior corn yield, and
+fall fertilizer sales explained $96\%$ of annual nitrate-yield variation,
+and shifting fertilizer application to spring was estimated to reduce
+nitrate yield by $17$--$20\%$, detectable in watersheds as large as
+$481$~km$^2$ \parencite{Gentry2014}. Principal-component and regression
+analyses similarly identified the hydrologic component, together with
+flow, N application, and temperature, as the dominant controls on nitrate
+load \parencite{Li2015}.
+
+\subsection{Phosphorus and Sediment Loss}
+
+While nitrogen dominates the mass balance, phosphorus and sediment loss
+through drainage systems is well documented and follows distinct
+controls. Total P loads are typically small ($0.4$--$0.7$~kg~ha$^{-1}$~yr$^{-1}$)
+yet concentrations commonly exceed $0.1$~mg~L$^{-1}$ and respond to storm
+runoff more than nitrate \parencite{Tomer2008}; in Ohio tiles, mean annual
+DRP and TP loads were $0.46$ and $0.57$~kg~ha$^{-1}$, with DRP and TP
+concentrations higher in the growing season \parencite{King2016}. Surface
+inlets exert a distinct effect on drainage nutrient transport: site-years
+with surface inlets had greater median TP load ($0.40$ vs.
+$0.21$~kg~ha$^{-1}$) but smaller dissolved-N load ($3.3$ vs.
+$23.0$~kg~ha$^{-1}$), and a logistic model using TP and DN loads correctly
+classified $89\%$ of site-years, offering a tool to infer upstream
+practices \parencite{Flores2021}. Phosphorus is delivered through both
+surface and subsurface routes: in flat New Zealand pastures surface runoff
+carried $54\%$ of both filterable-reactive and total P
+\parencite{Monaghan2016}, whereas Swedish diagnosis identified subsurface
+drainage itself as the single largest probable cause of P losses, with
+stream proximity second \parencite{Djodjic2002}. Legacy and macropore
+processes matter: winter cover-crop tiles showed unexpectedly high TP
+during rain and rain-on-snow events, with concurrent TP/TOC increases and
+nitrate declines indicating bypass flow through macropores
+\parencite{McNeill2026}, and Irish ditch sediments accumulated legacy P
+that made farmyard-connection and outlet ditches the highest-risk P
+pathways \parencite{Moloney2020,Opoku2024}. Watershed export
+also concentrates in spring snowmelt "hot moments," with identifiable
+spatial hot spots for DRP and TP distinct from nitrate hot spots
+\parencite{Irvine2019}.
+
+\subsection{Hydrologic and Climatic Controls}
+
+\subsubsection{Discharge, high flows, and seasonality}
+
+Discharge is the master variable for both N and P export. Tile discharge
+was the main driver of soluble reactive phosphorus load in Indiana
+watersheds, and subsurface flow--nitrate load relationships were strongly
+positive ($R^2 = 0.84$--$0.86$) \parencite{Trentman2020,Dattamudi2020}.
+More than $70\%$ of watershed nitrate export occurred during high-flow
+events and moist conditions \parencite{Hanrahan2018}, and high flows were
+identified as the major control on contaminant transport, implying that
+targeting high flows could reduce loads \parencite{Ghane2016b}. Discharge
+is strongly seasonal: in Ohio, $81\%$ of tile discharge occurred in the
+nongrowing season, so nitrate and TN loads were greater then despite
+higher growing-season concentrations under corn \parencite{King2016}.
+Controlled-drainage studies similarly show winter and spring dominance of
+loss, with most nitrogen loss between April and May
+\parencite{Strock2025b,Grenon2023}. Nutrient concentrations frequently
+peak after soil thaw and in spring following planting, especially in
+wetter years \parencite{Magner2004,Smith2008,Bechmann2014}. Antecedent
+moisture modulates these dynamics: wetter antecedent conditions increased
+tile discharge and SRP load, while discharge declined as days since the
+last $10$ or $20$~mm event increased \parencite{Trentman2020}.
+
+\subsubsection{Climate change projections}
+
+Modelling indicates that intensifying hydrology will increase drainage
+throughput. In an Indiana watershed, annual subsurface drain flow was
+projected to increase by up to $70\%$ by century's end (up to $67\%$ under
+RCP~8.5), with surface runoff rising up to $131\%$; nitrate loads in tile
+drains were projected to fall $25$--$75\%$ by mid-century while surface-runoff
+nitrate rose $50$--$100\%$, and soluble-P yield via drains declined
+$30$--$60\%$ \parencite{Mehan2019}. Ensemble analysis for an Ohio watershed
+found no consensus on the direction of future nutrient change, with
+climate-model choice dominating uncertainty for discharge, tile discharge,
+ET, and TN, and hydrologic-model choice dominating for runoff and
+phosphorus; on average tile discharge rose $18\%$ while TP fell $7\%$ and
+TN changed little \parencite{Kujawa2020}. Long-term Latvian and Lithuanian
+records already show rising precipitation and temperature and shifting
+seasonal outflow, with significant winter increases and spring decreases
+in drainage \parencite{Lagzdins2015,Povilaitis2018}. Increasing
+precipitation and discharge are expected to shorten N residence time and
+exacerbate export \parencite{Raymond2012}.
+
+\subsection{In-Field Management: Cover Crops, Rotation, and Nutrient Management}
+
+\subsubsection{Cover crops at the tile scale}
+
+Cover crops consistently reduce nutrient loss where measured directly at
+the tile. In Indiana, tiles draining cover-cropped fields had
+$69$--$90\%$ lower seasonal nitrate loads in winter and spring
+\parencite{Hanrahan2018}, and independent monitoring found cover crops cut
+tile discharge by $28$--$65\%$ and nitrate-N loss by $27$--$72\%$ annually,
+with consistent winter--spring reductions and more variable SRP reductions
+of $7$--$59\%$ \parencite{Speir2022}. Spring cover-crop biomass reduced
+median tile discharge by $50$--$80\%$ and SRP load by up to $54\%$, with
+the effect estimated at a $15\%$ reduction in SRP over the fallow period
+\parencite{Trentman2020}. In Missouri terraced fields, a paired-watershed
+design attributed a $30\%$ reduction in subsurface flow and $75\%$
+reduction in TP loss to cover crops \parencite{SalcedaGonzalez2025}. Winter
+cover choice matters: winter-wheat fields had the highest and mixed
+cover-crop fields the lowest nongrowing-season N concentrations
+\parencite{McNeill2026}. Economic analysis showed environmental
+co-benefits recover a large share of costs, averaging $61\%$, with the
+largest contribution from cover-crop biomass N mineralization
+\parencite{Roth2018}.
+
+\subsubsection{Scale attenuation and offsetting responses}
+
+At the watershed outlet the signal is weaker and scale-dependent. Despite
+strong tile-scale effects, annual, seasonal, and monthly watershed nitrate
+export did not differ significantly between pre- and post-cover-crop years,
+although average annual nitrate yield was $13\%$ lower, and monitored tiles
+contributed only $\sim7\%$ of watershed export \parencite{Hanrahan2018}.
+Watershed-scale reductions were most consistent in spring, and consistent
+annual reductions likely require broader regional or targeted
+implementation \parencite{Speir2022}. Some cover-crop and relay systems
+showed no drainage or nitrate benefit and higher N surplus or N$_2$O
+emissions: a winter camelina relay produced no change in cumulative
+nitrate load but increased nitrous oxide emissions and N surplus
+\parencite{Emmett2022}, and Ohio BACI trials found cover crops reduced
+nitrate flow-weighted mean concentration but not nitrate load
+\parencite{Askar2023}. Grassing of drainage recharge zones reduced median
+nitrate by $26$--$32\%$ locally and monthly N load by up to $47\%$
+\parencite{Fucík2015,Kvítek2023}.
+
+\subsection{Drainage Water Management: Controlled Drainage and Subirrigation}
+
+\subsubsection{Consolidated hydrologic and nitrogen effects}
+
+Controlled drainage (CD) is among the best-established practices. A
+synthesis of prior studies found CD reduced drainage outflow by $17\%$ to
+over $80\%$ depending on soil, drainage intensity, control strategy, and
+location, while raising water tables and increasing ET, seepage, and
+surface runoff; for many studies nitrogen-loss reduction was about the
+same percentage as the drainage-volume reduction, though the N effect
+depended on denitrification and seepage pathways \parencite{Skaggs2010}. A
+global meta-analysis of 84 publications, 52 sites, and 1788 paired
+site-years confirmed that both CD and controlled drainage with
+subirrigation (CDSI) reduce subsurface discharge and subsurface nutrient
+losses while modestly increasing yield; CDSI reduced subsurface nitrate
+and TN more than CD, whereas CD reduced subsurface TP more, and CDSI (but
+not CD) significantly increased surface runoff and surface nitrate loss
+\parencite{Wu2025}. Simulations across 48 U.S. Midwest locations found CD
+reduced annual drainage and N losses everywhere while increasing runoff,
+ET, and seepage, with efficacy strongly climate-dependent (largest
+reductions at Memphis, smallest at Fargo) \parencite{Youssef2018}.
+
+\subsubsection{Field evidence of nitrate reductions and yield effects}
+
+Field studies quantify these effects concretely. In Quebec, controlled
+drainage with subirrigation cut tile drainage volume by $24\%$, nitrate
+concentration by $25\%$ ($10.6$ to $7.9$~mg~L$^{-1}$), and nitrate loss by
+$43\%$ ($25.8$ to $14.6$~kg~ha$^{-1}$~yr$^{-1}$) \parencite{Ng2000}, and a
+long-term Canadian study found CD reduced total nitrate loss by $\sim58\%$,
+increased yield $3\%$, and cut drainage volume $17\%$ without elevated
+greenhouse-gas emissions \parencite{Madramootoo2024}. In North Carolina,
+nine years of CD reduced drainage outflow $33\%$ and nitrate-N export
+$30\%$ (average $6.3$~kg~ha$^{-1}$~yr$^{-1}$), a reduction equal to the
+extra N removed in grain as CD raised corn and soybean yields $10$--$11\%$
+\parencite{Poole2018}. Controlled tile drainage during the growing season
+reduced daily water flux $\sim60\%$, nitrate $51\%$, ammonium $58\%$, DRP
+and TP $66\%$, and \emph{E. coli} $76\%$, while boosting corn and soybean
+yields \parencite{Sunohara2016}, and the same practice imposed en masse
+across a watershed significantly reduced growing-season stream fluxes of
+water, N, and P, with physical abatement of tile flow as the overriding
+mechanism \parencite{Sunohara2015}. Iowa DWM cut tile flow $21\%$ and
+nitrate mass loss $29\%$ with an $8\%$ soybean-yield increase, though
+flow-weighted concentration was not significantly changed
+\parencite{Jaynes2012}. Missouri controlled drainage reduced NO$_3$-N
+concentrations by $6.0$--$9.6$~mg~L$^{-1}$ and cumulative nitrate loads by
+$69$--$99\%$ during growing seasons, but raised dissolved reactive P
+concentrations \parencite{Nash2020}.
+
+\subsubsection{Timing, trade-offs, and phosphorus concerns}
+
+The timing of control governs efficacy: DRAINMOD analysis identified
+$1$--$15$~March as the most effective window, when CD could reduce
+subsurface outflow and nitrate-N losses by up to $100\%$ and retain up to
+$22$~kg~NO$_3$-N~ha$^{-1}$, whereas April starts resembled free drainage
+\parencite{Kesicka2023c}. Lithuanian CD reduced monthly outflow
+$55$--$80\%$, inorganic-N load $42$--$77\%$, and TP load $34$--$72\%$
+\parencite{Povilaitis2018}. Modelled shallow drainage outperformed CD for
+nitrogen (reducing N loss $40\%$ vs. $26\%$ long-term) with minimal yield
+penalty \parencite{Craft2018}. Trade-offs are recognized: CD can increase
+surface DRP and TP losses that partly offset subsurface benefits
+\parencite{King2022,Wu2025}, and controlled drainage--subirrigation was
+predicted to raise runoff N ($+340\%$) and sediment N ($+118\%$) even while
+cutting leaching $35\%$, for a net $17.8\%$ reduction in combined
+non-point N \parencite{SHIRMOHAMMADI1995}. Greenhouse-gas responses are
+mixed but generally not adverse: N$_2$O fluxes under CD were $49\%$ higher
+than free drainage in three years and up to $43\%$ lower in three others
+\parencite{Madramootoo2024}. Drainage-management alone often fails to lower
+concentrations even when it lowers loads via volume reduction
+\parencite{Grenon2023,Wesström2014}. Automatic CD/subirrigation
+outperformed traditional CD, reducing N losses up to $27\%$, increasing
+plant uptake, and saving $28$--$77\%$ of subirrigation water
+\parencite{Abdelbaki2025}. Subirrigation lysimeters in Iran cut drainage
+nitrate concentrations by $74$--$84\%$ and improved yield and water-use
+efficiency \parencite{Noory2009}, and Swedish controlled drainage/subirrigation
+reduced NO$_3$-N, TN, PO$_4$-P, and TP losses to about $40\%$ of
+conventional while raising yield and N uptake \parencite{Wesström2014}.
+
+\subsection{Drainage Water Recycling and Reuse}
+
+Drainage water recycling (DWR), capturing and storing drainage for
+supplemental irrigation, is documented to benefit both crop production and
+downstream water quality. Reported yield gains reach $61\%$ for corn and
+$31\%$ for soybean relative to free drainage, with modelled Ohio benefits
+rising under future climate; Canadian studies documented N-loss reductions
+of $40$--$70\%$ and P-loss reductions of $12$--$36\%$, and modelling
+predicted downstream N-delivery reductions of $24$--$37\%$ and P reductions
+of $21$--$39\%$ in Iowa and Indiana \parencite{Hay2021}. A North Carolina
+reservoir reduced TN load $47\%$, TP load $30\%$, and sediment $87\%$,
+driven by nitrate ($-53\%$) and orthophosphate ($-46\%$) concentration
+reductions, with hydraulic retention time the key control, though it was a
+net source of particulate P \parencite{Moursi2023}. An expanded DRAINMOD
+DWR model showed reservoir inflow dominated by subsurface drainage
+($67\%$), and a $4\%$-area reservoir optimized corn yield while reducing
+nitrate loss $\sim20\%$ ($7.7$~kg~ha$^{-1}$~yr$^{-1}$)
+\parencite{Moursi2022}. Multi-location synthesis of 53 site-years showed
+DWR is more resilient than free drainage, protecting yield during drought
+and excess precipitation, especially in the V9--R2 window, producing
+$2.22$~Mg~ha$^{-1}$ higher yield overall and reducing yield variability
+$22\%$ \parencite{Willison2021}. Adoption economics indicate crop insurance
+is not a major barrier: real-options adoption thresholds shifted less than
+$\sim20\%$ with insurance, and DWR and insurance manage different risks
+\parencite{Sellars2022}. Regional DWR in Iran saved $67$~Mm$^3$ of water,
+recycled $32$~Mm$^3$, and raised river flow while cutting drainage to
+evaporation ponds $38\%$; optimal blending was $13$--$23\%$ recycled water,
+and a $20\%$ scenario limited sugarcane yield loss to acceptable levels
+\parencite{Kosari2024}. In California's San Joaquin Valley, integrated
+on-farm drainage management reused all but $0.7\%$ of applied water, using
+only $\sim6\%$ of project area for evaporation and reuse, though drainage
+EC did not represent crop-water concentration effects
+\parencite{Ayars2014}.
+
+\subsection{Edge-of-Field and Beyond-the-Field Practices}
+
+\subsubsection{Constructed wetlands}
+
+Constructed wetlands treating drainage are extensively documented as
+effective nitrate sinks, with denitrification the dominant mechanism.
+Across drained French watersheds, nitrate removal averaged $\sim42\%$ (up
+to $40$--$90\%$), dominated by denitrification ($93\%$) over plant uptake
+($7\%$), and devoting $\sim1\%$ of contributing area to a wetland can
+realistically achieve $50\%$ removal, with hydraulic residence time the
+priority control \parencite{Tournebize2017}. Iowa wetlands reduced incoming
+nitrate concentrations $49\%$ and loads $\sim61$~kg~day$^{-1}$, with
+performance varying by hydrology ($23$--$65\%$) \parencite{Drake2018}; a
+Minnesota wetland removed $67\%$ of tile nitrate over four years, mostly
+via infiltration to shallow groundwater \parencite{Gordon2021}; and another
+removed $68\%$ of nitrate and $\sim76\%$ of phosphorus, with plant harvest
+the primary P-removal route \parencite{Lenhart2016}. Illinois wetlands
+retained $36$--$37\%$ of nitrate and total N and over half of P fractions,
+and $\sim450$~ha of wetland were estimated necessary to cut watershed N
+loading $46\%$ \parencite{Kovacic2006}. New Zealand wetlands occupying
+$1$--$2\%$ of catchment area removed $16$--$63\%$ of nitrate-N loads but
+performed poorly for P, sometimes exporting more TP than received
+\parencite{Tanner2005,Tanner2005b,Tanner2011,Tanner2003}. Wetland
+performance is strongly a function of hydraulic loading rate, residence
+time, temperature, and inlet concentration: a first-order areal model with
+median $k_{20}=25$~m~yr$^{-1}$ and temperature coefficient $1.106$ best
+represents whole-system behaviour, and no single-number design is adequate
+\parencite{Kadlec2012,Kalcic2018}. A German wetland retained only $2.9\%$
+of TN over four years, but retention reached $\sim80\%$ when loads were low
+and residence time exceeded $20$~days at temperatures above $8\,^{\circ}$C
+\parencite{Steidl2019}. Meta-analysis reported mean cropland-drainage
+removals of $23.7\%$ TN and $30.3\%$ nitrate-N but negative mean removals
+for ammonium and TP, underscoring variable P and ammonium behaviour
+\parencite{Messer2021}.
+
+\subsubsection{Bioreactors, denitrification walls, and stacked practices}
+
+Woodchip-based denitrification is well supported. Denitrification walls
+reduced flow-weighted nitrate concentrations by at least $55\%$ and cut
+average annual nitrate mass loss $55\%$ over five years with no yield
+penalty and no land taken out of production \parencite{Jaynes2008}, and a
+19-year comparison found a rye cover crop and a woodchip denitrification
+wall reduced N leaching $58$--$59\%$, with rye more effective in dry years
+and the wall more effective in wet years \parencite{Rogovska2023}. Trench
+backfill additives reduced tile nitrate by $52$--$78\%$ (woodchips best),
+and among in-ditch filter media Polonite ranked highest for P removal
+\parencite{Povilaitis2018}. A stacked DWM--woodchip bioreactor--saturated
+riparian buffer system reduced nitrate-N export $78$--$88\%$ over five
+seasons, sustaining performance even in the final year, though the system
+could be a net source of suspended solids \parencite{Singh2024b}. Saturated
+buffers were highlighted as offering the largest climate-mitigation
+potential per unit area among conservation drainage practices, decreasing
+nitrate leaching with little increase in N$_2$O and accruing SOC
+\parencite{Hall2025}.
+
+\subsubsection{Ditches, weirs, two-stage ditches, and riparian buffers}
+
+In-channel and edge practices provide additional nitrate and P
+interception. A ditch with a low-grade weir reduced discharge $51\%$,
+nitrate concentration $22\%$, and nitrate load $58\%$ over seven years in a
+cold climate without removing land from production \parencite{Strock2025b}.
+A two-stage ditch significantly reduced TP, SRP, and TSS concentrations and
+loads (TP load $-40\%$), and lowered nitrate concentrations, though not
+nitrate loads \parencite{Hodaj2017}; two-stage ditches and wetlands are
+regarded as promising beyond-the-field practices capturing both N and P
+\parencite{Kalcic2018}. Riparian buffers are highly effective for nitrate:
+in North Carolina, groundwater nitrate dropped from $7$--$8$~mg~L$^{-1}$ to
+$<0.1$~mg~L$^{-1}$ within $16$--$47$~m of the drainageway, attributed to
+denitrification rather than plant assimilation, and buffers $<16$~m
+induced significant nitrate loss \parencite{JACOBS1985}. Iowa grass
+waterways and drainageway alluvial soils reduced groundwater nitrate $70\%$
+relative to cropped fields and removed $144$~kg~yr$^{-1}$
+($7.8$~kg~ha$^{-1}$) of inflow nitrate \parencite{Schilling2022}. However,
+where tile drains and ditches route water directly to streams they can
+bypass the riparian zone, limiting attenuation \parencite{Puckett2005}.
+Vegetated filter strips reduced surface-runoff nitrate, PO$_4$, and TP (up
+to $70$--$75\%$ for P), but subsurface nitrate could increase through the
+strip \parencite{Bhattarai2009}; regionally, filter strips were the most
+effective practice for surface sediment, TN ($-57\%$), and TP ($-63\%$)
+\parencite{Yuan2022}. Improved subsurface-drainage filter materials
+(sand--gravel, zeolite) enhanced ammonium and phosphate removal and salt
+discharge, though some configurations increased nitrate and TN
+\parencite{Tao2019b,Tao2022,Tao2025b,Wang2024e}.
+
+\subsubsection{Comparative effectiveness and cost}
+
+Comparative syntheses provide load-reduction benchmarks. Denitrifying
+bioreactors, constructed wetlands, cover crops, crop rotation, and nutrient
+management each reduced subsurface nitrate loads by $23$--$40\%$
+\parencite{Yuan2022}. In the Lower Mississippi Alluvial Valley, nine BMPs
+delivered nutrient reductions of $15$--$100\%$, with mean TN reductions
+highest for conservation tillage ($76\%$) and land-use conversion, and
+subsurface drainage itself yielding TN and TP reductions of $17$ and $31\%$
+\parencite{Kröger2012}. Cost-effectiveness analysis ranked wetlands most
+cost-effective over both 10- and 50-year horizons ($2.04$--$2.91$~\$~kg$^{-1}$~N),
+followed by two-stage ditches and cover crops, with USDA payments reducing
+landowner costs $76$--$90\%$ \parencite{Roley2016}; wetland N-removal costs
+across studies ranged $0.66$--$58$~\$~kg$^{-1}$~N \parencite{Messer2021}.
+Farmer-facing evaluation found nutrient management most compatible and
+wetlands richest in ecosystem services but least compatible, with cover
+crops moderate and positive \parencite{Christianson2014}.
+
+\subsection{Salinity, Trace Elements, Pesticides, and Contaminant Dynamics}
+
+Beyond N and P, drainage governs salt, trace-element, and pesticide
+transport. Reducing applied irrigation and the leaching fraction can cut
+salt discharge by $50\%$ or more, and San Luis Drain data showed salt load
+proportional to discharge at $9.2$~kg~m$^{-3}$; drainage-water reuse for
+salt-tolerant crops and evaporation basins are practical pathways, though
+basins accumulate extreme salinity ($4$--$390$~g~L$^{-1}$) and trace
+elements \parencite{WESTCOT1988}. Selenium in San Joaquin drainage
+motivated evaporation-pond hazard management, where only four of twenty
+methods (removing levee vegetation and windbreaks, deepening ponds, hazing
+birds) were recommended, and no single method could eliminate the hazard
+\parencite{BRADFORD1991}; open-water evaporation is prohibited in
+California owing to selenium, requiring rock-media systems
+\parencite{Ayars2014}. Egyptian forecasts indicated pumped-groundwater TDS
+would remain below $800$~ppm over 100 years with no crop water-quality
+problems \parencite{RADSTAKE1988}, and Pakistani pipe-drainage salinity
+showed essentially no temporal trend owing to lateral groundwater inflow
+\parencite{Kelleners1998}. Israeli subsurface and bio-drainage systems
+lowered water tables below $2$--$3$~m and improved the salinity--sodicity
+regime on over $95\%$ of $3000$~ha \parencite{Gafni2001}. Wrapped
+subsurface pipes with sand--gravel filters achieved salt-removal rates
+above $95\%$ \parencite{Wang2024e}, and isotopic/hydrochemical analysis
+distinguished irrigation, phreatic, and drainage water sources of salt in
+saline-alkali land \parencite{Zhou2023}. Idaho irrigation return flow
+carried elevated salts and $10$~kg~ha$^{-1}$~yr$^{-1}$ nitrate-N owing to
+tunnel/tile flow, but concentrations declined significantly over
+$2006$--$2018$ \parencite{Bjorneberg2020}.
+
+Drainage of acid sulphate soils is a distinct hazard: subsurface drainage
+was a major cause of stream pH declines to near or below $4.0$ (and $3.0$
+in ditches), elevating Al and other metals, with controlled pipe drainage
+recommended over in-stream liming \parencite{Osterholm2005,Åström2005}.
+Pesticides appear in drainage within a month of application as a general
+rule, with losses tied to application quantity and compound properties;
+highest concentrations occur at plot scale and dilute downstream
+\parencite{Tournebize2012}. Constructed wetlands and small grass-strip
+wetlands remove pesticides with efficiency governed by sorption ($K_{oc}$),
+degradation ($DT_{50}$), and residence time, sometimes with negative
+efficiencies \parencite{Tournebize2017,Vallée2015}. Persistent degradates
+such as metolachlor ESA remained in groundwater up to $18$~years but did
+not migrate far, and no detections exceeded MCLs \parencite{Puckett2005};
+drainage increased nitrate but decreased atrazine relative to runoff-only
+conditions \parencite{SPALING1995}. Isotopic and geochemical tracers
+resolve sources and pathways: combined stable isotopes and fecal markers
+showed nitrate sources vary with hydrological stage and that soils play a
+determinant role in nitrate formation and transfer \parencite{Briand2017},
+and multi-tracer analysis distinguished shallow chloride- and nitrate-rich
+groundwater from regional carbonate-aquifer water in the Wabash headwaters
+\parencite{Frisbee2022}. Direct effluent bypass through mole-pipe drains
+contributed disproportionately to pollutant loads (\emph{c.} $81\%$ of
+\emph{E. coli}, $72\%$ of ammonium-N, $55\%$ of P) despite averaging only
+$\sim0.7\%$ of applied effluent, motivating storage and slower application
+\parencite{Monaghan2004,Monaghan2007}.
+
+\subsection{Watershed-Scale Assessment, Modelling, and Reduction Strategies}
+
+\subsubsection{Models and monitoring}
+
+Process models are well validated for drainage hydrology and N. DRAINMOD
+and its derivatives, RZWQM2, RZ-SHAW, and SWAT reproduce drainage flow,
+water-table dynamics, and nitrate export across climates
+\parencite{Youssef2018,Abdelbaki2025,Craft2018,Jiang2020,Tian2012,Mehan2019}.
+LEACHM predicted nitrate leaching better under controlled
+drainage/subirrigation than free drainage \parencite{Ng2000}, and
+DRAINMOD-FOREST captured drainage and nitrate in managed pine plantations
+\parencite{Tian2012}. Monitoring design strongly affects inferred loads:
+high-frequency ($15$-min) sampling captured concentration ranges, diurnal
+variation, and storm dynamics missed by grab sampling, which overestimated
+loads \parencite{Drake2018}. Spatially distributed, event-based, and
+year-round sampling is needed to resolve subwatershed heterogeneity and hot
+spots \parencite{Irvine2019,Husk2024}, and long-term records are essential
+because significant nitrate reductions are far more detectable in
+flow-weighted concentration than in load or yield \parencite{Danalatos2022,Ghane2016b}.
+Total-N concentrations decrease as spatial scale increases, implying
+scale-specific water-quality criteria \parencite{Lagzdins2012}.
+
+\subsubsection{Achieving reduction targets and residual challenges}
+
+Watershed-planning studies show that meeting large reduction goals requires
+combining in-field and edge-of-field practices. In the Mississippi basin,
+nitrogen-management practices alone were insufficient (improved fertilizer
+management and cover crops together cut delivered loads $30.2\%$), but a
+full suite of N-management plus N-removal practices reached the $45\%$
+target while converting under $6\%$, and as little as $2.5\%$, of cropland
+when practices were combined and targeted \parencite{McLellan2015}.
+High-resolution LiDAR-based planning identified scenarios achieving
+$34$--$39\%$ nitrate reduction while removing $<5\%$ of cropland, with cover
+crops and nutrient-removal wetlands common to the best scenarios
+\parencite{Tomer2015}. Long-term simulation suggested DWM could plausibly
+help meet Iowa's $41\%$ reduction goal \parencite{Craft2018}, and a Czech
+pilot designed measures reducing drainage nitrate load $24\%$ across $38\%$
+of the drained area \parencite{Kvítek2023}. Yet watershed-scale evidence
+also cautions that traditional surface-water BMPs may be inadequate over
+tile drainage: seven years of increased strip-till, grassed waterways, and
+stream buffers produced no measurable change in nitrate, phosphorus,
+sediment, or hydrology, because they did not intercept subsurface flow,
+which must be a design priority \parencite{Lemke2011}. Ecosystem-service
+framing shows drainage modernization can sharply reduce migratory-bird
+habitat (up to $87\%$ for dabbling ducks) while paired water-quality
+wetlands substantially reduce nitrate export and partially offset habitat
+loss, benefiting diving ducks most \parencite{Mitchell2022,Mitchell2025}.
+Managed and semi-natural ditch networks themselves provide biodiversity,
+water-purification, and nutrient-retention functions that depend on
+vegetation, morphology, and maintenance, with no single maintenance regime
+optimizing all services \parencite{Dollinger2015,Herzon2008}. Field
+observations that subsurface drainage installation did not measurably alter
+soil-health metrics or soil organic carbon over two years, against strong
+seasonal and interannual variation, further temper expectations of rapid
+in-soil change \parencite{Sherbine2023,Huang2023}.
+
+\printbibliography
+\end{document}

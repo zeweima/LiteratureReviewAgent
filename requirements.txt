@@ -1,0 +1,11 @@
+# minimum set inferred from imports in the shipped scripts
+certifi
+claude-agent-sdk
+geopandas
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+sentence-transformers
+shapely

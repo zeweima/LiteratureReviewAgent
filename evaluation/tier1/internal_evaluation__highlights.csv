@@ -1,0 +1,643 @@
+﻿doi,extracted_content,assessment,llm_evidence,human_note
+10.1002/2015WR017637,"• The authors state that nonparametric analyses and reduced-complexity modeling can provide more insight than highly parameterized models and can guide vulnerability assessments and integrated watershed management frameworks.
+• The study explicitly frames a systems-based approach for understanding hydrologic change and its cascade to ecological regime shifts.",correct,"We posit that such nonparametric analyses and reduced complexity modeling can provide more insight than highly parameterized models and can guide development of vulnerability assessments and integrated watershed management frameworks.
+
+Indeed, as demonstrated in this paper, it is possible to interrogate complex systems in such a way that useful insight on the long-term cascade of changes can be gained by using a systems perspective and focusing on the variables that would exert the most significant change.",
+10.1002/hyp.11152,"• A thirteen-year hydrologic and hydrochemical record was used to characterize water and nitrate export from an artificially drained dryland agricultural catchment.
+• The study combined long-term monitoring with statistical analysis to examine seasonal and interannual controls on water and nitrogen fluxes.
+• The authors state that the conceptual model synthesizes observed seasonal dynamics of water storage, flow, and nitrate mobilization.",correct,"A thirteen-year hydrologic and hydrochemical record shows that our artificially-drained dryland agricultural catchment transmits one-fourth of precipitation and about $15\%$ of applied N via subsurface flow paths to receiving streams.
+
+These data capture both seasonal and interannual variations in water and N output, allowing us to examine the responses of the system to climatic variability coupled with spatially and temporally varying fertilizer application rates in a hillslope-hydrologic setting with no-till management.
+
+Our model highlights the role of the soil as a spatially variable storage and transmission medium for both water and N.",
+10.1002/hyp.7164,"• The paper presents an energy-based framework for runoff generation in tundra landscapes.
+• It argues that existing temperate runoff-generation concepts should be combined with, or superseded by, an energy-based contributing area approach for tundra.
+• The authors emphasize that this framework accounts for the close coupling between energy distribution, snow, active-layer thaw, and runoff pathways.",correct,"We propose an energy-based framework for delineating runoff contributing areas for arctic tundra environments.
+
+To this end, we propose that the topographically based contributing area described by the partial and variable source area concepts be combined with, and where appropriate be superseded by, an energy-based contributing area.
+
+Energy controls the disposition of snow, its melt, and the development of the active layer, all of which are critical in determining runoff contributing areas.","While ground surface topography obviously plays an important role in the assessment of contributing areas, the close coupling of energy to the hydrological cycle in arctic and alpine tundra dictates a new paradigm. Energy controls the disposition of snow, its melt, and the development of the active layer, all of which are critical in determining runoff contributing areas"
+10.1002/ird.3023,"• The study reports that the Safaa equation avoids the drainable porosity of soil (f), described as the greatest obstacle in unsteady-state design.
+• A new constant, C_sh, was introduced to represent the shape of the initial water table.
+• The study states that the spacing between laterals calculated by the Safaa equation is greater than that calculated by Glover's equation, making the design more economic.
+• Validation using data from the Haress pilot area confirmed the accuracy of the new equation for the Delta region of Egypt.",correct,"The drainable porosity $(f)$ is avoided in the Safaa equation, which is the greatest obstacle in the use of unsteady-state equations in design, and this variable is replaced with another constant called $C_{\mathrm{s}}$ .
+
+A new constant called $C_{\mathrm{sh}}$ is also added to the equation to represent the shape of the initial water table, which is considered the point of argument among scientists.
+
+The study also proved that the spacing between laterals calculated by the Safaa equation is greater than that between laterals calculated by Glover's equation (i.e. the design with the new equation is more economic).
+
+Validation of the new equation was conducted using data from the HPA. This validation confirmed the accuracy of the new equation for the Delta region of Egypt.",
+10.1002/ird.373,"• Easy observations provide practical information to determine the technical, economic and environmental feasibility of subsurface drainage.
+• The revised drainage criteria can be further used to improve the quality of future drainage projects.",correct,"The results obtained in this simple evaluation of the performance of subsurface drainage systems, installed in two irrigation districts of Mexico, show that easy observations provide practical information to determine the technical, economic and environmental feasibility of subsurface drainage.
+
+The revised drainage criteria can be further used to improve the quality of future drainage projects.",
+10.1002/lno.10742,"• By interrogating these overall relationships at the regional scale, we were able to constrain estimates of TN thresholds and develop a more accurate model of landscape characteristics promoting N stress.
+• This study highlights important lessons to be considered when performing macrosystems ecology research or large empirical analyses using secondary datasets.
+• The findings indicate that N can switch from providing a subsidy to inducing a stress in phytoplankton from nutrient-rich lake regions at N concentrations that are commonly observed in worldwide lakes.",correct,"By interrogating these overall relationships at the regional scale, we were able to constrain estimates of TN thresholds and develop a more accurate model of landscape characteristics promoting N stress first by comparing the eight regions preliminarily identified as stress regions by Bayesian model selection to all other regions and subsequently by comparing the two strongest stress regions to the other six weaker stress regions.
+
+Finally, this study highlights important lessons to be considered when performing macrosystems ecology research or large empirical analyses using secondary datasets.
+
+Our findings suggest that N can switch from providing a subsidy to inducing a stress in phytoplankton from nutrient-rich lake regions at N concentrations that are commonly observed in worldwide lakes",
+10.1002/saj2.20099,"• The study directly compared early and late fall LSM application with and without Instinct against AA over 3 years.
+• The authors concluded that Instinct at the low rate, but not the high rate, could increase corn grain yield and improve profit return under the study conditions.
+• The paper identified late fall application as a more effective management option than relying on Instinct alone for retaining inorganic N and improving yield.",correct,"Treatments were a no-N control, AA (without Instinct), and LSM with three Instinct rates applied each of 3 yr on October 1 (early fall) and November 1 (late fall).
+
+With the favorable corn grain to Instinct price relationship during the period of the study, Instinct at the low rate provided greater profit return than applying LSM without Instinct.
+
+Compared to inclusion of Instinct, fall LSM application timing had a greater and more consistent influence on soil $\mathrm{NH}_4$ -N concentrations, especially at fall sampling, indicating late fall LSM application would be more effective in retaining $\mathrm{NH}_4$ -N within the injection zone than use of Instinct.",
+10.1007/s10980-013-9872-2,"• Fine monitoring of discharge rates and water quality at the small artificially drained watershed scale identified the hydrological and biogeochemical processes involved in nitrate concentration of surface waters.
+• The multi-scale monitoring and methodologies allowed the authors to assess the landscape component and the water compartment and to compare tile drainage contributions and stream water quality under invariant agricultural practices.",correct,"Fine monitoring of discharge rates and water quality at the small artificially drained watershed scale have identified the hydrological and biogeochemical processes involved in the nitrate concentration of surface waters.
+
+The multi-scale monitoring and methodologies allowed us to assess the landscape component and the water compartment and to compare tile drainage contributions and stream water quality for invariant agricultural practices.",
+10.1007/s11069-008-9321-8,"• Application of many geophysical methods has demonstrated the advantages and disadvantages of each individual method.
+• The transfer of results of one method and interpretation by another method has made this process markedly easier, allowing conclusions to be drawn in greater detail and complexity.",correct,"Application of many geophysical methods has demonstrated the advantages and disadvantages of each individual method.
+
+The transfer of results of one method and interpretation by another method has made this process markedly easier, allowing conclusions to be drawn in greater detail and complexity.",
+10.1007/s13157-024-01783-x,"• This study provides preliminary evidence that impacts of tile drainage to the coarse physical characteristics of oxbows, and to the abundance and taxonomic structure of oxbow communities are negligible in a landscape dominated by agriculture.
+• The lack of an observed difference in oxbow fish and invertebrate assemblages should be considered preliminary but promising evidence for the efficacy of multipurpose oxbows in enhancing biodiversity in agricultural landscapes, restoring ecosystem services, and providing habitat for species of conservation concern.
+• This study represents one of the first efforts to document macroinvertebrate and macrophyte abundance and diversity of restored oxbows in the Midwest.",correct,"This study provides preliminary evidence that impacts of tile drainage to the coarse physical characteristics of oxbows, and to the abundance and taxonomic structure of oxbow communities are negligible in a landscape dominated by agriculture.
+
+the lack of an observed difference in oxbow fish and invertebrate assemblages should be considered preliminary but promising evidence for the efficacy of multipurpose oxbows in enhancing biodiversity in agricultural landscapes, restoring ecosystem services,
+
+This study represents one of the first efforts to document macroinvertebrate and macrophyte abundance and diversity of restored oxbows in the Midwest.",
+10.1007/s13201-019-1023-8,"• The most effective way to control the uplift pressure is to provide a filter drainage system under the canal lining.
+• Linear and nonlinear regression equations for predicting the pressure head in canal bed centerline are provided.
+• This study provides rational design recommendations for the use of filters in these water flow situations.",correct,"The most effective way to control the uplift pressure is to provide a filter drainage system under the canal lining.
+
+Linear and nonlinear regression equations for predicting the pressure head in canal bed centerline are provided.
+
+With this approach, rational design recommendations can be given for the use of filters in these water flow situations.",
+10.1007/s40808-024-02242-6,"• This study provides a comprehensive assessment of groundwater quality in the northeastern Nile Delta, revealing significant challenges for its utilization across various sectors.
+• The findings underscore the complex challenges facing water resource management in the northeastern Nile Delta and the need for innovative and sustainable solutions.",correct,"This study provides a comprehensive assessment of groundwater quality in the northeastern Nile Delta, revealing significant challenges for its utilization across various sectors.
+
+These findings underscore the complex challenges facing water resource management in the northeastern Nile Delta, necessitating innovative and sustainable solutions to address both water quality and quantity issues.",
+10.1016/0378-3774(95)01137-8,"• This paper accomplishes the objective of distinguishing between good and poor drain envelopes in a more simple way.
+• A recommendation is given for comparing permeameter test results obtained in Pakistan with those obtained in Belgium and Canada for worldwide use.
+• The study concludes that a four rectangular perforation permeameter drain plate satisfied most selection criteria and provided the best performance in the laboratory setup.",correct,"This paper also accomplishes the objective of distinguishing between good and poor drain envelopes in a more simple way.
+
+Following is a recommendation for comparing the permeameter test results obtained in Pakistan with those obtained in Belgium and Canada for worldwide use.
+
+For a four rectangular perforations permeameter drain plate most of the criteria for drain plate selection were satisfied.",
+10.1016/S0016-7061(02)00178-7,"• The results of this experiment demonstrate that the assumption of subsurface drains being ideal measuring devices for subsoil processes may be strongly violated not only for heavy clay soils.
+• The fast lateral transport in this loamy soil occurred in the topsoil and by-passed the soil where the vertical macropores were connected to the tile drain or open profiles.",correct,"The results of this experiment demonstrate that the assumption of subsurface drains being ideal measuring devices for subsoil processes may be strongly violated not only for heavy clay soils.
+
+The fast lateral transport in this loamy soil occurred in the topsoil and by-passed the soil where the vertical macropores were connected to the tile drain or open profiles.",
+10.1016/S1164-5563(01)01105-0,"• We identified subsurface drainage pattern as a factor notably affecting the population density of L. terrestris.
+• An immediate practical conclusion is that it would be useful to take into account the subdrainage when planning a sampling strategy of L. terrestris on field soils.
+• L. terrestris activity may have a significant effect on subdrain function.",correct,"We identified subsurface drainage pattern as a factor notably affecting the population density of $L.$ terrestris.
+
+An immediate practical conclusion is that it would be useful to take into account the subdrainage when planning a sampling strategy of $L.$ terrestris on field soils.
+
+Although the population densities of $L.$ terrestris and the drainage-related differences in their numbers were relatively moderate at our study site, $L.$ terrestris activity may have a significant effect on subdrain function.",
+10.1016/j.agee.2018.07.004,"• ""the study represents the best attempt to date to empirically quantify cover crop effects on N loss in a production landscape""
+• ""our study in SDW represents a unique approach where 14 tile drains were sampled over the course of four years to capture a range of flows""
+• ""the results provide realistic expectations for the scale of N loss reductions that can be achieved with wide-scale adoption of winter cover crops""",correct,"the study design represents the best attempt to date to empirically quantify cover crop effects on N loss in a production landscape
+
+our study in SDW represents a unique approach where 14 tile drains were sampled over the course of four years to capture a range of flows $(10\mathrm{mL}\mathrm{s}^{-1}$ to $10\mathrm{L}\mathrm{s}^{-1})$
+
+the results provide realistic expectations for the scale of N loss reductions that can be achieved with wide-scale adoption of winter cover crops",
+10.1016/j.agrformet.2010.05.003,"• With an improved estimate of z0, H_LAS and H_EC agreed within 32 Wm-2 with a regression slope of 1.00 ± 0.05.
+• This confirmed that the LAS, despite its lower clearance, did operate in the surface layer.",correct,"With an improved estimate of $z_{0}$ , $H_{\mathrm{LAS}}$ and $H_{\mathrm{EC}}$ agreed within $32 \, \mathrm{Wm}^{-2}$ with a regression slope of $1.00 \pm 0.05$ .
+
+This confirmed that the LAS, despite its lower clearance, did operate in the surface layer.",
+10.1016/j.agrformet.2025.110602,"• Cubist and SVM-RBF could be good alternatives to the RZ-SHAW model for simulating winter subsurface drainage volume in the short term, while requiring much less training time.
+• Compared to the RZ-SHAW model, Cubist and SVM-RBF delivered similar or superior simulation performance with significantly lower computation and training cost.
+• The RZ-SHAW model provided a more logical prediction for future climate scenarios because it explicitly represents snow cover, soil freezing, evaporation, and other physical processes.
+• RZ-SHAW was described as still the best choice for understanding climate-change impacts on variables with scarce observational data, despite higher calibration and computation costs.",correct,"The current study demonstrated that the Cubist and SVM-RBF could be good alternatives to the RZ-SHAW model for simulating winter subsurface drainage volume (not under climate change) for delivering competing simulation performance under significantly less training time.
+
+Compared to the RZ-SHAW model, the two models required significantly less training time and delivered similar or superior simulation performance (Tables 4 and 5).
+
+Comparatively, a bio-physical model, such as RZ-SHAw, delivers a more logical prediction that the $DV_{winter}^{\Delta}$ would decline during FF compared to the MF as the winter evaporation continues to intensify under the higher air temperature, shorter snow duration, and the precipitation remained similar or was even reduced across the sites.
+
+Currently, RZ-SHAw (or process-based biophysical model) may still be the best choice in understanding the potential impact of climate change for observed data scarcely available variables, even at significantly higher computation and calibration costs.",
+10.1016/j.agsy.2021.103110,"• EPIC is capable to simulate impacts of different weather variables on crop yield and soil DRP loss.
+• The study site could benefit from climate change, both in economic return and environmental quality.",correct,"EPIC is capable to simulate impacts of different weather variables on crop yield and soil DRP loss.
+
+Generally, the study site could benefit from climate change, both in economic return and environmental quality.",
+10.1016/j.agwat.2004.01.001,"• The study shows that subsurface drainage effectively reclaimed waterlogged saline land under rolling topography, even with unusually wide drain spacing.
+• It confirms that a relatively small drainage coefficient (1-2 mm per day) can lead to proper land reclamation.
+• It establishes that lowland paddy plays a very important role in leaching salts from the soil profile and allows much larger drain spacing than usually recommended in India.
+• It demonstrates that the drainage intervention operated as a normal subsurface drainage system rather than an interceptor drainage system.",correct,"Hence, the intervention effectively reclaimed the land, even though the spacing was unusually wide.
+
+it is confirmed that a relatively small drainage coefficient
+
+Lowland paddy plays a very important role in the leaching of salts from the soil profile and it allows much larger drain spacing than the spacing usually recommended in India.
+
+It is also established that under these conditions, drainage intervention can be based on the principles of a normal subsurface drainage system instead of an interceptor drainage system.",
+10.1016/j.agwat.2011.05.015,"• The calibrated hybrid RZWQ-DSSAT model simulated N load and tile flow reasonably well.
+• The model was tested on a different subbasin (CN1) than the one used for calibration (CN2) and still performed well for N load.
+• Winter annual cover crops captured significant amounts of N in plant tissue in the spring and reduced N loss via tile drains.",correct,"The calibrated hybrid RZWQ-DSSAT model simulated N load and tile flow reasonably well
+
+These results are encouraging considering the model was calibrated on a different subbasin (CN2) in the same watershed and used a different record (1993-2001) than the current evaluation (1994-2005).
+
+Winter annual cover crops have the potential to capture significant amounts of N in plant tissue in the spring, lowering the amount of N that is susceptible to loss via tile drains.",
+10.1016/j.agwat.2011.11.006,"• The model performed reasonably well when comparing measured and simulated tile flow, nitrate-N loss, and crop yield.
+• The authors state that RZWQM2 can be used to predict tile flow and nitrate-N loss to tile flow under free drainage and controlled drainage after rigorous calibration with field data using PEST.
+• The simulations increased understanding of nitrogen transport processes and mass balances, and the interactions between factors affecting nitrate loss to tile drains in both free-drainage and controlled-drainage systems.",correct,"The model performed reasonably well when comparing measured and simulated tile flow, nitrate-N loss and crop yield.
+
+This all suggests that RZWQM2 can be used to predict tile flow and nitrate-N loss to tile flow under FD and CD after rigorous calibration with field data using PEST.
+
+The present simulations using RZWQM2 helped increase the state of knowledge concerning N transport processes and mass balances, and the interactions between factors affecting N loss to tile drains in both FD and CD systems.",
+10.1016/j.agwat.2016.05.014,"• The paper discusses seven reasons why drainage is needed, seven aspects of why drainage is different than irrigation, and seven challenges to making drainage work.
+• Based on these challenges, the paper proposes a three-step approach to stop the negative trend in salinity build-up in irrigated lands.
+• The paper presents drainage as offering great benefits for sustainable resource management.",correct,"To bring drainage back into the lime-light, and inspired by the work of (Scheuman, 1997), the balance of this article discusses seven reasons why drainage is needed, seven aspects of why drainage is different than irrigation and seven challenges to making drainage work.
+
+Based on these challenges, I present a three-step approach to stop the negative trend in salinity build-up in irrigated lands.
+
+We can conclude that drainage offers great benefits for sustainable resource management",
+10.1016/j.agwat.2019.03.039,"• Simulations of water balance in a clayey agricultural field section in southern Finland showed that the FLUSH model adequately replicated measured water outflow components over a 10-year period and provided a tool to investigate the hydrological impacts of a supplementary drainage installation.
+• Supplementary drainage installation can be good practice to increase the drainage efficiency in clay soil during spring.",correct,"Simulations of water balance in a clayey agricultural field section in southern Finland showed that the FLUSH model adequately replicated measured water outflow components over a 10-year period and provided a tool to investigate the hydrological impacts of a supplementary drainage installation.
+
+This indicates that a supplementary drainage installation can be good practice to increase the drainage efficiency in clay soil during spring.",
+10.1016/j.agwat.2020.106674,"• The GFW AIS data and AUV video surveys provided a finer-scale resolution of the fishing footprint than was previously available.
+• The combination of satellite and AUV data can aid management of ES-NHR seamounts.
+• The small closure on Koko appeared to be respected by fishers.",correct,"The GFW AIS data and AUV video surveys presented here provide a finer-scale resolution of the fishing footprint than was previously available.
+
+The combination of satellite and AUV data provide a finer-scale fisheries footprint for this region that can aid in management of these sites.
+
+Current closures on Koko and C-H seamount seem to be respected as no trawling or possible-trawling was indicated by GFW data for those areas.",
+10.1016/j.agwat.2020.106698,"• HYDRUS performed well for the simulation.
+• The model satisfied the simulation, and the parameters were reasonable.
+• The results of this study provide a scientific basis for nitrogen management.",correct,"The results indicate that HYDRUS performed well for the simulation.
+
+Nonetheless, the model satisfied the simulation, and the parameters were reasonable.
+
+The results of this study provide a scientific basis for nitrogen management.",
+10.1016/j.agwat.2023.108164,"• A ranking system was developed to determine aggregate suitability based on discharge, sediment loss, pipe-envelope sedimentation, and cost.
+• The study identified aggregates in the 0.7 - 19 mm range as suitable for clay-textured soils and recommended them for subsequent in situ field trials.",correct,"In order to determine the suitability of the aggregates across the three factors of discharge, sediment loss, and pipe-envelope sedimentation, a ranking system was developed.
+
+Overall, aggregates ranging in size from 0.7 to $19\mathrm{mm}$ performed adequately in terms of hydraulic and filter performance, and were deemed suitable for subsequent in situ field trials.",
+10.1016/j.agwat.2023.108362,"• The results demonstrate that low-cost, simple phosphorus sorbing materials have some potential to retain phosphorus from surface runoff.
+• These filters had some ability to remove total suspended sediments from surface runoff, with up to 42% removal at the LON site.
+• The study shows that filter efficacy may decline over time and differ with site hydrology and phosphorus supply.",correct,"The results of this study demonstrate that low-cost, simple PSMs have some potential to retain P from surface runoff, but their efficacy may decline over time and their P retention capability may differ with site hydrology (e.g., runoff volumes and velocity) and P supply.
+
+Although these filters had some ability to remove TSS from surface runoff (up to $42\%$ removal of TSS at the LON site), their impacts on P removal from surface runoff were found to be minimal (ranging from a $18\%$ removal of TP at ILD to a $6\%$ release at LON), and a progressive exhaustion of P retention by the filters was observed over the two years of the study.
+
+The results of this study demonstrate that low-cost, simple PSMs have some potential to retain P from surface runoff, but their efficacy may decline over time and their P retention capability may differ with site hydrology (e.g., runoff volumes and velocity) and P supply.",
+10.1016/j.agwat.2025.109641,"• This study contributes valuable insights into the effects of climate change on hydrology and agricultural productivity and offers practical strategies to improve future system resilience.
+• The authors state that the findings provide a framework applicable to other regions facing similar conditions.",correct,"This study contributes valuable insights into the effects of climate change on hydrology and agricultural productivity and offers practical strategies to improve future system resilience.
+
+Its findings will inform region-specific strategies to enhance agricultural resilience, providing a framework applicable to other regions facing similar challenges.",
+10.1016/j.asej.2025.103450,"• The present analytical model aligns closely with the validation data and is described as a near-perfect fit.
+• The paper states that the current model's accuracy is higher than the other linearization techniques in previous literature.
+• The time-stepping linearization technique is presented as outperforming the compared Werner and Baumann linearization techniques.",correct,"Fig. 4 demonstrates that the analytical solution aligns closely with the results of Karamouzis and Teloglou [4], achieving a near-perfect fit.
+
+When compared with previous studies, the accuracy of the results acquired from the current model is higher than the other linearization techniques in previous literature.
+
+The results are presented in Fig. 6. Compared to Singh et al. [8] and Ghaheri and Meraji [7], the discrepancy between this solution and Upadhyaya and Chauhan's [6] experimental data is approximately $2.57 - 13.02\%$ whereas it is $7.75 - 19.90\%$ for Singh et al. [8] using the Werner linearization technique, $1.45 - 48.94\%$ for Ghaheri and Meraji [7] using the Werner linearization technique and $12.64 - 95.30\%$ for Ghaheri and Meraji [7] using the Baumann linearization technique for taking $\theta = 4\%$ as an example.",
+10.1016/j.biosystemseng.2021.05.002,"• The simulated stresses were used to establish relationships between perforation dimensions and Ksc.
+• These relationships allow for the incorporation of perforations in the structural design of buried corrugated pipes.
+• Rectangular slots have a lower risk of failure against ductile yielding compared with circular holes, provided that wperf ≤ 0.5wv.",correct,"The simulated stresses were used to establish relationships between the perforation dimensions and $K_{\mathrm{sc}}$ .
+
+These relationships allow for the incorporation of perforations in the structural design of buried corrugated pipes.
+
+The results demonstrated that rectangular slots have a lower risk of failure against ductile yielding compared to circular holes, provided that $w_{perf} \leq 0.5w_v$ .",
+10.1016/j.ecoleng.2016.02.014,"• Constructed wetlands have true potential to reduce the flow of agricultural contaminants such as nitrate and pesticides.
+• A realistic objective of 50% pollutant removal can be expected by devoting about 1% of the upstream contributing surface area to a constructed wetland.
+• Hydraulic residence time is identified as the priority factor determining water treatment efficiency in constructed wetlands.",correct,"CWs have true potential to reduce the flow of agricultural contaminants such as nitrate and pesticides.
+
+A realistic objective of $50\%$ can be expected by devoting $1\%$ of the upstream contributing surface area to a CW.
+
+The hydraulic residence time is the priority factor determining water treatment efficiency in CWs.",
+10.1016/j.ecoleng.2017.10.002,"• This study demonstrated improvement in nitrate removal efficiency of woodchip bioreactors using electrical stimulation.
+• This work informs the process and design of electrically stimulated woodchip bioreactors with optimized performance to achieve lower capital and maintenance costs, and thus lower N removal cost.",correct,"This study demonstrated improvement in nitrate removal efficiency of woodchip bioreactors using electrical stimulation.
+
+This work informs the process and design of electrically stimulated woodchip bioreactors with optimized performance to achieve lower capital and maintenance costs, and thus lower N removal cost.",
+10.1016/j.epsl.2017.12.025,"• Our data show that karst environments function as a global CH4 sink.
+• The observations of sub-atmospheric CH4 concentrations in cave air from this and other studies show that karst is behaving as a global CH4 sink.
+• The stable isotopic composition of CH4 in studied caves suggests that CH4 is being oxidized by microbial methanotrophy.",correct,"Our data show that karst environments function as a global $\mathrm{CH}_4$ sink.
+
+The observations of sub-atmospheric $\mathrm{CH_4}$ concentrations in cave air from this and other studies show that karst is behaving as a global $\mathrm{CH_4}$ sink.
+
+The stable isotopic composition of $\mathrm{CH_4}$ in studied caves suggests that $\mathrm{CH_4}$ is being oxidized by microbial methanotrophy.",
+10.1016/j.geoderma.2007.04.009,"• In general, the model correctly simulated year to year variations in tile flow and N loading in the tile flow.
+• The simulated and measured average annual tile flows were the same, and the simulated water table depth and yearly tile flow were within experimental RMSEs among replicates.
+• Simulated management effects seemed to be reasonable on N loading in tile flow despite poor simulations of plant N uptake and N fixation.
+• The model responded reasonably to yearly variations in yield, tile flow, and N loading in tile flow when averaged across treatments.",correct,"In general, the model correctly simulated year to year variations in tile flow and N loading in the tile flow.
+
+Simulated and measured average annual tile flows were $13.5\mathrm{cm}$ , which was expected because total tile flow was calibrated from plot to plot to capture the difference in flow characteristics.
+
+simulated management effects seemed to be reasonable on N loading in tile flow, regardless of poor simulations of plant N uptake and N fixation.
+
+As shown in this study, the model also responded reasonably to yearly variations in yield, tile flow, N loading in tile flow when taking average across treatments.",
+10.1016/j.geoderma.2007.04.014,"• These results suggest that the modified APSIM model is a promising tool to help estimate the relative effect of alternative management practices under fluctuating high water tables.
+• The model accurately predicted greater corn yield under split application compared to single application and higher drainage and nitrate-N loss under continuous corn compared to corn/soybean rotations.
+• The cover crop scenario illustrates the potential of the modified APSIM model to estimate the relative impact of alternative management strategies on nitrate loss in tile drainage.",correct,"These results suggest that the modified APSIM model is a promising tool to help estimate the relative effect of alternative management practices under fluctuating high water tables.
+
+The model accurately predicted greater corn yield under split application $(140 - 190\mathrm{kgN / ha})$ compared to single $110\mathrm{kgN / ha}$ application and higher drainage and nitrate-N loss under continuous corn compared to corn/ soybean rotations.
+
+The cover crop scenario, however, illustrates the potential of the modified APSIM model to estimate the relative impact of alternative management strategies on nitrate loss in tile drainage.",
+10.1016/j.jhydrol.2005.08.010,"• The systematic comparison between 1D and 2D single- and dual-porosity model simulations suggested two major underlying transport processes.
+• The 2D-MIM simulations explained the observed Br- concentration level with over 60% of the applied Br- mass being initially transferred into immobile soil regions, and stored there throughout the drainage season.
+• The 2D-MIM gave a more consistent description of observed Br- transport and water flow at the three plots with different tile-drainage geometries.",correct,"The systematic comparison between 1D and 2D single- and dual-porosity model simulations suggested two major underlying transport processes.
+
+The 2D-MIM simulations explained the observed $\mathrm{Br}^{-}$ concentrations level with over $60\%$ of the applied $\mathrm{Br}^{-}$ mass being initially
+
+transferred into immobile soil regions, and stored there throughout the drainage season.
+
+The 2D-MIM gave a more consistent description of observed $\mathrm{Br}^{-}$ transport (and water flow) at the 3 plots with different tile-drainage geometries.",
+10.1016/j.jhydrol.2008.12.026,"• Data presented here may be useful in determining the detailed character and extent of material ejected by the Chixulub bolide impact.
+• The study may help provide guidance for management of groundwater and liquid waste injection in a region whose only supply of water is underground.
+• This study demonstrates that groundwater ion and isotopic chemistry may be generally useful as tracers of groundwater movement and aquifer composition.",correct,"Data presented here may be useful in determining the detailed character and extent of material ejected by the Chixulub bolide impact.
+
+It may also help provide guidance for management of groundwater and liquid waste injection for a region of increasing population whose only supply of water is underground.
+
+Although the study is of a unique region, it demonstrates that groundwater ion and isotopic chemistry may be generally useful as tracers of groundwater movement and aquifer composition.",
+10.1016/j.jhydrol.2014.07.035,"• Results will help enhance hydrology and water quality prediction technologies.
+• Results will help the design and implementation of best management practices that address water quality concerns.
+• The findings indicate that tile drainage can be a significant hydrologic pathway and an important consideration in hydrology and water quality models.",correct,"Results from this study will help enhance hydrology and water quality prediction technologies as well as the design and implementation of best management practices that address water quality concerns.
+
+Results from this study will help enhance hydrology and water quality prediction technologies as well as the design and implementation of best management practices that address water quality concerns.
+
+The findings from this study indicate that tile drainage can be a significant hydrologic pathway and an important consideration in developing and enhancing hydrology and water quality computer models, understanding nutrient transport dynamics, and identifying and developing best management practices for tile drained landscapes.",
+10.1016/j.jhydrol.2016.09.021,"• First graphical confirmation of non-Darcian flow in a denitrification bed under field conditions.
+• Forchheimer's equation was more suitable than Izbash's equation for describing water flow through woodchip media.
+• Experiments 3 and 4 yielded hydraulic properties similar to previously reported in-situ values and were recommended for modeling and bed design when direct measurements are unavailable.",correct,"To our knowledge, this is the first graphical confirmation of non-Darcian flow in a bed.
+
+Therefore, we recommend Forchheimer's equation over that of Izbash's for describing water flow through woodchips.
+
+Furthermore, similar values to our hydraulic properties of old woodchips (experiments 3 and 4) can be used in modeling studies and bed design (with similar particle size) when these values cannot be measured directly.",
+10.1016/j.jhydrol.2021.126218,"• The authors state that the two field sites represent commonly occurring drainage situations, making the conclusions applicable to many other artificially drained locations.
+• Automated monitoring of the groundwater table is described as very informative for understanding how water table dynamics affect drainage flow and chemistry.
+• The study explicitly combines artificial drainage and shallow groundwater measurements, including all relevant forms of nitrogen, to quantify pathway-specific export.",correct,"As the field sites studied represent two commonly occurring drainage situations, it is feasible to draw conclusions from this study that are applicable to many other locations with artificial drainage installed.
+
+Automated monitoring of the groundwater table proved very informative in our study, as water table dynamics strongly affected not only drainage flow but also drainage chemistry.
+
+only few
+
+field-scale studies have explicitly measured the groundwater exports concurrently with artificial drainage exports, and included all relevant forms of N.",
+10.1016/j.jhydrol.2022.128146,"• Combined measurements of water, nutrient, and tracer fluxes revealed novel insights into processes controlling nutrient delivery to tile drains.
+• The study found that groundwater may serve as both a hydrologic and chemical buffer of DRP concentration.
+• The work provides direct applicability for conservation practice implementation and improving process representation in models.",correct,"Combined measurements of water, nutrient, and tracer fluxes revealed novel insights into processes controlling nutrient delivery to tile drains
+
+Groundwater may therefore serve both as a chemical and hydrologic buffer of DRP concentration.
+
+with direct applicability for conservation practice implementation and improving process representation in models",
+10.1016/j.limno.2005.06.005,"• The approach shown is well suited to future model approaches on a regional scale.
+• By creating and integrating new data sets derived from modern GIS operations the approach reduces the uncertainty of water and nitrogen modelling.
+• This gives a better understanding of nitrogen discharges into surface and groundwater and temporal discharge dynamics.
+• The evaluation method is transferable to other areas if representative drainage data and a medium-scale differentiated soil map are available.",correct,"The approach shown is well suited to future model approaches on a regional scale.
+
+By creating and integrating new data sets derived from modern GIS operations the approach reduces the uncertainty of water and nitrogen modelling.
+
+This gives us a better understanding of nitrogen discharges into surface and groundwater and temporal discharge dynamics.
+
+Apart from this, the evaluation method is transferable to other areas if there is representative data available for drainage areas and a medium-scale differentiated soil map to regionalise the results.",
+10.1016/j.pce.2015.10.004,"• Analysis of WTDs at mid-drain spacing in a field with a properly-maintained subsurface drainage system revealed that observed WTDs and DDs were not comparable to the system's design expectations.
+• The installation of subsurface drainage systems is not enough to control shallow WTDs, but timely maintenance is also required.
+• From the root zone soil salinity perspective, deficit irrigation in the area proved to be a flawed strategy in that it resulted in the salinization of upper soil layers.",correct,"Analysis of WTDs at mid-drain spacing in a field with a properly-maintained subsurface drainage system revealed that observed WTDs and DDs were not comparable to the system's design expectations.
+
+Results of WTDs observed in a field with a poorly maintained subsurface drainage system (PMDS) revealed that the installation of subsurface drainage systems is not enough to control shallow WTDs, but also ensuring that timely maintenance is undertaken.
+
+From the root zone soil salinity perspective, deficit irrigation in the area proved to be a flawed strategy in that it resulted in the salinization of upper soil layers.",
+10.1016/j.pce.2023.103492,"• This manuscript aims to provide an overview of the soft soil phenomenon in MADA, identify causes, and discuss appropriate methods to overcome the problem.
+• The paper synthesizes studies, observations, and visits to identify several causes and recovery approaches for soft soil in paddy cultivation.
+• It compiles rehabilitation methods and notes that the Standard Operation Procedure for Soft Soil in Rice Field is being developed by MARDI.",correct,"This manuscript aims to provide an overview of the phenomenon of soft soil that occurred, especially in MADA, which is to identify some of the causes and appropriate methods to overcome this problem.
+
+Based on studies, observations, and a series of visits, several causes have been identified, and the appropriate method to solve this problem has been discovered.
+
+Currently, based on previous research done by MARDI, which is MARDI is developing the Standard Operation Procedure for Soft Soil in Rice Field.",
+10.1016/j.scitotenv.2019.03.483,"• The paper presents a rational design of subsurface drainage systems in coastal aquifers that accounts for sea level rise, artificial recharge, and subsidence.
+• The authors describe the approach as a novel way to assess incremental flow through drains under different future scenarios.
+• The paper states that subsurface drainage helps safeguarding agricultural activities from salinization.
+• The conclusions emphasize that the impact of the foreseen conditions on discharge into subsurface drainage systems is anything but negligible.",correct,"This paper introduces a rational design of subsurface drainage systems in coastal aquifers, by estimating the flow in the draining pipes and its possible increment due to the foreseen scenarios of SLR, recharge and subsidence.
+
+A novel approach proposed in this paper consists in the assessment of the incremental flow through the drains as a function of various possible scenarios.
+
+- Subsurface drainage helps safeguarding agricultural activities from salinization.
+
+In particular, this paper demonstrates that the impact of the foreseen conditions on the discharge into the subsurface drainage systems is anything but negligible.",
+10.1016/j.scitotenv.2020.138004,"• This innovative study quantifies the importance of the hydrologic model in the prediction of riverine nutrient loadings under a future climate.
+• The use of an ensemble of six climate models and five independently configured SWAT models provided a more holistic accounting of uncertainty in hydrologic modeling than is common practice.",correct,"This innovative study quantifies the importance of hydrologic model in the prediction of riverine nutrient loadings under a future climate.
+
+However, the use of multiple SWAT models allowed for a more holistic accounting of uncertainty in hydrologic modeling than is common practice.",
+10.1016/j.scitotenv.2023.166769,"• Water quality parameters were monitored for a controlled drainage peat field.
+• Monitored parameters include N, P, TOC, S, Al, Fe, EC, pH and acidity.
+• Peat thickness affected the dissolved P and TOC loads.
+• Grass cultivation reduced the N load substantially.
+• Leaching occurs in winter and was significant during the mild winter.",correct," - Water quality parameters were monitored for a controlled drainage peat field.
+
+- Monitored parameters include N, P, TOC, S, Al, Fe, EC, pH and acidity.
+
+- Peat thickness affected the dissolved P and TOC loads.
+
+- Grass cultivation reduced the N load substantially.
+
+- Leaching occurs in winter and was significant during the mild winter.",
+10.1016/j.still.2017.12.012,"• The study provides long-term field evidence that installing subsurface drainage, especially at shallower depth, improved paddy soil structure over time.
+• The paper showed that the calculated drainable porosity and saturated hydraulic conductivity varied with season and drainage design, supporting drainage-system evaluation under field conditions.",correct,"In conclusion, the installation of subsurface drainage especially at the shallower depth will improve paddy soil structure during time.
+
+Totally, analysis of $\mathrm{K_s}$ and $\mathrm{S_0}$ time variations during the rice and canola growing seasons showed that installation of drainage systems will improve soil structure and aeration conditions.",
+10.1023/A:1014807901461,"• The study determined the distribution of subsidence effects and identified the part of the city with the highest subsidence activity through a building damage classification map.
+• The integration of damage mapping with geological and hydrogeomorphological information identified evaporite bedrock dissolution as the main process responsible for subsidence.
+• Geomorphological mapping is presented as a cost-effective way to locate and avoid zones of subsidence for future development.",correct,"The distribution of the subsidence effects and the part of the city with the highest subsidence activity have been determined by survey and the production of a building damage classification map.
+
+The integration of this spatial information with the geological and hydrogeomorphological information suggests that evaporite bedrock dissolution is the main processes responsible for the subsidence.
+
+Geomorphological mapping is cost-effective in helping to locate and avoid the zones of subsidence for future development.",
+10.1038/s41598-018-34327-5,"• These data are the first of their kind for this region and for any debris-covered glacier, and will improve predictions of glacier response to climate change and their contribution to downstream water resources.
+• The prevalence of temperate and warming ice at high elevations, even beneath thick supraglacial debris, indicates that these glaciers are highly vulnerable to 21st Century climate warming.",correct,"These data are the first of their kind for this region and for any debris-covered glacier, and will improve predictions of glacier response to climate change and their contribution to downstream water resources.
+
+The prevalence of temperate and warming ice at high elevations, even beneath thick supraglacial debris, indicates that these glaciers are highly vulnerable to $21^{\mathrm{st}}$ Century climate warming.",
+10.1046/j.1365-2389.2004.00596.x,"• Concentrations of soluble reactive P in excess of 100 μg l^-1 down to depths of 33 m show that P is transported locally and lost from the soil in the catchment studied.
+• Median soluble reactive P in drainage water is controlled by rapid adsorption in the sandy soils; equilibrium concentrations from batch experiments and a degree of P saturation threshold of 0.25 were good predictors of drainage-water P.
+• Accumulation of P in soils increases the risk that P sorbed on colloids will be leached when large volumes of water pass through the soil, especially when total electrolyte concentrations are small.",correct,"Concentrations of soluble reactive $\mathbf{P}$ in excess of $100\mu \mathrm{g}~\mathrm{l}^{-1}$ down to depths of $33\mathrm{m}$ show that $\mathbf{P}$ is transported locally and lost from the soil in the catchment we studied.
+
+The median concentration of soluble reactive P in drainage water is controlled by rapid adsorption in the sandy soils. Therefore, equilibrium concentrations of P determined in batch experiments and a threshold of the degree of P saturation of 0.25 will be good predictors of P concentrations of drainage water.
+
+Accumulation of P in soils increases the risk that P sorbed on colloids will be leached when large volumes of water pass through the soil, especially if the total concentration of electrolyte is small.",
+10.1061/(ASCE)0733-9437(1995)121:4(292),"• Subsurface drainage was effective in reducing surface runoff from alluvial soil in the Lower Mississippi Valley by an average of 35% in a 10-yr field study.
+• Associated reductions in losses were 31% for soil, 31% for phosphorus, 27% for potassium, 17% for nitrogen, and about 50% for pesticides.",correct,"Subsurface drainage was effective in reducing surface runoff from alluvial soil in the Lower Mississippi Valley by an average of $35\%$ in a 10-yr field study.
+
+Associated reductions in losses were $31\%$ for soil, $31\%$ for phosphorus, $27\%$ for potassium, $17\%$ for nitrogen, and about $50\%$ for pesticides.",
+10.1061/(ASCE)0733-9437(2000)126:6(375),"• Great savings of water and time should be possible if the procedure of progressive flooding of surface strips for desalinization using subsurface drains is adopted.
+• The procedure also has the benefit of reducing evaporation lost during desalinization because of the smaller ponded area involved during most of the operation time and the overall reduction in flooding time.
+• A flooding schedule can be calculated by observing the depth of leaching in the central region when this is flooded at the beginning of the operation.",correct,"The example given in the preceding section shows that great savings of water and of time should be possible if the procedure of progressive flooding of surface strips for desalinization using subsurface drains is adopted.
+
+While there is considerable saving of water due to the more uniform leaching of the soil, the procedure of progressive flooding also has the benefit of reducing evaporation lost during the desalinization because of the smaller ponded area involved during most of the operation time and the overall reduction in flooding time.
+
+A flooding schedule can then be calculated.",
+10.1061/(ASCE)HE.1943-5584.0000592,"• The proposed MLTHS ASMA model is presented as an improvement over the existing LTHS ASMA model.
+• Better performance of the proposed model on most study watersheds is largely attributed to the improvement in subsurface flow computation.
+• The proposed model yields the highest efficiency up to 0.92 in calibration on a high-runoff-producing watershed.
+• The study identifies the most sensitive parameters and describes the relative importance of hydrologic components across watershed wetness classes.",correct,"The proposed model performs better (in terms of NSE, SE, and RE) than the existing LTHS ASMA model on most watersheds in both calibration and validation.
+
+Better performance of the proposed model on most study watersheds is largely attributed to the improvement in subsurface flow computation on the basis of the SCS-CN concept.
+
+It yields the highest efficiency (up to 0.92) in calibration on a high-runoff-producing watershed, indicating a very good model performance.
+
+As is shown, the parameter $\gamma$ , a function of preantecedent soil moisture store level $(V_{00})$ , is the most sensitive among all others.",
+10.1061/(ASCE)IR.1943-4774.0000622,"• The paper calibrates and refines an existing drainage bioreactor sizing procedure using multiple years of drainage flow data from two Iowa sites.
+• It identifies updated design guidance that balances flow treatment and nitrate removal efficiency.",correct,"The objective of this paper was to further develop science-based bioreactor sizing guidelines by calibrating an existing design procedure with multiple years of drainage flow data collected at two sites in Iowa.
+
+This modeled simulation analysis informs that bioreactor design procedures considering flow rate and retention time should use design flow rates of 10 to $20\%$ of the anticipated peak flow rate at design retention times of 6 to $8\mathrm{h}$ , thus updating and refining the original design procedure.",
+10.1061/JPEODX.0000191,"• The proposed coupled hydromechanical model with considerations of climatic effects can be used to predict the seasonal variations of the resilient behavior of the base course.
+• The proposed model is suitable for saturated and unsaturated soils and is able to evaluate the interactions between the pavement structure and ambient environment.
+• Compared with the 1D EICM model, the proposed model is a three-dimensional model, which is more accurate in predicting the moisture migration within the pavement structure.
+• The proposed model can be used to evaluate the influence of rainfall intensity and duration on the resilient behavior of a base course.
+• The proposed model is also able to simulate the influence of vegetation on the resilient behavior of a pavement structure.",correct,"The proposed coupled hydromechanical model with considerations of climatic effects can be used to predict the seasonal variations of the resilient behavior of the base course.
+
+The proposed model is suitable for saturated and unsaturated soils and is able to evaluate the interactions between the pavement structure and ambient environment.
+
+Compared with the 1D EICM model, the proposed model is a three-dimensional model, which is more accurate in predicting the moisture migration within the pavement structure.
+
+Moreover, the proposed model can be used to evaluate the influence of rainfall intensity and duration on the resilient behavior of a base course.
+
+In addition, the proposed model is also able to simulate the influence of the vegetation on the resilient behavior of a pavement structure.",
+10.1080/00103624.2014.967863,"• These results provide a scientific basis for integrated management of water and agricultural production.
+• The results offered a scientific basis for uniform management of water resources and improved agricultural production in a saline area with high water table.",correct,"These results provide a scientific basis for integrated management of water and agricultural production.
+
+The results offered a scientific basis for uniform management of water resources and improved agricultural production in a saline area with high water table.",
+10.1080/00380768.2013.878643,"• Usage of NT and drainage for longer duration significantly influenced the MBC for the 0-10 and 10-20 cm depths.
+• Results show that SOC was significantly higher for the soils under NT as compared to that of soils under CT for the 0-10 cm depth.
+• Corn yield was not affected by tillage and drainage systems; however, drainage improved corn yield over non-drainage systems.",correct,"Usage of NT and drainage for longer duration significantly influenced the MBC for the 0-10 and $10 - 20\mathrm{cm}$ depths.
+
+Results show that SOC was significantly higher for the soils under NT as compared to that of soils under CT for the 0-10 cm depth.
+
+Corn yield was not affected by tillage and drainage systems; however, drainage improved corn yield over non-drainage systems.",
+10.1080/07900627.2011.598132,"• The study develops an integrated catchment-scale framework to analyze Egypt's irrigation water use.
+• It presents a constrained optimization framework that links hydrological, economic, agronomical, institutional, and environmental dimensions.
+• The authors describe the framework as a comprehensive approach for tracking water use among locations, time periods, and crops.
+• They characterize the work as a modest first step toward a comprehensive hydrologic and economic framework for water managers and policy makers.",correct,"This study develops an integrated catchment scale framework to identify potential economic benefits that can be supported by Egypt's irrigation water use.
+
+We constructed a catchment scale integrated mathematical optimization model, accounting for hydrological, economic, agronomical, institutional, and environmental dimensions of Egypt's use of the Nile.
+
+The integrated basin framework presents a comprehensive approach for tracking water use among locations, time periods, and crops.
+
+By accounting for all major sources and uses of water for Egypt's share of the Nile River, this study has taken a modest first step at a comprehensive hydrologic and economic framework that can be used by water managers and policy makers.",
+10.1111/1752-1688.70018,"• The study found that alfalfa reduced subsurface TP and DRP loads during large storm events at both sites.
+• The authors conclude that partial and perhaps targeted conversion of marginal croplands back to perennial cover has the potential to decrease nutrient loads, particularly dissolved and particulate phosphorus.",correct,"Notably, we found that alfalfa reduced subsurface TP and DRP loads during large storm events at both sites.
+
+Although the widespread implementation of perennial crops across a watershed may not be possible, we demonstrated that the partial and perhaps targeted conversion of marginal croplands back to perennial cover has the potential to decrease nutrient loads, particularly dissolved and particulate phosphorus, and can help tackle challenges posed by a changing climate.",
+10.1111/j.1752-1688.2010.00467.x,"• The study designed three different channels on an artificial stream at a wetlands research field lab — two-stage, self-design, and straightened channels.
+• The paper provides a long-term experiment framework to compare stream evolution and restoration designs under shared boundary conditions.
+• The authors state that the first three methods estimated similar designs, supporting the use of those approaches for channel design in this setting.",correct,"Our study designed three different channels on an artificial stream at a wetlands research field lab - two-stage, self-design, and straightened channels.
+
+The purpose is to set up a long-term experiment on stream evolution and test the long-term stability of the channels.
+
+The first three methods estimated similar designs.",
+10.1117/1.1403450,"• The SAR image formation model was validated against actual SAR images of corn crop canopies with similar growing and undulation conditions.
+• The study showed that the simple SAR image formation model seems valid to simulate undulated corn canopy.
+• The validation enabled deduction of statistical and spatial information useful for discriminating corn fields with or without subsurface drainage and for monitoring corn crop growth.",correct,"Each simulation was validated with the actual SAR image corresponding to the same crop canopy with similar growing and undulation conditions.
+
+Second, the tabulated results of parameters $\alpha$ , CV, and $C'$ depicted in Table 4 also reveal consistency between simulated and validation parcels, which means that the simple SAR image formation model used for the simulations seems valid to simulate undulated corn canopy.
+
+Moreover, the validation of this SAR image model enabled the deduction of statistical and spatial information that enables the discrimination of corn fields with or without subsurface drainage and also the monitoring of corn crop growing in fields without underground drainage.",
+10.1117/12.2197912,"• High-resolution images, hundreds of microns deep in the sclera, were obtained to determine the shape and dimension of partial-thickness subsurface scleral channels.
+• Confocal and two-photon microscopy can be used to investigate femtosecond-laser created partial-thickness drainage channels in the sclera of cadaver human eyes.
+• The smooth ablation interface and high ablation precision were presented as evidence of deterministic femtosecond laser ablation.
+• Most collagen fibers adjacent to the intrascleral channel remained nearly intact, supporting a minimally invasive procedure.",correct,"High-resolution images, hundreds of microns deep in the sclera, were obtained to allow determination of the shape and dimension of such partial thickness subsurface scleral channels.
+
+Our studies suggest that the confocal and two-photon microscopy can be used to investigate femtosecond-laser created partial-thickness drainage channels in the sclera of cadaver human eyes.
+
+The smooth ablation interface and high ablation precision confirmed the deterministic result from femtosecond laser ablation.
+
+Most collagen fibers adjacent to the intrascleral channel have remained nearly intact, and a minimal invasive surgery process was obtained after femtosecond laser ablation as shown in figure 6.",
+10.1130/0016-7606(1996)108<0794:SOTCPD>2.3.CO;2,"• The paper argues that thick peat, and hence coal, can accumulate on a rapidly subsiding coastline without leaving a record of high clastic input within the peat, even close to active clastic depositional environments.
+• The authors state that the Anderson model of floral succession and increasing oligotrophy appears to account for the evolution of the Changuinola peat deposit, with two important differences: tectonically driven punctuated subsidence and the absence of a dry season.
+• They emphasize that marine influence is restricted mainly to the southeastern drowned part of the deposit and to brackish blackwater channels, while most of the deposit remains insulated from marine intrusion.
+• They conclude that the deposit can preserve both regressive and transgressive signatures depending on location, making it a useful analogue for coal-depositional environments.",correct,"Thus, it is evident that thick peat, and hence coal, deposits can accumulate as a result of tectonically driven punctuated subsidence, rather than gradual eustatic sea-level rise, and that such events may leave no record of increased clastic input within the peat even in close proximity to environments of active clastic deposition.
+
+The Anderson model of floral succession and increasing oligotrophy with increasing peat accumulation appears to account for the evolution of the Changuinola peat deposit, with two important differences related to the depositional environment which manifest themselves in the hydrological controls on peat accumulation.
+
+However, although $\approx 40\%$ of the deposit is below sea level, marine influence is not apparent in most of the deposit. Rather, it is restricted to that part of the deposit in the southeast where the subsidence rate is greatest and the swamp has drowned due to the inability of the mangrove vegetation to keep pace with the subsidence, or where the swamp is influenced by tidal blackwater creeks.
+
+Despite undergoing a small degree of coseismic subsidence, the western section of the peat deposit bears what would be considered a regressive signature",
+10.1139/T09-021,"• A parametric study of an extended form of the time-to-drain problem was conducted using a numerical model for saturated-unsaturated flow.
+• Four different flow patterns were identified as the saturated hydraulic conductivity of the subbase material increased.
+• Coarse or large-pored subbase materials were shown to be prone to the formation of a capillary barrier.
+• Finer-pored subbase materials with a large air-entry value and high saturated hydraulic conductivity were more likely to favor downward flow and shift drainage time from days to minutes.
+• Drainage time was shown to depend on both the saturated hydraulic conductivity of the subbase material and the effective relative hydraulic conductivity at the interface of the base and subbase layers.",correct,"A parametric study of an extended form of the time-to-drain problem was conducted to gain a better understanding of the role played by the subbase layer in the drainage of dense-graded base materials.
+
+Specific subbase materials were linked to different hydraulic behaviour. In particular, four different flow patterns were identified as the saturated hydraulic conductivity of the subbase material increased, i.e., lateral flow, composite (or mixed) flow, vertical flow, and funnelled flow.
+
+Coarse or large-pored subbase materials, although very conductive under saturated conditions, were prone to the formation of a capillary barrier.
+
+Finer-pored subbase materials with a large air-entry value and high saturated hydraulic conductivity were more likely to favour downward flow and thus shift drainage time from days to minutes.
+
+Drainage time of a multilayer pavement was shown to depend on both the saturated hydraulic conductivity of the subbase material and the effective relative hydraulic conductivity of the subbase material at the interface of the base and subbase layers.",
+10.1139/as-2018-0028,"• Extensive field measurements of frost table depth were taken over a three-month period across various shrub cover types in a catchment containing mineral earth hummocks.
+• Unmanned aerial system mapping allowed snow depth and snow-free date to be measured across the 1 km2 watershed.
+• The study quantified interactions among snow depth, shrub type, and snow-free date and their influence on frost table depth.
+• Structural equation modeling showed that frost table depth in mineral hummocks and organic inter-hummock zones is controlled by different micro-scale variables.",correct,"Extensive field measurements of frost table depth were taken over a three-month period across various shrub cover types (alder, birch, channel shrub, and shrub-free tundra-dominated areas) in a catchment containing mineral earth hummocks.
+
+Unmanned aerial system mapping allowed us to measure snow depth and snow-free date across the $1\mathrm{km}^2$ watershed.
+
+Our results quantify interactions among snow depth, shrub type, and snow-free date and their influence on frost table depth.
+
+Structural equation modeling showed that frost table depth in mineral hummocks and organic inter-hummock zones are controlled by different micro-scale variables.",
+10.1139/cjss-2016-0036,• This project demonstrated degradation of soil structure when water was applied directly after brine.,correct,"While this project demonstrated degradation of soil structure when water was applied directly after brine, many variables may be present under actual field conditions that were not addressed with this particular study.",
+10.1139/cjss-2018-0115,"• To our knowledge the simultaneous measurement of NO3--N and N2O has not been conducted before when comparing three types of subsurface tile drainage systems.
+• This study has provided important insight for researchers, environmental farm planners, and nutrient management planners who are thinking of recommending CD as an option for producers dealing with the stresses of climate change and water management.",correct,"To our knowledge the simultaneous measurement of $\mathrm{NO}_3^-$ -N and $\mathrm{N}_2\mathrm{O}$ has not been conducted before when comparing three types of subsurface tile drainage systems.
+
+This study has provided important insight for researchers, environmental farm planners, and nutrient management planners who are thinking of recommending CD as an option for producers dealing with the stresses of climate change and water management.",
+10.1155/2021/8827300,"• A mathematical model was formulated for the horizontal and vertical drainage optimal design in the case study.
+• A computer code was developed in MATLAB environment and applied to the case study.
+• The interior-point optimization algorithm was adapted to the problem and produced satisfactory results.",correct,"A mathematical model was formulated for the horizontal and vertical drainage optimal design in the case study.
+
+A computer code was developed in MATLAB environment and applied to the case study.
+
+It was found that the interior-point optimization algorithm was adapted to the problem and produced satisfactory results.",
+10.13031/aea.15991,"• Newly developed interactive QGIS tools automate and optimize depth placement of drainpipes, reducing the complexity of subsurface drainage design.
+• These tools accurately estimate pipe sizes for each drainage segment, sequencing both downstream-to-upstream and upstream-to-downstream.
+• User-friendly and exportable outputs enable efficient decision-making, cost analysis, and seamless integration with drainage installation machines.",correct,"Newly developed interactive QGIS tools automate and optimize depth placement of drainpipes, reducing the complexity of subsurface drainage design.
+
+These tools accurately estimate pipe sizes for each drainage segment, sequencing both downstream-to-upstream and upstream-to-downstream.
+
+User-friendly and exportable outputs enable efficient decision-making, cost analysis, and seamless integration with drainage installation machines.",
+10.13031/aea.16032,"• Accurate discharge estimation is important when evaluating edge-of-field conservation practices.
+• V-notch weir equations were developed for three sizes of subsurface drainage water level control structures.
+• Compound weir equations were developed for subsurface drainage water level control structures.
+• The compound weir equation accurately estimates discharge for flows within and overtopping the V-notch.",correct," - Accurate discharge estimation is important when evaluating edge-of-field conservation practices.
+
+V-notch weir equations were developed for three sizes of subsurface drainage water level control structures.
+
+- Compound weir equations were developed for subsurface drainage water level control structures.
+
+- The compound weir equation accurately estimates discharge for flows within and overtopping the V-notch.",
+10.13031/trans.11922,"• Controlled drainage had a statistically significant effect on the rate of water table recession.
+• A raised outlet increased the time required for the water table to recede to 30 cm and 60 cm depths.
+• Lowering the outlet before storm events would reduce the amount of time that the water table is at a detrimental level for crop growth or trafficability.",correct,"Results indicated that controlled drainage had a statistically significant effect on the rate of water table recession
+
+a raised outlet (controlled drainage) increased the time of water table recession from the surface to 30 and $60~\mathrm{cm}$ depths by an average of approximately 12 to $26\mathrm{h}$ and 24 to $53\mathrm{h}$ , respectively.
+
+Based on these results, it can be concluded that lowering the outlet before storm events would reduce the amount of time that the water table is at a detrimental level for either crop growth or trafficability.",
+10.13031/trans.12668,"• A review of the proceedings of the ten ASABE-sponsored drainage symposia since 1965 reveals a record of tremendous advances in drainage theory, technology, and practice over the past 50 years.
+• The article states that many goals sought for nearly 100 years before the first symposium in 1965 have been achieved.
+• The authors note that there have been orders-of-magnitude improvements in drainage materials, installation equipment, and methods.
+• The article highlights progress in quantitatively describing drainage system performance, predicting effects on yields and profits, and predicting effects on N losses.",correct,"A review of the proceedings of the ten ASABE-sponsored drainage symposia since 1965 reveals a record of tremendous advances in drainage theory, technology, and practice over the past 50 years.
+
+We have achieved many of the goals that drainage researchers and practitioners sought for nearly 100 years before the first symposium in 1965.
+
+There have been orders-of-magnitude improvements in drainage materials, installation equipment, and methods.
+
+We can now quantitatively describe the performance of drainage systems on a temporal basis and predict the effects of drainage design and management on yields and profits. We can also predict the effects of design and management on N losses, and we are making progress on P losses.",
+10.13080/z-a.2016.103.017,"• Long-term fertilization and periodical liming affected the productivity of crops.
+• The grain yield of cereals and spring oilseed rape depended on the rate of fertilizers and rate of liming.
+• The main factor influencing the productivity of perennial grasses was the rate of fertilizers, and it significantly influenced the botanical composition of swards.",correct,"Long-term fertilization and periodical liming affected the productivity of crops.
+
+The grain yield of cereals (triticale, spring barley and spring wheat) and spring oilseed rape depended on the rate of fertilizers and rate of liming while the main factor which influenced the productivity of perennial grasses was rate of fertilizers.
+
+It significantly influenced the botanical composition of swards.",
+10.1680/jgein.15.00028,"• The grooved drainage channels of the geofoam blocks facilitated an efficient flow pathway for seepage flow to be discharged on the slope face.
+• The internal drainage system moved the seepage face from the fore-slope to the back-slope of the embankment.
+• The area of the drainage surface increased by height of the embankment configuration.",correct,"The laboratory experiments demonstrated that the grooved drainage channels of the geofoam blocks that formed the embankment-type configuration facilitated an efficient flow pathway for seepage flow to be discharged on the slope face.
+
+Eventually, the internal drainage system moved the seepage face from the fore-slope to the back-slope of the embankment.
+
+As a result, the area of the drainage surface increased by height of the embankment configuration.",
+10.2134/agronj2004.0259,"• The authors state that the LSNT program produced significant seasonal differences in crop response and that SPAD and end-of-season stalk nitrate concentrations appeared to be useful indicator tools for monitoring N effects on corn.
+• They conclude that the LSNT program was effective for reducing nitrate loss through subsurface drainage but may increase producer risk at the watershed scale.
+• They suggest grain quality should also be monitored when LSNT programs are implemented, especially for producers using corn for livestock feed.",correct,"Crop response to watershed-scale implementation of the LSNT fertilizer management program showed significant seasonal response, presumably driven primarily by rainfall and temperature.
+
+Finally, although the LSNT program was effective for reducing nitrate loss through subsurface drainage
+
+(Jaynes et al., 2004), this study suggests that implementing it at a watershed scale may increase risk to producers.
+
+Based on this response, we suggest that if LSNT programs are to be implemented because of their effectiveness for reducing nitrate concentrations in drainage water, grain quality should also be monitored. This is especially true for producers who utilize their grain for on-farm livestock feed.",
+10.2134/agronj2008.0087,"• The results of this study demonstrate that triticale/corn and triticale/sorghum-sudangrass biomass double-cropping systems have the capacity to produce combined dry matter yields exceeding total dry matter production by conventionally managed, sole-crop corn.
+• The combined biomass and grain output of a triticale/corn double-cropping system could be used to generate greater quantities of ethanol per unit land area than the biomass and grain output of a sole-crop corn system.
+• These systems can reduce NO3-N leaching in the spring and fall relative to extant annual cropping systems.
+• In a traditional scenario where high-moisture biomass is ensiled and fed to ruminant livestock, double-cropping provides several advantages, including improved productivity, higher feed quality, and the concomitant efficiency gains associated with continuous cycling of nutrients between livestock and land.",correct,"The results of this study demonstrate that triticale/corn and triticale/sorghum-sudangrass biomass double-cropping systems have the capacity to produce combined dry matter yields exceeding total dry matter production by conventionally managed, sole-crop corn in North Central Iowa
+
+the combined biomass and grain output of a triticale/corn double-cropping system could be used to generate greater quantities of ethanol per unit land area than the biomass and grain output of a sole-crop corn system.
+
+the results of this study also suggest that these systems can reduce $\mathrm{NO}_3$ -N leaching in the spring and fall relative to extant annual cropping systems.
+
+In a traditional scenario where high-moisture biomass is ensled and fed to ruminant livestock, double-cropping provides several advantages, including improved productivity, higher feed quality, and the concomitant efficiency gains associated with continuous cycling of nutrients between livestock and land.",
+10.2134/agronj2015.0606,"• This study presents the economic and environmental benefits of applying a dynamic simulation tool (Adapt-N) to generate field-specific, in-season N rate recommendations across a large number of site-years representing a broad range of weather conditions, soil textures, and management practices.
+• The Adapt-N recommendations were generally lower than the Grower regular practice and on average achieved higher profits while reducing environmental losses.
+• The tool accounted for variable site and weather conditions to improve both profitability and environmental performance.",correct,"This study presents the economic and environmental benefits of applying a dynamic simulation tool (Adapt-N) to generate field-specific, in-season N rate recommendations across a large number of site-years representing a broad range of weather conditions, soil textures, and management practices in Iowa and New York.
+
+The Adapt-N recommendations were generally lower than the Grower regular practice and on average achieved higher profits while reducing environmental losses, thereby demonstrating the value of this adaptive N management approach for maize.
+
+In conclusion, Adapt-N recommendations resulted in both increased grower profits and decreased environmental N losses by accounting for variable site and weather conditions.",
+10.2134/jeq1982.00472425001100030040x,"• The application of sewage sludge to the surface of red mud is an inexpensive, effective ameliorant for establishing a plant cover of alkaline-tolerant grasses without costly chemical neutralization or fertilizer additions.
+• Distichlis spicata var. stricta can establish a cover from vegetative culms on coarse-texture residues within 1 year with this treatment.
+• Agropyron elongatum and Sporobolus airoides show potential for reclamation of coarse-texture red mud using seed.",correct,"The application of sewage sludge to the surface of red mud is an inexpensive, effective ameliorant for establishing a plant cover of alkaline-tolerant grasses on abandoned red mud lakes without costly chemical neutralization or fertilizer additions.
+
+Distichlis spicata var. stricta can establish a cover from vegetative culms on coarse-texture residues within 1 year with this treatment.
+
+Agropyron elongatum and Sporobolus airoides show potential for reclamation of coarse-texture red mud using seed.",
+10.2134/jeq2004.1803,"• Our 15-yr study provides an important data set for assessments of nitrate leaching into tile drains in the Mississippi River basin.
+• The results from this site in southeastern Indiana suggest that it is possible to decrease average annual nitrate N concentrations to below 10 mg L^-1 while still growing corn and soybean on soils similar to the Clermont silt loam.
+• This study underscores the necessity for long-term research on different soil types and in different climatic zones.",correct,"Our 15-yr study provides an important data set for assessments of nitrate leaching in the Mississippi River basin.
+
+The results from this site in southeastern Indiana suggest that it is possible to decrease average annual nitrate N concentrations to below $10\mathrm{mg}$ $\mathrm{L}^{-1}$ (drinking water standard), while still growing corn and soybean, on soils similar to the Clermont silt loam.
+
+The results of all these types of studies underscore the necessity for long-term field experiments in different regions and on different soils, to understand the impacts of yearly weather variations, long-term climate, soils, and management on nitrate N leaching.",
+10.2134/jeq2008.0210,"• The paper provides an overview of the symposium contributions on degraded water reuse and synthesizes the major knowledge gaps and future research needs.
+• It argues that degraded water reuse is increasingly inevitable and that careful management within defined guidelines and protocols is key to sustainability.
+• It emphasizes the value of site-specific management and advanced spatial information technologies for evaluating and minimizing environmental impacts.",correct,"Overviews of the papers, gaps in knowledge, and future research directions are presented.
+
+Management of degraded water reuse within a defined set of guidelines and protocols is the key to its success and sustainability.
+
+This will make the site-specific management of degraded water reuse possible, which will optimize the reuse of degraded waters and minimize detrimental impacts.",
+10.2136/sssaj2014.01.0008,"• The study demonstrated that fire is an important factor in soil pipe formation and that it can rapidly open soil pipes to the soil surface through combustion of roots and stumps.
+• The paper argues that root growth and decay are the primary initial mechanism for soil pipe formation in these forested hillslopes.
+• The authors state that the number and extent of soil pipes documented suggest that water-transport estimates that ignore these macropores are likely underestimated.",correct,"We demonstrated that fire is an important factor in soil pipe formation, one that has been overlooked in the literature until now.
+
+Root channels provide the primary initial mechanism for soil macropore-pipe formation in these forested hillslopes, which has important implications for modeling preferential flow pathways in these soils.
+
+The number and extent of soil pipes documented in this study strongly suggests that estimations of permeability, conductivity, and solute transport made based only on soil textural information, while useful, are likely underestimated.",
+10.2166/wqrj.2007.025,"• Overall, the RZWQM simulated tile drain flow, NO3-N loss, and crop yield with reasonable accuracy.
+• Such close agreement helps to support the validity of Ontario's current N recommendations for corn in southern Ontario.
+• The study identified how soil type, timing of N application, and crop rotation affect long-term crop yield and nitrate losses under Ontario conditions.",correct,"Overall, the RZWQM simulated tile drain flow, $\mathrm{NO}_{3}-\mathrm{N}$ loss, and crop yield with reasonable accuracy.
+
+Such a close agreement helps to support the validity of Ontario's current N recommendations for corn in southern Ontario.
+
+Side-dress application of N on sandy loam resulted in significant reduction in corn yield and $\mathrm{NO}_{3}-\mathrm{N}$ loss to shallow groundwater. Also, crop rotation from corn-soybean to corn-soybean-soybean resulted in a greater reduction of $\mathrm{NO}_{3}-\mathrm{N}$ loads in the tile outflow on silt loam soil than on sandy loam soil.",
+10.2489/jSWC.2022.00127,"• The paper synthesizes drainage and water quality wetland research and develops hypotheses for the expected ecosystem service effects of four management scenarios.
+• The authors present a catchment-scale framework for evaluating drainage improvements and water quality wetlands across agricultural-wetland systems.
+• The study identifies priority ecosystem services for Iowa stakeholders and organizes evidence around those priorities.",correct,"In this work, we synthesize drainage and water quality wetland research and develop hypotheses for their combined effects on agricultural production and ecosystem services for drained landscapes in Iowa.
+
+Based on the literature survey and Iowa stakeholder experience, we estimated the potential effects of the four scenarios (baseline drainage, improved drainage, baseline drainage with a water quality wetland, and improved drainage with a water quality wetland) on grain yields, net N and greenhouse gas fluxes, and other ecosystem services across the entire agricultural-wetland system by combining field-scale and modeling results from the literature.
+
+The stakeholder group also identified and ranked a list of priority ecosystem services for the region.",
+10.2489/jSWC.2023.00147,"• The study frames its contribution as quantifying differences between fields with different drainage ages to better understand the impact of drainage age on soil physical properties and biological indicators.
+• The authors state that focusing on the relationship between drainage age and soil properties is a novel approach to understanding the effects and dynamics of long-term drainage on the soil ecosystem.
+• The paper concludes that soil properties in fields with subsurface drainage likely evolved over time and that drainage age should be considered when contextualizing drainage systems.",correct,"In this study, we attempt to quantify differences between fields with different drainage ages and use these measurements to better understand the impact of drainage age on soil physical properties and biological indicators.
+
+Focusing on the relationship between drainage age and soil properties is a novel approach to understanding the effects and dynamics of long-term drainage on the soil ecosystem.
+
+At minimum, studies should contextualize their drainage systems by considering their age.",
+10.2489/jswc.67.6.485,"• This study documented the impact of drainage water management on water quality and crop yield in a central Iowa production field over four years.
+• The paper reports that DWM reduced tile flow and nitrate leaching while producing a soybean yield increase.",correct,"This paper reports results from applying DWM to a 22 ha (54 ac) production field in central Iowa as part of a five-state Conservation Innovative Grant effort to document the impact of DWM across the Midwest.
+
+During four years of monitoring tile flow, there was a significant $(p = 0.05)$ $21\%$ decrease in tile flow, no significant decrease in $\mathrm{NO}_3$ concentration, and a significant $29\%$ reduction in $\mathrm{NO}_3$ load leaching from the DWM treatment compared to conventional drainage.",
+10.3389/feart.2020.580230,"• A reliable method to include density as part of geotechnical properties to calibrate electrical resistivity tomography resistivity distribution in slope instability monitoring is still rare; this study presents six ERT data calibrated with laboratory-determined geotechnical properties.
+• The geotechnical result was able to calibrate the ERT model correctly because low-resistivity materials are less dense and show low hydraulic conductivity, whereas high-resistivity materials are denser with higher hydraulic conductivity.",correct,"A reliable method to include density as part of geotechnical properties to calibrate electrical resistivity tomography (ERT) resistivity distribution in slope instability monitoring is still rare. Hence, we present six ERT data that were acquired with a survey length of $60\mathrm{m}$ and $1.5\mathrm{m}$ electrode spacing using Wenner-Schlumberger array from 2019 to 2020.
+
+The geotechnical result was able to calibrate the ERT model correctly because low-resistivity materials are less dense and show low hydraulic conductivity, whereas high-resistivity materials are denser with higher hydraulic conductivity based on this study.",
+10.3390/agriculture14111954,"• RHDM was described as a highly efficient and economical drainage method in poorly drained paddy soils.
+• The 2 m interval was identified as the optimal spacing for soybean cultivation.
+• The high hydraulic conductivity of the rice husk used as the hydrophobic material was said to confirm sufficient drainage performance and economic advantage.
+• The study was presented as a foundation for future advancements in open-field smart agriculture.",correct,"Therefore, our results show that RHDM is a highly efficient and economical drainage method in poorly drained paddy soils.
+
+Notably, soybean yield increased by up to $35\%$ at the $2\mathrm{m}$ drainage interval, which was determined to be the optimal spacing for soybean cultivation.
+
+In addition, the high hydraulic conductivity of the rice husk used as the hydrophobic material confirmed sufficient drainage performance and was considered economically advantageous.
+
+The successful application of RHDM technology forms a solid foundation for future advancements in open-field smart agriculture, particularly in response to climate change.",
+10.3390/agronomy15051222,"• The recommended configuration (1.5 m burial depth, 20 m spacing) shows strong potential for broader application in silty loam regions of southern Xinjiang and provides technical support for subsurface drainage projects aimed at reclaiming saline soils in arid regions.
+• The study provides valuable insights into irrigation and drainage management in arid regions globally and recommends seasonally optimized irrigation strategies.",correct,"the recommended configuration (1.5 m burial depth, 20 m spacing) shows strong potential for broader application in silty loam regions of southern Xinjiang and provides technical support for subsurface drainage projects aimed at reclaiming saline soils in arid regions.
+
+Despite some limitations, this study provides valuable insights into irrigation and drainage management in arid regions globally and recommends seasonally optimized irrigation strategies.",
+10.3390/w10010031,"• The experimental results suggest that using crop straws as subsurface drainage material may be a good option in the initial land reclamation of saline soils.
+• Crop straws may be used as a good organic substitute for plastic drainage pipes in the initial stage of land reclamation of saline coastal soils.",correct,"The experimental results suggest that using the crop straws as subsurface drainage material may be a good option in the initial land reclamation of the saline soils.
+
+The experimental results suggest that crop straws may be used as a good organic substitute for the plastic drainage pipes in the initial stage land reclamation of the saline coastal soils.",
+10.3390/w17091388,"• The study establishes a 'surface suppression-middle blocking-deep leaching' three-dimensional salinity control model.
+• It reveals the vertical differentiation law of salt dynamics and the mechanism of technology regulation under coupled drip irrigation and subsurface drainage.
+• The results are presented as a theoretical basis and technical paradigm for sustainable use of arable land and improvement of saline-alkaline soils in arid zones.",correct,"This study establishes a ""surface suppression-middle blocking-deep leaching"" three-dimensional salinity control model
+
+It reveals the vertical differentiation law of salt dynamics and the mechanism of technology regulation.
+
+The results provide a theoretical basis and technical paradigm for the sustainable use of arable land and the improvement of saline-alkaline soils in arid zones.",
+10.4067/S0718-95162011000200004,"• The study identified DRAINMOD-predicted cumulative infiltration as the most important hydrological condition controlling TP and MRP concentrations in drain outflow during autumn and spring events.
+• The regression models explained at least 80% of the variation in TP and MRP concentrations in drain outflow.
+• The authors propose different dominant transport pathways by season: preferential flow in autumn and matrix flow in spring.",correct,"DRAINMOD-predicted cumulative infiltration $(INFIL_{cum})$ was identified as the most important hydrological condition controlling TP and MRP concentrations in drain outflow in three autumn events and in two out of three spring events.
+
+Regression models explained at least $80\%$ of the variation in TP and MRP concentrations in drain outflow, based on adjusted coefficient of determination $(R^{2}_{adj})$ calculations.
+
+Therefore, results of our study suggest that layered coarse soils in southern Sweden may be prone to P transfer by preferential flow in autumn flow events, while matrix flow may dominate P transfer in spring flow events.",

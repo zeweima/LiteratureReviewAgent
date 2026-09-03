@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I need to read the rest of the findings file (lines 277-760).Based on my complete review of both files, I have verified every concrete claim in the section against the findings and checked each citation key.\n\nThe section is highly faithful: numerical values (concentrations, loads, percentages, reduction figures, statistical metrics like R\u00b2, NSE, r values), locations, mechanisms, and study results all trace accurately to findings tagged with the matching citation keys. I checked each `\\parencite` against the source findings \u2014 including multi-citation groupings (e.g., Kladivko2021/Kladivko2004, Smith2011/Smith2011b, Billy2011/Billy2013, Singh2002/Singh2001c/Singh2007) \u2014 and each attribution is correct for the claim it supports.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

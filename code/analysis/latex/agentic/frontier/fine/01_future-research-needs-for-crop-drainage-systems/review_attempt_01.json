@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.After carefully reading the entire section and all 285 findings, I verified each concrete claim and every citation key against the source findings. All concrete claims (numbers, study results, mechanisms, recommendations) are supported by findings tagged with the correct citation_key, and every \\textcite/\\parencite attributes its claim to the correct paper. The section faithfully condenses/selects without inventing or overstating claims.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

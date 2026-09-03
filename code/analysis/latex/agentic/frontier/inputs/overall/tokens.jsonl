@@ -1,0 +1,3 @@
+{"label": "architect", "model": "opus", "in": 2502, "out": 1404, "cache_read": 363967, "cache_creation": 71384, "cost_usd": 0.9451655}
+{"label": "architect", "model": "opus", "in": 2502, "out": 17669, "cache_read": 413244, "cache_creation": 89734, "cost_usd": 1.559929}
+{"label": "architect", "model": "opus", "in": 2913, "out": 20751, "cache_read": 503216, "cache_creation": 120519, "cost_usd": 1.9918699999999998}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files to check faithfulness and citation provenance.Let me read the rest of the source file.Let me continue reading the rest of the source.I have now read the entire generated section and the complete source material (all 1119 lines). I systematically cross-checked every concrete claim and citation in the generated section against the source.\n\nMy findings: The generated section is a faithful condensation. Every concrete number, statistic, location, and finding I checked (DRAINMOD EF/NSE values, spacing percentages, streamflow partition fractions, travel-time reductions, pipe hydraulics figures, remote-sensing accuracies, weir equations, etc.) traces to the source with matching values. Every citation key in the generated section appears in the source attached to the same content that supports the generated claim. The overview aggregation sentences and trailing citation clusters (e.g., the Mirlas group, the final Ahmadi1995\u2026Gaj2022 dump) all correspond to citation groupings present in the source. Minor loosenings (e.g., KUMAR1994 correlation phrasing, SIDRA-RU KGE\u2032 range) remain within acceptable synthesis and use correct source numbers under correct keys.\n\nNo hallucinated claims and no swapped/borrowed keys found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

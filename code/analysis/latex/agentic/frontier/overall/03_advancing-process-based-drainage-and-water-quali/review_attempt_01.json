@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Let me read the rest of the source file.I have now read the entire generated section and all three source materials in full. Let me verify my assessment of the key claims and citations.\n\nBoth files have been read completely. The generated section is a faithful condensation of the three source materials (\"Drainage Modeling Gaps and Water Management Research Needs\", \"Research Gaps and Nutrient Loss Management\", and \"Drainage Model Calibration and Validation\"). I traced every citation and concrete claim.\n\nFindings:\n- Every cited claim traces to the source under the same key with supporting content (e.g., Youssef2006/Kelleners2000 re-verification, Li2006 coefficient-as-function-of-soil-texture, David2009 multi-year corn\u2013soybean N-flux study, Radcliffe2015 code-specific P agenda, PalaciosV\u00e9lez2004 \"one conductivity measurement per hectare\", Mathew2001 \">30 m spacings\", Mendez2004 \"50\u2013100 years\").\n- No invented numbers, locations, or study results; all concrete specifics match the source.\n- The one borderline case (Chelil2022b/Jeantet2021 grouped under \"seasonal, time-dependent shrink\u2013swell and hydraulic-conductivity measurement\") falls within the same preferential-flow modelling-agenda cluster in the source and reads as acceptable summarizing condensation of a \"complete this agenda\" list rather than a false attribution of a concrete finding.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

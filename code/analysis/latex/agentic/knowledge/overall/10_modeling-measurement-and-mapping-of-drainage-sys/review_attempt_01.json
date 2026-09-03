@@ -1,0 +1,10 @@
+{
+ "parsed": {
+  "passed": false,
+  "unfaithful": [
+   "\"Neural networks predicted real-time water-table control and saturated conductivity more accurately than pedotransfer functions (the latter $R^2$ up to 0.96)\" -- the source (Ellafi2021) attributes the $R^2$ up to 0.96 to the neural-network prediction of saturated conductivity, not to the pedotransfer functions; the generated text assigns the 0.96 to pedotransfer functions ('the latter'), inverting the source's finding that the ANN was more accurate than PTFs."
+  ],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.The source file is large. Let me read it in chunks.I need to find the geospatial mapping material. Let me search for specific citation keys used in the generated section's mapping subsection.I have now read the entire generated section and all source material (5 items). Let me verify one detail about the Ellafi2021 R\u00b2 attribution against the source.\n\nThe source (item on data-driven methods) states neural networks \"predicted saturated conductivity more accurately than pedotransfer functions ($R^2$ up to 0.96)\" \u2014 where the R\u00b2=0.96 describes the ANN's accuracy. The generated section attributes it to pedotransfer functions (\"the latter\"). This inverts the finding.\n\nBased on my complete review, nearly every concrete claim and citation traces faithfully to the source under the same keys. The one clear faithfulness problem is the R\u00b2 misattribution.\n\n```json\n{\"passed\": false, \"unfaithful\": [\"\\\"Neural networks predicted real-time water-table control and saturated conductivity more accurately than pedotransfer functions (the latter $R^2$ up to 0.96)\\\" -- the source (Ellafi2021) attributes the $R^2$ up to 0.96 to the neural-network prediction of saturated conductivity, not to the pedotransfer functions; the generated text assigns the 0.96 to pedotransfer functions ('the latter'), inverting the source's finding that the ANN was more accurate than PTFs.\"], \"miscited\": []}\n```"
+}

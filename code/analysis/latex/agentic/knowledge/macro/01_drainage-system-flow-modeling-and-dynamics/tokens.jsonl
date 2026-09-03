@@ -1,0 +1,2 @@
+{"label": "gen[a1]", "model": "opus", "in": 2633, "out": 29338, "cache_read": 561131, "cache_creation": 89867, "cost_usd": 1.9268315}
+{"label": "review", "model": "opus", "in": 2498, "out": 16216, "cache_read": 389412, "cache_creation": 85575, "cost_usd": 1.469135}

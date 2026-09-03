@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.I have the section and the first 300 lines of findings. Let me read the rest.After thoroughly reading the entire section and all 462 findings, I checked every concrete claim (numbers, statistics, locations, study results, mechanisms) against the source findings and verified each citation key.\n\nAll quantified outcomes trace correctly to their tagged findings:\n- Metric/objective-function claims (Bruhn2025, STONE1995/SAVABI1995, Wessel2022) \u2713\n- Physically based models (Salazar2008, Jeantet2021, Naderi2025) \u2713\n- Analytical equations (Mehdinejadiani2013/2020/2022, Samani2007, Onyejekwe1999, Bahceci2008) \u2713\n- ML/data-driven (Sarangi2006, Yang2000, Ellafi2021, Djiemon2019, Lei2026, Bakhsh2005b/2007b) \u2713\n- Remote sensing (Valayamkunnath2020, Wan2024, Moller2018, Redoloza2023, Song2021, Woo2023, Naz2009, Meunier2001, Rijal2013, Xu2018, Zhang2010, Khanal2020) \u2713\n- Geostatistics (GALLICHAND1991/1992/1993, Moustafa1998/1998b/2000, Akis2015, Sepaskhah2004) \u2713\n- Calibration (Sedaghatdoost2019, Chelil2022b, Schoups2005) \u2713\n- Measurement (Dialameh2022, Enamorado2007, deOliveira2023b, Freeland2014, Messing2006) \u2713\n- Indicators (Christianson2025c, Nakajima2015, Reid2018, Zhang2018, Terrado2015) \u2713\n\nAll numeric ranges, error metrics, and citation attributions match. No mismatched or swapped keys found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

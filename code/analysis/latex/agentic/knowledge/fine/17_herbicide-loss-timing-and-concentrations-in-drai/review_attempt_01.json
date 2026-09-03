@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.Based on my complete reading of both files, I have verified every concrete claim against the source findings and checked each citation key.\n\nThe section is a faithful synthesis. Spot-checks of representative concrete claims:\n- Kladivko2001 (<0.5%/<0.1%, order-of-magnitude, Woodslee 3%) \u2192 findings 186, 187\n- SOUTHWICK1990 (34-day decline, 65%/60% first-event, <half from drained) \u2192 findings 37, 38, 39\n- Kalita2006 (1.13/1.68/1.48/0.93 g/ha = 0.14/0.15/0.22/0.11%) \u2192 finding 75\n- GAYNOR1995 (763/721 & 287/210 \u00b5g/L; 74%/60% MCL exceedance) \u2192 findings 216, 217\n- BUHLER1993 (97%/78% detection; 0.29\u20131.24 \u00b5g/L; 0.4\u20134.1 g/ha) \u2192 findings 200, 201\n- Wendell2024 (NSE 0.86/0.74; 15.7%\u219221.2% tile flow) \u2192 findings 118, 120\n- Amiri2020 (135.8 mg/g, 100% removal, 83.79% after five cycles) \u2192 findings 64, 68, 69\n- Jacobsen2007 representativeness caveats \u2192 findings 17\u201321, 253, 254\n\nAll citation keys match the papers of origin, including companion-paper handling of SHALIT1995/Shalit1996.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files to check faithfulness and reference matching.I need to read the rest of the findings file (lines 277-525).After carefully reading the entire section and all 515 findings, I verified every concrete claim (numbers, rates, efficiencies, locations, mechanisms, study results) against the source findings and checked each citation key.\n\nAll concrete claims are supported by the findings, and every `\\parencite`/`\\textcite` correctly attributes its claim to the paper the finding comes from. Spot examples confirmed: Christianson2021's 40\u00b126%/median 46%/n=15 and 7.2\u00b19.6 g N rates; Christianson2026's 36 site-years, 49 kg N, 17% edge-of-field, 51%, 2.8 h HRT, p=0.031; Bell2015's 63%/20-98%/11.6 g; Husk2017's 99%/72-73%/6.84/2.99/84%/96%/55%; Hua2016 kinetics and steel qmax; Moorman2010's 24.5 vs 54.5, 31-4000-fold, 0.64-0.81 d half-lives; Aldossari2021's CFU densities and gene percentages; D\u00edazGarc\u00eda2025's pumping numbers; Hartfiel2024's 91%/$4.80-23.81; Mitchell2023's 119 records; Wang2025b's 14-66%/39%/30-50%. Multi-key citations (e.g., Hua2016+Kouanda2021 for nitrite; Abusallout2017+Rivas2020 for DOC flush; Rivas2020+Christianson2026 for load-efficiency) are each individually supported.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

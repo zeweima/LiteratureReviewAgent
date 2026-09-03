@@ -1,0 +1,10 @@
+{"label": "gen[a1]", "model": "opus", "in": 2498, "out": 4176, "cache_read": 340234, "cache_creation": 76146, "cost_usd": 1.049455}
+{"label": "gen-fix[a1.1]", "model": "opus", "in": 2786, "out": 9835, "cache_read": 691184, "cache_creation": 19971, "cost_usd": 0.8058150000000002}
+{"label": "review", "model": "opus", "in": 2496, "out": 7674, "cache_read": 244420, "cache_creation": 75065, "cost_usd": 1.0779590000000001}
+{"label": "gen[a2]", "model": "opus", "in": 2492, "out": 3776, "cache_read": 94413, "cache_creation": 33095, "cost_usd": 0.4861235}
+{"label": "gen-fix[a2.1]", "model": "opus", "in": 2788, "out": 11420, "cache_read": 801083, "cache_creation": 30012, "cost_usd": 1.0009075}
+{"label": "gen-fix[a2.2]", "model": "opus", "in": 5850, "out": 5386, "cache_read": 292775, "cache_creation": 16080, "cost_usd": 0.47184049999999994}
+{"label": "review", "model": "opus", "in": 2498, "out": 10225, "cache_read": 327717, "cache_creation": 74762, "cost_usd": 1.1803625000000002}
+{"label": "gen[a3]", "model": "opus", "in": 2492, "out": 3032, "cache_read": 94929, "cache_creation": 32725, "cost_usd": 0.4642435}
+{"label": "gen-fix[a3.1]", "model": "opus", "in": 2492, "out": 1375, "cache_read": 69674, "cache_creation": 6935, "cost_usd": 0.151822}
+{"label": "review", "model": "opus", "in": 2496, "out": 9325, "cache_read": 236585, "cache_creation": 74728, "cost_usd": 1.1119365}

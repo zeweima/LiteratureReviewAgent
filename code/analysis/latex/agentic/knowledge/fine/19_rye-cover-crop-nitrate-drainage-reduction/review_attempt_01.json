@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files to check faithfulness and reference matching.After carefully reading both the full section and all 177 findings, I checked every concrete claim against the source findings and verified each citation key. All numbers, statistics, locations, mechanisms, and study results are supported, and citations attribute claims to the correct papers.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

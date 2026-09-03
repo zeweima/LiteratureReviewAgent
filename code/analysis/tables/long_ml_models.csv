@@ -1,0 +1,100 @@
+﻿paper_id,doi,ml_models
+10.1002_hyp.7027,10.1002/hyp.7027,unsupervised fuzzy k-means algorithm
+10.1002_jeq2.20493,10.1002/jeq2.20493,UNet
+10.1007_s12517-016-2473-z,10.1007/s12517-016-2473-z,Rosetta 1.1 neural network code
+10.1016_j.agrformet.2025.110602,10.1016/j.agrformet.2025.110602,Cubist
+10.1016_j.agrformet.2025.110602,10.1016/j.agrformet.2025.110602,LSTM
+10.1016_j.agrformet.2025.110602,10.1016/j.agrformet.2025.110602,Multilinear
+10.1016_j.agrformet.2025.110602,10.1016/j.agrformet.2025.110602,SVM-linear
+10.1016_j.agrformet.2025.110602,10.1016/j.agrformet.2025.110602,SVM-RBF
+10.1016_j.agwat.2006.02.009,10.1016/j.agwat.2006.02.009,Back Propagation Neural Network (BPNN)
+10.1016_j.agwat.2006.02.009,10.1016/j.agwat.2006.02.009,General Regression Neural Network (GRNN)
+10.1016_j.agwat.2006.02.009,10.1016/j.agwat.2006.02.009,Radial Basis Function Neural Network (RBFNN)
+10.1016_j.agwat.2012.12.018,10.1016/j.agwat.2012.12.018,Rosetta1.1 neural network code
+10.1016_j.agwat.2020.106674,10.1016/j.agwat.2020.106674,Convoluted Neural Network (CNN)
+10.1016_j.agwat.2021.106791,10.1016/j.agwat.2021.106791,Fully convolutional network (FCN)
+10.1016_j.agwat.2021.106791,10.1016/j.agwat.2021.106791,U-Net
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,Unet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,Wnet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,ResUnet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,ResWnet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,DenseUnet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,DenseWnet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,ResNet
+10.1016_j.agwat.2023.108455,10.1016/j.agwat.2023.108455,DenseNet
+10.1016_j.agwat.2025.109392,10.1016/j.agwat.2025.109392,Rosetta artificial neural network tool
+10.1016_j.agwat.2025.109957,10.1016/j.agwat.2025.109957,Long Short-Term Memory (LSTM)
+10.1016_j.apsoil.2007.11.003,10.1016/j.apsoil.2007.11.003,Classification and Regression Tree (CART)
+10.1016_j.asej.2022.101699,10.1016/j.asej.2022.101699,Artificial Neural Network (ANN)
+10.1016_j.asej.2022.101699,10.1016/j.asej.2022.101699,Multi-Layer Feedforward Network (MLFF)
+10.1016_j.asej.2022.101699,10.1016/j.asej.2022.101699,Generalized Regression Neural Networks (GRNN)
+10.1016_j.asoc.2020.107008,10.1016/j.asoc.2020.107008,Kmeans based multivariate adaptive regression spline
+10.1016_j.ejrh.2021.100832,10.1016/j.ejrh.2021.100832,Artificial Neural Networks
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,LogitBoost
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,xgbTree
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,gcvEarth
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,fda
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,glmStepAIC
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,lda2
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,svmLinear2
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,rpart2
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,sda
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,nnet
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,gbm
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,pda2
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,evtree
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,rf
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,dwdLinear
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,bdk
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,ctree2
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,rpart
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,dnn
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,rpart1SE
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,pam
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,pls
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,C5.0
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,C5.0Tree
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,kknn
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,ctree
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,bayesglm
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,xyf
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,sparseLDA
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,knn
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,pcaNNet
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,simples
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,blackboost
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,lda
+10.1016_j.geoderma.2018.01.018,10.1016/j.geoderma.2018.01.018,cforest
+10.1016_j.geoderma.2018.12.046,10.1016/j.geoderma.2018.12.046,Boosted regression tree (BRT)
+10.1016_j.geodrs.2023.e00728,10.1016/j.geodrs.2023.e00728,Multinomial logistic regression (MNLR)
+10.1016_j.geodrs.2023.e00728,10.1016/j.geodrs.2023.e00728,C5.0 decision tree
+10.1016_j.geodrs.2023.e00728,10.1016/j.geodrs.2023.e00728,Random forest (RF)
+10.1016_j.geodrs.2023.e00728,10.1016/j.geodrs.2023.e00728,Artificial neural network (ANN)
+10.1016_j.jag.2023.103423,10.1016/j.jag.2023.103423,Decision tree classification
+10.1016_j.jenvman.2025.126797,10.1016/j.jenvman.2025.126797,Random Forest
+10.1016_j.jhydrol.2023.130338,10.1016/j.jhydrol.2023.130338,Latent Dirichlet Allocation (LDA)
+10.1016_j.jhydrol.2025.134774,10.1016/j.jhydrol.2025.134774,UNet
+10.1016_j.jhydrol.2025.134774,10.1016/j.jhydrol.2025.134774,Attention UNet
+10.1016_j.scitotenv.2024.175283,10.1016/j.scitotenv.2024.175283,Random Forest
+10.1016_j.still.2019.01.007,10.1016/j.still.2019.01.007,Random forest
+10.1016_j.still.2019.01.007,10.1016/j.still.2019.01.007,Multiple linear regression
+10.1016_S0378-3774(03)00159-8,10.1016/S0378-3774(03)00159-8,fast back-propagation (FBP) neural network
+10.1016_S0378-3774(03)00159-8,10.1016/S0378-3774(03)00159-8,self-organizing radial basis function (RBF) network
+10.1029_2019WR024892,10.1029/2019WR024892,Random forest
+10.1029_2021EF002571,10.1029/2021EF002571,Random forest model
+10.1061_(ASCE)WR.1943-5452.0000021,10.1061/(ASCE)WR.1943-5452.0000021,artificial neural network (ANN)
+10.1086_685105,10.1086/685105,Boosted Regression Trees (BRTs)
+10.1111_j.1752-1688.2000.tb04291.x,10.1111/j.1752-1688.2000.tb04291.x,Artificial neural network (ANN)
+10.1111_j.1752-1688.2000.tb04291.x,10.1111/j.1752-1688.2000.tb04291.x,back-propagation network
+10.1371_journal.pone.0222470,10.1371/journal.pone.0222470,t-SNE
+10.2166_wqrj.2005.006,10.2166/wqrj.2005.006,fast back-propagation (FBP) neural network
+10.2166_wqrj.2005.006,10.2166/wqrj.2005.006,self-organizing radial basis function (RBF) neural network
+10.3390_geosciences12020064,10.3390/geosciences12020064,Long Short-Term Memory (LSTM) recurrent network
+10.3390_s22218503,10.3390/s22218503,Deep Q-Network (DQN)
+10.3390_soilsystems3020030,10.3390/soilsystems3020030,Linear model
+10.3390_soilsystems3020030,10.3390/soilsystems3020030,Stepwise linear model
+10.3390_soilsystems3020030,10.3390/soilsystems3020030,Support vector machines
+10.3390_soilsystems3020030,10.3390/soilsystems3020030,Gaussian process regression
+10.3390_soilsystems3020030,10.3390/soilsystems3020030,Ensemble regression with boosting and bagging algorithms
+10.3390_w11050943,10.3390/w11050943,ROSETTA neural network approach
+10.3390_w14010110,10.3390/w14010110,Random Forest regressors in scikit-learn

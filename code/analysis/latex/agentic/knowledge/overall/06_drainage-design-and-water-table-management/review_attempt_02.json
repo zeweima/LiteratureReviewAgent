@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.I've read most of the source. Let me read the remaining portion and search for specific citation keys that appear in the generated section's subirrigation and climate-change subsections.I've now read the entire source and verified every concrete claim and citation in the generated section. Let me confirm my findings on the key claims that required checking the later portions of the source:\n\n- **Subirrigation/DWR claims** (Kaur2021, Moursi2024, Gunn2018/Gunn2019, Niaghi2019, Nelson2011, Nelson2011b) \u2014 all supported in source \u00a7\"Crop Yield and Agronomic Outcomes\" (lines 1500\u20131521) under the same keys.\n- **Climate-change persistence claims** (Pease2017, BinShokrana2023, Salla2022, Ndulue2024/Gunn2018, Awad2021/Sojka2020) \u2014 all supported verbatim in source \u00a7\"Persistence of Benefits under Climate Change\" (lines 1611\u20131631) under the same keys.\n- **Spacing/depth, CD/DWM, enhanced-configuration claims** \u2014 all trace to Material 1 (lines 421\u2013482) and Material 3 (lines 1211\u20131278) under matching keys with matching numbers.\n\nEvery concrete figure (34.0\u219229.4 kg/ha, 27\u219260 m, 17\u201380% outflow reductions, 84 publications/1788 site-years, 24%/25%/43% Quebec CDSI, 33%/30% NC CD, 35\u201396%/37\u201379% Illinois, 46\u201358%/29\u201349% shallow Iowa, 1.9\u00d7 permeable filter, 2.6-fold clay discharge, 4\u20136% Ohio, 63\u201372% Michigan, etc.) matches the source, and each citation key attaches to the same supporting content there.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

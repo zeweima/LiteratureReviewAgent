@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Water-Table Management and Drainage-System Design}
+
+The frontier in drainage water-quantity management is defined by a single
+shift: from passive, one-way conveyance toward active, location-specific
+control of the water table and the coupled irrigation--drainage balance. The
+enabling ideas---water-table-control structures, automation, forecast-based
+operation, and re-evaluated physical design---are largely in place, but each
+remains a hypothesis awaiting the long-term, multi-site field and simulation
+evidence needed to quantify its yield and water-quality trade-offs. What
+follows organises these open questions around active water-table control, the
+control systems that would automate it, and the design criteria that would
+support it.
+
+\subsection{Controlled drainage, subirrigation, and drainage water management}
+
+Integrating controlled drainage (CD) with irrigation is repeatedly framed less
+as settled practice than as a research frontier: the recurring call is to move
+from passive, ``unilateral'' drainage toward active control of the water table
+and the coupled irrigation--drainage balance
+\parencite{Ayars2006b,Kesicka2023b,Ritzema2023}. \textcite{Ayars2006b} argue
+that water-table-control structures should be required in new designs and
+considered for retrofits, and that new criteria and management methods are
+needed---claims that require long-term field studies, possibly combined with
+modelling, to validate---echoed by calls to build in control options and expand
+changeable CD networks \parencite{Dukhovny2018,Mahmoud2021,Strock2011}. The
+quantitative payoff of active management remains open: \textcite{Watkins2024}
+hypothesise that active outlet management during extremely wet periods could
+minimise wet-stress and raise yields; \textcite{Saadat2017} emphasise the
+cost--benefit trade-off; and \textcite{Helmers2012} suggest that CD yield
+reductions could be mitigated by greater management while weighing installation
+cost, management burden, and applicable acreage. Seasonally differentiated
+control---free drainage in wet seasons, CD in dry seasons, with supplemental
+irrigation for extremes---is an explicit hypothesis to test
+\parencite{Asgari2021}.
+
+Coordinating irrigation with drainage control is a persistent unsolved problem:
+irrigation must be reduced when CD is implemented, requiring coordination among
+authorities and farmers \parencite{Wahba2005,Ritzema2011,Ritzema2016}, and CD
+requires genuinely integrated management with careful site selection
+\parencite{Dukhovny2018}. Subirrigation embedded in regional water systems is a
+distinct, largely unresolved frontier: regional water needs should be known
+before responsible incorporation, with optimised pumping and cautious use of
+alternative resources \parencite{deWit2022}, and SWAP-type modelling can
+pre-screen sites and forecast consequences before implementation
+\parencite{deWit2024}. Seepage effects on CD performance need coordinated
+experimental and modelling research, including guard lines to evaluate lateral
+seepage \parencite{Youssef2021,Pease2017,Ale2009}, while excess-moisture stress,
+spring drawdown, and spring nitrogen loading remain priorities
+\parencite{Craft2018,Lahdou2019}. Finally, longer-term studies must disentangle
+whether soil-property changes under drainage--subirrigation arise from the
+practice itself or from irrigation-water quality \parencite{Kaur2023}, and
+complete water and nutrient budgets within and across field boundaries---plus
+effects on runoff, preferential flow, and recharge---remain to be tracked
+\parencite{Shedekar2021,Ross2016,King2022}.
+
+\subsection{Automation, forecast-based, and data-driven control}
+
+Automation and data-driven control are identified as the next technological
+step, but the control systems themselves are still to be built and validated.
+\textcite{Youssef2023} call for a new generation of control structures and
+decision-support tools, sensor-based systems tailored to shallow-water-table
+soils, and systems that adapt to changing weather; \textcite{Ayars2015} extend
+this to adaptive-control decision support. Concrete methodological agendas
+include dynamic modelling and data assimilation of the field water balance,
+feasible formulations of the control problem, and fusion of control automation
+with physical infrastructure \parencite{Ikonen2023,Isomäki2024}, automatic
+water-depth control for aerobic rice \parencite{Arif2021}, and---anticipated
+decades earlier---farm decision aids that jointly incorporate water quantity,
+quality, crop growth, and economics \parencite{THOMAS1995}.
+
+Anticipatory, forecast-based operation is the emerging synthesis of these
+threads. Forecast-driven management should incorporate evapotranspiration,
+subirrigation, and spatially variable seepage, and must explicitly address
+forecast uncertainty \parencite{VandeCraats2021}; collector-ditch water levels
+and control schedules should be optimised \parencite{Salla2022,Strock2025b};
+and control should be paired with local crop and climate characteristics
+without overlooking the risk that rapid water-table decrease raises irrigation
+demand in dry summers
+\parencite{Güngör2023,Dou2023,Golmohammadi2016,Kim2023,Wang2020c}. The open
+questions are thus as much about coordinating forecasts, sensors, and structures
+into a single adaptive system as about any individual component.
+
+\subsection{Novel structures, design criteria, and drainage intensity}
+
+Novel structures and materials define a first set of open questions: improved
+HYDRUS-2D boundary conditions and field verification of siphon drainage
+\parencite{Ren2023}, long-term measurement of working time against construction
+cost \parencite{Tao2025b}, and new structures that adjust water-holding capacity
+while inhibiting rapid vertical and bypass flow \parencite{Li2021}. Multi-level
+and bi-level configurations warrant study of actively managed shallow and deep
+drains \parencite{Hornbuckle2007,Verma1998,Nelson2011b}, and envelope,
+perforation, and screen design remain unresolved across gradients, soils, and
+textures \parencite{Alavi2021,Wu2022,Oyarce2017,HajAmor2019}. Optimal layout and
+burial-depth determination in saline and problem soils recur in recent studies,
+which stress ditching depth, restrictive-layer breaking, amendments, and
+construction cost within multi-scheme decision models
+\parencite{Tian2023,Tian2024,Tian2023c,Zhang2024d,Zhai2023,Han2023,Qian2025b,Ren2021,Zheng2025,SerranoCoronel2018,Zegeye2021}.
+Analytical advances are also sought---formulas for sloped and multilayer soils
+\parencite{Tao2016,Tao2019}, partially penetrating and trapezoidal ditches
+\parencite{Chahar2010,Afruzi2014}, and mass-transfer and three-dimensional flow
+effects \parencite{Zhang2024}---alongside CAD/GIS-based design software and
+standardised drainage-coefficient definitions to enable comparison
+\parencite{GALLICHAND1992b,Skaggs2017}.
+
+Many site studies conclude that established design criteria themselves require
+re-evaluation. New criteria that protect crops while minimising drain-water
+salinity and volume are sought \parencite{Christen2001}, along with updated
+depths and spacings at specific sites
+\parencite{Muhammad2021,Malota2016,Bahçeci2009,Kahlown2002}, review of
+recommended spacings paired with controlled-traffic farming
+\parencite{Mante2022,Mante2018}, cost-effectiveness of narrow spacings in
+claypan soils \parencite{Nelson2017}, and standard depth-and-spacing guidelines
+tested in situ before extension \parencite{HajAmor2019}. Design should further
+account for changing crop water needs, climate, and irrigation modernisation
+\parencite{Rui2024,Akram2013,Ziaeifar2025,Ritzema2023,Ritzema2007,Ritzema2006,Ritzema2011}.
+
+Drainage intensity emerges as a systems question rather than a per-field
+specification. Reduced spacing would require increased network capacity and
+heighten reliance on best management practices
+\parencite{Singh2009,Dialameh2025}; a systems approach should integrate
+drainage, crop--soil processes, and nutrient-loss reduction
+\parencite{Castellano2019}; and DRAINMOD-based analysis should develop optimum
+rates and spacings across locations \parencite{Strock2011}. Which soil
+parameters are most critical, and what confidence intervals each requires,
+remain fundamental unanswered questions
+\parencite{Ayars2015,SHIRMOHAMMADI1995,HARDJOAMIDJOJO1982}. Underlying all of
+these is a methodological prerequisite: design guidance must rest on long
+records, since drainage design should not rely on short-term simulations
+\parencite{Wang2006b}, and long runs with hourly input are needed to assess
+wider spacings, interannual variability, and shallow-water-table control
+\parencite{Ale2009,Häggblom2019,Malota2015,Salo2019,Kladivko2023,Chang2012}.
+
+\printbibliography
+\end{document}

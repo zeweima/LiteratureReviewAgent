@@ -1,0 +1,144 @@
+﻿doi,extracted_content,assessment,llm_evidence,human_note
+10.1002/2015WR017637,• A simplified dynamic interaction model coupling hydrology to river ecology (model of Hansen et al. [2015]),correct,Using a simplified dynamic interaction model that couples hydrology to river ecology,
+10.1002/ird.3023,"• Hooghoudt equation
+• modified Glover-Dumm equation
+• Moody equation",wrong,"Hooghout's formula was used to derive the new equation because it is the best and most accurate steady-state equation for the design of subsurface drainage systems.
+
+The modified Glover-Dumm equation, which was developed by Youssef et al. (2016) using data from the Mashtool pilot area (DRI, 1987b), was also used.
+
+which is used in the calculation of the drain spacing between laterals by the Safaa equation, can be calculated by the Moody equation:",
+10.1007/s13201-019-1023-8,• SEEP/W (2012),correct,"For this purpose, several numerical models are simulated using the finite element (FE) method by applying SEEP/W (2012).",
+10.1016/S0016-7061(02)00178-7,"• SWMS-2D
+• Youngs (1999) water table dynamics equation
+• Hooghoudt's equation",correct,"Using the SWMS-2D code (Simunek et al., 1994), we simulated the steady-state discharge behavior through a cross-section from the upper to lower pit given a constant infiltration rate of $5\mathrm{mm}\mathrm{h}^{-1}$ .
+
+This estimation is based on the equation for the water table dynamics in the half-space between two drains developed by Youngs (1999):
+
+Based on the hydraulic conductivity estimated from the piezometer data (see above), one can calculate the outflow from the two profiles and the tile drain according to Hooghoudt's (1937) equation for an elliptical water table.",
+10.1016/j.agrformet.2025.110602,• RZ-SHAW (Root Zone Water Quality Model-Simultaneous Heat and Water),correct,"Enhanced for cold-climate processes, the RZ-SHAW (Root Zone Water Quality Model-Simultaneous Heat and Water) model simulates snow dynamics, soil freezing, and winter drainage processes (Flerchinger et al., 2000).",
+10.1016/j.agsy.2021.103110,• Environmental Policy Integrated Climate (EPIC) model,correct,The Environmental Policy Integrated Climate (EPIC) model is a process-based model capable of simulating physiological crop growth processes,
+10.1016/j.agwat.2011.05.015,"• hybrid RZWQ-DSSAT model
+• RZWQ model",correct,"using the hybrid RZWQ-DSSAT model
+
+The RZWQ model simulates water infiltration into the soil matrix using the Green-Ampt equation and water redistribution using Richards' equation.",
+10.1016/j.agwat.2011.11.006,• Root Zone Water Quality Model (RZWQM2),correct,"The RZWQM2 is a comprehensive agricultural system model that simulates the processes of mineralization, immobilization, nitrification, denitrification, volatilization, urea hydrolysis, methane production, organic matter decay, microbial growth and decay, soil water dynamics, evapotranspiration, subsurface drainage and fluctuating water tables, and plant growth.",
+10.1016/j.agwat.2019.03.039,• FLUSH model,correct,"The spatially distributed FLUSH model (Warsta et al., 2013a) was selected for this study, as it has been tested for simulating water flow in subsurface drained clay soils (e.g. Turunen et al., 2013; Koivusalo et al., 2017) and includes a description for
+
+simulating preferential flow.",
+10.1016/j.agwat.2020.106698,"• HYDRUS-2D
+• van Genuchten model",correct,"The main objective of this study is to further evaluate the performance of nitrogen loss in one-time improved subsurface drainage using the HYDRUS-2D model.
+
+The governing flow equation for the two-dimensional isothermal Darcian flow of water in a variable saturated rigid porous medium and the van Genuchten model were adopted, both of which have been verified as suitable for the discharge simulation of improved subsurface drainage (Tao et al., 2017).",
+10.1016/j.agwat.2025.109641,• DRAINMOD,correct,"DRAINMOD is a process-based, field-scale model initially developed to simulate the hydrology of poorly drained soils (Skaggs, 1978).",
+10.1016/j.asej.2025.103450,"• Linearized Boussinesq equation
+• Generalized Integral Transform Method (GITM)
+• Dupuit-Forchheimer assumption",wrong,"The analytical framework of this study utilizes the Boussinesq equation, modified from Childs' [20] interpretation of Darcy's Law, to simulate groundwater level fluctuations in a sloping aquifer.
+
+The Boussinesq equation for an inclined bed is employed, associated with three different initial water level scenarios, and the Generalized Integral Transform Method (GITM), which Ozisik [19] proposed, is utilized to solve the linearized Boussinesq equation for a finite domain.
+
+This research addresses the linearized Boussinesq equation based on the Dupuit-Forchheimer assumption to analytically explore groundwater level changes resulting from initial water levels under three conditions after installing subsurface drainage pipes along two boundaries.",
+10.1016/j.biosystemseng.2021.05.002,"• COMSOL Multiphysics version 5.3
+• SoilFlex",correct,"Numerical models of a single-wall corrugated HDPE drainage pipe with and without perforations were developed using COMSOL Multiphysics® version 5.3 (COMSOL Multiphysics, 2017a).
+
+The stress transmission was simulated with SoilFlex (Keller et al., 2006), which calculates the stress state in soils due to agricultural field traffic.",
+10.1016/j.epsl.2017.12.025,"• Rayleigh distillation models
+• forward modeling",correct,"Rayleigh distillation models were used as the theoretical basis to examine changes in the stable isotopic composition of $\mathrm{CH}_4$ in cave air caused by methanotrophy or $-\mathrm{OH}$ oxidation.
+
+We examined the possibility of additional $\mathrm{CH}_4$ sources entering the cave systems through forward modeling.",
+10.1016/j.geoderma.2007.04.009,• Root Zone Water Quality Model (RZWQM),correct,"We used the Root Zone Water Quality Model (RZWQM) with 26 years of data from a study near Nashua, IA to evaluate year to year crop yield, water, and N balances.",
+10.1016/j.geoderma.2007.04.014,"• APSIM
+• SWIMv2",correct,"The model APSIM is a component-based simulation framework that allows integration of various agricultural components in order to investigate the implications of management practices (McCown et al., 1995; Keating et al., 2003).
+
+APSIM is linked to a comprehensive soil water dynamics model (SWIMv2) that is based on Richards' equation and computes fluctuating water tables (Verberg et al., 1996).",
+10.1016/j.jhydrol.2005.08.010,"• HYDRUS-1D
+• HYDRUS-2D
+• Richards' equation
+• convection-dispersion equation
+• mobile-immobile model (MIM)
+• single-porosity model (SPM)
+• Hooghoudt equation
+• van Genuchten-Mualem functions",correct,"An extended version of HYDRUS-1D (Šimůnek et al., 1998, 2003) was used for 1D-SPM and 1D-MIM simulations, while similarly modified HYDRUS-2D (Šimůnek et al., 1999) was used for 2D-SPM and 2D-MIM simulations.
+
+In the one-dimensional single-porosity model (1D-SPM), vertical variably-saturated water flow and non-reactive solute transport in the soil was described using the Richards' and convection dispersion
+
+The one-dimensional mobile-immobile model (1D-MIM) describes vertical variably-saturated water flow and non-reactive solute transport in a soil characterized by mainly two pore systems.
+
+Four different numerical model approaches were compared to describe and interpret the experimental observations: (i) one-dimensional single-porosity model (1D-SPM), (ii) one-dimensional dual-porosity mobile-immobile model (1D-MIM), (iii) two-dimensional single-porosity model (2D-SPM), and (iv) two-dimensional dual-porosity mobile-immobile model (2D-MIM).
+
+The lower boundary condition for 1D simulations represented groundwater flow towards drains as calculated according to the Hooghoudt equation (e.g. Simunek et al., 1998).
+
+Furthermore, the relationships between $\theta$ , $h$ , and $K$ , or $\theta_{\mathrm{m}}$ , $h_{\mathrm{m}}$ and $K_{\mathrm{m}}$ were defined by the van Genuchten-Mualem's functions (Van Genuchten, 1980) for both the single- and dual-porosity (i.e. mobile-immobile) models.",
+10.1016/j.jhydrol.2008.12.026,• PHREEQC,correct,"Using the program PHREEQC (Parkhurst, 1995), Perry et al. (2002) confirmed that mixtures of seawater with water from Cenote Azul, located near the Caribbean coast in southeastern Quintana Roo (Fig. 1), would not dissolve limestone.",
+10.1016/j.jhydrol.2016.09.021,"• Forchheimer's equation
+• Izbash's equation
+• Darcy's law",correct,"For each experiment, Forchheimer's and Izbash's coefficients, and R-square of their fits were determined using SAS 9.4
+
+If Darcy's law applies to water flow through woodchips, the relationship between specific discharge and hydraulic gradient should be linear.",
+10.1016/j.limno.2005.06.005,"• ABIMO model
+• BAGROV-relation",correct,"To determine the seepage water rate, the 'ABIMO' model of Glugla and Tiemer (1971) was applied.
+
+Actual evapotranspiration (Eta) was calculated with the help of a model-based method, the BAGROV-relation, which establishes a relation between the site influences based on empirically derived relations, and climatic influences (see Fig. 5, also Turc, 1961).",
+10.1016/j.scitotenv.2019.03.483,"• SEAWAT (coupled MODFLOW and MT3DMS)
+• COMSOL finite element model",correct,"The latest version of SEAWAT (Langevin et al., 2008), a coupled version of MODFLOW and MT3DMS to integrate the density-dependent flow and the solute transport equation, was used to simulate seawater intrusion in the Nile delta aquifer at a regional scale.
+
+A novel approach proposed in this paper consists in the assessment of the incremental flow through the drains as a function of various possible scenarios.",
+10.1016/j.scitotenv.2020.138004,• Soil and Water Assessment Tool (SWAT),correct,We used variations of the Soil and Water Assessment Tool (SWAT) to represent different hydrologic models.,
+10.1061/(ASCE)0733-9437(2000)126:6(375),• Analytical solution of seepage from a ponded surface strip to a 2D pipe-drain system,correct,The improvement in the efficiency of desalinization using this procedure was shown by obtaining an analytical solution of the flow regime for the seepage from a ponded surface strip to a 2D pipe-drain system using conformal transformations and then estimating the leaching of salts from the soil below the surface by assuming that salts were transported only by convection.,
+10.1061/(ASCE)HE.1943-5584.0000592,"• MLTHS ASMA model
+• LTHS ASMA model",correct,"Employing the advanced soil moisture accounting (ASMA) procedure and the modified subsurface drainage flow concept, a curve number (CN)-based model, named as modified long-term hydrologic simulation advance soil moisture accounting (MLTHS ASMA) model, is proposed to simulate daily flows.
+
+Its application to 17 watersheds falling in different agro-climatic zones of India and comparison with the existing long-term hydrologic simulation advance soil moisture accounting (LTHS ASMA) model reveal that the proposed model yields higher efficiency, lower standard error of estimate (SE) and percentage relative error (RE) values for high runoff producing wet watersheds, and lower efficiency for low runoff producing dry watersheds, indicating a very good model response to wet watersheds, and good to satisfactory-to-dry watersheds.",
+10.1061/(ASCE)IR.1943-4774.0000622,"• Manning's equation
+• Darcy's law",correct,"There are multiple drainage peak flow rate estimation methods on which this $20\%$ design criterion can be based. The two most widely used approaches are the multiplication of a drainage coefficient by the drainage area and Manning's equation [Eq. (2)]:
+
+Once these hypothetical bioreactors were designed, the flow data were used to calculate resulting real-time retention times by combining Darcy's law [Eq. (4)] with the retention time equation [Eq. (1)], resulting in Eq. (5).",
+10.1061/JPEODX.0000191,"• coupled hydromechanical model with climatic effect
+• Abaqus finite-element model
+• enhanced integrated climatic model (EICM)
+• FAO 56 PM method",correct,"A coupled hydromechanical model with considerations of climatic effect was proposed and calibrated.
+
+The finite-element method (FEM) software Abaqus (Abaqus 2014) was used to evaluate the seasonal variations of the base course resilient behavior according to daily meteorological data, such as relative humidity (RH), air temperature, wind speed, solar radiation, and precipitation.
+
+However, the EICM model has its own limitations and still needs to be improved in several aspects.
+
+The evapotranspiration process can be reasonably simulated using
+
+the United Nations Food and Agriculture Organization (FAO) 56 PM method, which was proposed by the FAO (Allen et al. 1998).","It is also used, thus, we should count it a valid used model."
+10.1111/j.1752-1688.2010.00467.x,"• Wolman-Miller model
+• STREAM system
+• USGS Hydrology module",correct,"To evaluate the effective discharge of the swale, the Wolman-Miller model was applied, which requires sediment transport rate and hydrological data.
+
+the Spreadsheet Tools for River Evaluation, Assessment and Monitoring (STREAM) system developed by Mecklenburg and Ward (2005)
+
+this study applied the USGS Hydrology module, for rural watersheds in Ohio (Koltun and Roberts, 1990), in the Spreadsheet Tools for River Evaluation, Assessment and Monitoring (STREAM) system developed by Mecklenburg and Ward (2005)",
+10.1117/1.1403450,"• 3-D model to simulate the SAR image formation process
+• cosine modulated Gaussian 3-D point spread function
+• 3-D undulated periodic vegetation layer model",correct,"Since SAR image formation is basically a 3-D process, we initially developed a 3-D model to simulate the SAR system and the 3-D medium observed.
+
+In our model, the 3-D PSF is described by a cosine modulated Gaussian:
+
+We wish to model the 3-D undulated periodic vegetation layer imaged by a SAR system by taking into account the spatial distribution of discrete scatterers, and the backscattering and attenuation properties of the assumed homogeneous vegetation medium.",
+10.1139/T09-021,• Richards' equation-based saturated-unsaturated flow model,correct,"The mathematical description of this highly dynamic phenomenon results from the combination of Darcy-Buckingham's law and the principle of conservation of mass, which yields the generalized form of Richards' equation (Pickens et al. 1979; Brutsaert and El-Kadi 1984).",
+10.13031/aea.15991,• Manning's Equation,correct,"This is the default option, employing Manning's Equation to calculate the Drainage Coefficient (DC) for uniform flow in open channels.",
+10.1680/jgein.15.00028,"• HYDRUS
+• SEEP/W
+• SLOPE/W",correct,"The variably saturated flow modelling first included the calibration of the saturated hydraulic conductivity, $K_{\mathrm{sat}}$ , of the soil domain using the computer program HYDRUS, a finite-element computer model that solves the Richards equation for saturated-unsaturated water flow (Šimůnek et al. 2012).
+
+The calibrated values of $K_{\mathrm{sat}}$ along with the laboratory-measured retention parameters of sand were used by SEEP/W, a finite-element model for solving Richards equation for two-dimensional variably saturated flow (Geo-Slope International Ltd 2012a).
+
+The simulated piezometric conditions were then incorporated into the coupled global stability failure analysis by SLOPE/W, a conventional limit equilibrium analysis (Geo-Slope International Ltd 2012b), to compute $FS_{\mathrm{GL}}$ of the geofoam block slope system.",
+10.2134/agronj2015.0606,"• Precision Nitrogen Management (PNM) model
+• LEACHN biogeochemistry model
+• maize N uptake, growth, and yield model",correct,"The tool is based on the Precision Nitrogen Management (PNM) model (Melkonian et al., 2002, 2005, 2008), which is an integrated combination of the LEACHN biogeochemistry model (Hutson and Wagenet, 2003) and a maize N uptake, growth, and yield model (Sinclair and Muchow, 1995).
+
+The tool is based on the Precision Nitrogen Management (PNM) model (Melkonian et al., 2002, 2005, 2008), which is an integrated combination of the LEACHN biogeochemistry model (Hutson and Wagenet, 2003) and a maize N uptake, growth, and yield model (Sinclair and Muchow, 1995).
+
+The tool is based on the Precision Nitrogen Management (PNM) model (Melkonian et al., 2002, 2005, 2008), which is an integrated combination of the LEACHN biogeochemistry model (Hutson and Wagenet, 2003) and a maize N uptake, growth, and yield model (Sinclair and Muchow, 1995).",
+10.2166/wqrj.2007.025,"• Root Zone Water Quality Model (RZWQM)
+• ClimGen",correct,"MERN effect. The RZWQM was combined with a weather generator, ClimGen (Nelson 1996), to evaluate how year-to-year climate variability affects the MERN for corn in rotation.",
+10.3390/agriculture14111954,"• Hooghoudt Equation
+• SEEP/W program from GEO-SLOPE",correct,"The construction interval (Sc) standard for rice husk-filled underground drainage was determined based on the theoretical formula relationship proposed by the Hooghoudt Equation [55], including soil's saturated hydraulic conductivity $(K)$ , depth of underground $(d)$ , depth of impermeable layer $(D)$ , and groundwater level $(H)$ .
+
+The infiltration analysis for each construction interval of rice husk-filled underground drainage was compared and analyzed using the SEEP/W program from GEO-SLOPE.",
+10.3390/agronomy10050625,• DRAINMOD,correct,"In this study, the DRAINMOD (Wayne Skaggs, North Carolina State University, Raleigh, USA) computer simulation model was used to predict the effects of CD on the time horizons of 2021-2050 (near future) and 2071-2100 (far future) assuming the Representative Concentration Pathway (RCP) 4.5 emission scenario.",
+10.4067/S0718-95162011000200004,• DRAINMOD,correct,The field hydrology model DRAINMOD is a water balance model that uses functional algorithms to approximate the hydrological components of shallow groundwater soils.,

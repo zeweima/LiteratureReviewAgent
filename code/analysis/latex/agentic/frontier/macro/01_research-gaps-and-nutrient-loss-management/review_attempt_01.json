@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Let me read the remaining parts of both files.I have now read both files in full. I systematically checked every cited claim in the generated section against the source material.\n\nThe generated section is a faithful condensation. Every concrete claim (numbers like Bandura2025's \"within 10 kg N ha\u207b\u00b9 of EONR\" and \"N:corn price ratio of 5.6 by more than 30 kg N ha\u207b\u00b9\"; Osterholz2020's \"100\u2013400 mg kg\u207b\u00b9 STP range\"; Jarvie2017's \"40% reduction target\"; the V12\u2013V16 window for Jaynes2013; etc.) traces to the source with the same attribution. Every citation key in the generated section appears in the source, attached to content that supports the generated claim (drawing across all four source materials, which cover the same keys). No invented, swapped, or overstated claims were found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

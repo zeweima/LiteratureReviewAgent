@@ -1,0 +1,10 @@
+{
+ "parsed": {
+  "passed": false,
+  "unfaithful": [
+   "\"In dryland Washington and Iowa systems, sudden early-winter increases in tile discharge and nitrate followed about 150--160 mm of fall precipitation that saturated the profile and mobilized high-nitrate soil water \\parencite{Kelley2017,Keller2008}\" -- both Kelley2017 and Keller2008 are dryland Washington studies; there is no Iowa source, so the location 'Iowa' is unsupported/invented."
+  ],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.Let me read the rest of the findings file.I've read the entire section and all 760 lines of findings. Let me verify the one location claim that stood out.\n\nBoth `Kelley2017` and `Keller2008` are tagged `[... | Washington, USA | Site]` \u2014 both are dryland Washington studies. The section text states \"In dryland **Washington and Iowa** systems ... followed about 150\u2013160 mm of fall precipitation.\" Neither cited source is an Iowa study, so \"Iowa\" is an unsupported location. Everything else in the section checks out against the findings, and all citation keys correctly attribute their claims.\n\n{\"passed\": false, \"unfaithful\": [\"\\\"In dryland Washington and Iowa systems, sudden early-winter increases in tile discharge and nitrate followed about 150--160 mm of fall precipitation that saturated the profile and mobilized high-nitrate soil water \\\\parencite{Kelley2017,Keller2008}\\\" -- both Kelley2017 and Keller2008 are dryland Washington studies; there is no Iowa source, so the location 'Iowa' is unsupported/invented.\"], \"miscited\": []}"
+}

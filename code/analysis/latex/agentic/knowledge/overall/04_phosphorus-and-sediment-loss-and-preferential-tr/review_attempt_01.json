@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files read completely. I've compared every concrete claim and every citation in the generated section against the source material.\n\nThe generated section is a faithful condensation. All numeric claims (81\u00b123% discharge, 71% DRP/69% TP, 40\u201377% TP, 92% PP, r\u00b2=0.85\u20130.96, DPS 83%, 0.17% macroporosity, 20\u2013400\u00d7 surges, 7.58 cm/h, 46.6/84.0/81.0%, etc.) match the source. Every citation key traces to the source under the same content \u2014 the overview keys (Pease2018/VanEsbroeck2016/Uusitalo2001/Laubel1999; Sharpley1995/Beauchemin2003/Jarvie2017; Shipitalo2004/Villholth1998/Montagne2008; VanEsbroeck2016/Brendel2019) and all subsection keys reuse exactly the attributions present in the source. The only paraphrase (source's \"N\u2013P trade-offs\" \u2192 generated \"dissolved\u2013particulate trade-offs\" under King2015/Ni2020/Baulch2019) is consistent with the tillage trade-off framing those keys carry.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

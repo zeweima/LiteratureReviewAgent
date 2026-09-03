@@ -1,0 +1,476 @@
+\subsection{Overview}
+
+Numerical and analytical modeling of pipe flow dynamics in subsurface (tile) drainage
+spans a continuum of scales and physical processes, from the movement of water toward
+and into individual perforated pipes, through the hydraulics of flow within the conduit
+network, to the measurement of discharge at control structures and outlets. Across this
+theme, the dominant methodological signature is validation: models are consistently
+tested against sand-tank and laboratory experiments, analytical benchmarks, field
+observations, and independent numerical solutions to confirm accuracy in predicting
+inflow/outflow dynamics, water-table behavior, and water mass balance. Several
+consolidated lines of evidence emerge. First, the classical governing equations---the
+Richards equation and its Boussinesq-based approximations---reproduce observed
+water-table drawdown and cumulative drainage/subirrigation volumes when a nonconstant
+drainable porosity is accounted for \parencite{TANG1977,Xin2016c}. Second, analytical
+drain-spacing and single-tile flow solutions closely track numerical simulations and
+observed heads, and newer formulations reduce reliance on the difficult-to-estimate
+drainable porosity parameter \parencite{Cooke2001,KUMAR1994,SINGH1992,FathAllah2025,Chahar2010}.
+Third, entrance resistance and effective radius---the parameters governing how readily
+water crosses the pipe wall---have been quantified for a range of perforation geometries
+and envelopes, with sock-wrapped pipes approaching the behavior of a fully open pipe
+\parencite{Ghane2022,Ghane2022b,Gaj2020,Oyarce2017}. Fourth, within-conduit hydraulics,
+including spatially varied flow, friction resistance, and outlet effects, have been
+modeled and benchmarked against experiments with sub-5\% error in leading cases
+\parencite{Bayat2011,Kouchakzadeh2011,Abdurrasheed2019,Graber2004,Nédélec2008}. Finally,
+robust head--discharge relationships for V-notch and compound weirs, along with
+vision-based flow detection, provide the measurement backbone for validating drainage
+models and quantifying conservation-practice performance
+\parencite{Christianson2019,BinShokrana2021,Katuwal2024,Napierala2023,Popek2021,Young2023}.
+This section synthesizes these established results, emphasizing quantified outcomes and
+the conditions under which each modeling approach has been confirmed.
+
+\subsection{Governing Equations for Water-Table and Drainage Dynamics}
+
+\subsubsection{Richards- and Boussinesq-Based Solutions}
+
+The most physically complete descriptions of drainage and subirrigation solve the
+Richards equation, which fully represents saturated and unsaturated water movement during
+both processes \parencite{TANG1977}. In sand-tank validation, predicted water-table
+drawdown from the Richards equation was somewhat slower than observed but in generally
+good agreement; the profile drained slightly more rapidly than predicted, whereas for
+subirrigation the predicted--observed agreement was better than for drainage
+\parencite{TANG1977}. Predicted and observed inflow/outflow rates and cumulative flow
+volumes agreed closely, with the predicted rate slightly lower than observed for drainage
+and slightly higher than observed for subirrigation \parencite{TANG1977}. Critically,
+approximate Boussinesq-based solutions were in close agreement with the Richards-equation
+solutions and with experiment \emph{when a variable (nonconstant) drainable porosity was
+considered} \parencite{TANG1977}. The overall conclusion is that the Richards equation is
+more accurate, but Boussinesq approximations, corrected for nonconstant drainable
+porosity, remain useful for design when reliable saturated hydraulic conductivity and
+drainable porosity are available; by suitable modification the computer solution can also
+accommodate irregular boundary/initial conditions and soil stratification
+\parencite{TANG1977}.
+
+The role of the unsaturated (vadose) zone in setting the effective drainable porosity is
+developed further in the Boussinesq-equation (BE) analyses of \textcite{Xin2016c}. Using
+an effective specific yield formulation to mimic the vadose-zone effect, the authors
+report $S_y = 0.0512$ for cases 1 and 3 and $0.1057$ for cases 2 and 4, and derive a new
+analytical solution separately for the BE model to remove large errors that arise when the
+unsaturated zone is neglected \parencite{Xin2016c}. The two BE-model solutions predicted
+almost identical non-dimensional cumulative water drainage over time across different
+$l_1/l$ values, indicating that the new analytical solution is reasonably accurate across
+scales, and for the four experimental runs the adjusted-$S_y$ BE model, the analytical
+solution, and the SUTRA numerical model predicted similar total water drainage at the end
+of the process---good agreement in water mass balance \parencite{Xin2016c}. The BE model
+gave reasonably good agreement with the experimental data for cases 2 and 4. A recognized
+limitation is that the BE model with an effective specific yield predicted a quicker
+groundwater-table decline and could not capture the dynamic drainable-porosity effect
+caused by vadose-zone development; for case 4 the analytical solution predicted slightly
+quicker drainage than the numerical BE model, attributed to approximations (notably a
+Taylor expansion of the initial boundary condition) \parencite{Xin2016c}. Overall, the
+Boussinesq equation with an effective specific yield provides a reasonably good
+description of the drainage process, particularly for total water drainage
+\parencite{Xin2016c}.
+
+\subsubsection{Preferential Flow and Constitutive Relationships}
+
+At the field scale, the fidelity of tile-flow prediction depends strongly on the soil
+hydraulic functions used. \textcite{Mohanty1997} introduced new piecewise-continuous,
+bimodal soil-water-retention and hydraulic-conductivity functions, which predicted
+preferential flow to the tile drain reasonably well following all irrigation events and
+performed better than the unimodal van Genuchten--Mualem functions in describing the
+observed flow regime. Predicted flow using the bimodal functions matched observed flow
+rates reasonably well and far better than the unimodal case, minimized over- and
+under-predictions across the different flow domains, and better captured the timing and
+magnitude of the preferential-flow peaks \parencite{Mohanty1997}. This body of work
+established that capturing preferential (macropore) flow in tile drains requires
+constitutive relationships beyond a single unimodal curve.
+
+The recession behavior of the water table following recharge was addressed analytically
+by \textcite{VANDELEUR1959}, whose mathematical approach accorded with field-experiment
+conclusions and was successfully checked by a sandbox experiment (in which radial
+resistance was absent). Tail recession was described as beginning only after a period
+following the cessation of vertical percolation into the saturated zone; before that, the
+recession curve depends on the rates and durations of preceding replenishment
+\parencite{VANDELEUR1959}. Radial resistance near the drain could appear as a modified
+value of the equivalent depth $D$, suggested to be high at one site and almost absent at
+another \parencite{VANDELEUR1959}.
+
+\subsection{Analytical Drain-Spacing and Single-Tile Flow Solutions}
+
+\subsubsection{Single-Tile and Region-of-Influence Formulations}
+
+For flow to a single tile, \textcite{Cooke2001} proposed analytical solutions that closely
+agreed with numerical (finite-element) simulations and were judged adequate for practical
+description of single-tile flow. The key conceptual advance is replacing the usual drain
+spacing with a variable \emph{region of influence} $L$---corresponding to points in the
+finite-element domain where saturation was at least 98.5\%---which makes the equations
+applicable to irregular or randomly spaced tile systems and eliminates the need to specify
+a spacing parameter \parencite{Cooke2001}. Without accretion, analytical solutions using
+drainable porosity derived from water-retention curves gave root-mean-squared deviations
+of $0.085$ cm$^2$ per day for silty clay loam and $0.060$ cm$^2$ per day for clay;
+deviations between analytical and numerical flow were greatest near the start of
+simulations, when the initially flat water table was being drawn down to the tile
+\parencite{Cooke2001}. The resulting equations are simple, universally applicable, and can
+be incorporated into existing models without appreciable added complexity or computing
+cost \parencite{Cooke2001}.
+
+\subsubsection{Transient Water-Table and Parameter-Estimation Methods}
+
+\textcite{SINGH1992} modified the steady-state drainage solutions of Ernst, Dagan, and van
+Beers to predict the transient water table midway between drains, integrating them
+alongside the Hooghoudt, Toksöz--Kirkham, and van Schilfgaarde equations. At the Mundlana,
+India site these integrated equations predicted hydraulic heads reasonably close to
+observed values for 50, 67, and 84 m drain spacings and agreed well with the transient
+solutions of van Schilfgaarde and of Bouwer and van Schilfgaarde \parencite{SINGH1992}.
+For the Nwa and Twocock data, all equations predicted larger spacings than the actual
+40.23 m while maintaining the same order of performance across both experimental periods;
+for the El-Mowelhi and Hermsmeier data, the predicted time for a 0.8 m water-table drop
+was two to three times the actual time in the first year and four to six times in the
+second year, with some equations agreeing more closely than others
+\parencite{SINGH1992}.
+
+Complementary parameter-estimation work by \textcite{KUMAR1994} in India proposed
+analytical solutions that agreed closely with the Glover--Dumm solution, with reported
+errors below 10\% for periods up to 15 days. A computer-simulation technique produced high
+agreement between observed and predicted dimensionless hydraulic heads (correlation
+coefficients of 0.9449 to 0.9931), yielded $KD/f$ estimates close to graphical-technique
+means, and was concluded to be ``by far and most appropriate'' for evaluating the
+transmissivity-to-drainable-pore-space ratio \parencite{KUMAR1994}. Groundwater-table
+predictions using inverse-technique parameters matched observations better than those
+using field-investigation parameters, and the graphical and computer-simulation techniques
+were the preferred approaches for predicting $KD/f$ \parencite{KUMAR1994}. A
+discharge-based inverse technique had limited applicability---the Mundlana data were not
+amenable to it and the trial-and-error procedure was time consuming unless discharge
+measurements were widely separated in time---and the proposed drainable-pore-space
+equation generally gave lower $f$ values \parencite{KUMAR1994}. The work also proposed
+practical procedures to separate transmissivity and drainable pore space once their ratio
+is known, filling a gap in the available theory \parencite{KUMAR1994}.
+
+\subsubsection{Design Equations Reducing Reliance on Drainable Porosity}
+
+A recurring practical obstacle in unsteady-state design is the drainable porosity of soil
+($f$). \textcite{FathAllah2025} addressed this with the Safaa equation, which avoids using
+$f$---described as the greatest obstacle in unsteady-state design---and replaces it with a
+new constant $C_s$, while adding $C_{sh}$ to represent the shape of the initial water
+table. Validation with Haress pilot-area data (Nile Delta, Egypt) showed that the lateral
+spacing from the Safaa equation was closer to the actual spacing than that from Glover's
+equation, and the exponential curve plotted with the Safaa equation fell within the range
+of the actual curves \parencite{FathAllah2025}. The Safaa spacing is greater than
+Glover's, making the design more economic, and the study concludes the equation provides
+more accurate and economic results for subsurface drainage design in the Delta region
+\parencite{FathAllah2025}.
+
+For minimum-cost ditch-drainage design, \textcite{Chahar2010} used nonlinear data fitting
+to derive an explicit equation for optimal ditch spacing, avoiding numerical computation
+of improper integrals, simultaneous solution of nonlinear equations, and formal
+optimization. The fitted equation had errors within 7\% over the practical parameter
+ranges: for Case 1 it gave 4.40 m versus 4.586 m from the optimization program (4.1\%
+error), and for Case 2, 12.035 m versus 12.514 m (3.83\% error) \parencite{Chahar2010}.
+Optimal spacing increases with the earthwork-cost parameter and decreases with the
+pumping-cost parameter, and the explicit forms give close approximations across the
+practical ranges considered \parencite{Chahar2010}.
+
+\subsection{Entrance Resistance, Effective Radius, and Perforation Design}
+
+\subsubsection{Effective Radius of Perforated and Enveloped Pipes}
+
+The ease with which water crosses the pipe wall is characterized by the effective radius
+and the entrance resistance factor. \textcite{Ghane2022b} quantified effective radii for
+Michigan pipes: 3- or 4-row regular-perforated pipes ranged from 0.3 to 0.9 cm (average
+0.6 cm) and 8-row regular-perforated pipes reached 1.9 cm, while 4-row sand-slot pipes
+ranged from 0.1 to 0.7 cm (average 0.4 cm) and the 8-row sand-slot pipe reached 1.6 cm.
+Wrapping regular-perforated pipes with a knitted-sock envelope increased the effective
+radius dramatically to 5.7--6.0 cm (average 5.9 cm) and reduced entrance head loss to near
+zero \parencite{Ghane2022b}. The most efficient way to increase effective radius was
+increasing the number of longitudinal rows of perforations, followed by increasing
+perforation length, whereas increasing perforation width had minimal effect
+\parencite{Ghane2022b}. These hydraulic gains carry design and cost implications:
+sock-wrapped pipes allowed wider optimum drain spacing than sand-slot pipes, but 8-row
+sand-slot pipes had a lower initial system cost than sock-wrapped pipes across all factor
+combinations at the same drainage rate and depth; and for soils without a sedimentation
+problem, 8-row regular-perforated pipes allowed wider spacing and lower initial cost than
+4-row pipes \parencite{Ghane2022b}.
+
+A companion study \parencite{Ghane2022} experimentally measured the effective radius of a
+commonly manufactured sock-wrapped pipe for the first time and found close agreement
+between measured and theoretical effective radii for the sock-wrapped and sand-slot pipes,
+validating the Dierickx (1999) theoretical method. The sock-wrapped pipe had much lower
+entrance head loss than the 8-row and 4-row sand-slot pipes, giving it the largest
+effective radius and a higher estimated drain inflow than both sand-slot pipes; its very
+small entrance resistance factor meant it functioned almost as a completely open pipe
+without walls \parencite{Ghane2022}. The knitted-sock envelope met the hydraulic,
+anti-clogging, and retention criteria for the sand used, and under free drainage with
+ponding, water entered the sock-wrapped pipe only through perforations in the bottom half
+of the pipe \parencite{Ghane2022}.
+
+\subsubsection{Entrance Resistance in Corrugated Versus Plain Pipes}
+
+Using a numerical model calibrated with sand-tank experiments, \textcite{Gaj2020}
+estimated entrance resistance ($\alpha_e$) and delivery ratio ($Q/Q_0$) for perforated
+pipes and developed six nonlinear multiple-regression models to predict these from
+perforation design variables---the first reported computation of entrance resistance for
+corrugated pipes with circular holes. For corrugated pipes with circular holes, $\alpha_e$
+was higher than for plain-wall pipes with the same perforation configuration because
+streamlines converge in the corrugation valley; for the case $N=4$ and
+$A_p = 60$ cm$^2$/m, $\alpha_e$ was 23\% higher and $Q/Q_0$ 20\% lower in corrugated than
+in plain-wall pipes \parencite{Gaj2020}. For the same opening area and configuration,
+$\alpha_e$ was 51\% higher for circular holes than for rectangular slots, while $Q/Q_0$
+was marginally greater for circular holes; the drawdown at the midpoint between two
+parallel drains did not differ significantly between holes and slots for $N=4$ and
+$A_p = 60$ cm$^2$/m \parencite{Gaj2020}. The consolidated conclusion is that rectangular
+slots are more hydraulically advantageous than circular holes in the valleys of corrugated
+pipes \parencite{Gaj2020}.
+
+\textcite{Oyarce2017} gave experimental validity to Dierickx's mathematical model through
+discharge measurements in a physical prototype and developed a calculation tool to
+evaluate water-entrance resistance across pipe radii, perforation densities, and screen
+presence. Water extraction by a perforated pipe was proportional to extraction area, but
+increasing perforation density reduced pipe support and mechanical-impact resistance
+\parencite{Oyarce2017}. The entrance-resistance factor depended on perforation density and
+arrangement and on the presence of an enveloping screen; a screen reduced the resistance
+factor and increased the effective radius, whereas identical pipes without an envelope did
+not drain the substrates because the perforations clogged almost instantly
+\parencite{Oyarce2017}. For small pressure heads, discharge increased with perforation
+density, but for larger heads the effect was less relevant; the optimal distance between
+adjacent parallel drainpipes was smaller when entrance resistance was considered,
+especially for low saturated hydraulic heads \parencite{Oyarce2017}. Overall, smaller
+diameter pipes with higher perforation density and an enveloping screen provided greater
+discharge capacity than larger-diameter pipes---subject to a balance between mechanical
+strength and discharge capacity---identifying an economic/design advantage for smaller
+pipes with few, small-width perforations combined with a screen envelope
+\parencite{Oyarce2017}.
+
+\subsubsection{Structural Response of Perforations to Traffic Loads}
+
+The mechanical counterpart to perforation hydraulics is the structural response of
+corrugated HDPE pipes to field traffic, modeled by \textcite{Gaj2021}. Vertical stress
+transmission from wheel loads was largest for the loaded grain wagon and smallest for the
+tractor; at depths greater than 1.6 m, $\sigma_{vi}$ was below 35 kPa for the three
+wheel-load cases \parencite{Gaj2021}. A bonded interface-friction condition generally
+induced larger wall stresses than a smooth condition, though not statistically
+significantly across all soil types and load cases; for non-perforated pipes the loaded
+(LL) cases produced greater stresses than the empty/half-loaded cases across all soil
+types, with the critical case being a loaded grain wagon on silt loam \parencite{Gaj2021}.
+Failure by ductile yielding of non-perforated corrugated HDPE pipes was highly unlikely
+under the investigated field-traffic, soil, and water-table conditions, and vertical
+deflection remained within the 5\% performance limit under all loading, although
+perforations can raise the risk of ductile-yield failure before deflection becomes
+limiting \parencite{Gaj2021}. Circular-hole perforations substantially increased local
+wall stresses---5.6 mm-diameter holes exceeded the yield strength at burial depths
+shallower than 0.9 m under the critical load case in silt loam---whereas rectangular slots
+produced lower stress concentrations when the perforation width $w_{perf} \le 0.5 w_v$,
+with slot length having little effect compared with slot width \parencite{Gaj2021}. Axial
+perforation spacing did not materially affect stress distribution, so perforations may be
+placed in every corrugation valley without direct axial-stress interaction; the simulated
+stresses were used to establish perforation-dimension relationships that allow perforations
+to be incorporated into the structural design of buried corrugated pipes
+\parencite{Gaj2021}. Consistent with the hydraulic findings, rectangular slots also had a
+lower ductile-yielding failure risk than circular holes provided $w_{perf} \le 0.5 w_v$
+\parencite{Gaj2021}.
+
+\subsubsection{Discharge to Improved Drains Under Ponding}
+
+\textcite{Tao2019} proposed a general discharge formula for improved subsurface drainage
+with ponded water in homogeneous, isotropic soil, verified by laboratory experiment, field
+test, and numerical simulation. Under two boundary assumptions, Method 1 outperformed
+Method 2 in the numerical simulation, with calculated values closer to the 1:1 line; the
+critical boundary between saturated and unsaturated filter conditions was
+$(b_0 + h_0)/d = 0.6$ for Method 1 and $h_0/d = 0.4$ for Method 2 \parencite{Tao2019}. For
+formula simplification, a drain-spacing-to-impermeable-layer-depth ratio of 3 was the
+critical condition separating the two simplified equations, and when the impermeable-layer
+depth is unknown, a fallback equation can roughly estimate discharge \parencite{Tao2019}.
+
+\subsection{Within-Conduit Hydraulics and Network Flow}
+
+\subsubsection{Spatially Varied Flow and Discharge Capacity}
+
+Flow within drainage conduits with lateral inflow is a spatially varied flow (SVF)
+problem. \textcite{Bayat2011} calibrated an SVF model by an inverse method, proposing an
+average Manning coefficient of 0.02 for the tested corrugated pipes and local head-loss
+coefficients $K_{ud} = 1.0$ and $K_{bd} = 1.0$, supported by comparison between computed
+and observed water-surface elevations. Ignoring local head loss in the manhole computation
+produced underestimation with a maximum error of $-20\%$ \parencite{Bayat2011}. For the
+example network, the SVF model gave a total discharge capacity of 6.41 l\,s$^{-1}$ when
+$y/D$ was close to 0.94 in the main pipe, and 5.12 l\,s$^{-1}$ when no segment was allowed
+to pressurize; using modified traditional relationships for the same network gave much
+larger capacities of 12 and 20.81 l\,s$^{-1}$---roughly two to four times the SVF
+value---indicating a large discrepancy relative to the physically based SVF method
+\parencite{Bayat2011}.
+
+The generalized capacity problem was treated by \textcite{Graber2004}, who presented a
+generalized numerical solution for circular conduits with free discharge and uniform
+inflow over a wide range of parameters, and a companion solution for a rectangular
+horizontal channel judged of particular practical value. Manning's equation alone is not
+generally adequate for subsurface-drain capacity, and Van der Beken's method is likewise
+inadequate; computer-based numerical methods are recommended more generally
+\parencite{Graber2004}. In the worked example, a 0.102 m pipe provided insufficient
+capacity while a 0.152 m pipe met the required design capacity, and a multi-diameter
+interceptor-drain design (14-, 12-, 10-, 8-, and 6-in. segments) was produced by computer
+calculation \parencite{Graber2004}. Supercritical flow should usually be avoided in
+subsurface drains because it uses pipe capacity uneconomically, produces relatively high
+velocities, and increases turbulence through hydraulic jumps \parencite{Graber2004}.
+
+\subsubsection{Flow Resistance in Corrugated Pipes}
+
+Resistance to flow depends strongly on flow regime. \textcite{Kouchakzadeh2011} compared
+pressurized flow, gradually varied flow (GVF), and SVF in corrugated pipes. The pressurized
+setup revealed Darcy--Weisbach friction factors of 0.065 and 0.04 for the 0.115 m and
+0.182 m diameter pipes, with corresponding Moody-diagram relative roughness of 0.04 and
+0.012 \parencite{Kouchakzadeh2011}. Reported Manning's coefficients were 0.025 and 0.020
+for GVF and 0.035 and 0.030 for SVF, for the two diameters respectively; the GVF resistance
+coefficient exceeded that of the pressurized regime, and SVF increased resistance by
+40--50\% relative to GVF \parencite{Kouchakzadeh2011}. These results provide Manning's $n$
+values for corrugated pipes used in sewer and drainage networks \parencite{Kouchakzadeh2011}.
+
+\subsubsection{Outlet Effects and Flow-Control Modules}
+
+Flow behavior at conduit outlets was studied by \textcite{Nédélec2008}, extending
+knowledge of free-pipe outlet flow. The conduit outlet may cause non-negligible tail-water
+effects upstream when high pipe flow combines with high channel discharge capacity, and
+this tail-water effect may increase with flow rates when pipe and channel flows are
+concomitant and proportional \parencite{Nédélec2008}. Combined pipe slope and downstream
+tail-water effects may cause a transition from free-surface to pressurized flow, and the
+system can exhibit two forms of transitional cavity flow with possibly different transient
+behaviors \parencite{Nédélec2008}. The work identified and illustrated ten flow patterns
+in the channel and pipe; the outlet energy-loss behavior resembled junctions of two pipes
+of different diameters and compared rather well with a more general junction model,
+suggesting possible generalization subject to further study of friction losses
+\parencite{Nédélec2008}.
+
+The effect of an in-channel flow-control module was modeled in three dimensions using
+FLOW-3D by \textcite{Abdurrasheed2019}. The numerical results closely matched laboratory
+experiments in both free flow without module (FFWM) and flow with module (FWM), with
+percentage error below 5\%, and the experimental results strongly agreed with the numerical
+values \parencite{Abdurrasheed2019}. The REDAC module altered the flow pattern and created
+resistance, increasing the downstream depth-averaged velocity from 43.50 cm/s to about
+46.50 cm/s and decreasing water depth from 7.75 cm to 6.50 cm, while raising Manning's
+roughness upstream relative to FFWM \parencite{Abdurrasheed2019}. Mass conservation was
+maintained, with inflow and outflow both coinciding at 4750 cm$^3$/s (0.00475 m$^3$/s) in
+both cases \parencite{Abdurrasheed2019}. The FLOW-3D approach modeled the module behavior
+with greater certainty, visualized flows in 2D and 3D, and can characterize larger module
+arrangements and different flow conditions without expensive laboratory experiments
+\parencite{Abdurrasheed2019}.
+
+\subsubsection{Network Routing Through Risers and Berms}
+
+At the watershed scale, \textcite{Gupta2019} presented a new toolbox (CoBAGNPS, based on
+the AGNPS model) for simulating water and sediment control basins (WASCoBs), which
+successfully reproduced the required outputs and routed flow through WASCoBs and the
+drainage network. For a single WASCoB, there was no substantial difference in flow
+characteristics between HB and PI pipe risers, while a third riser type (HBS) produced a
+shorter peak discharge and drained slightly more slowly; at the DFTILE outlet the three
+riser types produced different peak discharges for two storm events but with overall
+reasonable routing behavior \parencite{Gupta2019}. For extreme design storms, the installed
+150 mm tile drain was not efficient enough; larger pipes improved drainage, and a 375 mm
+pipe was recommended for 2-, 5-, and 10-year 24-h storm events, with 200 mm and 375 mm
+diameters significantly enhancing efficiency and reducing ponding time behind the berms
+\parencite{Gupta2019}. Direct routing from the DFTILE outlet to the watershed outlet had
+only a slight effect on peak flow but increased the recession limb of the hydrograph
+\parencite{Gupta2019}.
+
+\subsection{Flow Measurement at Control Structures and Outlets}
+
+\subsubsection{V-Notch Weir Calibrations}
+
+Accurate discharge measurement underpins the validation of all drainage models and the
+assessment of conservation practices \parencite{Christianson2019,Katuwal2024}. For a new
+stainless-steel-edged 45\textdegree{} V-notch weir in AgriDrain inline water-level control
+structures, \textcite{Christianson2019} found no significant differences in fitted weir
+parameters across the two structure sizes (15 cm and 25 cm) or the three weir placements.
+The fitted equation was $Q = 0.011 H^{2.28}$ ($Q$ in l\,s$^{-1}$, $H$ in cm), equivalently
+$Q = 1.44 H^{2.28}$ in U.S. customary units, with a combined-model coefficient of
+determination of 0.992 and a standard error of estimate of 0.135
+\parencite{Christianson2019}. The standard deviation of measured flow for each weir-height
+and structure-size combination ranged from 0.1\% to 2.9\% of the mean, and the equation was
+valid only up to a maximum water depth of 16.5 cm, above which a compound weir equation
+should be used \parencite{Christianson2019}.
+
+\textcite{BinShokrana2021} developed an empirical flow equation for a metal-edge
+sharp-crest V-notch weir using a top-down approach that gave a V-notch apex height of
+31.7 cm (from $b = 149.8$ cm and $c = 118.1$ cm). A combination of the weighing method and
+a flow meter produced the stage--discharge relation, and least-squares regression showed a
+strong head--flow relationship ($R^2 = 0.999$) with the empirical equation
+$Q = 0.749 H^{2.25}$, calibrated for flow rates up to 409.42 L/min at a head of 16.3 cm
+\parencite{BinShokrana2021}. This equation produced consistently higher flow estimates than
+the \textcite{Christianson2019} equation, whereas the USGS equation underestimated flow
+across all head measurements \parencite{BinShokrana2021}.
+
+For a PC-edge sharp-crest 22.5\textdegree{} V-notch weir, \textcite{Napierala2023} produced
+empirical stage--discharge equations for downstream-face (chamfer) slopes of 30\textdegree,
+45\textdegree, and 60\textdegree. The 45\textdegree{} chamfer gave the strongest fit and
+lowest error ($R^2 = 0.9981$, RMSE $= 0.255$ dm$^3$\,min$^{-1}$), with the 30\textdegree{}
+and 60\textdegree{} equations also fitting well ($R^2 = 0.9955$ and $0.9980$); residuals
+were generally within $\pm 4\%$, and among previously reported equations White's fit the
+data best for all chamfered angles \parencite{Napierala2023}. These equations can be used
+for any cylindrical control structure provided flow passes through the V-notch without
+submergence and can support nutrient-load-reduction estimates in subsurface drainage
+studies, with the 45\textdegree{} chamfer the best choice \parencite{Napierala2023}.
+
+\subsubsection{Compound Weirs for Overtopping Flows}
+
+Because V-notch equations lose validity once flow overtops the notch, compound weir
+formulations are required for high flows. \textcite{Katuwal2024} developed a compound weir
+equation ($Q_{CW}$) that estimated overflow discharge accurately, whereas the existing
+combined V-notch-plus-rectangular method ($Q_{V+R}$) consistently underestimated it. Across
+three Agri Drain control-structure sizes, $Q_{CW}$ produced MAPE below 5\% and PBIAS
+between $-5.4\%$ and $0.7\%$, while $Q_{V+R}$ had PBIAS above 15\% and MAPE above 13\%
+\parencite{Katuwal2024}. The V-notch calibration relationships varied with structure size,
+confirming that head--discharge relationships are affected by structure size; against
+published USBR compound-weir data, $Q_{CW}$ gave estimates comparable to measured values
+while $Q_{V+R}$ remained consistently lower \parencite{Katuwal2024}. Importantly, using
+$Q_{CW}$ instead of $Q_{V+R}$ increased the estimated annual discharge and nitrate load
+diverted to a saturated buffer, demonstrating that overflow underestimation can materially
+bias nutrient-load estimates \parencite{Katuwal2024}.
+
+\subsubsection{Adjustable Damming Regulators}
+
+\textcite{Popek2021} calibrated two water-damming regulators for drains. The funnel
+regulator had an effective flow of 0.17--0.25 l\,s$^{-1}$ over $H_f = 47$--71 cm, with a
+linear relation between effective flow and overflow-edge height ($R^2 = 0.960$); when inflow
+increased up to 5.5 l\,s$^{-1}$, the water layer above the overflow edge rose only
+0.12--3.0 cm, allowing a maximum damming adjustment of up to $+3.0$ cm relative to the set
+height \parencite{Popek2021}. For the hole regulator, the effective flow required for
+damming was 0.009 l\,s$^{-1}$ at $H_h = 20$ cm, 0.012 l\,s$^{-1}$ at 40 cm, and
+0.015 l\,s$^{-1}$ at 60 cm; flows up to 0.25 l\,s$^{-1}$ produced similar discharges among
+holes and water-table elevations within about 11--15 cm above the hole edge, above which
+damming height became more variable, and the reduced-flow curve was developed for
+intensities up to 0.65 l\,s$^{-1}$ \parencite{Popek2021}. The funnel regulator suits
+holding water at flows at or above the effective flow and ensures a stable damming ordinate
+across a wide flow range, while the hole regulator suits low flow rates up to
+0.25 l\,s$^{-1}$; both have uncomplicated structure and adapt to existing drainage devices
+\parencite{Popek2021}.
+
+\subsubsection{Vision-Based Outlet Monitoring}
+
+Addressing a gap in outlet-monitoring technology, \textcite{Young2023} developed a
+low-cost, vision-based method to characterize outlet flow events by occurrence, duration,
+and rate from free-standing outlet points without in-situ instrumentation. The approach
+correctly detected outlet flow in low, medium, and high flow test cases and did not
+misclassify hand or object motions as flow when none was present; occurrence detection was
+delayed relative to ground truth by an average of 1.0 s and flow duration was underestimated
+by 2.23\% on average \parencite{Young2023}. Steady-state flow-rate estimates were lower than
+ground truth for all three conditions, with errors of 5.9\%, 9.2\%, and 11.2\%, so flow
+rates were estimated within 12\% or less of ground truth under laboratory conditions
+\parencite{Young2023}. The study validated the feasibility of visually monitoring tile
+outlet flow and released an open-source application to extract flow-rate data from recorded
+video \parencite{Young2023}.
+
+\subsection{Coupling Drainage Hydraulics to Buffer Performance}
+
+Numerical modeling of pipe flow also feeds into the design of edge-of-field practices that
+receive drainage water. \textcite{McEachran2020} balanced the time to remove nitrate
+against the time for water to flow through a saturated riparian buffer (SRB) to derive a
+quantitative expression for optimal buffer width. For all six study sites the optimal width
+was smaller than the current SRB width; widths at four of the six sites exceeded the upper
+limits of the optimal ranges, implying that nitrate-removal effectiveness could be about 50
+to 120\% greater at those sites, while widths at two sites fell within the optimal range
+with near-optimal effectiveness \parencite{McEachran2020}. Two sites had optimal widths
+below the current minimum buffer width in USDA-NRCS Code 604 \parencite{McEachran2020}. The
+overall uncertainty of the optimal width was large---combining all parameter uncertainties
+yielded 57\% uncertainty in $L_x^*$---with the removal coefficient $\lambda$ contributing
+most, followed by $K$, while $n_e$ and $\Delta h$ contributed only small amounts
+\parencite{McEachran2020}. The analysis rested on first-order nitrate removal, quasi-steady-
+state concentration profiles, and omission of dispersion; incorporating a site-conditioned
+width into design standards would improve water quality locally and regionally
+\parencite{McEachran2020}.

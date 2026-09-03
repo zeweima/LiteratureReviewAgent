@@ -1,0 +1,474 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber,sorting=nyt,maxbibnames=99,giveninits=true,uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\addbibresource{references.bib}
+\begin{document}
+\section*{Model Performance Evaluation and Comparison}
+
+\subsection{Overview}
+
+Evaluating and comparing the accuracy of predictive tools is a recurring
+requirement across the tile-drainage literature, spanning physically based
+drainage simulators, analytical water-table equations, statistical and
+machine-learning surrogates, geostatistical interpolators, remote-sensing
+classifiers, and field measurement or sampling protocols. The evidence base
+assembled here converges on several well-supported conclusions. First, the
+choice of goodness-of-fit metric or objective function materially changes the
+apparent performance and even the ranking of competing models, so metric
+selection is itself a substantive modelling decision \parencite{Bruhn2025,STONE1995,SAVABI1995}.
+Second, established physically based and analytical models---DRAINMOD, SIDRA-RU,
+HYDRUS-2D, and generalisations of the Glover--Dumm and Boussinesq equations---reproduce
+observed drainage discharge, water-table profiles, and effluent chemistry with
+accuracy that is generally good to excellent once soil hydraulic parameters are
+appropriately estimated \parencite{Salazar2008,Jeantet2021,Naderi2025,Mehdinejadiani2013,Mehdinejadiani2020}.
+Third, data-driven methods---artificial neural networks (ANNs), random forests
+(RF), and deep-learning surrogates---frequently match or outperform conventional
+models for the specific outputs they are trained on, while requiring less input
+data and computation \parencite{Sarangi2006,Yang2000,Djiemon2019,Ellafi2021,Lei2026}.
+Fourth, remote sensing combined with deep learning now maps tile-drained extent
+at regional to national scales with accuracies commonly exceeding 85--96\% and
+totals within a few percent of agricultural-census estimates \parencite{Valayamkunnath2020,Wan2024,Redoloza2023}.
+Fifth, geostatistical (kriging-family) methods deliver reliable, low-bias
+estimates of spatially variable soil properties for drainage design and can
+reduce sampling effort substantially \parencite{GALLICHAND1991,GALLICHAND1992,Moustafa1998b}.
+The following subsections synthesise the quantified outcomes underpinning each
+of these lines of evidence.
+
+\subsection{Statistical Metrics and Objective Functions for Model Evaluation}
+
+A central methodological finding is that different performance measures (PMs)
+rank models differently, and that this behaviour is systematic rather than
+incidental. Across all 14 field datasets analysed by \textcite{Bruhn2025} in
+Illinois, the Kling--Gupta efficiency (KGE) consistently outperformed the
+Nash--Sutcliffe efficiency (NSE): mismatches between KGE-derived outputs were
+always smaller than those between NSE-derived outputs, regardless of the
+reference output used, and the same overall PM behaviours recurred across every
+dataset, which the authors present as evidence that the conclusions generalise
+to field-scale tile-drainage modelling. The heteroscedastic maximum-likelihood
+estimator (HMLE) ranked between KGE and NSE overall, but its standing depended
+strongly on the underlying error structure: it performed best under scenarios~1
+and~2 and worst under scenarios~5 and~6, and in scenario~6 a ranking reversal
+occurred for a subset of 4 of 14 datasets (29\%), where HMLE fell to rank~3
+while NSE held rank~2 \parencite{Bruhn2025}. In an accompanying DRAINMOD case
+study the residuals of neither simulated output showed increasing variance,
+leading to the conclusion that KGE would be the best objective function and HMLE
+the worst for that situation \parencite{Bruhn2025}. That work also introduced a
+quantitative ranking system to summarise PM performance across scenarios and
+released open-source HMLE implementations in both R and Python
+\parencite{Bruhn2025}.
+
+The limitations of correlation-based statistics are underscored by a paired
+discussion of storm-runoff model testing \parencite{STONE1995,SAVABI1995}. The
+example simulations grossly overpredicted all 10 events, yet this
+unacceptability was not reflected by $R^2$ or the standard error $S_e$; a
+regression-based test instead found the intercept significantly different from
+zero and the slope significantly different from one, so the model was deemed
+unacceptable, and the two null hypotheses were rejected because both
+$t$-statistics exceeded 5.041 \parencite{STONE1995,SAVABI1995}. The
+corresponding RMSE and mean bias error (24.311~mm and 20.640~mm) were said to
+better reflect the high overall differences between simulated and measured
+runoff than the correlation measures \parencite{STONE1995,SAVABI1995}.
+\textcite{SAVABI1995} note that regression analysis---including tests for
+intercept~$=0$ and slope~$=1$ together with the $R^2$ and $S_e$ tests---is a
+valid goodness-of-fit approach when the discrepancy between measured and
+predicted values is random, and that it can indicate whether model bias is
+random or systematic. The interplay of tabulated versus fitted metrics also
+appears in curve-number estimation for 12 tile-drained Ohio fields, where
+correlation coefficients ranged from 0.29 for the tabular method to 0.55--0.56
+for the complacent--violent and $P/S>0.46$ methods, NSE ranged from $-0.26$ for
+the maximum-potential-retention method to 0.55 for the complacent--violent
+method, and model bias ranged from $-0.05$~mm to $-1.17$~mm; the
+complacent--violent method gave the highest correlation and NSE and the best
+predictions of the largest outlier events \parencite{Wessel2022}.
+
+\subsection{Performance of Physically Based and Analytical Drainage Models}
+
+\subsubsection{Field-scale water-balance and effluent simulators}
+
+DRAINMOD, evaluated over four years of experiments in south-east Sweden,
+achieved good monthly agreement between observed and simulated drainage rates
+across five soil-information datasets (H0--H4) \parencite{Salazar2008}. Monthly
+mean absolute error (MAE) ranged from 0.57--0.82~cm for conventional drainage
+(CD), 0.38--0.41~cm for controlled drainage CWT1, and 0.15--0.22~cm for CWT2;
+the modified coefficient of efficiency ($E'$) reached 0.62--0.74 (CD),
+0.72--0.74 (CWT1), and 0.79--0.86 (CWT2); and the modified index of agreement
+($d'$) reached 0.80--0.93 across treatments \parencite{Salazar2008}. Notably,
+substituting ROSETTA-estimated $K_s$ for laboratory-measured values changed the
+overall normalised error by less than 3\% in evapotranspiration, less than 1\%
+in infiltration, and less than 15\% in drainage; controlled-drainage errors in
+predicted drainage were generally under 2\% (except H3 under CWT2 at 15\%),
+supporting the conclusion that ROSETTA-estimated $K_s$ can drive DRAINMOD as
+accurately as measured values, at least in coarse-textured soils
+\parencite{Salazar2008}.
+
+The SIDRA-RU model likewise simulates drainage discharge accurately, especially
+on silty soils, with slightly weaker but still acceptable performance on clayey
+soils \parencite{Jeantet2021}. For 21 of 22 reference plots the calibration
+KGE$'$ exceeded 0.5, spanning 0.54--0.83 on silty soils, 0.54--0.76 on
+silty-clay soils, and 0.44--0.76 on clayey soils; annual drained water balances
+lay close to the 1:1 line with $R^2>0.9$ for all three textures; low- and
+mean-flow biases were near zero while high-flow biases were larger, especially
+on clayey soils; and a split-sample test confirmed temporal robustness at the
+national scale, enabling long-term impact studies \parencite{Jeantet2021}.
+HYDRUS-2D reproduced observed nitrate concentrations in drainage water very well
+under both mid-season drainage (MSD) and alternate wetting and drying (AWD) in
+Iran, with RMSE of 0.25--0.99~mg~L$^{-1}$, normalised RMSE of 5.3--19.1\%,
+normalised mean bias error of $-2.14$ to 10.47\%, and modelling efficiency of
+0.6--1.0, with only a slight tendency to overestimate \parencite{Naderi2025}.
+The calibrated model estimated the grey water footprint (GWF) far more
+consistently with field-based estimates than the tier-1 method: HYDRUS-based GWF
+values differed from the field-based method by only 7.0--11.9\% (MSD) and
+$-9.4$ to 8.2\% (AWD), whereas the tier-1 method reached relative errors up to
+3960.7\%; AWD raised rice yield by about 39.6\% but increased GWF roughly
+1042\% relative to MSD \parencite{Naderi2025}.
+
+\subsubsection{Analytical water-table and drain-flow equations}
+
+Generalisations of classical drainage theory have been repeatedly validated
+against homogeneous and heterogeneous soils. A space-fractional Boussinesq
+formulation reduces to the Glover--Dumm model when the heterogeneity index
+approaches 2, so in homogeneous soil the fractional and Glover--Dumm solutions
+were nearly coincident with minor error, whereas in a very heterogeneous
+experimental field soil (heterogeneity index 1.04) the fractional model tracked
+observed water-table profiles more closely and outperformed Glover--Dumm
+\parencite{Mehdinejadiani2013}. Extending this to parabolic and elliptical
+initial profiles, \textcite{Mehdinejadiani2020} found all fractional models more
+sensitive to the heterogeneity parameter $\alpha$ than to $\kappa_x/\mu$;
+estimated $\alpha$ was near 2 for relatively homogeneous fine sand but around
+1.3 and 1.1 for sandy clay loam and field soils, and the elliptical (SFBE-E) and
+first-parabolic--type (SFBE-F) forms generally fit best while SFBE-P2 fit worst,
+with SFBE-E substantially improving on its classical counterpart in
+heterogeneous soils. A Bees-Algorithm inverse model (DIM) then provided
+repeatable, reliable estimates of $\kappa$ (variance across ten runs
+$\approx0$), and drainage equations using DIM-derived $\kappa$ gave the best
+simulation performance across laboratory and field datasets, outperforming the
+Glover--Dumm criterion (GDC), Skaggs's drainage criterion, the drainage-discharge
+method, and the direct method; in a worst case at $t=110$~min the global
+performance index improved almost 34-fold over the GDC and almost 9-fold over
+Skaggs's criterion \parencite{Mehdinejadiani2022}. Complementing these,
+\textcite{Samani2007} showed that using water-table-profile variation over time
+within an inverse-problem framework let all analytical models agree well with
+measured data, that treating effective porosity as a variable improved precision
+in every case, that the Topp and Moody model was the most accurate, and that
+calibrated $K$ and $f$ values yielded much better water-table predictions than
+measured values while remaining close to them. A Green-element method (GEM)
+solution of the nonlinear governing equation resolved slope effects efficiently,
+matching or bettering earlier analytical results for most practical cases: for
+Test~2 GEM gave a maximum error of 2.5\% at 30\% slope, and it predicted better
+than Childs and Pavlovsky for a $-15$\% slope, though errors grew as slope
+exceeded 0.60 \parencite{Onyejekwe1999}. Field determination of drainage
+parameters is also feasible: a Turkish site yielded drainable pore space of
+7.0--7.2\%, a mean drainage reaction factor of 0.599~day$^{-1}$, and
+transmissivity $K_d$ near 6.7~m$^2$~day$^{-1}$, in agreement with reference
+values for medium-textured (silt loam) soils, with the caveat of large
+differences among published reference limits \parencite{Bahceci2008}.
+
+\subsubsection{Comparisons of process models with data-driven surrogates}
+
+Head-to-head comparisons show that the best model depends on the target
+variable. For an Indian subsurface-drained field, a back-propagation neural
+network (BPNN) with 12 hidden neurons and a learning rate of 0.02 predicted
+drainage-effluent salinity more accurately than SALTMOD at both 35~m and 55~m
+drain spacings, with smaller deviations, but SALTMOD was superior for root-zone
+soil salinity because the ANN could not represent the soil-profile salt balance
+\parencite{Sarangi2006}. The authors conclude that ANNs are simpler and faster
+and operate on minimal input data---moving from a ``black box'' toward a ``gray
+box'' when system-based parameters are included---while SALTMOD remains
+preferable for detailed salt-balance accounting \parencite{Sarangi2006}.
+
+\subsection{Machine Learning and Data-Driven Predictive Models}
+
+Artificial neural networks have proven accurate and efficient for real-time
+water-table management. For Canadian subsurface-drainage (SD) and
+subirrigation (SDI) systems, low RMSEs confirmed strong ANN performance: 1996
+real-time control gave minimum RMSEs of 73.8~mm (SD) and 60.6~mm (SDI), and
+time-series simulation improved for the longer time gap ($D=3$) and with more
+training data \parencite{Yang2000}. Most best-performing networks were small,
+indicating that large architectures were unnecessary, and the authors emphasise
+that ANNs are easy and fast to develop, require little training time, and can be
+improved simply by adding recent data \parencite{Yang2000}. Where measured
+saturated hydraulic conductivity is scarce, site-specific ANNs predicted $K_{sat}$
+more accurately than pedotransfer functions (PTFs) in both an easy-access plain
+(EAP, best $R^2=0.90$) and a hard-access plain (HAP, best $R^2=0.96$); PTF-2 was
+the best PTF but still less accurate, and ANN-based drainage designs produced
+drain spacing and water-table depths close to measured-data designs, whereas
+PTF-based designs gave shorter spacing, deeper water tables, and higher initial
+costs \parencite{Ellafi2021}. The number of $K_{sat}$ measurements needed to
+train an accurate ANN could be reduced to about 50 \parencite{Ellafi2021}.
+
+Random forests outperformed multiple linear regression (MLR) for
+drainage-related agronomic prediction in Quebec. For corn plant height, RF
+achieved $R^2$ of 0.97 (calibration), 0.84 (validation), and 0.98 (complete
+dataset) versus 0.69 for MLR, and RF predicted mean water-table depth with
+$R^2=0.95$ versus 0.28 for MLR \parencite{Djiemon2019}. Both methods identified
+drain depth and drain distance as important predictors, but RF additionally
+captured nonlinear effects and smaller prediction intervals, and it located an
+optimal subsurface drain spacing of about 7~m and a critical mean water-table
+depth greater than 0.25~m for maximising corn height, while subsoiling direction
+had negligible effect \parencite{Djiemon2019}. At the frontier of surrogate
+modelling, an Attention U-Net with an adaptive weighted loss (AWL) cut the
+average $L_2$ error across four predicted channels by roughly 43\% relative to a
+baseline U-Net with mean-squared-error loss, lowering validation loss to
+$5.9\times10^{-5}$ versus $8.5\times10^{-5}$ \parencite{Lei2026}. On the test set
+the model reached $R^2$ of 0.997--1 and RMSE below 0.05 for hydraulic head,
+drainage water volume, salt concentration, and salt discharge; relative errors
+of total drainage water and salt discharge stayed within 1.5\%; and a global
+optimisation converged to a 40~m drain spacing and 1.4--1.95~m burial depth
+while drastically reducing computation time compared with numerical simulation
+\parencite{Lei2026}.
+
+Clustering and discriminant analysis provide a further data-driven route to
+delineating management zones. In Iowa, average annual NO$_3$-N leaching losses in
+drainage water varied from a minimum mean of 6.8~kg-N~ha$^{-1}$ (1994) to a
+maximum mean of 35.2~kg-N~ha$^{-1}$ (1993); cluster analysis grouped normalised
+losses into high (mean 2.18, 14\% of area), medium (0.28, 50\%), and low
+($-0.54$, 36\%) zones, and stepwise discriminant analysis identified elevation
+and subsurface drainage as the significant discriminating variables
+($p<0.01$), predicting cluster membership with about 86\% accuracy
+\parencite{Bakhsh2005b}. A companion yield study formed low, medium, and high
+clusters from normalised corn--soybean yields each year and found that soil,
+curvature, and aspect contributed significantly in four of six years, though no
+variable qualified for the discriminant model in 1997, 1998, or the pooled
+1993--1998 data at $P\le0.15$ \parencite{Bakhsh2007b}.
+
+\subsection{Remote Sensing and Deep Learning for Tile-Drainage Mapping}
+
+\subsubsection{Regional and national tile-drainage extent products}
+
+Two large-area products dominate the mapping evidence. AgTile-US, a 30-m
+decision-tree map for the contiguous United States, agreed closely with USDA
+county estimates, reporting a national tile-drained area of 22{,}340{,}442~ha
+against 22{,}418{,}966~ha from USDA (a $-0.35$\% difference); validation with
+16{,}000 ground-truth points gave 86.03\% overall accuracy (13.97\% omission
+error), with state-level accuracy highest in the heavily drained north-central
+states (72.8--100\%) \parencite{Valayamkunnath2020}. The complementary
+random-forest product SEETileDrain, built through Google Earth Engine for the US
+Midwest, achieved testing overall accuracy of 0.96, recall 0.96, precision 0.85,
+balanced accuracy 0.96, and F1 of 0.90, with county-scale area agreeing with the
+Ag~Census at $r^2=0.69$; it estimated 185{,}549~km$^2$ of tile drainage in 2017,
+about 9.4\% below the USDA-NASS estimate of 204{,}842~km$^2$
+\parencite{Wan2024}. A simplified random forest using only slope and soil
+drainage classes performed far worse (out-of-bag error 36\%, precision 0.29, F1
+0.4), and 27\% of counties with NASS-reported tile were predicted to have none,
+though these had a small median reported area of about 27~km$^2$
+\parencite{Wan2024}. In Denmark, a selective-ensemble machine-learning approach
+predicted artificially drained areas over 49.4\% of the study region, with the
+final ensemble achieving $\kappa=0.526$ and 76.5\% simple accuracy; models
+trained on principal components outperformed those on raw covariates and had
+shorter prediction times (mean 8.2~s in the ensemble versus 49.4~s in the
+library), and evaluation performance correlated with hillclimb performance
+($R^2=0.66$) \parencite{Moller2018}.
+
+\subsubsection{Deep-learning detection of drain lines from imagery}
+
+Convolutional segmentation networks reliably delineate visible drain lines. A
+U-Net trained on imagery from the US Midwest delineated tile drains in 53
+validation images across two areas---including 21 images about 200~km southwest
+of the training data---exceeding 92\% accuracy and roughly 53\% balanced
+accuracy (reported 93--96\% accuracy, 52--54\% balanced accuracy), with training
+performance of 95\% accuracy and 63\% balanced accuracy; the model learned to
+ignore roads, buildings, trees, lakes, and boundary artefacts, and drains were
+most visible in spring imagery under high solar radiation, intermediate soil
+water, and minimal crop cover \parencite{Redoloza2023}. In Ohio, a
+deep-learning segmentation model reached minimum Dice losses of 0.28 (training)
+and 0.42 (validation) over 500 epochs, an average validation Dice coefficient of
+0.58 across 257 images, and 0.55 on a large-scale map, outperforming Sobel and
+Canny edge detectors that produced noisier and more false detections
+\parencite{Song2021}. An ensemble fully convolutional network gave accurate,
+robust drainage-pipe detection on training, validation, and unseen test data,
+was visually closer to the ground truth than individual models, and outperformed
+Sobel edge detection and the Hough transform; performance depended on input
+resolution, peaking at 400~m/256~pixels with reasonable results (Dice $>0.3$)
+between 200 and 500~m/256~pixels \parencite{Woo2023}. Earlier automated
+approaches were already useful: a decision-tree classification of an Indiana
+watershed identified 79\% as potentially tile-drained and, after masking, an
+estimated 50\% drained area with drain spacing of 17--80~m and sub-watershed
+averages of 43--44~m, within the recommended 23--45~m range for local soils
+\parencite{Naz2009}.
+
+\subsubsection{Ancillary remote-sensing methods relevant to drainage}
+
+Several studies quantify how remote sensing infers surface conditions tied to
+drainage. Synthetic-aperture-radar (SAR) image simulation of undulated corn
+canopy reproduced the statistical and undulation properties of a validation
+parcel, with autocorrelation peaks separated by 5.3~pixels (25~m) corresponding
+to distinct drainage ridges; coefficient of variation and contrast discriminated
+corn fields with and without subsurface drainage, and low contrast (near-zero
+plant-height differential) was associated with drained fields
+\parencite{Meunier2001}. A Landsat-based soil-water-content algorithm exploited
+strong SWIR absorption (Bands~5 and~7), with reflectance nearly constant below
+0.20~cm$^3$~cm$^{-3}$ and rising above 0.40~cm$^3$~cm$^{-3}$; the best 15-cm
+model, $Y_{15}=0.48e^{-2.64(B5-B1)}$, validated on 70 observations across nine
+fields with $r=0.94$ and RMSE near 0.02~cm$^3$~cm$^{-3}$, though it
+underestimated wetter conditions \parencite{Rijal2013}. For cover-crop
+monitoring in an Illinois watershed, SAVI, EVI, and TVI correlated strongly with
+biomass and N uptake; SAVI was selected because it matched or bettered the
+others while needing only red and near-infrared bands, giving biomass estimates
+of 86--107\% and N-uptake estimates of 85--98\% of ground values, and it
+outperformed ordinary kriging and inverse-distance weighting where management
+varied \parencite{Xu2018}. A large-aperture-scintillometer study showed that
+sensible-heat-flux retrieval is sensitive to parameterisation: a rule-of-thumb
+roughness length overestimated $H_{LAS}$ by 47--66\% via inflated $u^*$, but an
+improved $z_0$ estimate brought $u^*$ RMSD from 0.21 to 0.08~m~s$^{-1}$ and slope
+from 1.37 to 0.98, yielding LAS--eddy-covariance agreement within 32~W~m$^{-2}$
+and a slope of 1.0 for the best (W71) temperature function \parencite{Zhang2010}.
+A broader review documents an increasing 20-year trend in agricultural remote
+sensing, a sharp post-2015 rise in unmanned aerial systems (34\% of papers from
+Europe, 20\% USA, 11\% China), and notes that high-resolution thermal imagery
+can detect temperature differences over drain lines and thereby the subsurface
+tile network, while subsurface drainage remained comparatively under-studied
+\parencite{Khanal2020}.
+
+\subsection{Geostatistical and Spatial-Interpolation Methods for Drainage Design}
+
+Kriging-family methods are consistently the most reliable interpolators for the
+spatially variable soil properties that govern drain spacing. In the Nile Delta,
+variations in hydraulic conductivity were spatially isotropic with a high nugget
+and a 5.6~km range of influence; kriging cross-validation gave low estimation
+errors (mean $-4.2\times10^{-4}$, variance 1.012), and kriged effective
+conductivities were recommended as design values because they are the best
+obtainable estimates and produce smooth surfaces delineating homogeneous blocks
+\parencite{GALLICHAND1991}. Grid-optimisation work showed that a 600~m grid
+retained nearly all information: average kriged point conductivity was
+0.201~m~d$^{-1}$ on both complete and reduced grids, block-effective correlations
+reached 0.906--0.909 with average absolute deviations of 0.028--0.031~m~d$^{-1}$
+(versus 0.930 and 0.031 for the measured grid), and a preliminary 900~m survey
+sufficed to fix the optimal sampling density \parencite{GALLICHAND1992}. For clay
+content, no interpolation method showed important bias (estimated averages
+56.19--57.07\% versus 57.13\% observed); cokriging gave the lowest mean absolute
+difference (12.01) but only marginally beat kriging and inverse-distance
+weighting, while the closest-neighbour method gave the highest MAD (16.44) and
+the largest low-clay areas, so kriging, cokriging, and weighted moving average
+($\alpha=1$) were all judged adequate \parencite{GALLICHAND1993}.
+
+The practical value of accounting for spatial variability is quantified by
+several Egyptian studies. Kriged estimates outperformed measured point values:
+measured water-table depth underestimated the need for subsurface drainage by
+about 40\%, measured soil salinity overestimated levels by 59\%, and using
+kriged hydraulic conductivity widened calculated lateral drain spacing by about
+5\% (up to 9.6\% for some unsteady-state formulas), saving 17{,}155~m of lateral
+pipe while reducing the minimum sample size roughly three- to sevenfold
+\parencite{Moustafa1998b}. A geostatistical correlation model for representative
+$K_{sat}$ was validated on Nile Delta and Nile Valley soils and shown practically
+valuable; neglecting spatial variability of $K_{sat}$ could bias design drain
+spacing by $-27$\% to $+3$\% and overestimate required sample size by about 76\%
+\parencite{Moustafa2000}. The covariance variogram proved superior to the
+semi-variogram for clay soils, being smoother, more robust to high values, and
+lower in cross-validation error, and subsurface drainage itself strongly altered
+spatial variability---the spatial correlation range increased about 29\% and
+relative structured heterogeneity doubled four years after installation, while
+the nugget rose for all soil-water properties \parencite{Moustafa1998}. In
+Turkey, ordinary point kriging was appropriate for $K_{sat}$ and soluble salts,
+which showed strong depth-dependent structure (horizontal models explaining
+81--84\% of variance) with horizontal correlation distances of 710--1130~m,
+supporting an approximately 1130~m~$\times$~1130~m subfield and $\geq75$~cm profile
+as a reference for drain-tile layout \parencite{Akis2015}. Simple regression and
+geostatistical models for rapid representative $K_{sat}$ were also proposed for
+large-scale drainage design, with coefficients that necessarily differ among
+soils and hydrological conditions \parencite{Sepaskhah2004}.
+
+\subsection{Calibration, Parameter Estimation, and Inverse Modelling}
+
+The way objective functions are constructed and optimised strongly affects
+parameter identifiability. In Iranian inverse modelling of soil hydraulic
+parameters, a genetic algorithm (GA) generally outperformed PEST, especially for
+objective functions using two or three datasets; combining drainage discharge,
+water-table depth, and drainage salinity was the best strategy, though drainage
+discharge with water-table depth alone already gave excellent results, and PEST
+was less capable for complex objective functions \parencite{Sedaghatdoost2019}.
+Variational data assimilation (VDA)---the first such implementation for
+SIDRA-type models---used global adjoint sensitivity analysis to identify
+$K_{sat}$ as the most influential parameter (followed by $\mu$ then $S_{inter}$),
+selecting only 4 of 11 parameters for calibration; split-sample validation gave
+KGE $>0.66$, NSE $>0.53$, and RMSE $<2.44$~l~s$^{-1}$, and VDA cut the five-year
+cumulative-volume discrepancy to 4.8~mm ($<1$\%) versus 58.7~mm (10\%) for
+PAP-GR \parencite{Chelil2022b}. Single-parameter tests showed $K_{sat}$ and
+$\mu$ converged uniquely while $SSDI$ and $S_{inter}$ hit local minima, and a
+hybrid background-variance approach improved robustness across periods
+\parencite{Chelil2022b}. At regional scale, a single-objective calibration in
+California produced identifiable parameters with small uncertainties and
+predicted regional water-table variation well (RMSE 2.76~m, correlation 0.98),
+while multi-objective calibration revealed clear trade-offs between water-table
+and pumping predictions; drainage predictions were much more sensitive yet
+largely independent of the other objectives, and prediction uncertainty was
+large for water tables but small for drainage and pumping \parencite{Schoups2005}.
+
+\subsection{Evaluation of Measurement, Sampling, and Sensor Methods}
+
+Performance evaluation extends to the field protocols that generate the data
+against which models are judged. For phosphorus-load monitoring in Michigan tile
+drainage, all sampling strategies underestimated total reactive phosphorus (TRP)
+load, but the magnitude depended sharply on design: time-proportional discrete
+sampling worsened from $-0.2$\% at 3~h to $-51.0$\% at 14~d, and time-proportional
+composites ran from $-12.4$\% (1-d) to $-43.0$\% (7-d), whereas flow-proportional
+discrete sampling stayed within $-0.2$ to $-5.4$\% and flow-proportional
+composites within $-0.5$ to $-7.2$\% \parencite{Dialameh2022}. Flow-proportional
+strategies thus gave more accurate cumulative-load estimates with fewer samples
+and lower analysis cost, and the number of aliquots did not substantially affect
+accuracy \parencite{Dialameh2022}. A recording ultrasonic flow meter in a
+multi-slotted U-pipe achieved very high calibration quality (mean and minimum
+$R^2$ of 0.9993 and 0.993), propagated $Q(h)$ uncertainties of only 0.1--0.4\%
+across slot sizes, and performed well in laboratory and field with good signal
+stability using low-cost components \parencite{Enamorado2007}. For denitrifying
+bioreactor tracer tests, a continuously deployed bromide sensor produced both
+under- and over-reported concentrations---the best field match (test~\#7) still
+underpredicted the peak by 7.5\%, with lowest error RMSE 5.0~mg~L$^{-1}$ and MAE
+3.0~mg~L$^{-1}$ and a pooled slope near 1.0 (0.96); most tracer metrics fell
+within $\pm10$\% of lab-based values, but recovery and peak-timing metrics could
+change substantially (e.g.\ hydraulic efficiency from 0.29 to 1.8), and post-hoc
+bottle-based measurement outperformed real-time deployment (pooled slope 0.97,
+RMSE 3.1~mg~L$^{-1}$) \parencite{deOliveira2023b}. A non-intrusive geophysical
+protocol produced ``as-built'' subsurface maps of golf-green tile, confirming
+all tile spacing met the USGA specification but finding four of 12 laterals below
+the minimum required downward slope (two sloping upward) and about 20\% of the
+area failing root-zone thickness standards \parencite{Freeland2014}. On
+drainage-efficiency measurement itself, both large-ring and small-core methods
+were valuable for relative comparisons, the large ring covering a more
+representative elementary volume, and infiltration and saturated conductivity
+were 5--65 times larger in the trench backfill zone than midway between trenches
+in Swedish clays \parencite{Messing2006}.
+
+\subsection{Environmental Indicators and Empirical Regression Relationships}
+
+Aggregative indicators and empirical regressions provide a complementary,
+policy-facing layer of model evaluation. A global compilation of 60
+hydraulic-retention-time (HRT)--nitrate-removal-efficiency (NRE) regressions
+showed strong within-study linearity but wide between-study variability (slopes
+0.13--18~\%/h, intercepts $-19$ to $+47$\%); slope correlated positively with
+water temperature (Spearman $\rho=+0.39$) and negatively with inflow N
+concentration ($\rho=-0.46$), while the intercept correlated with no compiled
+parameter \parencite{Christianson2025c}. Generalised median models
+were NRE~$=2.9\times\mathrm{HRT}+0.37$ for the full dataset and
+$3.2\times\mathrm{HRT}+0.18$ for a subsurface-drainage ``Tile Proxy'' subset, and
+study scale did not significantly alter slope or intercept, though field-scale
+studies showed greater slope heterogeneity \parencite{Christianson2025c}. A soil
+quality index (SQI) built by scoring-function analysis in Ohio ranged narrowly
+(0.69--0.71) and was not significantly affected by tillage or subsurface drainage
+but was significantly correlated with corn yield ($R=0.62$), with $K_{sat}$ the
+key physical indicator and soil organic carbon the highest-weighted chemical
+indicator \parencite{Nakajima2015}. At landscape scale, phosphorus-loss
+indicators such as IROWC-P are framed as aggregations of multiple source $\times$
+transport interactions whose dominant components depend on climate, soils,
+topography, and management; the revised component structure estimates
+edge-of-field loss and applies a delivery ratio, and results are expected to be
+``directionally and magnitudinally correct'' against annual water-quality data
+\parencite{Reid2018}. More broadly, environmental indicators are presented as
+powerful tools for tracking change and informing policy that function well at
+field, catchment, and local scales but need refinement for national or
+international comparison, with the Phosphorus Index highlighted as a widely
+adopted aggregative indicator encompassing subsurface tile-drainage pathways and
+soil organic carbon as an indirect indicator of soil quality and CO$_2$ emissions
+\parencite{Zhang2018}. Finally, a riparian-quality assessment of 21 tile-drained
+Canadian sites produced RQI scores of 45--129 that correlated with an independent
+index ($R^2=0.56$), while width alone correlated more strongly with that index
+($R^2=0.79$), and partial-least-squares analysis showed nutrient and sediment
+retention related differently to landscape variables by region
+\parencite{Terrado2015}.
+
+\printbibliography
+\end{document}

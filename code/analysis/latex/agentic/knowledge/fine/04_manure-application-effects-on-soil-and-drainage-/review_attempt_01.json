@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.I need to read the rest of the findings file (lines 298-417).Based on my complete review of both files, I checked every concrete claim in the section against the tagged findings and verified each citation key.\n\n**Faithfulness:** Every numeric value, statistic, location, and study result in the section traces to a supporting finding \u2014 e.g., Truhlar2015's 45% curli / csgA in seven strains, Collins2007's 10\u2075\u201310\u2077 per 100 ml and 60\u201380% runoff reduction, Smith2019b's 320 ARGs (173/176/85) and tet(33)/day-108, Qadir2001's yields (4188 vs 3462/2854/2786/2754), Xiong2025's 6.8/15.0/12.8 kg/ha and 46.0% NUE, SAIKI1987's 0.122 mg/L (~230\u00d7) and 440/370 \u03bcg/g, Haverstock2017's 67.6%/63.3% and 15.0 d, etc. Connective/framing sentences and selective summarizing are within bounds.\n\n**Reference matching:** Each \\textcite/\\parencite attributes claims to the correct citation_key (Thiagarajan2007 for tillage/E. coli, Jenkins2009 for hormones, Ryu2010/Gao2007/Duff1997 correctly split across arsenic vs uranium, Schilling2017/Haverstock2017/Stott2023/Gao2003 correctly separated in the treatment section, etc.). No swapped or mismatched keys found.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

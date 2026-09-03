@@ -1,0 +1,129 @@
+\section{From Field to Watershed: Mapping Networks and Scaling Response}
+
+\subsection{Overview}
+
+Two linked spatial problems anchor this frontier. First, the physical drainage
+network---where tiles lie, at what depth and spacing, and how mains connect
+fields to ditches---is largely unmapped, so uncertainty about the network
+itself propagates into every downstream hydrologic and water-quality model.
+Second, even where field processes are well understood, the field is not the
+scale at which water-quality goals are set; translating instrumented-plot
+knowledge to the watersheds where nutrient and sediment targets apply remains a
+genuinely open methodological problem. The two are related: because networks
+are unknown and because routing, connectivity, and in-stream processes are
+weakly represented, effectiveness estimates for practices such as drainage
+water management and phosphorus mitigation cannot yet be aggregated with
+confidence from field to basin. The priorities that recur across the literature
+are therefore concrete---non-invasive detection methods with usable
+practitioner guidelines, shared drainage databases with standardised reporting,
+intensively monitored small catchments as upscaling bridges, and mechanistic
+treatment of the channel-network, connectivity, and depressional processes that
+mediate the field-to-watershed link.
+
+\subsection{Locating, mapping, and cataloguing drainage networks}
+
+Because the drainage network is often unknown, detection and mapping form a
+fast-moving frontier in which methods work under some conditions but lack
+systematic guidelines. Actual tile locations and measured discharge would
+sharpen model calibration \parencite{Amado2018}, and predictive mapping from
+imagery needs validation against GPS surveys plus methods that avoid
+misidentifying noise and that reconnect broken segments
+\parencite{Naz2009,Schilling2019}. The most explicit data agenda is
+institutional: report tile diameter, depth, spacing, and mains, and build a
+shared drainage database jointly maintained by agencies, researchers,
+landowners, and contractors, with repositories updated as records accrue
+\parencite{Zhou2025,Valayamkunnath2020}.
+
+\subsubsection{Remote sensing and machine learning}
+
+Remote-sensing work seeks urgent development of non-invasive methods for aging
+systems, including UAV flights combined with ground-penetrating radar
+\parencite{Wienken2024}, and multispectral, thermal-infrared, and
+machine-learning agendas that define the site conditions under which drain
+lines and outlets can be mapped and that yield decision-tree guidelines for
+practitioners \parencite{Allred2020,Allred2021,Allred2022}. \textcite{Carlsen2024}
+recommend reconsidering the often-cited 2.54~cm minimum rainfall for imagery
+acquisition and investigating deep learning, multitemporal acquisition, and
+synthetic aperture radar while expanding public drainage-map datasets---echoed
+by calls for transformer-based architectures and higher-resolution imagery
+integrated into hydrologic frameworks \parencite{Wan2024} and for reduced
+tracing uncertainty through multiple interpreters, ground truth, and richer
+covariates \parencite{Redoloza2023,Harris2018,Yimer2023}. Optical and radar
+covariate studies further seek more frequent imaging, repeated SAR with ground
+measurements, and UAV cover-crop mapping
+\parencite{Tlapáková2017,Meunier2001,Xu2018}.
+
+\subsubsection{Geophysics}
+
+Geophysical evaluations remain condition-dependent and call for data from more
+sites and soils \parencite{Allred2005}, systematic testing of GPR antenna
+configuration and orientation \parencite{Allred2013}, and prediction of GPR
+suitability via electromagnetic simulation driven by EMI. Concurrent EMI/GPR
+surveys and drone or magnetic surveys are recommended, with performance shown to
+depend on soil, residue, tillage, and wetness
+\parencite{Koganti2020,Koganti2021,Jouen2018,Kratt2020,Allred2018b}. The
+open question is less whether any single method can detect drains than how to
+specify, in advance, which method suits a given soil, cover, and moisture
+state.
+
+\subsection{Scaling from field to watershed}
+
+The defining open problem is the disconnect between field-scale process
+knowledge and watershed-scale response. Quantifying the relationships between
+field processes and watershed response is repeatedly identified as critical for
+water-quality strategy, motivating explicit field-to-watershed linkage and
+upscaling frameworks \parencite{Williams2015,Williams2017,Wang2020b}. Small,
+intensively monitored catchments are proposed as the empirical bridge for
+upscaling and model validation \parencite{Kyllmar2023,Basu2010}, and
+effectiveness estimates for drainage water management and phosphorus mitigation
+should be scaled up from field to watershed
+\parencite{Wang2021,Ross2016,Shedekar2021}.
+
+The hydrologic effects of tiling remain inadequately characterised at watershed
+scale and must be pursued through combined modelling and field data: attending
+to seasonal streamflow recessions in tiled versus non-tiled watersheds
+\parencite{Schilling2008,Schilling2012}, to events of all sizes across
+landscapes \parencite{Sloan2017}, to routing between spatially variable
+depressional stores and flow accumulation across river networks
+\parencite{Sloan2016,Fonley2021}, and to the decoupling of row-crop cover from
+artificial drainage and of surface from subsurface contributions
+\parencite{BolandBrien2014}. Streamflow prediction in tiled landscapes is
+itself difficult, raising the unresolved question of whether curve-number or
+more process-based methods are required
+\parencite{Wessel2022,Thomas2016,Rahman2014}. Whether a representative
+catchment scale transfers elsewhere must be established against additional
+watersheds \parencite{Basu2010,Thomas2016}, and newly proposed physically based
+tools such as the Advanced Terrestrial Simulator and HYDRUS-2D warrant scaling
+and transferability tests across soils, topography, land-use change, and
+climate \parencite{Rathore2025,Naderi2025,Basu2010}.
+
+\subsection{Channel-network, connectivity, and drain-to-stream processes}
+
+Interactions between drains and the receiving channel network are a frontier in
+their own right. Open questions include the fate and transport of tile effluent
+after it reaches surface drains \parencite{Clement2017}, drain--river and
+drain--ditch interactions \parencite{Grangeon2021}, and field-scale monitoring
+of how tile flow affects downstream discharge, stream power, and channel
+geomorphology \parencite{Zhou2025,Zhou2013}.
+
+Channel-network, in-stream, and sediment processes are underdeveloped in
+watershed models. Networks should be modelled as interdependent reaches with
+explicit flow paths and travel times \parencite{Giraud1997,Williamson2025};
+in-stream biogeochemistry and hillslope--riparian interaction need stronger
+representation \parencite{Schilling2012b,Basu2010}; and gully, streambank, and
+non-field sediment sources require mechanistic treatment within catchment-scale
+sediment budgets \parencite{Maalim2013,Dalzell2018,Walling2002}.
+
+Connectivity metrics are increasingly flagged as management-relevant. Mapping
+surface ditches may be more efficient than locating in-field drains, and future
+phosphorus-risk models should incorporate ditch connectivity and lag times
+\parencite{Moloney2020,Opoku2024}, supported by improved connectivity
+algorithms and monitoring-based thresholds for lowland catchments
+\parencite{Calsamiglia2018}. Finally, drained closed depressions and potholes
+are singled out as poorly understood: they demand process study at additional
+locations, quantification of runoff--tile--antecedent-moisture relationships,
+and data on blind-inlet longevity
+\parencite{Martin2019,Williams2020,Feyereisen2015b}. Across these threads, the
+common gap is a lack of coupled, connectivity-aware representations linking
+individual drains to the reaches and depressions that ultimately govern
+watershed water quality.

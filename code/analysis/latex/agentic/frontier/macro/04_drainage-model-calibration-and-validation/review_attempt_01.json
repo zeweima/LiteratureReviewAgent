@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely.Both files match closely. The generated section is a faithful condensation with reorganized subsubsections. Every concrete claim (denitrification measurements, 30 m drain spacing, 0.3 m shallow water tables, Rosetta Ksat, ensemble Kalman filtering, Dumas method, Manning-Strickler, etc.) traces to the source, and every citation key appears in the source attached to the same supporting content.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

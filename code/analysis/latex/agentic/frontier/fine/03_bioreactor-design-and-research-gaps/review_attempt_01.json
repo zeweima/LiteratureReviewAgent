@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before making my judgment.After carefully reading both the full section and all 272 findings, I checked every concrete claim and every citation key against the source findings. All numerical claims (95% reduction for Monaghan2007, 4\u20136 months for Penn2020, 0.7\u201319 mm for Byrne2023, 60\u219220 kg N/ha for Singh2002, 25\u201330 mg/L TN for Gardner2001, 0.8 ha for BENSON1993, 2-h HRT for Strock2025, 30 min for Kumari2025, 1\u20132 weeks for Sellner2019b), mechanisms, and study results are supported, and each citation key correctly matches the finding it attributes.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

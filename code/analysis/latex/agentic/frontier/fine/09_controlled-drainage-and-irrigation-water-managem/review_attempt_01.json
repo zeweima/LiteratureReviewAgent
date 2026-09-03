@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files now.Both files read in full. I cross-checked every concrete claim and citation key against the tagged findings. All claims are supported and all citation keys match their findings.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}

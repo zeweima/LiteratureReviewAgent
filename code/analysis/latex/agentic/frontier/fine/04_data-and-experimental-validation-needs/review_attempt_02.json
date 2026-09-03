@@ -1,0 +1,8 @@
+{
+ "parsed": {
+  "passed": true,
+  "unfaithful": [],
+  "miscited": []
+ },
+ "raw": "I'll read both files completely before judging.I need to read the rest of the findings file.Based on my thorough review of both files, I checked every concrete claim in the section against the tagged findings and verified each citation key.\n\nThe section is a faithful synthesis. Every concrete claim (model names, mechanisms, study recommendations, specific parameters like the 2.54 cm rainfall threshold, 50\u2013100 year simulations, HYDRUS-1D/UBMOD-S coupling, decorrelation-stretch/MNF processing, etc.) maps to a supporting finding, and each `\\textcite`/`\\parencite` key attributes the claim to the correct paper. Groupings (e.g., Gates2002+Burkhalter2006, Hirt2005/2005b/2011, Koganti2020/2021, Deelstra2014/2014b) all match their respective findings. The only marginal wording (\"biofouling of recycled-concrete-aggregate drains\" for McCulloch2017, whose findings emphasize physical/chemical fines accumulation and chemical precipitation) is a defensible paraphrase of performance-degrading fouling, not an invented result.\n\n{\"passed\": true, \"unfaithful\": [], \"miscited\": []}"
+}
